@@ -1,0 +1,1 @@
+{"day":"2025-10-05","schema_version":"1.0.0","period":"pre-nightly","source_repo":"peterdsimonson/mny-platform","totals":{"runs":9,"failures":9,"instant_failures":0,"success":0},"status_breakdown":[{"conclusion":"failure","count":9}],"example_run_ids":[18266114781,18265922027,18265700946,18265487943,18265458836]}
