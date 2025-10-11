@@ -1,0 +1,29 @@
+{
+  "total_merged": 3,
+  "items": [
+    {
+      "number": 33,
+      "title": "fix: use token-authenticated git clone for telemetry push",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-11T16:06:52Z",
+      "closed_at": "2025-10-11T16:13:45Z",
+      "lead_time_hours": 0.11472222222222223
+    },
+    {
+      "number": 32,
+      "title": "feat: push telemetry to separate research repository",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-11T13:07:12Z",
+      "closed_at": "2025-10-11T15:43:48Z",
+      "lead_time_hours": 2.61
+    },
+    {
+      "number": 31,
+      "title": "fix: use ISO8601 format for waiver dates in skip-waivers.json",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-10T16:15:16Z",
+      "closed_at": "2025-10-10T16:27:38Z",
+      "lead_time_hours": 0.2061111111111111
+    }
+  ]
+}

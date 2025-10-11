@@ -1,0 +1,1 @@
+{"timestamp":"2025-10-11T16:16:33.594Z","service":"mny-backend","version":"1.0.0","uptime":61.560704539,"memory":{"rss":58990592,"heapTotal":9936896,"heapUsed":7121560,"external":2046608,"arrayBuffers":24811},"pid":14,"nodeVersion":"v20.19.5","environment":"production","ok":true,"revision":"mny-backend-00336-hem","commit":"021678da555d485128deb8b7079dacb9a14501c4"}
