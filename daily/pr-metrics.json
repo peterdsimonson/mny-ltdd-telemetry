@@ -1,6 +1,46 @@
 {
-  "total_merged": 3,
+  "total_merged": 7,
   "items": [
+    {
+      "number": 44,
+      "title": "fix: move playwright install before health gates and add failure alerts",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-11T22:46:08Z",
+      "closed_at": "2025-10-11T23:02:40Z",
+      "lead_time_hours": 0.27555555555555555
+    },
+    {
+      "number": 43,
+      "title": "feat: update landing page copy to 'Select a Cognitory'",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-11T21:43:51Z",
+      "closed_at": "2025-10-11T21:58:14Z",
+      "lead_time_hours": 0.23972222222222223
+    },
+    {
+      "number": 41,
+      "title": "chore: trigger release with refreshed firebase token",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-11T18:52:10Z",
+      "closed_at": "2025-10-11T21:00:39Z",
+      "lead_time_hours": 2.141388888888889
+    },
+    {
+      "number": 36,
+      "title": "fix: correct jq array indexing in backfill workflow",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-11T17:09:13Z",
+      "closed_at": "2025-10-11T17:19:16Z",
+      "lead_time_hours": 0.1675
+    },
+    {
+      "number": 34,
+      "title": "feat: add historical runs backfill workflow (ChatGPT spec)",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-11T16:50:48Z",
+      "closed_at": "2025-10-11T17:01:13Z",
+      "lead_time_hours": 0.1736111111111111
+    },
     {
       "number": 33,
       "title": "fix: use token-authenticated git clone for telemetry push",
@@ -16,14 +56,6 @@
       "created_at": "2025-10-11T13:07:12Z",
       "closed_at": "2025-10-11T15:43:48Z",
       "lead_time_hours": 2.61
-    },
-    {
-      "number": 31,
-      "title": "fix: use ISO8601 format for waiver dates in skip-waivers.json",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-10T16:15:16Z",
-      "closed_at": "2025-10-10T16:27:38Z",
-      "lead_time_hours": 0.2061111111111111
     }
   ]
 }

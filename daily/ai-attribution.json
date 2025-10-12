@@ -1,13 +1,16 @@
 {
-  "total_commits": 3,
-  "ai_commits": 2,
-  "human_commits": 1,
-  "ai_percentage": 66,
+  "total_commits": 7,
+  "ai_commits": 7,
+  "human_commits": 0,
+  "ai_percentage": 100,
   "ai_commit_shas": [
+    "784a9558ca3d31945db159c3aab82ef75665d452",
+    "d50fdf20a4a08d42a23b9dd56e0301318030754a",
+    "8bd753afbad1fc5ca6e4e05e4d52752f8cce8d48",
+    "825acf3eb4e843f8f26a5dee5b4660ca7c6610e3",
+    "def5151c49b59ac5856be403bfc1c2c872ed9e10",
     "021678da555d485128deb8b7079dacb9a14501c4",
     "0904203e92313ddcea01eefb0f69816f1e710fc9"
   ],
-  "human_commit_shas": [
-    "1a15952feb57b6d7af2366c50f6c010b117df843"
-  ]
+  "human_commit_shas": []
 }
