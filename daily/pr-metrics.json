@@ -1,61 +1,45 @@
 {
-  "total_merged": 7,
+  "total_merged": 5,
   "items": [
     {
-      "number": 44,
-      "title": "fix: move playwright install before health gates and add failure alerts",
+      "number": 50,
+      "title": "docs: add comprehensive E2E fix summary and deployment status checker",
       "user": "peterdsimonson",
-      "created_at": "2025-10-11T22:46:08Z",
-      "closed_at": "2025-10-11T23:02:40Z",
-      "lead_time_hours": 0.27555555555555555
+      "created_at": "2025-10-13T03:01:55Z",
+      "closed_at": "2025-10-13T03:25:03Z",
+      "lead_time_hours": 0.38555555555555554
     },
     {
-      "number": 43,
-      "title": "feat: update landing page copy to 'Select a Cognitory'",
+      "number": 49,
+      "title": "fix(e2e): prevent splash screen collision with marker-based selectors",
       "user": "peterdsimonson",
-      "created_at": "2025-10-11T21:43:51Z",
-      "closed_at": "2025-10-11T21:58:14Z",
-      "lead_time_hours": 0.23972222222222223
+      "created_at": "2025-10-13T02:50:19Z",
+      "closed_at": "2025-10-13T02:58:16Z",
+      "lead_time_hours": 0.1325
     },
     {
-      "number": 41,
-      "title": "chore: trigger release with refreshed firebase token",
+      "number": 47,
+      "title": "fix(tests): update page title test to match new branding",
       "user": "peterdsimonson",
-      "created_at": "2025-10-11T18:52:10Z",
-      "closed_at": "2025-10-11T21:00:39Z",
-      "lead_time_hours": 2.141388888888889
+      "created_at": "2025-10-13T01:16:44Z",
+      "closed_at": "2025-10-13T01:25:10Z",
+      "lead_time_hours": 0.14055555555555554
     },
     {
-      "number": 36,
-      "title": "fix: correct jq array indexing in backfill workflow",
+      "number": 46,
+      "title": "fix(tests): update lock test to match new branding",
       "user": "peterdsimonson",
-      "created_at": "2025-10-11T17:09:13Z",
-      "closed_at": "2025-10-11T17:19:16Z",
-      "lead_time_hours": 0.1675
+      "created_at": "2025-10-13T00:26:18Z",
+      "closed_at": "2025-10-13T00:57:14Z",
+      "lead_time_hours": 0.5155555555555555
     },
     {
-      "number": 34,
-      "title": "feat: add historical runs backfill workflow (ChatGPT spec)",
+      "number": 45,
+      "title": "docs: complete LTDD documentation suite",
       "user": "peterdsimonson",
-      "created_at": "2025-10-11T16:50:48Z",
-      "closed_at": "2025-10-11T17:01:13Z",
-      "lead_time_hours": 0.1736111111111111
-    },
-    {
-      "number": 33,
-      "title": "fix: use token-authenticated git clone for telemetry push",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-11T16:06:52Z",
-      "closed_at": "2025-10-11T16:13:45Z",
-      "lead_time_hours": 0.11472222222222223
-    },
-    {
-      "number": 32,
-      "title": "feat: push telemetry to separate research repository",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-11T13:07:12Z",
-      "closed_at": "2025-10-11T15:43:48Z",
-      "lead_time_hours": 2.61
+      "created_at": "2025-10-11T23:15:06Z",
+      "closed_at": "2025-10-12T23:28:34Z",
+      "lead_time_hours": 24.224444444444444
     }
   ]
 }
