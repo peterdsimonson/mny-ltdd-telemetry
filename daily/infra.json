@@ -1,396 +1,186 @@
 {
-  "since": "2025-10-13T03:27:19Z",
-  "total_runs": 39,
+  "since": "2025-10-14T03:29:44Z",
+  "total_runs": 18,
   "runs": [
     {
-      "id": 18483883645,
+      "id": 18514027140,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-14T02:46:20Z",
-      "updated_at": "2025-10-14T02:47:33Z",
-      "duration_ms": 73000
+      "created_at": "2025-10-15T00:36:14Z",
+      "updated_at": "2025-10-15T00:37:50Z",
+      "duration_ms": 96000
     },
     {
-      "id": 18483651913,
+      "id": 18514013201,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-14T02:31:12Z",
-      "updated_at": "2025-10-14T02:32:15Z",
-      "duration_ms": 63000
+      "created_at": "2025-10-15T00:35:27Z",
+      "updated_at": "2025-10-15T00:37:03Z",
+      "duration_ms": 96000
     },
     {
-      "id": 18483491236,
+      "id": 18513760964,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-14T02:21:37Z",
-      "updated_at": "2025-10-14T02:23:04Z",
-      "duration_ms": 87000
+      "created_at": "2025-10-15T00:21:42Z",
+      "updated_at": "2025-10-15T00:23:17Z",
+      "duration_ms": 95000
     },
     {
-      "id": 18483352700,
+      "id": 18513497868,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-14T02:13:13Z",
-      "updated_at": "2025-10-14T02:14:28Z",
-      "duration_ms": 75000
-    },
-    {
-      "id": 18483047726,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-14T01:53:19Z",
-      "updated_at": "2025-10-14T01:54:22Z",
-      "duration_ms": 63000
-    },
-    {
-      "id": 18482907590,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-14T01:43:55Z",
-      "updated_at": "2025-10-14T01:45:22Z",
-      "duration_ms": 87000
-    },
-    {
-      "id": 18482814713,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-14T01:37:34Z",
-      "updated_at": "2025-10-14T01:38:52Z",
-      "duration_ms": 78000
-    },
-    {
-      "id": 18482778694,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-14T01:35:10Z",
-      "updated_at": "2025-10-14T01:36:20Z",
+      "created_at": "2025-10-15T00:07:15Z",
+      "updated_at": "2025-10-15T00:08:25Z",
       "duration_ms": 70000
     },
     {
-      "id": 18482755392,
+      "id": 18513117281,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-14T01:33:41Z",
-      "updated_at": "2025-10-14T01:34:45Z",
-      "duration_ms": 64000
+      "created_at": "2025-10-14T23:42:28Z",
+      "updated_at": "2025-10-14T23:43:45Z",
+      "duration_ms": 77000
     },
     {
-      "id": 18482642145,
+      "id": 18513058518,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-14T01:26:27Z",
-      "updated_at": "2025-10-14T01:27:40Z",
+      "created_at": "2025-10-14T23:38:40Z",
+      "updated_at": "2025-10-14T23:39:53Z",
       "duration_ms": 73000
     },
     {
-      "id": 18481682074,
-      "name": "Hardening Gate",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-14T00:25:52Z",
-      "updated_at": "2025-10-14T00:26:05Z",
-      "duration_ms": 13000
-    },
-    {
-      "id": 18481682090,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-14T00:25:52Z",
-      "updated_at": "2025-10-14T00:33:43Z",
-      "duration_ms": 471000
-    },
-    {
-      "id": 18481682095,
+      "id": 18512873828,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-14T00:25:52Z",
-      "updated_at": "2025-10-14T00:36:03Z",
-      "duration_ms": 611000
+      "created_at": "2025-10-14T23:27:33Z",
+      "updated_at": "2025-10-14T23:28:51Z",
+      "duration_ms": 78000
     },
     {
-      "id": 18479533974,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-10-13T22:13:43Z",
-      "updated_at": "2025-10-13T22:24:07Z",
-      "duration_ms": 624000
-    },
-    {
-      "id": 18476842072,
-      "name": "Hardening Gate",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-13T20:00:54Z",
-      "updated_at": "2025-10-13T20:01:05Z",
-      "duration_ms": 11000
-    },
-    {
-      "id": 18476842048,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-13T20:00:54Z",
-      "updated_at": "2025-10-13T20:04:17Z",
-      "duration_ms": 203000
-    },
-    {
-      "id": 18476842057,
+      "id": 18512816445,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T20:00:54Z",
-      "updated_at": "2025-10-13T20:11:56Z",
-      "duration_ms": 662000
+      "created_at": "2025-10-14T23:24:00Z",
+      "updated_at": "2025-10-14T23:25:12Z",
+      "duration_ms": 72000
     },
     {
-      "id": 18476558802,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-10-13T19:45:13Z",
-      "updated_at": "2025-10-13T19:56:58Z",
-      "duration_ms": 705000
-    },
-    {
-      "id": 18476463284,
-      "name": "Hardening Gate",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-13T19:39:51Z",
-      "updated_at": "2025-10-13T19:40:01Z",
-      "duration_ms": 10000
-    },
-    {
-      "id": 18476463292,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-13T19:39:51Z",
-      "updated_at": "2025-10-13T19:43:16Z",
-      "duration_ms": 205000
-    },
-    {
-      "id": 18476463285,
+      "id": 18512736755,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T19:39:51Z",
-      "updated_at": "2025-10-13T19:52:07Z",
-      "duration_ms": 736000
+      "created_at": "2025-10-14T23:19:40Z",
+      "updated_at": "2025-10-14T23:20:47Z",
+      "duration_ms": 67000
     },
     {
-      "id": 18475827250,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-10-13T19:10:56Z",
-      "updated_at": "2025-10-13T19:22:51Z",
-      "duration_ms": 715000
-    },
-    {
-      "id": 18475672789,
+      "id": 18512636647,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T19:04:25Z",
-      "updated_at": "2025-10-13T19:06:05Z",
-      "duration_ms": 100000
+      "created_at": "2025-10-14T23:14:16Z",
+      "updated_at": "2025-10-14T23:15:28Z",
+      "duration_ms": 72000
     },
     {
-      "id": 18475582366,
+      "id": 18512558570,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T19:00:35Z",
-      "updated_at": "2025-10-13T19:02:28Z",
-      "duration_ms": 113000
+      "created_at": "2025-10-14T23:10:03Z",
+      "updated_at": "2025-10-14T23:11:11Z",
+      "duration_ms": 68000
     },
     {
-      "id": 18475463758,
+      "id": 18511811375,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T18:54:10Z",
-      "updated_at": "2025-10-13T18:55:42Z",
-      "duration_ms": 92000
+      "created_at": "2025-10-14T22:27:16Z",
+      "updated_at": "2025-10-14T22:28:14Z",
+      "duration_ms": 58000
     },
     {
-      "id": 18475298030,
+      "id": 18511771646,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T18:46:15Z",
-      "updated_at": "2025-10-13T18:47:54Z",
-      "duration_ms": 99000
+      "created_at": "2025-10-14T22:25:14Z",
+      "updated_at": "2025-10-14T22:26:16Z",
+      "duration_ms": 62000
     },
     {
-      "id": 18475233389,
+      "id": 18508655393,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T18:42:58Z",
-      "updated_at": "2025-10-13T18:44:44Z",
-      "duration_ms": 106000
+      "created_at": "2025-10-14T20:05:12Z",
+      "updated_at": "2025-10-14T20:06:23Z",
+      "duration_ms": 71000
     },
     {
-      "id": 18475176759,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-10-13T18:40:07Z",
-      "updated_at": "2025-10-13T18:50:47Z",
-      "duration_ms": 640000
-    },
-    {
-      "id": 18472725008,
-      "name": "Hardening Gate",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-13T16:50:06Z",
-      "updated_at": "2025-10-13T16:50:18Z",
-      "duration_ms": 12000
-    },
-    {
-      "id": 18472724992,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-13T16:50:06Z",
-      "updated_at": "2025-10-13T16:54:14Z",
-      "duration_ms": 248000
-    },
-    {
-      "id": 18472725037,
+      "id": 18508583319,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T16:50:06Z",
-      "updated_at": "2025-10-13T17:02:45Z",
-      "duration_ms": 759000
+      "created_at": "2025-10-14T20:02:21Z",
+      "updated_at": "2025-10-14T20:03:33Z",
+      "duration_ms": 72000
     },
     {
-      "id": 18472536024,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-10-13T16:41:40Z",
-      "updated_at": "2025-10-13T16:52:48Z",
-      "duration_ms": 668000
-    },
-    {
-      "id": 18472085044,
+      "id": 18507976526,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T16:22:25Z",
-      "updated_at": "2025-10-13T16:24:11Z",
-      "duration_ms": 106000
+      "created_at": "2025-10-14T19:35:17Z",
+      "updated_at": "2025-10-14T19:36:24Z",
+      "duration_ms": 67000
     },
     {
-      "id": 18471947030,
+      "id": 18507522381,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T16:16:33Z",
-      "updated_at": "2025-10-13T16:18:07Z",
-      "duration_ms": 94000
+      "created_at": "2025-10-14T19:16:41Z",
+      "updated_at": "2025-10-14T19:17:43Z",
+      "duration_ms": 62000
     },
     {
-      "id": 18467205942,
-      "name": "Hardening Gate",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-13T13:22:28Z",
-      "updated_at": "2025-10-13T13:22:41Z",
-      "duration_ms": 13000
-    },
-    {
-      "id": 18467205889,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-13T13:22:28Z",
-      "updated_at": "2025-10-13T13:30:51Z",
-      "duration_ms": 503000
-    },
-    {
-      "id": 18467205904,
+      "id": 18500020350,
       "name": "CI/CD Pipeline",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-10-13T13:22:28Z",
-      "updated_at": "2025-10-13T13:35:07Z",
-      "duration_ms": 759000
-    },
-    {
-      "id": 18466869171,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-10-13T13:10:15Z",
-      "updated_at": "2025-10-13T13:20:59Z",
-      "duration_ms": 644000
-    },
-    {
-      "id": 18466726867,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-10-13T13:04:57Z",
-      "updated_at": "2025-10-13T13:17:14Z",
-      "duration_ms": 737000
+      "created_at": "2025-10-14T14:31:13Z",
+      "updated_at": "2025-10-14T14:32:19Z",
+      "duration_ms": 66000
     }
   ]
 }
