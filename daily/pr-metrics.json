@@ -1,4 +1,29 @@
 {
-  "total_merged": 0,
-  "items": []
+  "total_merged": 3,
+  "items": [
+    {
+      "number": 65,
+      "title": "fix(ci): add backend preflight and use pnpm consistently",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-16T01:31:20Z",
+      "closed_at": "2025-10-16T01:43:28Z",
+      "lead_time_hours": 0.20222222222222222
+    },
+    {
+      "number": 64,
+      "title": "fix(backend): restore passing typecheck with proper DI bootstrap",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-15T23:21:42Z",
+      "closed_at": "2025-10-16T00:19:45Z",
+      "lead_time_hours": 0.9675
+    },
+    {
+      "number": 62,
+      "title": "fix: resolve ESLint warnings in frontend components",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-15T17:11:18Z",
+      "closed_at": "2025-10-15T17:31:02Z",
+      "lead_time_hours": 0.3288888888888889
+    }
+  ]
 }

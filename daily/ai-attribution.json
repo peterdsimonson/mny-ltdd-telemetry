@@ -1,8 +1,12 @@
 {
-  "total_commits": 0,
-  "ai_commits": 0,
+  "total_commits": 3,
+  "ai_commits": 3,
   "human_commits": 0,
-  "ai_percentage": 0,
-  "ai_commit_shas": [],
+  "ai_percentage": 100,
+  "ai_commit_shas": [
+    "48da74be05edb652886083228ad5edea9bfaea78",
+    "5ecce7a97bf0ac8993c9559b9762a91ddf4655b4",
+    "0bf6ae3514a88dc2d97df20d80cd36e2fd49a4df"
+  ],
   "human_commit_shas": []
 }
