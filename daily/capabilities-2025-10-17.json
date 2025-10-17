@@ -1,0 +1,762 @@
+{
+  "config": {
+    "configFile": "/home/runner/work/mny-platform/mny-platform/playwright.config.ts",
+    "rootDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+        "commitHash": "097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+        "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/18581499688"
+      },
+      "gitCommit": {
+        "shortHash": "097534f",
+        "hash": "097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+        "subject": "fix(docker): copy entire backend folder to preserve structure (#72)",
+        "body": "fix(docker): copy entire backend folder to preserve structure (#72)\n\nFix Dockerfile COPY paths per ChatGPT guidance (run 18580846619).\n\nProblem:\n- Multi-stage build created dist/ and node_modules/ in builder\n- Runtime stage tried to copy individual paths that didn't exist\n- Error: /app/apps/mny/backend/node_modules not found\n\nRoot Cause:\n- COPY commands in runtime stage didn't match actual build structure\n- pnpm symlinks broken when copying individual pieces\n\nSolution (ChatGPT's robust pattern):\n- Build and prune inside /repo/apps/mny/backend (builder stage)\n- Copy ENTIRE backend folder structure to runtime stage\n- Preserves pnpm node_modules layout and symlinks\n- WORKDIR matches source structure\n\nChanges:\n- Builder: WORKDIR /repo, prune at /repo/apps/mny/backend\n- Runtime: WORKDIR /app/apps/mny/backend\n- COPY entire folder: /repo/apps/mny/backend -> /app/apps/mny/backend\n- This preserves dist/ + pruned node_modules/ + pnpm structure\n\nCI command already correct (PR #70):\n- docker build -t IMAGE -f apps/mny/backend/Dockerfile .\n\nThis is the FINAL Dockerfile fix.\n\nAI-Tool: Cursor + ChatGPT\nAI-Model: Claude Sonnet 4.5\nChatGPT-Guidance: Copy entire backend folder, don't relocate\nEvidence: Run 18580846619 - COPY paths not found",
+        "author": {
+          "name": "peterdsimonson",
+          "email": "117416316+peterdsimonson@users.noreply.github.com",
+          "time": 1760671122000
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "time": 1760671122000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "commitHash": "097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/18581499688"
+          },
+          "gitCommit": {
+            "shortHash": "097534f",
+            "hash": "097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "subject": "fix(docker): copy entire backend folder to preserve structure (#72)",
+            "body": "fix(docker): copy entire backend folder to preserve structure (#72)\n\nFix Dockerfile COPY paths per ChatGPT guidance (run 18580846619).\n\nProblem:\n- Multi-stage build created dist/ and node_modules/ in builder\n- Runtime stage tried to copy individual paths that didn't exist\n- Error: /app/apps/mny/backend/node_modules not found\n\nRoot Cause:\n- COPY commands in runtime stage didn't match actual build structure\n- pnpm symlinks broken when copying individual pieces\n\nSolution (ChatGPT's robust pattern):\n- Build and prune inside /repo/apps/mny/backend (builder stage)\n- Copy ENTIRE backend folder structure to runtime stage\n- Preserves pnpm node_modules layout and symlinks\n- WORKDIR matches source structure\n\nChanges:\n- Builder: WORKDIR /repo, prune at /repo/apps/mny/backend\n- Runtime: WORKDIR /app/apps/mny/backend\n- COPY entire folder: /repo/apps/mny/backend -> /app/apps/mny/backend\n- This preserves dist/ + pruned node_modules/ + pnpm structure\n\nCI command already correct (PR #70):\n- docker build -t IMAGE -f apps/mny/backend/Dockerfile .\n\nThis is the FINAL Dockerfile fix.\n\nAI-Tool: Cursor + ChatGPT\nAI-Model: Claude Sonnet 4.5\nChatGPT-Guidance: Copy entire backend folder, don't relocate\nEvidence: Run 18580846619 - COPY paths not found",
+            "author": {
+              "name": "peterdsimonson",
+              "email": "117416316+peterdsimonson@users.noreply.github.com",
+              "time": 1760671122000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1760671122000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "commitHash": "097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/18581499688"
+          },
+          "gitCommit": {
+            "shortHash": "097534f",
+            "hash": "097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "subject": "fix(docker): copy entire backend folder to preserve structure (#72)",
+            "body": "fix(docker): copy entire backend folder to preserve structure (#72)\n\nFix Dockerfile COPY paths per ChatGPT guidance (run 18580846619).\n\nProblem:\n- Multi-stage build created dist/ and node_modules/ in builder\n- Runtime stage tried to copy individual paths that didn't exist\n- Error: /app/apps/mny/backend/node_modules not found\n\nRoot Cause:\n- COPY commands in runtime stage didn't match actual build structure\n- pnpm symlinks broken when copying individual pieces\n\nSolution (ChatGPT's robust pattern):\n- Build and prune inside /repo/apps/mny/backend (builder stage)\n- Copy ENTIRE backend folder structure to runtime stage\n- Preserves pnpm node_modules layout and symlinks\n- WORKDIR matches source structure\n\nChanges:\n- Builder: WORKDIR /repo, prune at /repo/apps/mny/backend\n- Runtime: WORKDIR /app/apps/mny/backend\n- COPY entire folder: /repo/apps/mny/backend -> /app/apps/mny/backend\n- This preserves dist/ + pruned node_modules/ + pnpm structure\n\nCI command already correct (PR #70):\n- docker build -t IMAGE -f apps/mny/backend/Dockerfile .\n\nThis is the FINAL Dockerfile fix.\n\nAI-Tool: Cursor + ChatGPT\nAI-Model: Claude Sonnet 4.5\nChatGPT-Guidance: Copy entire backend folder, don't relocate\nEvidence: Run 18580846619 - COPY paths not found",
+            "author": {
+              "name": "peterdsimonson",
+              "email": "117416316+peterdsimonson@users.noreply.github.com",
+              "time": 1760671122000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1760671122000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "commitHash": "097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/18581499688"
+          },
+          "gitCommit": {
+            "shortHash": "097534f",
+            "hash": "097534fd3c858fb7a5aae331e8a59519ed50a7b1",
+            "subject": "fix(docker): copy entire backend folder to preserve structure (#72)",
+            "body": "fix(docker): copy entire backend folder to preserve structure (#72)\n\nFix Dockerfile COPY paths per ChatGPT guidance (run 18580846619).\n\nProblem:\n- Multi-stage build created dist/ and node_modules/ in builder\n- Runtime stage tried to copy individual paths that didn't exist\n- Error: /app/apps/mny/backend/node_modules not found\n\nRoot Cause:\n- COPY commands in runtime stage didn't match actual build structure\n- pnpm symlinks broken when copying individual pieces\n\nSolution (ChatGPT's robust pattern):\n- Build and prune inside /repo/apps/mny/backend (builder stage)\n- Copy ENTIRE backend folder structure to runtime stage\n- Preserves pnpm node_modules layout and symlinks\n- WORKDIR matches source structure\n\nChanges:\n- Builder: WORKDIR /repo, prune at /repo/apps/mny/backend\n- Runtime: WORKDIR /app/apps/mny/backend\n- COPY entire folder: /repo/apps/mny/backend -> /app/apps/mny/backend\n- This preserves dist/ + pruned node_modules/ + pnpm structure\n\nCI command already correct (PR #70):\n- docker build -t IMAGE -f apps/mny/backend/Dockerfile .\n\nThis is the FINAL Dockerfile fix.\n\nAI-Tool: Cursor + ChatGPT\nAI-Model: Claude Sonnet 4.5\nChatGPT-Guidance: Copy entire backend folder, don't relocate\nEvidence: Run 18580846619 - COPY paths not found",
+            "author": {
+              "name": "peterdsimonson",
+              "email": "117416316+peterdsimonson@users.noreply.github.com",
+              "time": 1760671122000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1760671122000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 1,
+    "webServer": {
+      "command": "cd apps/home && pnpm dev",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "lock_capability_matrix.spec.ts",
+      "file": "lock_capability_matrix.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Capability Matrix (Lock Tests)",
+          "file": "lock_capability_matrix.spec.ts",
+          "line": 26,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Fast Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 165,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 142ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 2212 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 1 (kinds: library)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:00.087Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-b6b4f626aaa18137a73a",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "Research Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Research mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 75,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 51,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:00.285Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Research mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 75,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-a748c0579e9faa46b989",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "Hybrid Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Hybrid mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 159,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 48,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:00.358Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Hybrid mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 159,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-3c5e23ee7c8138021f36",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 133,
+              "column": 7
+            },
+            {
+              "title": "Backend health check MUST pass",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 55,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:00.428Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-1158f0b6bc3c99daf197",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "Fast Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 109,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 79ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 2212 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 1 (kinds: library)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:01.145Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-67046a8c87bb50f6a897",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "Research Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Research mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 75,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 35,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:01.284Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Research mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 75,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-f0c4cef695f2748331a7",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "Hybrid Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Hybrid mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 159,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 34,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:01.347Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Hybrid mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 159,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-71685b475cdbcc43734b",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 133,
+              "column": 7
+            },
+            {
+              "title": "Backend health check MUST pass",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 41,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:01.399Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-e2736b6c38cf03aa6d7d",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "Fast Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 107,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 78ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 2212 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 1 (kinds: library)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:02.104Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-0f26c2648672e238a79f",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "Research Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Research mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 75,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 34,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:02.243Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Research mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 75,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-be038be97cbd99f3b307",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "Hybrid Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Hybrid mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 159,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 42,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:02.304Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Hybrid mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 159,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-912143b860236c5f2eaf",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 133,
+              "column": 7
+            },
+            {
+              "title": "Backend health check MUST pass",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 40,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-17T03:30:02.362Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-8dbb526be8cf525a27d9",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 215,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-17T03:29:57.516Z",
+    "duration": 4936.6810000000005,
+    "expected": 6,
+    "skipped": 6,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

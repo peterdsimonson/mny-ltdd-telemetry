@@ -1,29 +1,61 @@
 {
-  "total_merged": 3,
+  "total_merged": 7,
   "items": [
     {
-      "number": 65,
-      "title": "fix(ci): add backend preflight and use pnpm consistently",
+      "number": 72,
+      "title": "fix(docker): copy entire backend folder to preserve structure",
       "user": "peterdsimonson",
-      "created_at": "2025-10-16T01:31:20Z",
-      "closed_at": "2025-10-16T01:43:28Z",
-      "lead_time_hours": 0.20222222222222222
+      "created_at": "2025-10-17T03:11:31Z",
+      "closed_at": "2025-10-17T03:18:42Z",
+      "lead_time_hours": 0.11972222222222222
     },
     {
-      "number": 64,
-      "title": "fix(backend): restore passing typecheck with proper DI bootstrap",
+      "number": 71,
+      "title": "fix(workspace): use full semver for packageManager field",
       "user": "peterdsimonson",
-      "created_at": "2025-10-15T23:21:42Z",
-      "closed_at": "2025-10-16T00:19:45Z",
-      "lead_time_hours": 0.9675
+      "created_at": "2025-10-17T02:39:02Z",
+      "closed_at": "2025-10-17T02:47:31Z",
+      "lead_time_hours": 0.1413888888888889
     },
     {
-      "number": 62,
-      "title": "fix: resolve ESLint warnings in frontend components",
+      "number": 70,
+      "title": "fix(ci): use correct Docker build context for backend",
       "user": "peterdsimonson",
-      "created_at": "2025-10-15T17:11:18Z",
-      "closed_at": "2025-10-15T17:31:02Z",
-      "lead_time_hours": 0.3288888888888889
+      "created_at": "2025-10-17T02:08:38Z",
+      "closed_at": "2025-10-17T02:24:19Z",
+      "lead_time_hours": 0.2613888888888889
+    },
+    {
+      "number": 69,
+      "title": "fix(ci): containerize backend deployment (proper build solution)",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-17T01:51:32Z",
+      "closed_at": "2025-10-17T01:59:52Z",
+      "lead_time_hours": 0.1388888888888889
+    },
+    {
+      "number": 68,
+      "title": "fix(ci): add auth diagnostics per ChatGPT guidance",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-17T01:28:17Z",
+      "closed_at": "2025-10-17T01:33:41Z",
+      "lead_time_hours": 0.09
+    },
+    {
+      "number": 67,
+      "title": "fix(ci): add GCP authentication and deployment verification",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-16T17:09:04Z",
+      "closed_at": "2025-10-16T17:14:32Z",
+      "lead_time_hours": 0.09111111111111111
+    },
+    {
+      "number": 66,
+      "title": "fix(ci): correct backend deploy directory path",
+      "user": "peterdsimonson",
+      "created_at": "2025-10-16T02:12:21Z",
+      "closed_at": "2025-10-16T10:54:17Z",
+      "lead_time_hours": 8.698888888888888
     }
   ]
 }
