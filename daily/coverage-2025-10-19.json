@@ -1,0 +1,1510 @@
+{
+  "config": {
+    "configFile": "/home/runner/work/mny-platform/mny-platform/playwright.config.ts",
+    "rootDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+        "commitHash": "7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+        "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/18624857734"
+      },
+      "gitCommit": {
+        "shortHash": "7b7068a",
+        "hash": "7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+        "subject": "feat(ltdd): implement comprehensive enforcement playbook (#85)",
+        "body": "feat(ltdd): implement comprehensive enforcement playbook (#85)\n\n* feat(ltdd): implement comprehensive enforcement playbook\n\nImplements ChatGPT enforcement recommendations to prevent\nAI assistants from weakening LTDD guardrails.\n\n10 Components Implemented:\n1. .cursorrules: ltdd_hard_rules section (forbidden actions)\n2. PR template: LTDD compliance checkboxes (required)\n3. dangerfile.ts: Auto-enforcement (blocks violations in PRs)\n4. Husky pre-commit: Advisory checks (non-blocking per LTDD)\n5. Husky commit-msg: Rejects forbidden language in messages\n6. ESLint rules: Enforce code quality (composition root exceptions)\n7. Preflight workflow: LTDD Ask Detector (fast fail on violations)\n8. CODEOWNERS: Lock governance files (require owner approval)\n9. Issue template: ltdd-policy-change.yml (sanctioned exception path)\n10. Adaptive rule: no_directive_escapes.sh (detects in diffs)\n\nDependencies:\n- Pinned ESLint to v8.57.1 (preserves .eslintrc.js compatibility)\n- Added eslint-plugin-eslint-comments for directive detection\n\nEnforcement Layers:\n- Commit message: Blocks forbidden language ✅\n- Pre-commit: Warns locally (LTDD allows pushing failures)\n- Preflight: Fast fail on forbidden patterns in diff\n- Danger.js: Blocks violations, governance edits, missing tests\n- ESLint: Blocks directive escapes (with composition root exceptions)\n- CODEOWNERS: Requires owner approval for policy changes\n\nESLint Fixes:\n- Added composition root exceptions (bootstrap, migrate, configs)\n- Auto-fixed 7 unused disable comments (ESLint --fix)\n- Result: 0 errors, 27 warnings (TODO comments, advisory)\n\nResult: AI assistants cannot weaken LTDD and stop suggesting it.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\nAI-Session: docs/ai/sessions/2025-10-18-ltdd-enforcement-playbook.md\nLocks: none\n\n* feat(ltdd): add smart guardrail detector for bootstrap paradox\n\nSolves chicken-and-egg: enforcement system can't block itself.\n\nSmart Logic:\n- Allows enforcement keywords in guardrail files (adding rules)\n- Blocks real violations in source code\n- Blocks deletion of enforcement anchors\n- Optional 'enforcement-bootstrap' label for first PR\n\nThis PR can now pass CI with the label.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* fix(ltdd): remove duplicate core import in guardrails workflow\n\ngithub-script already provides core in global scope.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* fix(ltdd): rewrite guardrails as bash script (simpler, no github-script issues)\n\nSwitched from github-script to pure bash for reliability.\n\nSmart logic:\n- Detects enforcement-bootstrap label\n- Allows PR if only guardrail files + no anchor deletions\n- Blocks source files with dangerous patterns\n- Simpler, faster, no JS syntax issues\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* chore: format guardrails.yml\n\nAI-Tool: Cursor\n\n* fix(ltdd): broaden guardrail pattern for infrastructure files\n\nInclude bootstrap, migrate, configs in guardrail pattern.\nThese are infrastructure, not application code.\n\nESLint --fix cleaned these files (removed unused escapes).\nThis is LTDD-compliant (cleaning up, not adding violations).\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* chore: format\n\n* fix(ltdd): add enhancedRag to guardrail pattern\n\nESLint auto-fixed this file (removed unused escapes).\nInclude in guardrail pattern so bootstrap label works.\n\nAI-Tool: Cursor\n\n* fix(ltdd): remove simple ask detector (redundant with smart guardrail)\n\nSmart Guardrail Enforcement now handles this better.\nRemoves duplicate enforcement layer.\n\nAI-Tool: Cursor\n\n* fix(ltdd): align preview lint policy with main CI (allow warnings)\n\nRoot Cause: Inconsistent lint policy\n- Main CI: Allows warnings (advisory)\n- Preview: Blocked on warnings (--max-warnings=0)\n\nEvidence: PR #85 blocked by 27 TODO warnings (advisory comments)\n\nFix: Remove --max-warnings=0 from preview.yml (match main CI)\n\nRationale:\n- Warnings are advisory (future work markers)\n- Main CI already allows them\n- Preview should match main policy\n- Governance PRs shouldn't be blocked by unrelated TODOs\n\nLTDD-Compliant:\n- Evidence-based (documented inconsistency)\n- Minimal change (one flag removed)\n- Surgical fix (no broad changes)\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5",
+        "author": {
+          "name": "peterdsimonson",
+          "email": "117416316+peterdsimonson@users.noreply.github.com",
+          "time": 1760840564000
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "time": 1760840564000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "commitHash": "7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/18624857734"
+          },
+          "gitCommit": {
+            "shortHash": "7b7068a",
+            "hash": "7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "subject": "feat(ltdd): implement comprehensive enforcement playbook (#85)",
+            "body": "feat(ltdd): implement comprehensive enforcement playbook (#85)\n\n* feat(ltdd): implement comprehensive enforcement playbook\n\nImplements ChatGPT enforcement recommendations to prevent\nAI assistants from weakening LTDD guardrails.\n\n10 Components Implemented:\n1. .cursorrules: ltdd_hard_rules section (forbidden actions)\n2. PR template: LTDD compliance checkboxes (required)\n3. dangerfile.ts: Auto-enforcement (blocks violations in PRs)\n4. Husky pre-commit: Advisory checks (non-blocking per LTDD)\n5. Husky commit-msg: Rejects forbidden language in messages\n6. ESLint rules: Enforce code quality (composition root exceptions)\n7. Preflight workflow: LTDD Ask Detector (fast fail on violations)\n8. CODEOWNERS: Lock governance files (require owner approval)\n9. Issue template: ltdd-policy-change.yml (sanctioned exception path)\n10. Adaptive rule: no_directive_escapes.sh (detects in diffs)\n\nDependencies:\n- Pinned ESLint to v8.57.1 (preserves .eslintrc.js compatibility)\n- Added eslint-plugin-eslint-comments for directive detection\n\nEnforcement Layers:\n- Commit message: Blocks forbidden language ✅\n- Pre-commit: Warns locally (LTDD allows pushing failures)\n- Preflight: Fast fail on forbidden patterns in diff\n- Danger.js: Blocks violations, governance edits, missing tests\n- ESLint: Blocks directive escapes (with composition root exceptions)\n- CODEOWNERS: Requires owner approval for policy changes\n\nESLint Fixes:\n- Added composition root exceptions (bootstrap, migrate, configs)\n- Auto-fixed 7 unused disable comments (ESLint --fix)\n- Result: 0 errors, 27 warnings (TODO comments, advisory)\n\nResult: AI assistants cannot weaken LTDD and stop suggesting it.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\nAI-Session: docs/ai/sessions/2025-10-18-ltdd-enforcement-playbook.md\nLocks: none\n\n* feat(ltdd): add smart guardrail detector for bootstrap paradox\n\nSolves chicken-and-egg: enforcement system can't block itself.\n\nSmart Logic:\n- Allows enforcement keywords in guardrail files (adding rules)\n- Blocks real violations in source code\n- Blocks deletion of enforcement anchors\n- Optional 'enforcement-bootstrap' label for first PR\n\nThis PR can now pass CI with the label.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* fix(ltdd): remove duplicate core import in guardrails workflow\n\ngithub-script already provides core in global scope.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* fix(ltdd): rewrite guardrails as bash script (simpler, no github-script issues)\n\nSwitched from github-script to pure bash for reliability.\n\nSmart logic:\n- Detects enforcement-bootstrap label\n- Allows PR if only guardrail files + no anchor deletions\n- Blocks source files with dangerous patterns\n- Simpler, faster, no JS syntax issues\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* chore: format guardrails.yml\n\nAI-Tool: Cursor\n\n* fix(ltdd): broaden guardrail pattern for infrastructure files\n\nInclude bootstrap, migrate, configs in guardrail pattern.\nThese are infrastructure, not application code.\n\nESLint --fix cleaned these files (removed unused escapes).\nThis is LTDD-compliant (cleaning up, not adding violations).\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* chore: format\n\n* fix(ltdd): add enhancedRag to guardrail pattern\n\nESLint auto-fixed this file (removed unused escapes).\nInclude in guardrail pattern so bootstrap label works.\n\nAI-Tool: Cursor\n\n* fix(ltdd): remove simple ask detector (redundant with smart guardrail)\n\nSmart Guardrail Enforcement now handles this better.\nRemoves duplicate enforcement layer.\n\nAI-Tool: Cursor\n\n* fix(ltdd): align preview lint policy with main CI (allow warnings)\n\nRoot Cause: Inconsistent lint policy\n- Main CI: Allows warnings (advisory)\n- Preview: Blocked on warnings (--max-warnings=0)\n\nEvidence: PR #85 blocked by 27 TODO warnings (advisory comments)\n\nFix: Remove --max-warnings=0 from preview.yml (match main CI)\n\nRationale:\n- Warnings are advisory (future work markers)\n- Main CI already allows them\n- Preview should match main policy\n- Governance PRs shouldn't be blocked by unrelated TODOs\n\nLTDD-Compliant:\n- Evidence-based (documented inconsistency)\n- Minimal change (one flag removed)\n- Surgical fix (no broad changes)\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5",
+            "author": {
+              "name": "peterdsimonson",
+              "email": "117416316+peterdsimonson@users.noreply.github.com",
+              "time": 1760840564000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1760840564000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "commitHash": "7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/18624857734"
+          },
+          "gitCommit": {
+            "shortHash": "7b7068a",
+            "hash": "7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "subject": "feat(ltdd): implement comprehensive enforcement playbook (#85)",
+            "body": "feat(ltdd): implement comprehensive enforcement playbook (#85)\n\n* feat(ltdd): implement comprehensive enforcement playbook\n\nImplements ChatGPT enforcement recommendations to prevent\nAI assistants from weakening LTDD guardrails.\n\n10 Components Implemented:\n1. .cursorrules: ltdd_hard_rules section (forbidden actions)\n2. PR template: LTDD compliance checkboxes (required)\n3. dangerfile.ts: Auto-enforcement (blocks violations in PRs)\n4. Husky pre-commit: Advisory checks (non-blocking per LTDD)\n5. Husky commit-msg: Rejects forbidden language in messages\n6. ESLint rules: Enforce code quality (composition root exceptions)\n7. Preflight workflow: LTDD Ask Detector (fast fail on violations)\n8. CODEOWNERS: Lock governance files (require owner approval)\n9. Issue template: ltdd-policy-change.yml (sanctioned exception path)\n10. Adaptive rule: no_directive_escapes.sh (detects in diffs)\n\nDependencies:\n- Pinned ESLint to v8.57.1 (preserves .eslintrc.js compatibility)\n- Added eslint-plugin-eslint-comments for directive detection\n\nEnforcement Layers:\n- Commit message: Blocks forbidden language ✅\n- Pre-commit: Warns locally (LTDD allows pushing failures)\n- Preflight: Fast fail on forbidden patterns in diff\n- Danger.js: Blocks violations, governance edits, missing tests\n- ESLint: Blocks directive escapes (with composition root exceptions)\n- CODEOWNERS: Requires owner approval for policy changes\n\nESLint Fixes:\n- Added composition root exceptions (bootstrap, migrate, configs)\n- Auto-fixed 7 unused disable comments (ESLint --fix)\n- Result: 0 errors, 27 warnings (TODO comments, advisory)\n\nResult: AI assistants cannot weaken LTDD and stop suggesting it.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\nAI-Session: docs/ai/sessions/2025-10-18-ltdd-enforcement-playbook.md\nLocks: none\n\n* feat(ltdd): add smart guardrail detector for bootstrap paradox\n\nSolves chicken-and-egg: enforcement system can't block itself.\n\nSmart Logic:\n- Allows enforcement keywords in guardrail files (adding rules)\n- Blocks real violations in source code\n- Blocks deletion of enforcement anchors\n- Optional 'enforcement-bootstrap' label for first PR\n\nThis PR can now pass CI with the label.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* fix(ltdd): remove duplicate core import in guardrails workflow\n\ngithub-script already provides core in global scope.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* fix(ltdd): rewrite guardrails as bash script (simpler, no github-script issues)\n\nSwitched from github-script to pure bash for reliability.\n\nSmart logic:\n- Detects enforcement-bootstrap label\n- Allows PR if only guardrail files + no anchor deletions\n- Blocks source files with dangerous patterns\n- Simpler, faster, no JS syntax issues\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* chore: format guardrails.yml\n\nAI-Tool: Cursor\n\n* fix(ltdd): broaden guardrail pattern for infrastructure files\n\nInclude bootstrap, migrate, configs in guardrail pattern.\nThese are infrastructure, not application code.\n\nESLint --fix cleaned these files (removed unused escapes).\nThis is LTDD-compliant (cleaning up, not adding violations).\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* chore: format\n\n* fix(ltdd): add enhancedRag to guardrail pattern\n\nESLint auto-fixed this file (removed unused escapes).\nInclude in guardrail pattern so bootstrap label works.\n\nAI-Tool: Cursor\n\n* fix(ltdd): remove simple ask detector (redundant with smart guardrail)\n\nSmart Guardrail Enforcement now handles this better.\nRemoves duplicate enforcement layer.\n\nAI-Tool: Cursor\n\n* fix(ltdd): align preview lint policy with main CI (allow warnings)\n\nRoot Cause: Inconsistent lint policy\n- Main CI: Allows warnings (advisory)\n- Preview: Blocked on warnings (--max-warnings=0)\n\nEvidence: PR #85 blocked by 27 TODO warnings (advisory comments)\n\nFix: Remove --max-warnings=0 from preview.yml (match main CI)\n\nRationale:\n- Warnings are advisory (future work markers)\n- Main CI already allows them\n- Preview should match main policy\n- Governance PRs shouldn't be blocked by unrelated TODOs\n\nLTDD-Compliant:\n- Evidence-based (documented inconsistency)\n- Minimal change (one flag removed)\n- Surgical fix (no broad changes)\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5",
+            "author": {
+              "name": "peterdsimonson",
+              "email": "117416316+peterdsimonson@users.noreply.github.com",
+              "time": 1760840564000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1760840564000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "commitHash": "7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/18624857734"
+          },
+          "gitCommit": {
+            "shortHash": "7b7068a",
+            "hash": "7b7068a3d67b53f9b58c74d703a32d366dbd4dd6",
+            "subject": "feat(ltdd): implement comprehensive enforcement playbook (#85)",
+            "body": "feat(ltdd): implement comprehensive enforcement playbook (#85)\n\n* feat(ltdd): implement comprehensive enforcement playbook\n\nImplements ChatGPT enforcement recommendations to prevent\nAI assistants from weakening LTDD guardrails.\n\n10 Components Implemented:\n1. .cursorrules: ltdd_hard_rules section (forbidden actions)\n2. PR template: LTDD compliance checkboxes (required)\n3. dangerfile.ts: Auto-enforcement (blocks violations in PRs)\n4. Husky pre-commit: Advisory checks (non-blocking per LTDD)\n5. Husky commit-msg: Rejects forbidden language in messages\n6. ESLint rules: Enforce code quality (composition root exceptions)\n7. Preflight workflow: LTDD Ask Detector (fast fail on violations)\n8. CODEOWNERS: Lock governance files (require owner approval)\n9. Issue template: ltdd-policy-change.yml (sanctioned exception path)\n10. Adaptive rule: no_directive_escapes.sh (detects in diffs)\n\nDependencies:\n- Pinned ESLint to v8.57.1 (preserves .eslintrc.js compatibility)\n- Added eslint-plugin-eslint-comments for directive detection\n\nEnforcement Layers:\n- Commit message: Blocks forbidden language ✅\n- Pre-commit: Warns locally (LTDD allows pushing failures)\n- Preflight: Fast fail on forbidden patterns in diff\n- Danger.js: Blocks violations, governance edits, missing tests\n- ESLint: Blocks directive escapes (with composition root exceptions)\n- CODEOWNERS: Requires owner approval for policy changes\n\nESLint Fixes:\n- Added composition root exceptions (bootstrap, migrate, configs)\n- Auto-fixed 7 unused disable comments (ESLint --fix)\n- Result: 0 errors, 27 warnings (TODO comments, advisory)\n\nResult: AI assistants cannot weaken LTDD and stop suggesting it.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\nAI-Session: docs/ai/sessions/2025-10-18-ltdd-enforcement-playbook.md\nLocks: none\n\n* feat(ltdd): add smart guardrail detector for bootstrap paradox\n\nSolves chicken-and-egg: enforcement system can't block itself.\n\nSmart Logic:\n- Allows enforcement keywords in guardrail files (adding rules)\n- Blocks real violations in source code\n- Blocks deletion of enforcement anchors\n- Optional 'enforcement-bootstrap' label for first PR\n\nThis PR can now pass CI with the label.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* fix(ltdd): remove duplicate core import in guardrails workflow\n\ngithub-script already provides core in global scope.\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* fix(ltdd): rewrite guardrails as bash script (simpler, no github-script issues)\n\nSwitched from github-script to pure bash for reliability.\n\nSmart logic:\n- Detects enforcement-bootstrap label\n- Allows PR if only guardrail files + no anchor deletions\n- Blocks source files with dangerous patterns\n- Simpler, faster, no JS syntax issues\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* chore: format guardrails.yml\n\nAI-Tool: Cursor\n\n* fix(ltdd): broaden guardrail pattern for infrastructure files\n\nInclude bootstrap, migrate, configs in guardrail pattern.\nThese are infrastructure, not application code.\n\nESLint --fix cleaned these files (removed unused escapes).\nThis is LTDD-compliant (cleaning up, not adding violations).\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5\n\n* chore: format\n\n* fix(ltdd): add enhancedRag to guardrail pattern\n\nESLint auto-fixed this file (removed unused escapes).\nInclude in guardrail pattern so bootstrap label works.\n\nAI-Tool: Cursor\n\n* fix(ltdd): remove simple ask detector (redundant with smart guardrail)\n\nSmart Guardrail Enforcement now handles this better.\nRemoves duplicate enforcement layer.\n\nAI-Tool: Cursor\n\n* fix(ltdd): align preview lint policy with main CI (allow warnings)\n\nRoot Cause: Inconsistent lint policy\n- Main CI: Allows warnings (advisory)\n- Preview: Blocked on warnings (--max-warnings=0)\n\nEvidence: PR #85 blocked by 27 TODO warnings (advisory comments)\n\nFix: Remove --max-warnings=0 from preview.yml (match main CI)\n\nRationale:\n- Warnings are advisory (future work markers)\n- Main CI already allows them\n- Preview should match main policy\n- Governance PRs shouldn't be blocked by unrelated TODOs\n\nLTDD-Compliant:\n- Evidence-based (documented inconsistency)\n- Minimal change (one flag removed)\n- Surgical fix (no broad changes)\n\nAI-Tool: Cursor\nAI-Model: Claude Sonnet 4.5",
+            "author": {
+              "name": "peterdsimonson",
+              "email": "117416316+peterdsimonson@users.noreply.github.com",
+              "time": 1760840564000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1760840564000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 1,
+    "webServer": {
+      "command": "cd apps/home && pnpm dev",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "lock_coverage_guard.spec.ts",
+      "file": "lock_coverage_guard.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Capability Coverage Guard",
+          "file": "lock_coverage_guard.spec.ts",
+          "line": 48,
+          "column": 6,
+          "specs": [
+            {
+              "title": "All contracts must have corresponding tests",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' (Fast (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' (Research (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' (Hybrid (Library + Web)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' (Document Upload & Processing) is defined\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:20.722Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-ca2860d3b4a590a4605d",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "Skipped capabilities must have valid waivers",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n📋 Active Skip Waivers:\n"
+                        },
+                        {
+                          "text": "⚠️  'research_mode' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Research mode endpoint (/research/private/start) not implemented yet - returns 404\n"
+                        },
+                        {
+                          "text": "⚠️  'hybrid_mode' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Hybrid mode endpoint (/research/hybrid/start) not implemented yet - returns 404\n"
+                        },
+                        {
+                          "text": "⚠️  'document_upload' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Document upload endpoint (/upload) not implemented yet - returns 404\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:20.767Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-5cd26b6a25ccf2cd07f4",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have expected behavior defined",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 3 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 3 behavior constraints\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:20.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-a5025efcc228406a1426",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have explicit invariants",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 5 invariants\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:20.825Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-6d875c42eab7a6f5c42a",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 140,
+              "column": 7
+            },
+            {
+              "title": "Waiver file must be valid JSON with required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:20.845Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-a65c3b5a13a419673487",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 172,
+              "column": 7
+            },
+            {
+              "title": "Coverage guard protects against regression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📊 Coverage Status:\n"
+                        },
+                        {
+                          "text": "  - Total contracts: 4\n"
+                        },
+                        {
+                          "text": "  - Active waivers: 3\n"
+                        },
+                        {
+                          "text": "  - Testable capabilities: 1\n"
+                        },
+                        {
+                          "text": "\n✅ Coverage Guard: All 4 contracts are protected\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:20.872Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-f18016fc710dc40561bc",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have corresponding tests",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' (Fast (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' (Research (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' (Hybrid (Library + Web)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' (Document Upload & Processing) is defined\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:21.558Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-38c29c8ff9266d4336bf",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "Skipped capabilities must have valid waivers",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n📋 Active Skip Waivers:\n"
+                        },
+                        {
+                          "text": "⚠️  'research_mode' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Research mode endpoint (/research/private/start) not implemented yet - returns 404\n"
+                        },
+                        {
+                          "text": "⚠️  'hybrid_mode' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Hybrid mode endpoint (/research/hybrid/start) not implemented yet - returns 404\n"
+                        },
+                        {
+                          "text": "⚠️  'document_upload' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Document upload endpoint (/upload) not implemented yet - returns 404\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:21.612Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-1a938cb1be9fbf9e0dee",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have expected behavior defined",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 3 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 3 behavior constraints\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:21.641Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-b05b88c9e84809b25148",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have explicit invariants",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 5 invariants\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:21.674Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-15eb1f8d65575f046cbf",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 140,
+              "column": 7
+            },
+            {
+              "title": "Waiver file must be valid JSON with required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:21.691Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-a8b196353d0186bee771",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 172,
+              "column": 7
+            },
+            {
+              "title": "Coverage guard protects against regression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📊 Coverage Status:\n"
+                        },
+                        {
+                          "text": "  - Total contracts: 4\n"
+                        },
+                        {
+                          "text": "  - Active waivers: 3\n"
+                        },
+                        {
+                          "text": "  - Testable capabilities: 1\n"
+                        },
+                        {
+                          "text": "\n✅ Coverage Guard: All 4 contracts are protected\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:21.719Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-0702f00416d357a35b9a",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have corresponding tests",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' (Fast (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' (Research (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' (Hybrid (Library + Web)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' (Document Upload & Processing) is defined\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:22.414Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-871b2226ab5a799e83d1",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "Skipped capabilities must have valid waivers",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n📋 Active Skip Waivers:\n"
+                        },
+                        {
+                          "text": "⚠️  'research_mode' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Research mode endpoint (/research/private/start) not implemented yet - returns 404\n"
+                        },
+                        {
+                          "text": "⚠️  'hybrid_mode' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Hybrid mode endpoint (/research/hybrid/start) not implemented yet - returns 404\n"
+                        },
+                        {
+                          "text": "⚠️  'document_upload' skipped until 2025-12-31T23:59:59Z (73 days) - reason: Document upload endpoint (/upload) not implemented yet - returns 404\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:22.454Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-1ac196842ee8bf201e2c",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have expected behavior defined",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 3 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 3 behavior constraints\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:22.483Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-33b815de446893dcd827",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have explicit invariants",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 5 invariants\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:22.511Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-c9db1aaef2cb64b74f4e",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 140,
+              "column": 7
+            },
+            {
+              "title": "Waiver file must be valid JSON with required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:22.537Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-2565481eed34a7a275d4",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 172,
+              "column": 7
+            },
+            {
+              "title": "Coverage guard protects against regression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📊 Coverage Status:\n"
+                        },
+                        {
+                          "text": "  - Total contracts: 4\n"
+                        },
+                        {
+                          "text": "  - Active waivers: 3\n"
+                        },
+                        {
+                          "text": "  - Testable capabilities: 1\n"
+                        },
+                        {
+                          "text": "\n✅ Coverage Guard: All 4 contracts are protected\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-10-19T03:38:22.553Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-b7c597bf26f4e2c6991c",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 215,
+              "column": 7
+            }
+          ],
+          "suites": [
+            {
+              "title": "Infrastructure Contracts (Phase 2.5)",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 237,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "All infrastructure contracts must be defined",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ Found 5 infrastructure contracts\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:20.889Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-573bbef36ea59493af3e",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 238,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must have test coverage",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:20.911Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-f27865f30f0cc8275b6a",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 250,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must NOT be skippable",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ All 5 infrastructure contracts are enforced (no skips)\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:20.929Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-6707c55d3755747ceaa2",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 277,
+                  "column": 9
+                },
+                {
+                  "title": "All four LTDD layers must be covered",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "\n✅ All 4 LTDD layers are covered:\n"
+                            },
+                            {
+                              "text": "  - Layer 1: Code Quality (TypeScript, ESLint) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 2: Feature Contracts (4 capabilities) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 3: Infrastructure Health (5 contracts) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 4: Meta-Verification (Coverage Guard) ✓\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:20.940Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-8f56580e3e0e6cdc816f",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 299,
+                  "column": 9
+                },
+                {
+                  "title": "All infrastructure contracts must be defined",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ Found 5 infrastructure contracts\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:21.736Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-abe27cf51b8514b78213",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 238,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must have test coverage",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:21.759Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-cfece648462001564dcc",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 250,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must NOT be skippable",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ All 5 infrastructure contracts are enforced (no skips)\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:21.776Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-172d5354ce102924e6f2",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 277,
+                  "column": 9
+                },
+                {
+                  "title": "All four LTDD layers must be covered",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "\n✅ All 4 LTDD layers are covered:\n"
+                            },
+                            {
+                              "text": "  - Layer 1: Code Quality (TypeScript, ESLint) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 2: Feature Contracts (4 capabilities) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 3: Infrastructure Health (5 contracts) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 4: Meta-Verification (Coverage Guard) ✓\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:21.788Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-d7646db6f1f4423b6fea",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 299,
+                  "column": 9
+                },
+                {
+                  "title": "All infrastructure contracts must be defined",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ Found 5 infrastructure contracts\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:22.571Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-83e594beff52e9bde9fd",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 238,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must have test coverage",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:22.585Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-f012ac29cd4d4806c276",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 250,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must NOT be skippable",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ All 5 infrastructure contracts are enforced (no skips)\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:22.599Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-47745516d30fc01bb815",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 277,
+                  "column": 9
+                },
+                {
+                  "title": "All four LTDD layers must be covered",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "\n✅ All 4 LTDD layers are covered:\n"
+                            },
+                            {
+                              "text": "  - Layer 1: Code Quality (TypeScript, ESLint) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 2: Feature Contracts (4 capabilities) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 3: Infrastructure Health (5 contracts) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 4: Meta-Verification (Coverage Guard) ✓\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-10-19T03:38:22.611Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-285f0dd3b78011e98853",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 299,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-19T03:38:18.045Z",
+    "duration": 4607.486,
+    "expected": 30,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
