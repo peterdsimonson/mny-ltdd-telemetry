@@ -1,45 +1,13 @@
 {
-  "total_merged": 5,
+  "total_merged": 1,
   "items": [
     {
-      "number": 85,
-      "title": "feat(ltdd): implement comprehensive enforcement playbook",
+      "number": 86,
+      "title": "feat(ltdd): add self-check canary + telemetry + shadow locks + CORS lock (ALL 6 ChatGPT tasks)",
       "user": "peterdsimonson",
-      "created_at": "2025-10-18T21:15:57Z",
-      "closed_at": "2025-10-19T02:22:44Z",
-      "lead_time_hours": 5.1130555555555555
-    },
-    {
-      "number": 84,
-      "title": "docs(research): comprehensive LTDD adaptive testing research paper",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-18T19:39:37Z",
-      "closed_at": "2025-10-18T19:46:11Z",
-      "lead_time_hours": 0.10944444444444444
-    },
-    {
-      "number": 83,
-      "title": "docs(ltdd): Feature Protection implementation summary + cursorrules snapshot",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-18T18:37:35Z",
-      "closed_at": "2025-10-18T19:14:21Z",
-      "lead_time_hours": 0.6127777777777778
-    },
-    {
-      "number": 82,
-      "title": "fix(ltdd): lock tests are behavioral contracts only",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-18T17:45:38Z",
-      "closed_at": "2025-10-18T17:54:51Z",
-      "lead_time_hours": 0.15361111111111111
-    },
-    {
-      "number": 80,
-      "title": "feat(ltdd): implement Feature Protection system with lock tests",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-17T22:21:23Z",
-      "closed_at": "2025-10-18T13:22:17Z",
-      "lead_time_hours": 15.015
+      "created_at": "2025-10-19T14:28:07Z",
+      "closed_at": "2025-10-19T18:06:19Z",
+      "lead_time_hours": 3.6366666666666667
     }
   ]
 }
