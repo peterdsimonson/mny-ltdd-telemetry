@@ -1,13 +1,4 @@
 {
-  "total_merged": 1,
-  "items": [
-    {
-      "number": 86,
-      "title": "feat(ltdd): add self-check canary + telemetry + shadow locks + CORS lock (ALL 6 ChatGPT tasks)",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-19T14:28:07Z",
-      "closed_at": "2025-10-19T18:06:19Z",
-      "lead_time_hours": 3.6366666666666667
-    }
-  ]
+  "total_merged": 0,
+  "items": []
 }
