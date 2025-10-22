@@ -1,36 +1,5 @@
 {
-  "since": "2025-10-20T03:31:07Z",
-  "total_runs": 3,
-  "runs": [
-    {
-      "id": 18667425580,
-      "name": ".github/workflows/ltdd-selfcheck.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-20T23:09:04Z",
-      "updated_at": "2025-10-20T23:09:04Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 18667040776,
-      "name": "CI/CD Pipeline",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-10-20T22:47:49Z",
-      "updated_at": "2025-10-20T22:54:51Z",
-      "duration_ms": 422000
-    },
-    {
-      "id": 18667040534,
-      "name": ".github/workflows/ltdd-selfcheck.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-10-20T22:47:48Z",
-      "updated_at": "2025-10-20T22:47:48Z",
-      "duration_ms": 0
-    }
-  ]
+  "since": "2025-10-21T03:34:45Z",
+  "total_runs": 0,
+  "runs": []
 }
