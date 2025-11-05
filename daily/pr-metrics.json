@@ -1,29 +1,21 @@
 {
-  "total_merged": 3,
+  "total_merged": 2,
   "items": [
     {
-      "number": 92,
-      "title": "fix: connect document upload to real backend API",
+      "number": 95,
+      "title": "fix(ci): route 100% traffic to new Cloud Run revisions",
       "user": "peterdsimonson",
-      "created_at": "2025-11-03T21:24:19Z",
-      "closed_at": "2025-11-04T02:33:44Z",
-      "lead_time_hours": 5.156944444444444
+      "created_at": "2025-11-05T01:30:50Z",
+      "closed_at": "2025-11-05T02:00:51Z",
+      "lead_time_hours": 0.5002777777777778
     },
     {
-      "number": 90,
-      "title": "feat: establish dual-account governance model",
+      "number": 94,
+      "title": "fix(backend): add .js extensions and Jefix(backend): add .js extensions and Jest types for testsst types for tests",
       "user": "peterdsimonson",
-      "created_at": "2025-11-03T17:01:48Z",
-      "closed_at": "2025-11-03T17:24:36Z",
-      "lead_time_hours": 0.38
-    },
-    {
-      "number": 89,
-      "title": "test: add LTDD App authentication check workflow",
-      "user": "peterdsimonson",
-      "created_at": "2025-10-20T02:56:01Z",
-      "closed_at": "2025-11-03T16:56:18Z",
-      "lead_time_hours": 350.0047222222222
+      "created_at": "2025-11-04T23:12:51Z",
+      "closed_at": "2025-11-04T23:24:53Z",
+      "lead_time_hours": 0.20055555555555554
     }
   ]
 }
