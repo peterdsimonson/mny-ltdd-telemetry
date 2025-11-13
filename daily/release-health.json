@@ -1,1 +1,1 @@
-{"timestamp":"2025-11-07T03:37:03.166Z","service":"mny-backend","version":"1.0.0","uptime":2.885263059,"memory":{"rss":63692800,"heapTotal":12296192,"heapUsed":8632192,"external":2049132,"arrayBuffers":25749},"pid":14,"nodeVersion":"v20.19.5","environment":"production","ok":true,"revision":"mny-backend-00743-var","commit":"df0442d7b94fbabc015ddeb0272bfceeb5bc8e3d"}
+{"ok":true,"service":"mny-backend","timestamp":"2025-11-13T03:39:02.046Z","commit":"85af8eccd9d0d1ba20e148007cd1127d514fd733"}
