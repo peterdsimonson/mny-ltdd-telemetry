@@ -1,77 +1,29 @@
 {
-  "total_merged": 9,
+  "total_merged": 3,
   "items": [
     {
-      "number": 159,
-      "title": "fix(telemetry): use prettier --write on specific generated files",
+      "number": 164,
+      "title": "feat(telemetry): add date parameter for backfilling historical scorecards",
       "user": "peterdsimonson",
-      "created_at": "2025-11-12T17:48:34Z",
-      "closed_at": "2025-11-12T17:53:07Z",
-      "lead_time_hours": 0.07583333333333334
+      "created_at": "2025-11-13T22:56:21Z",
+      "closed_at": "2025-11-14T01:14:06Z",
+      "lead_time_hours": 2.2958333333333334
     },
     {
-      "number": 158,
-      "title": "fix(telemetry): format generated files before committing",
+      "number": 163,
+      "title": "feat(telemetry): detect governance files and require PR approval",
       "user": "peterdsimonson",
-      "created_at": "2025-11-12T17:21:20Z",
-      "closed_at": "2025-11-12T17:25:34Z",
-      "lead_time_hours": 0.07055555555555555
+      "created_at": "2025-11-13T20:59:45Z",
+      "closed_at": "2025-11-13T21:25:33Z",
+      "lead_time_hours": 0.43
     },
     {
-      "number": 157,
-      "title": "fix(telemetry): add null-safety to 7-day trend analysis",
+      "number": 161,
+      "title": "fix(telemetry): generate Prettier-compliant markdown scorecard",
       "user": "peterdsimonson",
-      "created_at": "2025-11-12T17:11:49Z",
-      "closed_at": "2025-11-12T17:16:06Z",
-      "lead_time_hours": 0.07138888888888889
-    },
-    {
-      "number": 156,
-      "title": "fix(telemetry): pipe gh api output to jq instead of using --arg flag",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-12T17:04:06Z",
-      "closed_at": "2025-11-12T17:08:19Z",
-      "lead_time_hours": 0.07027777777777777
-    },
-    {
-      "number": 155,
-      "title": "fix(telemetry): fix gh cli argument order for jq filter",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-12T16:42:41Z",
-      "closed_at": "2025-11-12T16:56:38Z",
-      "lead_time_hours": 0.2325
-    },
-    {
-      "number": 154,
-      "title": "fix(telemetry): fix jq syntax error in PR gatekeeping data collection",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-12T16:23:54Z",
-      "closed_at": "2025-11-12T16:33:38Z",
-      "lead_time_hours": 0.1622222222222222
-    },
-    {
-      "number": 153,
-      "title": "fix: update nightly-scorecard to use lock-tests-preview.yml",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-12T13:16:06Z",
-      "closed_at": "2025-11-12T14:06:58Z",
-      "lead_time_hours": 0.8477777777777777
-    },
-    {
-      "number": 152,
-      "title": "fix: telemetry jq divide-by-zero errors (5+ days of missing data)",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-12T12:47:32Z",
-      "closed_at": "2025-11-12T12:54:45Z",
-      "lead_time_hours": 0.12027777777777778
-    },
-    {
-      "number": 151,
-      "title": "feat: complete upload + library flow (GCS + Firestore + Pinecone)",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-12T12:20:47Z",
-      "closed_at": "2025-11-12T12:30:06Z",
-      "lead_time_hours": 0.15527777777777776
+      "created_at": "2025-11-12T22:51:11Z",
+      "closed_at": "2025-11-13T20:22:34Z",
+      "lead_time_hours": 21.523055555555555
     }
   ]
 }
