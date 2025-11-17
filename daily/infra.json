@@ -1,735 +1,685 @@
 {
-  "since": "2025-11-15T03:38:13Z",
-  "total_runs": 73,
+  "since": "2025-11-16T03:38:28Z",
+  "total_runs": 68,
   "runs": [
     {
-      "id": 19399723973,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T03:32:03Z",
-      "updated_at": "2025-11-16T03:32:03Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19399724013,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T03:32:03Z",
-      "updated_at": "2025-11-16T03:32:03Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19399484204,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T03:10:08Z",
-      "updated_at": "2025-11-16T03:10:08Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19399484308,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T03:10:08Z",
-      "updated_at": "2025-11-16T03:10:08Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19399392856,
+      "id": 19416944768,
       "name": "Verify Complete LTDD Hardening",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-16T03:01:46Z",
-      "updated_at": "2025-11-16T03:02:00Z",
-      "duration_ms": 14000
-    },
-    {
-      "id": 19399392860,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T03:01:46Z",
-      "updated_at": "2025-11-16T03:02:26Z",
-      "duration_ms": 40000
-    },
-    {
-      "id": 19399392855,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-16T03:01:46Z",
-      "updated_at": "2025-11-16T03:03:09Z",
-      "duration_ms": 83000
-    },
-    {
-      "id": 19399392858,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-16T03:01:46Z",
-      "updated_at": "2025-11-16T03:10:31Z",
-      "duration_ms": 525000
-    },
-    {
-      "id": 19399392746,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T03:01:45Z",
-      "updated_at": "2025-11-16T03:01:45Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19399392784,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T03:01:45Z",
-      "updated_at": "2025-11-16T03:01:45Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19399244289,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T02:47:22Z",
-      "updated_at": "2025-11-16T02:47:22Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19399244343,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T02:47:22Z",
-      "updated_at": "2025-11-16T02:47:22Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397942574,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:46:43Z",
-      "updated_at": "2025-11-16T00:46:43Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397942690,
-      "name": "Verify Complete LTDD Hardening",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:46:43Z",
-      "updated_at": "2025-11-16T00:46:56Z",
-      "duration_ms": 13000
-    },
-    {
-      "id": 19397942691,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-16T00:46:43Z",
-      "updated_at": "2025-11-16T00:47:51Z",
-      "duration_ms": 68000
-    },
-    {
-      "id": 19397942692,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:46:43Z",
-      "updated_at": "2025-11-16T00:47:21Z",
-      "duration_ms": 38000
-    },
-    {
-      "id": 19397942689,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-16T00:46:43Z",
-      "updated_at": "2025-11-16T00:54:13Z",
-      "duration_ms": 450000
-    },
-    {
-      "id": 19397942483,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:46:42Z",
-      "updated_at": "2025-11-16T00:46:42Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397864474,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:39:55Z",
-      "updated_at": "2025-11-16T00:39:55Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397864623,
-      "name": "Ping (Actions Test)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-16T00:39:55Z",
-      "updated_at": "2025-11-16T00:40:03Z",
-      "duration_ms": 8000
-    },
-    {
-      "id": 19397864387,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:39:54Z",
-      "updated_at": "2025-11-16T00:39:54Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397817009,
-      "name": "Ping (Actions Test)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-16T00:35:51Z",
-      "updated_at": "2025-11-16T00:35:57Z",
-      "duration_ms": 6000
-    },
-    {
-      "id": 19397816798,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:35:50Z",
-      "updated_at": "2025-11-16T00:35:50Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397816874,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:35:50Z",
-      "updated_at": "2025-11-16T00:35:50Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397808336,
-      "name": "Ping (Actions Test)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-16T00:35:15Z",
-      "updated_at": "2025-11-16T00:35:24Z",
-      "duration_ms": 9000
-    },
-    {
-      "id": 19397808179,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:35:14Z",
-      "updated_at": "2025-11-16T00:35:14Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397808232,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:35:14Z",
-      "updated_at": "2025-11-16T00:35:14Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397466206,
-      "name": "Verify Complete LTDD Hardening",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:05:44Z",
-      "updated_at": "2025-11-16T00:05:55Z",
-      "duration_ms": 11000
-    },
-    {
-      "id": 19397466205,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:05:44Z",
-      "updated_at": "2025-11-16T00:06:23Z",
-      "duration_ms": 39000
-    },
-    {
-      "id": 19397466201,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "created_at": "2025-11-16T00:05:44Z",
-      "updated_at": "2025-11-16T00:06:44Z",
-      "duration_ms": 60000
-    },
-    {
-      "id": 19397466203,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-16T00:05:44Z",
-      "updated_at": "2025-11-16T00:07:03Z",
-      "duration_ms": 79000
-    },
-    {
-      "id": 19397466007,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:05:43Z",
-      "updated_at": "2025-11-16T00:05:43Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397466101,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-16T00:05:43Z",
-      "updated_at": "2025-11-16T00:05:43Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397359625,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T23:54:14Z",
-      "updated_at": "2025-11-15T23:54:14Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397359603,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T23:54:13Z",
-      "updated_at": "2025-11-15T23:54:13Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397172851,
-      "name": "Verify Complete LTDD Hardening",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T23:34:54Z",
-      "updated_at": "2025-11-15T23:35:04Z",
-      "duration_ms": 10000
-    },
-    {
-      "id": 19397172848,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T23:34:54Z",
-      "updated_at": "2025-11-15T23:35:34Z",
-      "duration_ms": 40000
-    },
-    {
-      "id": 19397172845,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2025-11-15T23:34:54Z",
-      "updated_at": "2025-11-15T23:36:13Z",
-      "duration_ms": 79000
-    },
-    {
-      "id": 19397172856,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "created_at": "2025-11-15T23:34:54Z",
-      "updated_at": "2025-11-15T23:40:29Z",
-      "duration_ms": 335000
-    },
-    {
-      "id": 19397172667,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T23:34:53Z",
-      "updated_at": "2025-11-15T23:34:53Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19397172744,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T23:34:53Z",
-      "updated_at": "2025-11-15T23:34:53Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19395386570,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T20:49:14Z",
-      "updated_at": "2025-11-15T20:49:14Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19395386649,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T20:49:14Z",
-      "updated_at": "2025-11-15T20:49:14Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19395103673,
-      "name": "Verify Complete LTDD Hardening",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T20:23:28Z",
-      "updated_at": "2025-11-15T20:23:40Z",
+      "created_at": "2025-11-17T02:58:27Z",
+      "updated_at": "2025-11-17T02:58:39Z",
       "duration_ms": 12000
     },
     {
-      "id": 19395103577,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T20:23:28Z",
-      "updated_at": "2025-11-15T20:23:28Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19395103694,
+      "id": 19416944744,
       "name": "Prod Guardrails",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T20:23:28Z",
-      "updated_at": "2025-11-15T20:24:08Z",
-      "duration_ms": 40000
-    },
-    {
-      "id": 19395103686,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T20:23:28Z",
-      "updated_at": "2025-11-15T20:24:51Z",
-      "duration_ms": 83000
-    },
-    {
-      "id": 19395103696,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "cancelled",
-      "created_at": "2025-11-15T20:23:28Z",
-      "updated_at": "2025-11-15T20:26:54Z",
-      "duration_ms": 206000
-    },
-    {
-      "id": 19395103507,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T20:23:27Z",
-      "updated_at": "2025-11-15T20:23:27Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19394906270,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T20:06:51Z",
-      "updated_at": "2025-11-15T20:06:51Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19394906303,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T20:06:51Z",
-      "updated_at": "2025-11-15T20:06:51Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19389183229,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T11:27:13Z",
-      "updated_at": "2025-11-15T11:27:13Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19389183344,
-      "name": "Verify Complete LTDD Hardening",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T11:27:13Z",
-      "updated_at": "2025-11-15T11:27:22Z",
-      "duration_ms": 9000
-    },
-    {
-      "id": 19389183354,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T11:27:13Z",
-      "updated_at": "2025-11-15T11:27:54Z",
+      "created_at": "2025-11-17T02:58:27Z",
+      "updated_at": "2025-11-17T02:59:08Z",
       "duration_ms": 41000
     },
     {
-      "id": 19389183351,
+      "id": 19416944748,
       "name": "Lock Tests (Production Sentinel)",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T11:27:13Z",
-      "updated_at": "2025-11-15T11:28:27Z",
-      "duration_ms": 74000
+      "created_at": "2025-11-17T02:58:27Z",
+      "updated_at": "2025-11-17T02:59:33Z",
+      "duration_ms": 66000
     },
     {
-      "id": 19389183345,
+      "id": 19416944742,
       "name": "Release (Golden Path)",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T11:27:13Z",
-      "updated_at": "2025-11-15T11:30:58Z",
-      "duration_ms": 225000
+      "created_at": "2025-11-17T02:58:27Z",
+      "updated_at": "2025-11-17T03:06:52Z",
+      "duration_ms": 505000
     },
     {
-      "id": 19389183141,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T11:27:12Z",
-      "updated_at": "2025-11-15T11:27:12Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19389117490,
+      "id": 19416944594,
       "name": ".github/workflows/daily-ltdd-telemetry.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T11:21:29Z",
-      "updated_at": "2025-11-15T11:21:29Z",
+      "created_at": "2025-11-17T02:58:26Z",
+      "updated_at": "2025-11-17T02:58:26Z",
       "duration_ms": 0
     },
     {
-      "id": 19389117596,
+      "id": 19416944641,
       "name": ".github/workflows/ci.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T11:21:29Z",
-      "updated_at": "2025-11-15T11:21:29Z",
+      "created_at": "2025-11-17T02:58:26Z",
+      "updated_at": "2025-11-17T02:58:26Z",
       "duration_ms": 0
     },
     {
-      "id": 19388537820,
+      "id": 19416766734,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T02:46:20Z",
+      "updated_at": "2025-11-17T02:46:20Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19416766869,
+      "name": "Ping (Actions Test)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-17T02:46:20Z",
+      "updated_at": "2025-11-17T02:46:30Z",
+      "duration_ms": 10000
+    },
+    {
+      "id": 19416766661,
       "name": ".github/workflows/daily-ltdd-telemetry.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T10:32:01Z",
-      "updated_at": "2025-11-15T10:32:01Z",
+      "created_at": "2025-11-17T02:46:19Z",
+      "updated_at": "2025-11-17T02:46:19Z",
       "duration_ms": 0
     },
     {
-      "id": 19388537884,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T10:32:01Z",
-      "updated_at": "2025-11-15T10:32:01Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19384774198,
+      "id": 19416225022,
       "name": "Verify Complete LTDD Hardening",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T05:01:14Z",
-      "updated_at": "2025-11-15T05:01:30Z",
-      "duration_ms": 16000
+      "created_at": "2025-11-17T02:12:43Z",
+      "updated_at": "2025-11-17T02:12:53Z",
+      "duration_ms": 10000
     },
     {
-      "id": 19384774196,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T05:01:14Z",
-      "updated_at": "2025-11-15T05:02:52Z",
-      "duration_ms": 98000
-    },
-    {
-      "id": 19384774201,
+      "id": 19416225020,
       "name": "Prod Guardrails",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T05:01:14Z",
-      "updated_at": "2025-11-15T05:01:56Z",
-      "duration_ms": 42000
+      "created_at": "2025-11-17T02:12:43Z",
+      "updated_at": "2025-11-17T02:13:23Z",
+      "duration_ms": 40000
     },
     {
-      "id": 19384774181,
+      "id": 19416225013,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-17T02:12:43Z",
+      "updated_at": "2025-11-17T02:14:02Z",
+      "duration_ms": 79000
+    },
+    {
+      "id": 19416225023,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-17T02:12:43Z",
+      "updated_at": "2025-11-17T02:22:17Z",
+      "duration_ms": 574000
+    },
+    {
+      "id": 19416224801,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T02:12:42Z",
+      "updated_at": "2025-11-17T02:12:42Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19416224864,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T02:12:42Z",
+      "updated_at": "2025-11-17T02:12:42Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19416159103,
+      "name": "Ping (Actions Test)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-17T02:08:42Z",
+      "updated_at": "2025-11-17T02:08:50Z",
+      "duration_ms": 8000
+    },
+    {
+      "id": 19416158940,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T02:08:42Z",
+      "updated_at": "2025-11-17T02:08:42Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19416158854,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T02:08:41Z",
+      "updated_at": "2025-11-17T02:08:41Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19415300383,
+      "name": "Verify Complete LTDD Hardening",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T01:13:59Z",
+      "updated_at": "2025-11-17T01:14:14Z",
+      "duration_ms": 15000
+    },
+    {
+      "id": 19415300389,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T01:13:59Z",
+      "updated_at": "2025-11-17T01:14:39Z",
+      "duration_ms": 40000
+    },
+    {
+      "id": 19415300373,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T01:13:59Z",
+      "updated_at": "2025-11-17T01:15:21Z",
+      "duration_ms": 82000
+    },
+    {
+      "id": 19415300377,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-17T01:13:59Z",
+      "updated_at": "2025-11-17T01:23:15Z",
+      "duration_ms": 556000
+    },
+    {
+      "id": 19415300120,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T01:13:58Z",
+      "updated_at": "2025-11-17T01:13:58Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19415300211,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T01:13:58Z",
+      "updated_at": "2025-11-17T01:13:58Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19415235702,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T01:09:48Z",
+      "updated_at": "2025-11-17T01:09:48Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19415235782,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T01:09:48Z",
+      "updated_at": "2025-11-17T01:09:48Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19414733507,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T00:39:17Z",
+      "updated_at": "2025-11-17T00:39:17Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19414733631,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T00:39:17Z",
+      "updated_at": "2025-11-17T00:39:17Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19414698998,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T00:37:15Z",
+      "updated_at": "2025-11-17T00:37:15Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19414699160,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-17T00:37:15Z",
+      "updated_at": "2025-11-17T00:37:15Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19407972944,
+      "name": "Verify Complete LTDD Hardening",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T15:36:50Z",
+      "updated_at": "2025-11-16T15:37:04Z",
+      "duration_ms": 14000
+    },
+    {
+      "id": 19407972824,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T15:36:50Z",
+      "updated_at": "2025-11-16T15:36:50Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19407972931,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T15:36:50Z",
+      "updated_at": "2025-11-16T15:37:31Z",
+      "duration_ms": 41000
+    },
+    {
+      "id": 19407972935,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-16T15:36:50Z",
+      "updated_at": "2025-11-16T15:38:02Z",
+      "duration_ms": 72000
+    },
+    {
+      "id": 19407972929,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-16T15:36:50Z",
+      "updated_at": "2025-11-16T15:44:51Z",
+      "duration_ms": 481000
+    },
+    {
+      "id": 19407972767,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T15:36:49Z",
+      "updated_at": "2025-11-16T15:36:49Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19407917605,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T15:32:42Z",
+      "updated_at": "2025-11-16T15:32:42Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19407917536,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T15:32:41Z",
+      "updated_at": "2025-11-16T15:32:41Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19407896690,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T15:31:09Z",
+      "updated_at": "2025-11-16T15:31:09Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19407896843,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T15:31:09Z",
+      "updated_at": "2025-11-16T15:31:09Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406939621,
+      "name": "Verify Complete LTDD Hardening",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:15:53Z",
+      "updated_at": "2025-11-16T14:16:06Z",
+      "duration_ms": 13000
+    },
+    {
+      "id": 19406939456,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:15:53Z",
+      "updated_at": "2025-11-16T14:15:53Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406939521,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:15:53Z",
+      "updated_at": "2025-11-16T14:15:53Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406939629,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:15:53Z",
+      "updated_at": "2025-11-16T14:16:28Z",
+      "duration_ms": 35000
+    },
+    {
+      "id": 19406939627,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-16T14:15:53Z",
+      "updated_at": "2025-11-16T14:17:05Z",
+      "duration_ms": 72000
+    },
+    {
+      "id": 19406939633,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2025-11-16T14:15:53Z",
+      "updated_at": "2025-11-16T14:25:03Z",
+      "duration_ms": 550000
+    },
+    {
+      "id": 19406882873,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:11:37Z",
+      "updated_at": "2025-11-16T14:11:37Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406882996,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:11:37Z",
+      "updated_at": "2025-11-16T14:11:37Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406875866,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:11:06Z",
+      "updated_at": "2025-11-16T14:11:06Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406875806,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:11:05Z",
+      "updated_at": "2025-11-16T14:11:05Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406834613,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:08:04Z",
+      "updated_at": "2025-11-16T14:08:04Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406834703,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:08:04Z",
+      "updated_at": "2025-11-16T14:08:04Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406808577,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:06:05Z",
+      "updated_at": "2025-11-16T14:06:05Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406808661,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T14:06:05Z",
+      "updated_at": "2025-11-16T14:06:05Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406715815,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T13:59:43Z",
+      "updated_at": "2025-11-16T13:59:43Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406715780,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T13:59:42Z",
+      "updated_at": "2025-11-16T13:59:42Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406700330,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T13:57:48Z",
+      "updated_at": "2025-11-16T13:57:48Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406700376,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T13:57:48Z",
+      "updated_at": "2025-11-16T13:57:48Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406673425,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T13:55:05Z",
+      "updated_at": "2025-11-16T13:55:05Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406673476,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T13:55:05Z",
+      "updated_at": "2025-11-16T13:55:05Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406525495,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T13:41:58Z",
+      "updated_at": "2025-11-16T13:41:58Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19406525438,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T13:41:57Z",
+      "updated_at": "2025-11-16T13:41:57Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19405863681,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T12:50:52Z",
+      "updated_at": "2025-11-16T12:50:52Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 19405863837,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T12:50:52Z",
+      "updated_at": "2025-11-16T12:50:59Z",
+      "duration_ms": 7000
+    },
+    {
+      "id": 19405863836,
       "name": "Release (Golden Path)",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T05:01:14Z",
-      "updated_at": "2025-11-15T05:04:54Z",
-      "duration_ms": 220000
+      "created_at": "2025-11-16T12:50:52Z",
+      "updated_at": "2025-11-16T12:51:00Z",
+      "duration_ms": 8000
     },
     {
-      "id": 19384774053,
+      "id": 19405863833,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T12:50:52Z",
+      "updated_at": "2025-11-16T12:50:56Z",
+      "duration_ms": 4000
+    },
+    {
+      "id": 19405863832,
+      "name": "Verify Complete LTDD Hardening",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2025-11-16T12:50:52Z",
+      "updated_at": "2025-11-16T12:50:57Z",
+      "duration_ms": 5000
+    },
+    {
+      "id": 19405863616,
       "name": ".github/workflows/daily-ltdd-telemetry.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2025-11-15T05:01:13Z",
-      "updated_at": "2025-11-15T05:01:13Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19384774097,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T05:01:13Z",
-      "updated_at": "2025-11-15T05:01:13Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19384665762,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T04:49:53Z",
-      "updated_at": "2025-11-15T04:49:53Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19384665709,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T04:49:53Z",
-      "updated_at": "2025-11-15T04:49:53Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19384595070,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T04:43:21Z",
-      "updated_at": "2025-11-15T04:43:21Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19384595032,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T04:43:21Z",
-      "updated_at": "2025-11-15T04:43:21Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19384312100,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T04:17:48Z",
-      "updated_at": "2025-11-15T04:17:48Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 19384312151,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2025-11-15T04:17:48Z",
-      "updated_at": "2025-11-15T04:17:48Z",
+      "created_at": "2025-11-16T12:50:51Z",
+      "updated_at": "2025-11-16T12:50:51Z",
       "duration_ms": 0
     }
   ]
