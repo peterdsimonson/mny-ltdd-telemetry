@@ -1,53 +1,109 @@
 {
-  "total_merged": 6,
+  "total_merged": 13,
   "items": [
     {
-      "number": 194,
-      "title": "feat(ltdd): add Phase 1 protection for Library PDF feature",
+      "number": 208,
+      "title": "feat(library): PDF-only with external viewer + centered card layout",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T02:46:21Z",
-      "closed_at": "2025-11-17T02:58:24Z",
-      "lead_time_hours": 0.20083333333333334
+      "created_at": "2025-11-18T02:35:38Z",
+      "closed_at": "2025-11-18T02:41:31Z",
+      "lead_time_hours": 0.09805555555555556
     },
     {
-      "number": 193,
-      "title": "feat: add GCS_BUCKET to Golden Path and update home UI",
+      "number": 207,
+      "title": "revert(library): remove DOCX/TXT/MD support, PDF-only with multi-file upload",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T02:08:45Z",
-      "closed_at": "2025-11-17T02:12:40Z",
-      "lead_time_hours": 0.06527777777777778
+      "created_at": "2025-11-18T00:12:51Z",
+      "closed_at": "2025-11-18T00:17:14Z",
+      "lead_time_hours": 0.07305555555555555
     },
     {
-      "number": 192,
-      "title": "fix(library): iframe viewer + splash screen improvements",
+      "number": 206,
+      "title": "fix(library): fix DOCX display and add debug logging",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T00:37:31Z",
-      "closed_at": "2025-11-17T01:13:56Z",
-      "lead_time_hours": 0.6069444444444444
+      "created_at": "2025-11-17T21:56:35Z",
+      "closed_at": "2025-11-17T22:01:50Z",
+      "lead_time_hours": 0.0875
     },
     {
-      "number": 191,
-      "title": "fix(library): GCS save + telemetry; view prewarm",
+      "number": 205,
+      "title": "feat(library): add file type support, search highlighting, and multi-file upload",
       "user": "peterdsimonson",
-      "created_at": "2025-11-16T15:31:09Z",
-      "closed_at": "2025-11-16T15:36:48Z",
-      "lead_time_hours": 0.09416666666666666
+      "created_at": "2025-11-17T21:10:54Z",
+      "closed_at": "2025-11-17T21:15:09Z",
+      "lead_time_hours": 0.07083333333333333
     },
     {
-      "number": 190,
-      "title": "fix(library): call backend URL for /library and include auth",
+      "number": 204,
+      "title": "feat(ltdd): Phase 2 - Add library-pdf to feature registry and wire Danger enforcement",
       "user": "peterdsimonson",
-      "created_at": "2025-11-16T13:41:57Z",
-      "closed_at": "2025-11-16T14:15:51Z",
-      "lead_time_hours": 0.565
+      "created_at": "2025-11-17T19:23:36Z",
+      "closed_at": "2025-11-17T19:28:28Z",
+      "lead_time_hours": 0.0811111111111111
     },
     {
-      "number": 188,
-      "title": "docs(session): update library viewing feature completion",
+      "number": 203,
+      "title": "fix(ltdd): update Library PDF lock test to match actual GCS path pattern",
       "user": "peterdsimonson",
-      "created_at": "2025-11-16T03:10:08Z",
-      "closed_at": "2025-11-16T12:50:50Z",
-      "lead_time_hours": 9.678333333333333
+      "created_at": "2025-11-17T18:53:00Z",
+      "closed_at": "2025-11-17T18:58:13Z",
+      "lead_time_hours": 0.08694444444444445
+    },
+    {
+      "number": 202,
+      "title": "fix(ltdd): use real working PDF and remove continue-on-error from Library PDF lock test",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-17T18:33:27Z",
+      "closed_at": "2025-11-17T18:40:42Z",
+      "lead_time_hours": 0.12083333333333333
+    },
+    {
+      "number": 201,
+      "title": "ci: make Library PDF lock test non-blocking for manual testing",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-17T17:39:15Z",
+      "closed_at": "2025-11-17T17:43:39Z",
+      "lead_time_hours": 0.07333333333333333
+    },
+    {
+      "number": 200,
+      "title": "fix(ltdd): use test fixture PDF with sufficient text for Library PDF lock test",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-17T16:48:39Z",
+      "closed_at": "2025-11-17T16:58:38Z",
+      "lead_time_hours": 0.1663888888888889
+    },
+    {
+      "number": 199,
+      "title": "fix(ltdd): use PDF with extractable text for Library PDF lock test",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-17T16:30:16Z",
+      "closed_at": "2025-11-17T16:35:38Z",
+      "lead_time_hours": 0.08944444444444444
+    },
+    {
+      "number": 198,
+      "title": "fix(ltdd): add error logging for upload step in Library PDF lock test",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-17T16:04:47Z",
+      "closed_at": "2025-11-17T16:16:20Z",
+      "lead_time_hours": 0.1925
+    },
+    {
+      "number": 197,
+      "title": "fix(ltdd): improve Firebase auth error logging in Library PDF lock test",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-17T12:35:03Z",
+      "closed_at": "2025-11-17T15:32:45Z",
+      "lead_time_hours": 2.9616666666666664
+    },
+    {
+      "number": 195,
+      "title": "feat(ltdd): switch Library PDF lock test to Firebase REST API auth",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-17T03:43:13Z",
+      "closed_at": "2025-11-17T12:24:28Z",
+      "lead_time_hours": 8.6875
     }
   ]
 }
