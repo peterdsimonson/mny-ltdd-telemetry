@@ -2,108 +2,108 @@
   "total_merged": 13,
   "items": [
     {
-      "number": 208,
-      "title": "feat(library): PDF-only with external viewer + centered card layout",
+      "number": 222,
+      "title": "docs(rag): investigation summary for persistent RAG issues",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T02:35:38Z",
-      "closed_at": "2025-11-18T02:41:31Z",
-      "lead_time_hours": 0.09805555555555556
+      "created_at": "2025-11-19T03:19:53Z",
+      "closed_at": "2025-11-19T03:28:18Z",
+      "lead_time_hours": 0.14027777777777778
     },
     {
-      "number": 207,
-      "title": "revert(library): remove DOCX/TXT/MD support, PDF-only with multi-file upload",
+      "number": 221,
+      "title": "fix(upload): store chunk text in Pinecone metadata for snippets",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T00:12:51Z",
-      "closed_at": "2025-11-18T00:17:14Z",
-      "lead_time_hours": 0.07305555555555555
+      "created_at": "2025-11-19T03:00:37Z",
+      "closed_at": "2025-11-19T03:05:31Z",
+      "lead_time_hours": 0.08166666666666667
     },
     {
-      "number": 206,
-      "title": "fix(library): fix DOCX display and add debug logging",
+      "number": 220,
+      "title": "fix(rag): extract actual question from contextual query string",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T21:56:35Z",
-      "closed_at": "2025-11-17T22:01:50Z",
-      "lead_time_hours": 0.0875
+      "created_at": "2025-11-19T02:12:54Z",
+      "closed_at": "2025-11-19T02:19:34Z",
+      "lead_time_hours": 0.1111111111111111
     },
     {
-      "number": 205,
-      "title": "feat(library): add file type support, search highlighting, and multi-file upload",
+      "number": 219,
+      "title": "feat(rag): Stage 2 - Research Library mode with LLM",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T21:10:54Z",
-      "closed_at": "2025-11-17T21:15:09Z",
-      "lead_time_hours": 0.07083333333333333
+      "created_at": "2025-11-18T23:24:26Z",
+      "closed_at": "2025-11-18T23:50:10Z",
+      "lead_time_hours": 0.4288888888888889
     },
     {
-      "number": 204,
-      "title": "feat(ltdd): Phase 2 - Add library-pdf to feature registry and wire Danger enforcement",
+      "number": 218,
+      "title": "feat(rag): Stage 0 RAG Fast mode implementation",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T19:23:36Z",
-      "closed_at": "2025-11-17T19:28:28Z",
-      "lead_time_hours": 0.0811111111111111
+      "created_at": "2025-11-18T20:20:40Z",
+      "closed_at": "2025-11-18T21:01:31Z",
+      "lead_time_hours": 0.6808333333333333
     },
     {
-      "number": 203,
-      "title": "fix(ltdd): update Library PDF lock test to match actual GCS path pattern",
+      "number": 217,
+      "title": "feat(library): add LTDD protection for delete functionality",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T18:53:00Z",
-      "closed_at": "2025-11-17T18:58:13Z",
-      "lead_time_hours": 0.08694444444444445
+      "created_at": "2025-11-18T17:45:54Z",
+      "closed_at": "2025-11-18T17:51:53Z",
+      "lead_time_hours": 0.09972222222222223
     },
     {
-      "number": 202,
-      "title": "fix(ltdd): use real working PDF and remove continue-on-error from Library PDF lock test",
+      "number": 216,
+      "title": "fix(library): route order for DELETE /all endpoint",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T18:33:27Z",
-      "closed_at": "2025-11-17T18:40:42Z",
-      "lead_time_hours": 0.12083333333333333
+      "created_at": "2025-11-18T17:02:33Z",
+      "closed_at": "2025-11-18T17:15:43Z",
+      "lead_time_hours": 0.21944444444444444
     },
     {
-      "number": 201,
-      "title": "ci: make Library PDF lock test non-blocking for manual testing",
+      "number": 215,
+      "title": "feat(library): automatic Pinecone cleanup on delete",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T17:39:15Z",
-      "closed_at": "2025-11-17T17:43:39Z",
-      "lead_time_hours": 0.07333333333333333
-    },
-    {
-      "number": 200,
-      "title": "fix(ltdd): use test fixture PDF with sufficient text for Library PDF lock test",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-17T16:48:39Z",
-      "closed_at": "2025-11-17T16:58:38Z",
-      "lead_time_hours": 0.1663888888888889
-    },
-    {
-      "number": 199,
-      "title": "fix(ltdd): use PDF with extractable text for Library PDF lock test",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-17T16:30:16Z",
-      "closed_at": "2025-11-17T16:35:38Z",
+      "created_at": "2025-11-18T13:36:46Z",
+      "closed_at": "2025-11-18T13:42:08Z",
       "lead_time_hours": 0.08944444444444444
     },
     {
-      "number": 198,
-      "title": "fix(ltdd): add error logging for upload step in Library PDF lock test",
+      "number": 214,
+      "title": "fix(library): improve Pinecone delete logging, test cleanup, and PDF validation order",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T16:04:47Z",
-      "closed_at": "2025-11-17T16:16:20Z",
-      "lead_time_hours": 0.1925
+      "created_at": "2025-11-18T10:21:46Z",
+      "closed_at": "2025-11-18T10:26:01Z",
+      "lead_time_hours": 0.07083333333333333
     },
     {
-      "number": 197,
-      "title": "fix(ltdd): improve Firebase auth error logging in Library PDF lock test",
+      "number": 213,
+      "title": "refine(ltdd): align Library frontend test with ChatGPT recommendations",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T12:35:03Z",
-      "closed_at": "2025-11-17T15:32:45Z",
-      "lead_time_hours": 2.9616666666666664
+      "created_at": "2025-11-18T10:06:23Z",
+      "closed_at": "2025-11-18T10:10:51Z",
+      "lead_time_hours": 0.07444444444444444
     },
     {
-      "number": 195,
-      "title": "feat(ltdd): switch Library PDF lock test to Firebase REST API auth",
+      "number": 212,
+      "title": "test(ltdd): add Library frontend rendering lock test",
       "user": "peterdsimonson",
-      "created_at": "2025-11-17T03:43:13Z",
-      "closed_at": "2025-11-17T12:24:28Z",
-      "lead_time_hours": 8.6875
+      "created_at": "2025-11-18T09:49:37Z",
+      "closed_at": "2025-11-18T09:54:29Z",
+      "lead_time_hours": 0.0811111111111111
+    },
+    {
+      "number": 211,
+      "title": "fix(library): resolve variable initialization error",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-18T09:26:23Z",
+      "closed_at": "2025-11-18T09:31:40Z",
+      "lead_time_hours": 0.08805555555555555
+    },
+    {
+      "number": 209,
+      "title": "feat(library): add delete functionality with GCS and Pinecone cleanup",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-18T03:35:12Z",
+      "closed_at": "2025-11-18T09:12:55Z",
+      "lead_time_hours": 5.628611111111111
     }
   ]
 }
