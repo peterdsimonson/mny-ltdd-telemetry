@@ -1,109 +1,133 @@
 {
-  "total_merged": 13,
+  "total_merged": 16,
   "items": [
     {
-      "number": 222,
-      "title": "docs(rag): investigation summary for persistent RAG issues",
+      "number": 239,
+      "title": "docs(research): enhance LTDD case study with research significance and generalizability",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T03:19:53Z",
-      "closed_at": "2025-11-19T03:28:18Z",
-      "lead_time_hours": 0.14027777777777778
+      "created_at": "2025-11-19T23:01:28Z",
+      "closed_at": "2025-11-19T23:11:55Z",
+      "lead_time_hours": 0.17416666666666666
     },
     {
-      "number": 221,
-      "title": "fix(upload): store chunk text in Pinecone metadata for snippets",
+      "number": 238,
+      "title": "docs(research): LTDD prevented bad deployment - RAG test org fixtures case study",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T03:00:37Z",
-      "closed_at": "2025-11-19T03:05:31Z",
-      "lead_time_hours": 0.08166666666666667
+      "created_at": "2025-11-19T22:45:50Z",
+      "closed_at": "2025-11-19T22:54:59Z",
+      "lead_time_hours": 0.1525
     },
     {
-      "number": 220,
-      "title": "fix(rag): extract actual question from contextual query string",
+      "number": 237,
+      "title": "fix(ci): add missing test org env vars to release workflow lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T02:12:54Z",
-      "closed_at": "2025-11-19T02:19:34Z",
-      "lead_time_hours": 0.1111111111111111
+      "created_at": "2025-11-19T22:07:06Z",
+      "closed_at": "2025-11-19T22:11:55Z",
+      "lead_time_hours": 0.08027777777777778
     },
     {
-      "number": 219,
-      "title": "feat(rag): Stage 2 - Research Library mode with LLM",
+      "number": 236,
+      "title": "feat(rag): overhaul v2 - retrieval improvements (anchor metadata + per-doc cap)",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T23:24:26Z",
-      "closed_at": "2025-11-18T23:50:10Z",
-      "lead_time_hours": 0.4288888888888889
+      "created_at": "2025-11-19T21:28:08Z",
+      "closed_at": "2025-11-19T21:45:11Z",
+      "lead_time_hours": 0.2841666666666667
     },
     {
-      "number": 218,
-      "title": "feat(rag): Stage 0 RAG Fast mode implementation",
+      "number": 235,
+      "title": "fix(locks): prevent lock tests from deleting production documents",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T20:20:40Z",
-      "closed_at": "2025-11-18T21:01:31Z",
-      "lead_time_hours": 0.6808333333333333
+      "created_at": "2025-11-19T21:09:48Z",
+      "closed_at": "2025-11-19T21:14:08Z",
+      "lead_time_hours": 0.07222222222222222
     },
     {
-      "number": 217,
-      "title": "feat(library): add LTDD protection for delete functionality",
+      "number": 234,
+      "title": "feat(rag): overhaul v1 - prompt, question gating, similarity threshold, entity presence",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T17:45:54Z",
-      "closed_at": "2025-11-18T17:51:53Z",
-      "lead_time_hours": 0.09972222222222223
+      "created_at": "2025-11-19T20:46:40Z",
+      "closed_at": "2025-11-19T20:51:00Z",
+      "lead_time_hours": 0.07222222222222222
     },
     {
-      "number": 216,
-      "title": "fix(library): route order for DELETE /all endpoint",
+      "number": 233,
+      "title": "test(fixtures): add rag-mny-basic.pdf fixture for RAG lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T17:02:33Z",
-      "closed_at": "2025-11-18T17:15:43Z",
-      "lead_time_hours": 0.21944444444444444
+      "created_at": "2025-11-19T20:13:01Z",
+      "closed_at": "2025-11-19T20:17:28Z",
+      "lead_time_hours": 0.07416666666666667
     },
     {
-      "number": 215,
-      "title": "feat(library): automatic Pinecone cleanup on delete",
+      "number": 232,
+      "title": "test(ltdd): add RAG basic behavior lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T13:36:46Z",
-      "closed_at": "2025-11-18T13:42:08Z",
-      "lead_time_hours": 0.08944444444444444
+      "created_at": "2025-11-19T19:54:16Z",
+      "closed_at": "2025-11-19T20:01:48Z",
+      "lead_time_hours": 0.12555555555555556
     },
     {
-      "number": 214,
-      "title": "fix(library): improve Pinecone delete logging, test cleanup, and PDF validation order",
+      "number": 231,
+      "title": "fix(backend): add namespace isolation and proper error handling to delete endpoint",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T10:21:46Z",
-      "closed_at": "2025-11-18T10:26:01Z",
-      "lead_time_hours": 0.07083333333333333
+      "created_at": "2025-11-19T19:40:58Z",
+      "closed_at": "2025-11-19T20:00:27Z",
+      "lead_time_hours": 0.32472222222222225
     },
     {
-      "number": 213,
-      "title": "refine(ltdd): align Library frontend test with ChatGPT recommendations",
+      "number": 230,
+      "title": "test(ltdd): improve Library frontend test robustness with semantic selectors",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T10:06:23Z",
-      "closed_at": "2025-11-18T10:10:51Z",
-      "lead_time_hours": 0.07444444444444444
+      "created_at": "2025-11-19T19:27:57Z",
+      "closed_at": "2025-11-19T19:38:12Z",
+      "lead_time_hours": 0.17083333333333334
     },
     {
-      "number": 212,
-      "title": "test(ltdd): add Library frontend rendering lock test",
+      "number": 229,
+      "title": "fix(ci): build workspace dependencies before typecheck",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T09:49:37Z",
-      "closed_at": "2025-11-18T09:54:29Z",
-      "lead_time_hours": 0.0811111111111111
-    },
-    {
-      "number": 211,
-      "title": "fix(library): resolve variable initialization error",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-18T09:26:23Z",
-      "closed_at": "2025-11-18T09:31:40Z",
+      "created_at": "2025-11-19T18:38:49Z",
+      "closed_at": "2025-11-19T18:44:06Z",
       "lead_time_hours": 0.08805555555555555
     },
     {
-      "number": 209,
-      "title": "feat(library): add delete functionality with GCS and Pinecone cleanup",
+      "number": 228,
+      "title": "fix(build): fix TypeScript errors that caused deployment failure",
       "user": "peterdsimonson",
-      "created_at": "2025-11-18T03:35:12Z",
-      "closed_at": "2025-11-18T09:12:55Z",
-      "lead_time_hours": 5.628611111111111
+      "created_at": "2025-11-19T15:45:52Z",
+      "closed_at": "2025-11-19T15:49:49Z",
+      "lead_time_hours": 0.06583333333333333
+    },
+    {
+      "number": 227,
+      "title": "fix(ltdd): include backend in root typecheck to catch errors before merge",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-19T15:45:23Z",
+      "closed_at": "2025-11-19T15:49:47Z",
+      "lead_time_hours": 0.07333333333333333
+    },
+    {
+      "number": 226,
+      "title": "fix(rag): add index coverage diagnostics and adjust score threshold",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-19T13:16:45Z",
+      "closed_at": "2025-11-19T15:17:37Z",
+      "lead_time_hours": 2.0144444444444445
+    },
+    {
+      "number": 225,
+      "title": "feat(rag): remove Fast mode, make Research Library default",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-19T12:32:32Z",
+      "closed_at": "2025-11-19T15:15:43Z",
+      "lead_time_hours": 2.7197222222222224
+    },
+    {
+      "number": 223,
+      "title": "fix(rag): filter corrupted conversation history and improve question extraction",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-19T03:53:28Z",
+      "closed_at": "2025-11-19T04:24:16Z",
+      "lead_time_hours": 0.5133333333333333
     }
   ]
 }
