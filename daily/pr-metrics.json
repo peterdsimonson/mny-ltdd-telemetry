@@ -1,133 +1,53 @@
 {
-  "total_merged": 16,
+  "total_merged": 6,
   "items": [
     {
-      "number": 239,
-      "title": "docs(research): enhance LTDD case study with research significance and generalizability",
+      "number": 246,
+      "title": "fix: library firebase auth for ltdd",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T23:01:28Z",
-      "closed_at": "2025-11-19T23:11:55Z",
-      "lead_time_hours": 0.17416666666666666
+      "created_at": "2025-11-21T02:44:20Z",
+      "closed_at": "2025-11-21T02:48:36Z",
+      "lead_time_hours": 0.07111111111111111
     },
     {
-      "number": 238,
-      "title": "docs(research): LTDD prevented bad deployment - RAG test org fixtures case study",
+      "number": 245,
+      "title": "ltdd: harden library locks",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T22:45:50Z",
-      "closed_at": "2025-11-19T22:54:59Z",
-      "lead_time_hours": 0.1525
+      "created_at": "2025-11-20T21:27:31Z",
+      "closed_at": "2025-11-20T22:58:33Z",
+      "lead_time_hours": 1.5172222222222222
     },
     {
-      "number": 237,
-      "title": "fix(ci): add missing test org env vars to release workflow lock tests",
+      "number": 244,
+      "title": "fix(library): improve error handling for namespace isolation and frontend test robustness",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T22:07:06Z",
-      "closed_at": "2025-11-19T22:11:55Z",
-      "lead_time_hours": 0.08027777777777778
+      "created_at": "2025-11-20T15:29:49Z",
+      "closed_at": "2025-11-20T17:59:18Z",
+      "lead_time_hours": 2.491388888888889
     },
     {
-      "number": 236,
-      "title": "feat(rag): overhaul v2 - retrieval improvements (anchor metadata + per-doc cap)",
+      "number": 243,
+      "title": "fix(rag): use docId from upload response to match Pinecone metadata",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T21:28:08Z",
-      "closed_at": "2025-11-19T21:45:11Z",
-      "lead_time_hours": 0.2841666666666667
-    },
-    {
-      "number": 235,
-      "title": "fix(locks): prevent lock tests from deleting production documents",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T21:09:48Z",
-      "closed_at": "2025-11-19T21:14:08Z",
-      "lead_time_hours": 0.07222222222222222
-    },
-    {
-      "number": 234,
-      "title": "feat(rag): overhaul v1 - prompt, question gating, similarity threshold, entity presence",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T20:46:40Z",
-      "closed_at": "2025-11-19T20:51:00Z",
-      "lead_time_hours": 0.07222222222222222
-    },
-    {
-      "number": 233,
-      "title": "test(fixtures): add rag-mny-basic.pdf fixture for RAG lock tests",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T20:13:01Z",
-      "closed_at": "2025-11-19T20:17:28Z",
-      "lead_time_hours": 0.07416666666666667
-    },
-    {
-      "number": 232,
-      "title": "test(ltdd): add RAG basic behavior lock tests",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T19:54:16Z",
-      "closed_at": "2025-11-19T20:01:48Z",
-      "lead_time_hours": 0.12555555555555556
-    },
-    {
-      "number": 231,
-      "title": "fix(backend): add namespace isolation and proper error handling to delete endpoint",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T19:40:58Z",
-      "closed_at": "2025-11-19T20:00:27Z",
-      "lead_time_hours": 0.32472222222222225
-    },
-    {
-      "number": 230,
-      "title": "test(ltdd): improve Library frontend test robustness with semantic selectors",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T19:27:57Z",
-      "closed_at": "2025-11-19T19:38:12Z",
-      "lead_time_hours": 0.17083333333333334
-    },
-    {
-      "number": 229,
-      "title": "fix(ci): build workspace dependencies before typecheck",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T18:38:49Z",
-      "closed_at": "2025-11-19T18:44:06Z",
-      "lead_time_hours": 0.08805555555555555
-    },
-    {
-      "number": 228,
-      "title": "fix(build): fix TypeScript errors that caused deployment failure",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T15:45:52Z",
-      "closed_at": "2025-11-19T15:49:49Z",
-      "lead_time_hours": 0.06583333333333333
-    },
-    {
-      "number": 227,
-      "title": "fix(ltdd): include backend in root typecheck to catch errors before merge",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T15:45:23Z",
-      "closed_at": "2025-11-19T15:49:47Z",
+      "created_at": "2025-11-20T14:59:14Z",
+      "closed_at": "2025-11-20T15:03:38Z",
       "lead_time_hours": 0.07333333333333333
     },
     {
-      "number": 226,
-      "title": "fix(rag): add index coverage diagnostics and adjust score threshold",
+      "number": 242,
+      "title": "fix(rag): increase test timeout for indexing polling",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T13:16:45Z",
-      "closed_at": "2025-11-19T15:17:37Z",
-      "lead_time_hours": 2.0144444444444445
+      "created_at": "2025-11-20T13:42:53Z",
+      "closed_at": "2025-11-20T13:46:57Z",
+      "lead_time_hours": 0.06777777777777778
     },
     {
-      "number": 225,
-      "title": "feat(rag): remove Fast mode, make Research Library default",
+      "number": 241,
+      "title": "fix(rag): replace fixed sleep with polling, standardize empty library message",
       "user": "peterdsimonson",
-      "created_at": "2025-11-19T12:32:32Z",
-      "closed_at": "2025-11-19T15:15:43Z",
-      "lead_time_hours": 2.7197222222222224
-    },
-    {
-      "number": 223,
-      "title": "fix(rag): filter corrupted conversation history and improve question extraction",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-19T03:53:28Z",
-      "closed_at": "2025-11-19T04:24:16Z",
-      "lead_time_hours": 0.5133333333333333
+      "created_at": "2025-11-20T13:13:40Z",
+      "closed_at": "2025-11-20T13:21:08Z",
+      "lead_time_hours": 0.12444444444444444
     }
   ]
 }
