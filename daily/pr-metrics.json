@@ -1,53 +1,85 @@
 {
-  "total_merged": 6,
+  "total_merged": 10,
   "items": [
     {
-      "number": 246,
-      "title": "fix: library firebase auth for ltdd",
+      "number": 257,
+      "title": "test(locks): add RAG golden tests for pronoun resolution, hybrid retrieval, feature flags, and telemetry schema",
       "user": "peterdsimonson",
-      "created_at": "2025-11-21T02:44:20Z",
-      "closed_at": "2025-11-21T02:48:36Z",
-      "lead_time_hours": 0.07111111111111111
+      "created_at": "2025-11-22T02:02:04Z",
+      "closed_at": "2025-11-22T02:10:24Z",
+      "lead_time_hours": 0.1388888888888889
     },
     {
-      "number": 245,
-      "title": "ltdd: harden library locks",
+      "number": 256,
+      "title": "fix(rag): enable pronoun resolution in production",
       "user": "peterdsimonson",
-      "created_at": "2025-11-20T21:27:31Z",
-      "closed_at": "2025-11-20T22:58:33Z",
-      "lead_time_hours": 1.5172222222222222
+      "created_at": "2025-11-22T01:33:51Z",
+      "closed_at": "2025-11-22T01:38:16Z",
+      "lead_time_hours": 0.07361111111111111
     },
     {
-      "number": 244,
-      "title": "fix(library): improve error handling for namespace isolation and frontend test robustness",
+      "number": 255,
+      "title": "fix(rag): implement pronoun resolution for contextual queries",
       "user": "peterdsimonson",
-      "created_at": "2025-11-20T15:29:49Z",
-      "closed_at": "2025-11-20T17:59:18Z",
-      "lead_time_hours": 2.491388888888889
+      "created_at": "2025-11-22T00:50:26Z",
+      "closed_at": "2025-11-22T01:14:41Z",
+      "lead_time_hours": 0.4041666666666667
     },
     {
-      "number": 243,
-      "title": "fix(rag): use docId from upload response to match Pinecone metadata",
+      "number": 254,
+      "title": "feat(rag): add LLM reranker between hybrid retrieval and diversity",
       "user": "peterdsimonson",
-      "created_at": "2025-11-20T14:59:14Z",
-      "closed_at": "2025-11-20T15:03:38Z",
-      "lead_time_hours": 0.07333333333333333
+      "created_at": "2025-11-22T00:41:25Z",
+      "closed_at": "2025-11-22T01:14:43Z",
+      "lead_time_hours": 0.555
     },
     {
-      "number": 242,
-      "title": "fix(rag): increase test timeout for indexing polling",
+      "number": 253,
+      "title": "fix: pinecone metadata field compatibility",
       "user": "peterdsimonson",
-      "created_at": "2025-11-20T13:42:53Z",
-      "closed_at": "2025-11-20T13:46:57Z",
-      "lead_time_hours": 0.06777777777777778
+      "created_at": "2025-11-21T22:41:11Z",
+      "closed_at": "2025-11-21T22:45:37Z",
+      "lead_time_hours": 0.07388888888888889
     },
     {
-      "number": 241,
-      "title": "fix(rag): replace fixed sleep with polling, standardize empty library message",
+      "number": 252,
+      "title": "feat: add pronoun resolution",
       "user": "peterdsimonson",
-      "created_at": "2025-11-20T13:13:40Z",
-      "closed_at": "2025-11-20T13:21:08Z",
-      "lead_time_hours": 0.12444444444444444
+      "created_at": "2025-11-21T22:34:20Z",
+      "closed_at": "2025-11-21T23:53:29Z",
+      "lead_time_hours": 1.3191666666666666
+    },
+    {
+      "number": 251,
+      "title": "feat: add hybrid keyword retrieval",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-21T20:39:53Z",
+      "closed_at": "2025-11-21T20:44:25Z",
+      "lead_time_hours": 0.07555555555555556
+    },
+    {
+      "number": 250,
+      "title": "feat: phase1 ingestion quality",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-21T19:54:27Z",
+      "closed_at": "2025-11-21T19:59:42Z",
+      "lead_time_hours": 0.0875
+    },
+    {
+      "number": 249,
+      "title": "docs: add release run 19576663556",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-21T16:41:01Z",
+      "closed_at": "2025-11-21T16:46:43Z",
+      "lead_time_hours": 0.095
+    },
+    {
+      "number": 248,
+      "title": "fix: stabilize LTDD library auth",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-21T16:03:32Z",
+      "closed_at": "2025-11-21T16:19:53Z",
+      "lead_time_hours": 0.2725
     }
   ]
 }
