@@ -1,85 +1,93 @@
 {
-  "total_merged": 10,
+  "total_merged": 11,
   "items": [
     {
-      "number": 257,
-      "title": "test(locks): add RAG golden tests for pronoun resolution, hybrid retrieval, feature flags, and telemetry schema",
+      "number": 270,
+      "title": "fix(locks): improve semantic chunking test error messages",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T02:02:04Z",
-      "closed_at": "2025-11-22T02:10:24Z",
-      "lead_time_hours": 0.1388888888888889
+      "created_at": "2025-11-23T03:09:26Z",
+      "closed_at": "2025-11-23T03:14:10Z",
+      "lead_time_hours": 0.07888888888888888
     },
     {
-      "number": 256,
-      "title": "fix(rag): enable pronoun resolution in production",
+      "number": 269,
+      "title": "refactor(locks): use ensureTestDocumentUploaded helper for semantic chunking test",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T01:33:51Z",
-      "closed_at": "2025-11-22T01:38:16Z",
-      "lead_time_hours": 0.07361111111111111
+      "created_at": "2025-11-23T01:18:10Z",
+      "closed_at": "2025-11-23T02:29:54Z",
+      "lead_time_hours": 1.1955555555555555
     },
     {
-      "number": 255,
-      "title": "fix(rag): implement pronoun resolution for contextual queries",
+      "number": 268,
+      "title": "fix(locks): require document indexing before structure check",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T00:50:26Z",
-      "closed_at": "2025-11-22T01:14:41Z",
-      "lead_time_hours": 0.4041666666666667
+      "created_at": "2025-11-23T00:40:59Z",
+      "closed_at": "2025-11-23T00:45:53Z",
+      "lead_time_hours": 0.08166666666666667
     },
     {
-      "number": 254,
-      "title": "feat(rag): add LLM reranker between hybrid retrieval and diversity",
+      "number": 267,
+      "title": "fix(locks): increase timeout for semantic chunking test",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T00:41:25Z",
-      "closed_at": "2025-11-22T01:14:43Z",
-      "lead_time_hours": 0.555
+      "created_at": "2025-11-23T00:08:49Z",
+      "closed_at": "2025-11-23T00:19:35Z",
+      "lead_time_hours": 0.17944444444444443
     },
     {
-      "number": 253,
-      "title": "fix: pinecone metadata field compatibility",
+      "number": 266,
+      "title": "fix(locks): add polling for document indexing in semantic chunking test",
       "user": "peterdsimonson",
-      "created_at": "2025-11-21T22:41:11Z",
-      "closed_at": "2025-11-21T22:45:37Z",
-      "lead_time_hours": 0.07388888888888889
+      "created_at": "2025-11-22T22:59:42Z",
+      "closed_at": "2025-11-22T23:04:15Z",
+      "lead_time_hours": 0.07583333333333334
     },
     {
-      "number": 252,
-      "title": "feat: add pronoun resolution",
+      "number": 265,
+      "title": "fix(locks): adjust semantic chunking test to verify structure detection",
       "user": "peterdsimonson",
-      "created_at": "2025-11-21T22:34:20Z",
-      "closed_at": "2025-11-21T23:53:29Z",
-      "lead_time_hours": 1.3191666666666666
+      "created_at": "2025-11-22T21:50:59Z",
+      "closed_at": "2025-11-22T21:56:00Z",
+      "lead_time_hours": 0.08361111111111111
     },
     {
-      "number": 251,
-      "title": "feat: add hybrid keyword retrieval",
+      "number": 264,
+      "title": "feat(locks): add parse quality and semantic chunking lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-11-21T20:39:53Z",
-      "closed_at": "2025-11-21T20:44:25Z",
-      "lead_time_hours": 0.07555555555555556
+      "created_at": "2025-11-22T21:26:10Z",
+      "closed_at": "2025-11-22T21:30:32Z",
+      "lead_time_hours": 0.07277777777777777
     },
     {
-      "number": 250,
-      "title": "feat: phase1 ingestion quality",
+      "number": 263,
+      "title": "feat(rag): enable hybrid retrieval in production",
       "user": "peterdsimonson",
-      "created_at": "2025-11-21T19:54:27Z",
-      "closed_at": "2025-11-21T19:59:42Z",
-      "lead_time_hours": 0.0875
+      "created_at": "2025-11-22T20:13:28Z",
+      "closed_at": "2025-11-22T20:28:10Z",
+      "lead_time_hours": 0.245
     },
     {
-      "number": 249,
-      "title": "docs: add release run 19576663556",
+      "number": 262,
+      "title": "fix(rag-tests): update queries to match PDF content",
       "user": "peterdsimonson",
-      "created_at": "2025-11-21T16:41:01Z",
-      "closed_at": "2025-11-21T16:46:43Z",
-      "lead_time_hours": 0.095
+      "created_at": "2025-11-22T19:38:32Z",
+      "closed_at": "2025-11-22T19:42:41Z",
+      "lead_time_hours": 0.06916666666666667
     },
     {
-      "number": 248,
-      "title": "fix: stabilize LTDD library auth",
+      "number": 261,
+      "title": "fix(rag-tests): use PDF fixture instead of text file",
       "user": "peterdsimonson",
-      "created_at": "2025-11-21T16:03:32Z",
-      "closed_at": "2025-11-21T16:19:53Z",
-      "lead_time_hours": 0.2725
+      "created_at": "2025-11-22T13:49:36Z",
+      "closed_at": "2025-11-22T13:53:56Z",
+      "lead_time_hours": 0.07222222222222222
+    },
+    {
+      "number": 260,
+      "title": "fix(rag-tests): ensure test documents are uploaded before RAG queries",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-22T13:25:01Z",
+      "closed_at": "2025-11-22T13:28:59Z",
+      "lead_time_hours": 0.0661111111111111
     }
   ]
 }
