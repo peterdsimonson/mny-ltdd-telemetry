@@ -1,93 +1,149 @@
 {
-  "total_merged": 11,
+  "total_merged": 18,
   "items": [
     {
-      "number": 270,
-      "title": "fix(locks): improve semantic chunking test error messages",
+      "number": 289,
+      "title": "fix(test): cache Firebase tokens to reduce quota usage",
       "user": "peterdsimonson",
-      "created_at": "2025-11-23T03:09:26Z",
-      "closed_at": "2025-11-23T03:14:10Z",
-      "lead_time_hours": 0.07888888888888888
+      "created_at": "2025-11-24T02:20:59Z",
+      "closed_at": "2025-11-24T02:31:34Z",
+      "lead_time_hours": 0.1763888888888889
     },
     {
-      "number": 269,
-      "title": "refactor(locks): use ensureTestDocumentUploaded helper for semantic chunking test",
+      "number": 288,
+      "title": "fix(test): add missing cleanupTestDocumentVectors export",
       "user": "peterdsimonson",
-      "created_at": "2025-11-23T01:18:10Z",
-      "closed_at": "2025-11-23T02:29:54Z",
-      "lead_time_hours": 1.1955555555555555
+      "created_at": "2025-11-24T00:47:34Z",
+      "closed_at": "2025-11-24T00:51:57Z",
+      "lead_time_hours": 0.07305555555555555
     },
     {
-      "number": 268,
-      "title": "fix(locks): require document indexing before structure check",
+      "number": 287,
+      "title": "fix(test): make lock_rag_fast upload its own test document",
       "user": "peterdsimonson",
-      "created_at": "2025-11-23T00:40:59Z",
-      "closed_at": "2025-11-23T00:45:53Z",
-      "lead_time_hours": 0.08166666666666667
+      "created_at": "2025-11-24T00:16:53Z",
+      "closed_at": "2025-11-24T00:26:55Z",
+      "lead_time_hours": 0.16722222222222222
     },
     {
-      "number": 267,
-      "title": "fix(locks): increase timeout for semantic chunking test",
+      "number": 286,
+      "title": "fix(rag): add null checks for TypeScript in ragDebug endpoint",
       "user": "peterdsimonson",
-      "created_at": "2025-11-23T00:08:49Z",
-      "closed_at": "2025-11-23T00:19:35Z",
-      "lead_time_hours": 0.17944444444444443
+      "created_at": "2025-11-23T23:25:29Z",
+      "closed_at": "2025-11-23T23:44:22Z",
+      "lead_time_hours": 0.31472222222222224
     },
     {
-      "number": 266,
-      "title": "fix(locks): add polling for document indexing in semantic chunking test",
+      "number": 285,
+      "title": "docs: add Phase 2.x doc-mix corpus and stress query requirements",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T22:59:42Z",
-      "closed_at": "2025-11-22T23:04:15Z",
-      "lead_time_hours": 0.07583333333333334
+      "created_at": "2025-11-23T23:23:54Z",
+      "closed_at": "2025-11-23T23:49:08Z",
+      "lead_time_hours": 0.42055555555555557
     },
     {
-      "number": 265,
-      "title": "fix(locks): adjust semantic chunking test to verify structure detection",
+      "number": 284,
+      "title": "feat(ui): update home page messaging and fix index-status endpoint",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T21:50:59Z",
-      "closed_at": "2025-11-22T21:56:00Z",
-      "lead_time_hours": 0.08361111111111111
+      "created_at": "2025-11-23T23:18:39Z",
+      "closed_at": "2025-11-23T23:20:54Z",
+      "lead_time_hours": 0.0375
     },
     {
-      "number": 264,
-      "title": "feat(locks): add parse quality and semantic chunking lock tests",
+      "number": 283,
+      "title": "fix(rag): use correct variable name 'namespace' in diagnostic log",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T21:26:10Z",
-      "closed_at": "2025-11-22T21:30:32Z",
-      "lead_time_hours": 0.07277777777777777
+      "created_at": "2025-11-23T22:05:05Z",
+      "closed_at": "2025-11-23T22:09:15Z",
+      "lead_time_hours": 0.06944444444444445
     },
     {
-      "number": 263,
-      "title": "feat(rag): enable hybrid retrieval in production",
+      "number": 282,
+      "title": "feat(test): add diagnostic logging to verify indexing and namespace correctness",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T20:13:28Z",
-      "closed_at": "2025-11-22T20:28:10Z",
-      "lead_time_hours": 0.245
+      "created_at": "2025-11-23T20:55:49Z",
+      "closed_at": "2025-11-23T20:58:05Z",
+      "lead_time_hours": 0.03777777777777778
     },
     {
-      "number": 262,
-      "title": "fix(rag-tests): update queries to match PDF content",
+      "number": 281,
+      "title": "fix(test): increase beforeAll timeout for semantic chunking test",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T19:38:32Z",
-      "closed_at": "2025-11-22T19:42:41Z",
-      "lead_time_hours": 0.06916666666666667
+      "created_at": "2025-11-23T20:26:49Z",
+      "closed_at": "2025-11-23T20:33:21Z",
+      "lead_time_hours": 0.10888888888888888
     },
     {
-      "number": 261,
-      "title": "fix(rag-tests): use PDF fixture instead of text file",
+      "number": 280,
+      "title": "fix(test): increase timeout for contextual pronoun resolution test",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T13:49:36Z",
-      "closed_at": "2025-11-22T13:53:56Z",
-      "lead_time_hours": 0.07222222222222222
+      "created_at": "2025-11-23T19:20:02Z",
+      "closed_at": "2025-11-23T19:24:07Z",
+      "lead_time_hours": 0.06805555555555555
     },
     {
-      "number": 260,
-      "title": "fix(rag-tests): ensure test documents are uploaded before RAG queries",
+      "number": 279,
+      "title": "fix(test): semantic chunking test always uploads fresh document",
       "user": "peterdsimonson",
-      "created_at": "2025-11-22T13:25:01Z",
-      "closed_at": "2025-11-22T13:28:59Z",
-      "lead_time_hours": 0.0661111111111111
+      "created_at": "2025-11-23T18:54:56Z",
+      "closed_at": "2025-11-23T18:58:56Z",
+      "lead_time_hours": 0.06666666666666667
+    },
+    {
+      "number": 278,
+      "title": "fix(rag): remove metadata access from diagnostic log (TypeScript error)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-23T18:27:28Z",
+      "closed_at": "2025-11-23T18:31:46Z",
+      "lead_time_hours": 0.07166666666666667
+    },
+    {
+      "number": 277,
+      "title": "fix(rag): unify docId on Firestore ID to fix RAG test failures",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-23T17:47:13Z",
+      "closed_at": "2025-11-23T17:50:10Z",
+      "lead_time_hours": 0.049166666666666664
+    },
+    {
+      "number": 276,
+      "title": "fix(ci): enable corepack before pnpm in cleanup workflow",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-23T15:01:31Z",
+      "closed_at": "2025-11-23T15:07:06Z",
+      "lead_time_hours": 0.09305555555555556
+    },
+    {
+      "number": 275,
+      "title": "feat(ci): add automated cleanup workflow for LTDD test orgs",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-23T13:57:07Z",
+      "closed_at": "2025-11-23T14:04:08Z",
+      "lead_time_hours": 0.11694444444444445
+    },
+    {
+      "number": 274,
+      "title": "fix(scripts): add cleanup script for test org documents after PR #272",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-23T04:53:23Z",
+      "closed_at": "2025-11-23T13:17:35Z",
+      "lead_time_hours": 8.403333333333334
+    },
+    {
+      "number": 272,
+      "title": "fix(indexing): critical docId metadata bug + add observability",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-23T03:58:25Z",
+      "closed_at": "2025-11-23T04:11:08Z",
+      "lead_time_hours": 0.21194444444444444
+    },
+    {
+      "number": 271,
+      "title": "fix(helpers): verify indexing for existing documents in rag-test-setup",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-23T03:34:21Z",
+      "closed_at": "2025-11-23T04:11:09Z",
+      "lead_time_hours": 0.6133333333333333
     }
   ]
 }
