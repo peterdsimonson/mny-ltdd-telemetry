@@ -1,4 +1,13 @@
 {
-  "total_merged": 0,
-  "items": []
+  "total_merged": 1,
+  "items": [
+    {
+      "number": 300,
+      "title": "feat(rag): implement diversity enforcement v2 (Phase 2.3)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-27T02:40:02Z",
+      "closed_at": "2025-11-27T02:44:20Z",
+      "lead_time_hours": 0.07166666666666667
+    }
+  ]
 }
