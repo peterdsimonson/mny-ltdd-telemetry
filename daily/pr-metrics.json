@@ -1,13 +1,29 @@
 {
-  "total_merged": 1,
+  "total_merged": 3,
   "items": [
     {
-      "number": 300,
-      "title": "feat(rag): implement diversity enforcement v2 (Phase 2.3)",
+      "number": 304,
+      "title": "fix(chunking): tighten chunk geometry to surface buried critiques",
       "user": "peterdsimonson",
-      "created_at": "2025-11-27T02:40:02Z",
-      "closed_at": "2025-11-27T02:44:20Z",
-      "lead_time_hours": 0.07166666666666667
+      "created_at": "2025-11-27T12:53:08Z",
+      "closed_at": "2025-11-27T12:57:31Z",
+      "lead_time_hours": 0.07305555555555555
+    },
+    {
+      "number": 303,
+      "title": "feat(rag): implement adaptive Top-K retrieval (Phase 2.5)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-27T12:03:39Z",
+      "closed_at": "2025-11-27T12:08:01Z",
+      "lead_time_hours": 0.07277777777777777
+    },
+    {
+      "number": 302,
+      "title": "fix(test): increase diversity lock test timeouts for Pinecone eventual consistency",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-27T08:24:17Z",
+      "closed_at": "2025-11-27T08:28:50Z",
+      "lead_time_hours": 0.07583333333333334
     }
   ]
 }
