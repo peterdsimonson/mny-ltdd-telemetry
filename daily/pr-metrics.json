@@ -1,29 +1,77 @@
 {
-  "total_merged": 3,
+  "total_merged": 9,
   "items": [
     {
-      "number": 304,
-      "title": "fix(chunking): tighten chunk geometry to surface buried critiques",
+      "number": 314,
+      "title": "fix(rag): prioritize question candidates and improve lowercase entity extraction",
       "user": "peterdsimonson",
-      "created_at": "2025-11-27T12:53:08Z",
-      "closed_at": "2025-11-27T12:57:31Z",
-      "lead_time_hours": 0.07305555555555555
+      "created_at": "2025-11-29T01:50:44Z",
+      "closed_at": "2025-11-29T01:56:15Z",
+      "lead_time_hours": 0.09194444444444444
     },
     {
-      "number": 303,
-      "title": "feat(rag): implement adaptive Top-K retrieval (Phase 2.5)",
+      "number": 313,
+      "title": "fix(ci): harden deployment gates with retries and better error handling",
       "user": "peterdsimonson",
-      "created_at": "2025-11-27T12:03:39Z",
-      "closed_at": "2025-11-27T12:08:01Z",
-      "lead_time_hours": 0.07277777777777777
+      "created_at": "2025-11-29T01:05:41Z",
+      "closed_at": "2025-11-29T01:10:16Z",
+      "lead_time_hours": 0.0763888888888889
     },
     {
-      "number": 302,
-      "title": "fix(test): increase diversity lock test timeouts for Pinecone eventual consistency",
+      "number": 312,
+      "title": "fix(tests): add explicit request timeout to pronoun test",
       "user": "peterdsimonson",
-      "created_at": "2025-11-27T08:24:17Z",
-      "closed_at": "2025-11-27T08:28:50Z",
-      "lead_time_hours": 0.07583333333333334
+      "created_at": "2025-11-28T22:32:36Z",
+      "closed_at": "2025-11-28T22:38:58Z",
+      "lead_time_hours": 0.10611111111111111
+    },
+    {
+      "number": 311,
+      "title": "fix(locks): adjust timeout lock test threshold to 25s",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-28T20:52:09Z",
+      "closed_at": "2025-11-28T20:58:36Z",
+      "lead_time_hours": 0.1075
+    },
+    {
+      "number": 310,
+      "title": "test(locks): add LLM timeout safety rail lock test and enable diagnostic",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-28T20:07:04Z",
+      "closed_at": "2025-11-28T20:11:28Z",
+      "lead_time_hours": 0.07333333333333333
+    },
+    {
+      "number": 309,
+      "title": "feat(rag): add explicit timeouts to LLM calls (permanent safety rail)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-28T17:03:47Z",
+      "closed_at": "2025-11-28T17:09:02Z",
+      "lead_time_hours": 0.0875
+    },
+    {
+      "number": 308,
+      "title": "debug(rag): add instrumentation to investigate pronoun test timeout",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-28T14:30:15Z",
+      "closed_at": "2025-11-28T14:39:53Z",
+      "lead_time_hours": 0.16055555555555556
+    },
+    {
+      "number": 307,
+      "title": "fix(rag): improve intent classifier to match 'should ... be replicated' queries",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-28T13:15:48Z",
+      "closed_at": "2025-11-28T13:20:01Z",
+      "lead_time_hours": 0.07027777777777777
+    },
+    {
+      "number": 306,
+      "title": "feat: increase upload limits + Phase 3.x Evaluation Intent + UI fixes",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-28T11:24:05Z",
+      "closed_at": "2025-11-28T11:29:01Z",
+      "lead_time_hours": 0.08222222222222222
     }
   ]
 }
