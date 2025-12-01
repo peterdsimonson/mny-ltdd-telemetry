@@ -1,18 +1,35 @@
 {
-  "total_commits": 8,
-  "ai_commits": 5,
-  "human_commits": 3,
-  "ai_percentage": 62,
+  "total_commits": 25,
+  "ai_commits": 8,
+  "human_commits": 17,
+  "ai_percentage": 32,
   "ai_commit_shas": [
-    "1ec71941e24440e53220aa7bf79d0ff5e243a009",
-    "32df5040c3b884bbc5c534f322697fcae22c9025",
-    "09ce70b0c9dc1ad0ccff17099f9925b10227f8f5",
-    "04da299885970720c5c23e7a5bf4784361bae96e",
-    "9f72ad59bdcb83501114d2362bf1eca8161cbbb4"
+    "d56a351e3e7b0d17e9fcb0e1e3e33719d7a2517c",
+    "359795d070d4a0fd2208b1842306f9da8b104bf5",
+    "754b220e5025910395dc2a55594d034b65d16303",
+    "e7bf1cfa3449ac508f60e9ecfe6eb6bf4c58c537",
+    "867b21330a74f233d44dddb865b2ca09c2d9bd3e",
+    "6f9f781b4772929c94528bd23ad247f00a234ade",
+    "b235af357521bb1d0950fee81b6baa9c34b7363e",
+    "1d8a506fb45befbbb1d7859c0851bc1341073854"
   ],
   "human_commit_shas": [
-    "1819072e5e7e6a82a15b1bfdebfd83b7dd98abf3",
-    "62a4b3f122a49e43cf8714b6f20f570628b8b73b",
-    "e17d7c3439879b6e06e9f44bdcd6c71d32f8d57c"
+    "1243c5a669ed8708068ac9a4a787631dc8bfd8ba",
+    "64ac215d93e0c809e9c96cccf359029f3ef80374",
+    "659aac37085c09e1da479aa3f68c149728e651fe",
+    "6c3f3132bade0816e072c905743def065e7a5ce4",
+    "bbedef15585d5d6ef4fa0e1b3064e342016736a1",
+    "35ffb01c3a1410bb56699dce9fdba9f74d47de98",
+    "9b54360e5ff62eea8b6bbd280610cd2b1dc03682",
+    "bffbd6a4d2d9e64c93d2dfab096a877ddc3906d1",
+    "78875b5af876c8215b7ca19b13d4a78eeb13f458",
+    "d80b94d72234d693077c490ca4102eb3f4c23312",
+    "14e1eac4eea5186c7bda00296e6c5bd87d190be6",
+    "98c00c93737786bddde2ac69096b7eac87e3f9d7",
+    "8be904abc5071f60d3975da090d6f1005d49d009",
+    "0f216d0ea6ed28fd26ae01b40cae6fdce09b7cc2",
+    "8297cd324c7d5d3fe8102df648078876ee746204",
+    "a05a274d86151a4c696f4a67ce6ebd76d10fc987",
+    "0be9222ab4ae0d39128e78ddeb4ee4c74d4ac7f4"
   ]
 }

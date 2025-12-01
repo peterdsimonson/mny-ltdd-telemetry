@@ -1,21 +1,93 @@
 {
-  "total_merged": 2,
+  "total_merged": 11,
   "items": [
     {
-      "number": 317,
-      "title": "docs(sessions): document pronoun resolution fix and deployment gate hardening",
+      "number": 329,
+      "title": "test(locks): convert pronoun resolution test to offline (Phase 2 PR G)",
       "user": "peterdsimonson",
-      "created_at": "2025-11-29T20:46:37Z",
-      "closed_at": "2025-11-30T02:26:08Z",
-      "lead_time_hours": 5.658611111111111
+      "created_at": "2025-12-01T02:22:45Z",
+      "closed_at": "2025-12-01T02:28:32Z",
+      "lead_time_hours": 0.09638888888888889
     },
     {
-      "number": 316,
-      "title": "fix(test): increase timeout for lowercase entity pronoun test",
+      "number": 328,
+      "title": "test(locks): convert adaptive Top-K test to offline (Phase 2 PR F)",
       "user": "peterdsimonson",
-      "created_at": "2025-11-29T10:41:53Z",
-      "closed_at": "2025-11-29T10:46:49Z",
+      "created_at": "2025-12-01T01:50:30Z",
+      "closed_at": "2025-12-01T01:55:26Z",
       "lead_time_hours": 0.08222222222222222
+    },
+    {
+      "number": 327,
+      "title": "test(locks): convert reranker test to offline (Phase 2 PR E)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T00:50:04Z",
+      "closed_at": "2025-12-01T00:54:15Z",
+      "lead_time_hours": 0.06972222222222223
+    },
+    {
+      "number": 326,
+      "title": "test(locks): convert LLM timeout test to offline (Phase 2 PR D)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-30T23:39:20Z",
+      "closed_at": "2025-11-30T23:44:52Z",
+      "lead_time_hours": 0.09222222222222222
+    },
+    {
+      "number": 325,
+      "title": "test(locks): convert telemetry schema test to offline (Phase 2 PR C)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-30T23:13:19Z",
+      "closed_at": "2025-11-30T23:17:10Z",
+      "lead_time_hours": 0.06416666666666666
+    },
+    {
+      "number": 324,
+      "title": "fix(test): add missing classifyIntentForTest function (PR #323 fix)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-30T20:49:55Z",
+      "closed_at": "2025-11-30T20:55:13Z",
+      "lead_time_hours": 0.08833333333333333
+    },
+    {
+      "number": 323,
+      "title": "feat(ltdd): convert lock_rag_intent_evaluate to offline + live split (Phase 2 PR B)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-30T20:19:05Z",
+      "closed_at": "2025-11-30T20:23:21Z",
+      "lead_time_hours": 0.07111111111111111
+    },
+    {
+      "number": 322,
+      "title": "feat(rag): add llmClient.ts with test injection support (Phase 2 PR A)",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-30T19:35:27Z",
+      "closed_at": "2025-11-30T19:40:27Z",
+      "lead_time_hours": 0.08333333333333333
+    },
+    {
+      "number": 321,
+      "title": "fix: gate lock_ingest_semantic_chunking test behind Pinecone write flag",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-30T18:22:46Z",
+      "closed_at": "2025-11-30T18:27:53Z",
+      "lead_time_hours": 0.08527777777777777
+    },
+    {
+      "number": 320,
+      "title": "Phase 1 LTDD test split – gating + CI flags",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-30T15:29:22Z",
+      "closed_at": "2025-11-30T15:39:48Z",
+      "lead_time_hours": 0.1738888888888889
+    },
+    {
+      "number": 318,
+      "title": "fix(rag): prevent pronoun resolver from extracting question structure phrases",
+      "user": "peterdsimonson",
+      "created_at": "2025-11-30T02:24:18Z",
+      "closed_at": "2025-11-30T12:24:11Z",
+      "lead_time_hours": 9.998055555555556
     }
   ]
 }
