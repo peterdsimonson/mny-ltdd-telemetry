@@ -1,20 +1,20 @@
 {
   "total_waivers": 2,
   "expired": 0,
-  "expiring_soon": 0,
+  "expiring_soon": 2,
   "by_capability": [
     {
       "capability": "research_mode",
       "reason": "Research mode endpoint (/research/private/start) not implemented yet - returns 404",
       "expires": "2025-12-31T23:59:59Z",
-      "days_remaining": 30,
+      "days_remaining": 29,
       "approved_by": "pdsimonson"
     },
     {
       "capability": "hybrid_mode",
       "reason": "Hybrid mode endpoint (/research/hybrid/start) not implemented yet - returns 404",
       "expires": "2025-12-31T23:59:59Z",
-      "days_remaining": 30,
+      "days_remaining": 29,
       "approved_by": "pdsimonson"
     }
   ]

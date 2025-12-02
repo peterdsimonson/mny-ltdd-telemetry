@@ -1,93 +1,149 @@
 {
-  "total_merged": 11,
+  "total_merged": 18,
   "items": [
     {
-      "number": 329,
-      "title": "test(locks): convert pronoun resolution test to offline (Phase 2 PR G)",
+      "number": 348,
+      "title": "feat(rag): Evidence Chain (Safe CoT) with reasoning steps",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T02:22:45Z",
-      "closed_at": "2025-12-01T02:28:32Z",
-      "lead_time_hours": 0.09638888888888889
+      "created_at": "2025-12-02T02:58:24Z",
+      "closed_at": "2025-12-02T03:04:38Z",
+      "lead_time_hours": 0.10388888888888889
     },
     {
-      "number": 328,
-      "title": "test(locks): convert adaptive Top-K test to offline (Phase 2 PR F)",
+      "number": 347,
+      "title": "feat(rag): Refinement Loop v1 with evidence alignment",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T01:50:30Z",
-      "closed_at": "2025-12-01T01:55:26Z",
-      "lead_time_hours": 0.08222222222222222
+      "created_at": "2025-12-02T02:09:47Z",
+      "closed_at": "2025-12-02T02:14:15Z",
+      "lead_time_hours": 0.07444444444444444
     },
     {
-      "number": 327,
-      "title": "test(locks): convert reranker test to offline (Phase 2 PR E)",
+      "number": 346,
+      "title": "feat(rag): Evaluation Template v2 with structured output",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T00:50:04Z",
-      "closed_at": "2025-12-01T00:54:15Z",
-      "lead_time_hours": 0.06972222222222223
-    },
-    {
-      "number": 326,
-      "title": "test(locks): convert LLM timeout test to offline (Phase 2 PR D)",
-      "user": "peterdsimonson",
-      "created_at": "2025-11-30T23:39:20Z",
-      "closed_at": "2025-11-30T23:44:52Z",
+      "created_at": "2025-12-02T01:15:48Z",
+      "closed_at": "2025-12-02T01:21:20Z",
       "lead_time_hours": 0.09222222222222222
     },
     {
-      "number": 325,
-      "title": "test(locks): convert telemetry schema test to offline (Phase 2 PR C)",
+      "number": 345,
+      "title": "fix(chunking): adjust lock tests to match actual chunking behavior",
       "user": "peterdsimonson",
-      "created_at": "2025-11-30T23:13:19Z",
-      "closed_at": "2025-11-30T23:17:10Z",
-      "lead_time_hours": 0.06416666666666666
+      "created_at": "2025-12-02T00:31:29Z",
+      "closed_at": "2025-12-02T00:37:43Z",
+      "lead_time_hours": 0.10388888888888889
     },
     {
-      "number": 324,
-      "title": "fix(test): add missing classifyIntentForTest function (PR #323 fix)",
+      "number": 344,
+      "title": "feat(chunking): Shingled Chunking v2 with sentence-level overlap",
       "user": "peterdsimonson",
-      "created_at": "2025-11-30T20:49:55Z",
-      "closed_at": "2025-11-30T20:55:13Z",
-      "lead_time_hours": 0.08833333333333333
+      "created_at": "2025-12-01T21:26:21Z",
+      "closed_at": "2025-12-01T23:08:51Z",
+      "lead_time_hours": 1.7083333333333333
     },
     {
-      "number": 323,
-      "title": "feat(ltdd): convert lock_rag_intent_evaluate to offline + live split (Phase 2 PR B)",
+      "number": 343,
+      "title": "fix(tests): adjust Adaptive Top-K v2 test expectations",
       "user": "peterdsimonson",
-      "created_at": "2025-11-30T20:19:05Z",
-      "closed_at": "2025-11-30T20:23:21Z",
-      "lead_time_hours": 0.07111111111111111
+      "created_at": "2025-12-01T20:50:50Z",
+      "closed_at": "2025-12-01T20:55:23Z",
+      "lead_time_hours": 0.07583333333333334
     },
     {
-      "number": 322,
-      "title": "feat(rag): add llmClient.ts with test injection support (Phase 2 PR A)",
+      "number": 342,
+      "title": "feat(rag): Adaptive Top-K v2 with intent-specific ranges",
       "user": "peterdsimonson",
-      "created_at": "2025-11-30T19:35:27Z",
-      "closed_at": "2025-11-30T19:40:27Z",
-      "lead_time_hours": 0.08333333333333333
+      "created_at": "2025-12-01T20:17:38Z",
+      "closed_at": "2025-12-01T20:22:53Z",
+      "lead_time_hours": 0.0875
     },
     {
-      "number": 321,
-      "title": "fix: gate lock_ingest_semantic_chunking test behind Pinecone write flag",
+      "number": 341,
+      "title": "fix(tests): resolve duplicate test title blocking deployment",
       "user": "peterdsimonson",
-      "created_at": "2025-11-30T18:22:46Z",
-      "closed_at": "2025-11-30T18:27:53Z",
-      "lead_time_hours": 0.08527777777777777
+      "created_at": "2025-12-01T19:18:29Z",
+      "closed_at": "2025-12-01T19:26:30Z",
+      "lead_time_hours": 0.13361111111111112
     },
     {
-      "number": 320,
-      "title": "Phase 1 LTDD test split – gating + CI flags",
+      "number": 340,
+      "title": "feat(rag): complete Diversity v3 implementation with fallback mode",
       "user": "peterdsimonson",
-      "created_at": "2025-11-30T15:29:22Z",
-      "closed_at": "2025-11-30T15:39:48Z",
-      "lead_time_hours": 0.1738888888888889
+      "created_at": "2025-12-01T18:49:17Z",
+      "closed_at": "2025-12-01T18:54:58Z",
+      "lead_time_hours": 0.09472222222222222
     },
     {
-      "number": 318,
-      "title": "fix(rag): prevent pronoun resolver from extracting question structure phrases",
+      "number": 339,
+      "title": "feat(rag): implement Hybrid Retrieval v2 with weighted blending and deduping",
       "user": "peterdsimonson",
-      "created_at": "2025-11-30T02:24:18Z",
-      "closed_at": "2025-11-30T12:24:11Z",
-      "lead_time_hours": 9.998055555555556
+      "created_at": "2025-12-01T17:39:18Z",
+      "closed_at": "2025-12-01T17:46:26Z",
+      "lead_time_hours": 0.11888888888888889
+    },
+    {
+      "number": 338,
+      "title": "test(locks): convert lock_rag_fast to offline tests (Phase 2 PR L)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T14:26:07Z",
+      "closed_at": "2025-12-01T14:30:29Z",
+      "lead_time_hours": 0.07277777777777777
+    },
+    {
+      "number": 337,
+      "title": "test(locks): convert lock_rag_basic to offline tests (Phase 2 PR K)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T13:56:39Z",
+      "closed_at": "2025-12-01T14:01:00Z",
+      "lead_time_hours": 0.0725
+    },
+    {
+      "number": 336,
+      "title": "fix(tests): allow undefined pronounResolutionMode in feature flags validation",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T12:50:40Z",
+      "closed_at": "2025-12-01T12:55:20Z",
+      "lead_time_hours": 0.07777777777777778
+    },
+    {
+      "number": 335,
+      "title": "test(locks): convert feature flags test to offline (Phase 2 PR J)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T12:27:38Z",
+      "closed_at": "2025-12-01T12:34:44Z",
+      "lead_time_hours": 0.11833333333333333
+    },
+    {
+      "number": 334,
+      "title": "feat(workflow): add Cloud Run revision auto-cleanup",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T12:01:10Z",
+      "closed_at": "2025-12-01T12:09:14Z",
+      "lead_time_hours": 0.13444444444444445
+    },
+    {
+      "number": 333,
+      "title": "test(locks): convert hybrid retrieval test to offline (Phase 2 PR I)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T11:20:20Z",
+      "closed_at": "2025-12-01T11:57:43Z",
+      "lead_time_hours": 0.6230555555555556
+    },
+    {
+      "number": 332,
+      "title": "fix(deploy): add Cloud Run resource settings to workflow (Golden Path)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T10:58:31Z",
+      "closed_at": "2025-12-01T11:43:36Z",
+      "lead_time_hours": 0.7513888888888889
+    },
+    {
+      "number": 331,
+      "title": "test(locks): convert diversity v2 test to offline (Phase 2 PR H)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-01T10:31:29Z",
+      "closed_at": "2025-12-01T10:36:40Z",
+      "lead_time_hours": 0.08638888888888889
     }
   ]
 }
