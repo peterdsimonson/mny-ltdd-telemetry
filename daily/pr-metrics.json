@@ -1,149 +1,109 @@
 {
-  "total_merged": 18,
+  "total_merged": 13,
   "items": [
     {
-      "number": 348,
-      "title": "feat(rag): Evidence Chain (Safe CoT) with reasoning steps",
+      "number": 362,
+      "title": "fix(rag): make ambiguous pronoun detection less aggressive",
       "user": "peterdsimonson",
-      "created_at": "2025-12-02T02:58:24Z",
-      "closed_at": "2025-12-02T03:04:38Z",
-      "lead_time_hours": 0.10388888888888889
-    },
-    {
-      "number": 347,
-      "title": "feat(rag): Refinement Loop v1 with evidence alignment",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-02T02:09:47Z",
-      "closed_at": "2025-12-02T02:14:15Z",
-      "lead_time_hours": 0.07444444444444444
-    },
-    {
-      "number": 346,
-      "title": "feat(rag): Evaluation Template v2 with structured output",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-02T01:15:48Z",
-      "closed_at": "2025-12-02T01:21:20Z",
-      "lead_time_hours": 0.09222222222222222
-    },
-    {
-      "number": 345,
-      "title": "fix(chunking): adjust lock tests to match actual chunking behavior",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-02T00:31:29Z",
-      "closed_at": "2025-12-02T00:37:43Z",
-      "lead_time_hours": 0.10388888888888889
-    },
-    {
-      "number": 344,
-      "title": "feat(chunking): Shingled Chunking v2 with sentence-level overlap",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-01T21:26:21Z",
-      "closed_at": "2025-12-01T23:08:51Z",
-      "lead_time_hours": 1.7083333333333333
-    },
-    {
-      "number": 343,
-      "title": "fix(tests): adjust Adaptive Top-K v2 test expectations",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-01T20:50:50Z",
-      "closed_at": "2025-12-01T20:55:23Z",
+      "created_at": "2025-12-03T03:17:11Z",
+      "closed_at": "2025-12-03T03:21:44Z",
       "lead_time_hours": 0.07583333333333334
     },
     {
-      "number": 342,
-      "title": "feat(rag): Adaptive Top-K v2 with intent-specific ranges",
+      "number": 361,
+      "title": "feat(rag): Enhanced Pronoun Resolution with multi-entity scoring and ambiguous rejection",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T20:17:38Z",
-      "closed_at": "2025-12-01T20:22:53Z",
-      "lead_time_hours": 0.0875
+      "created_at": "2025-12-03T02:52:29Z",
+      "closed_at": "2025-12-03T02:59:09Z",
+      "lead_time_hours": 0.1111111111111111
     },
     {
-      "number": 341,
-      "title": "fix(tests): resolve duplicate test title blocking deployment",
+      "number": 360,
+      "title": "feat(rag): STATUS Answer Template for status-check queries",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T19:18:29Z",
-      "closed_at": "2025-12-01T19:26:30Z",
-      "lead_time_hours": 0.13361111111111112
+      "created_at": "2025-12-03T02:25:10Z",
+      "closed_at": "2025-12-03T02:30:00Z",
+      "lead_time_hours": 0.08055555555555556
     },
     {
-      "number": 340,
-      "title": "feat(rag): complete Diversity v3 implementation with fallback mode",
+      "number": 359,
+      "title": "feat(rag): Claim Verifier for hallucination detection",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T18:49:17Z",
-      "closed_at": "2025-12-01T18:54:58Z",
-      "lead_time_hours": 0.09472222222222222
+      "created_at": "2025-12-02T23:22:50Z",
+      "closed_at": "2025-12-02T23:43:50Z",
+      "lead_time_hours": 0.35
     },
     {
-      "number": 339,
-      "title": "feat(rag): implement Hybrid Retrieval v2 with weighted blending and deduping",
+      "number": 358,
+      "title": "feat(rag): Response Caching Layer for query response caching",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T17:39:18Z",
-      "closed_at": "2025-12-01T17:46:26Z",
-      "lead_time_hours": 0.11888888888888889
+      "created_at": "2025-12-02T21:10:50Z",
+      "closed_at": "2025-12-02T21:16:44Z",
+      "lead_time_hours": 0.09833333333333333
     },
     {
-      "number": 338,
-      "title": "test(locks): convert lock_rag_fast to offline tests (Phase 2 PR L)",
+      "number": 357,
+      "title": "feat(rag): RAG Cost Telemetry for OpenAI API cost tracking",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T14:26:07Z",
-      "closed_at": "2025-12-01T14:30:29Z",
-      "lead_time_hours": 0.07277777777777777
+      "created_at": "2025-12-02T20:32:50Z",
+      "closed_at": "2025-12-02T20:39:16Z",
+      "lead_time_hours": 0.10722222222222222
     },
     {
-      "number": 337,
-      "title": "test(locks): convert lock_rag_basic to offline tests (Phase 2 PR K)",
+      "number": 356,
+      "title": "feat(rag): Failure Taxonomy for RAG pipeline error classification",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T13:56:39Z",
-      "closed_at": "2025-12-01T14:01:00Z",
-      "lead_time_hours": 0.0725
+      "created_at": "2025-12-02T17:02:38Z",
+      "closed_at": "2025-12-02T19:19:48Z",
+      "lead_time_hours": 2.286111111111111
     },
     {
-      "number": 336,
-      "title": "fix(tests): allow undefined pronounResolutionMode in feature flags validation",
+      "number": 355,
+      "title": "feat(rag): RAG Consistency Locks for deterministic behavior",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T12:50:40Z",
-      "closed_at": "2025-12-01T12:55:20Z",
-      "lead_time_hours": 0.07777777777777778
+      "created_at": "2025-12-02T16:11:08Z",
+      "closed_at": "2025-12-02T16:20:07Z",
+      "lead_time_hours": 0.14972222222222223
     },
     {
-      "number": 335,
-      "title": "test(locks): convert feature flags test to offline (Phase 2 PR J)",
+      "number": 354,
+      "title": "feat(rag): Session Chains v1 for query chain tracking",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T12:27:38Z",
-      "closed_at": "2025-12-01T12:34:44Z",
-      "lead_time_hours": 0.11833333333333333
+      "created_at": "2025-12-02T15:24:03Z",
+      "closed_at": "2025-12-02T15:29:38Z",
+      "lead_time_hours": 0.09305555555555556
     },
     {
-      "number": 334,
-      "title": "feat(workflow): add Cloud Run revision auto-cleanup",
+      "number": 353,
+      "title": "feat(rag): Telemetry v3 with enhanced observability",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T12:01:10Z",
-      "closed_at": "2025-12-01T12:09:14Z",
-      "lead_time_hours": 0.13444444444444445
+      "created_at": "2025-12-02T13:41:43Z",
+      "closed_at": "2025-12-02T13:47:26Z",
+      "lead_time_hours": 0.09527777777777778
     },
     {
-      "number": 333,
-      "title": "test(locks): convert hybrid retrieval test to offline (Phase 2 PR I)",
+      "number": 352,
+      "title": "feat(rag): Golden Answer Snapshot Tests for regression detection",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T11:20:20Z",
-      "closed_at": "2025-12-01T11:57:43Z",
-      "lead_time_hours": 0.6230555555555556
+      "created_at": "2025-12-02T13:17:43Z",
+      "closed_at": "2025-12-02T13:23:33Z",
+      "lead_time_hours": 0.09722222222222222
     },
     {
-      "number": 332,
-      "title": "fix(deploy): add Cloud Run resource settings to workflow (Golden Path)",
+      "number": 351,
+      "title": "feat(rag): Behavioral Spec Sheets with spec-first LTDD",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T10:58:31Z",
-      "closed_at": "2025-12-01T11:43:36Z",
-      "lead_time_hours": 0.7513888888888889
+      "created_at": "2025-12-02T04:37:45Z",
+      "closed_at": "2025-12-02T04:42:03Z",
+      "lead_time_hours": 0.07166666666666667
     },
     {
-      "number": 331,
-      "title": "test(locks): convert diversity v2 test to offline (Phase 2 PR H)",
+      "number": 349,
+      "title": "feat(rag): Multi-query Expansion with query decomposition",
       "user": "peterdsimonson",
-      "created_at": "2025-12-01T10:31:29Z",
-      "closed_at": "2025-12-01T10:36:40Z",
-      "lead_time_hours": 0.08638888888888889
+      "created_at": "2025-12-02T04:02:39Z",
+      "closed_at": "2025-12-02T04:06:46Z",
+      "lead_time_hours": 0.06861111111111111
     }
   ]
 }
