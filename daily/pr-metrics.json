@@ -1,109 +1,85 @@
 {
-  "total_merged": 13,
+  "total_merged": 10,
   "items": [
     {
-      "number": 362,
-      "title": "fix(rag): make ambiguous pronoun detection less aggressive",
+      "number": 373,
+      "title": "docs(phase4): add session log for Reranker v2 implementation",
       "user": "peterdsimonson",
-      "created_at": "2025-12-03T03:17:11Z",
-      "closed_at": "2025-12-03T03:21:44Z",
-      "lead_time_hours": 0.07583333333333334
+      "created_at": "2025-12-04T03:12:08Z",
+      "closed_at": "2025-12-04T03:16:20Z",
+      "lead_time_hours": 0.07
     },
     {
-      "number": 361,
-      "title": "feat(rag): Enhanced Pronoun Resolution with multi-entity scoring and ambiguous rejection",
+      "number": 372,
+      "title": "feat(rag): implement Reranker v2 (Reasoning-Aware Ranking)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-03T02:52:29Z",
-      "closed_at": "2025-12-03T02:59:09Z",
-      "lead_time_hours": 0.1111111111111111
+      "created_at": "2025-12-04T02:13:06Z",
+      "closed_at": "2025-12-04T02:18:10Z",
+      "lead_time_hours": 0.08444444444444445
     },
     {
-      "number": 360,
-      "title": "feat(rag): STATUS Answer Template for status-check queries",
+      "number": 371,
+      "title": "feat(rag): add telemetry console logging for diagnostics",
       "user": "peterdsimonson",
-      "created_at": "2025-12-03T02:25:10Z",
-      "closed_at": "2025-12-03T02:30:00Z",
-      "lead_time_hours": 0.08055555555555556
+      "created_at": "2025-12-03T22:14:05Z",
+      "closed_at": "2025-12-03T22:19:12Z",
+      "lead_time_hours": 0.08527777777777777
     },
     {
-      "number": 359,
-      "title": "feat(rag): Claim Verifier for hallucination detection",
+      "number": 370,
+      "title": "docs(phase3): mark Phase 3 as graduated with completion document",
       "user": "peterdsimonson",
-      "created_at": "2025-12-02T23:22:50Z",
-      "closed_at": "2025-12-02T23:43:50Z",
-      "lead_time_hours": 0.35
+      "created_at": "2025-12-03T21:39:37Z",
+      "closed_at": "2025-12-03T21:45:29Z",
+      "lead_time_hours": 0.09777777777777778
     },
     {
-      "number": 358,
-      "title": "feat(rag): Response Caching Layer for query response caching",
+      "number": 369,
+      "title": "fix(test): make health endpoint test actually call production endpoint",
       "user": "peterdsimonson",
-      "created_at": "2025-12-02T21:10:50Z",
-      "closed_at": "2025-12-02T21:16:44Z",
-      "lead_time_hours": 0.09833333333333333
+      "created_at": "2025-12-03T20:43:11Z",
+      "closed_at": "2025-12-03T20:47:53Z",
+      "lead_time_hours": 0.07833333333333334
     },
     {
-      "number": 357,
-      "title": "feat(rag): RAG Cost Telemetry for OpenAI API cost tracking",
+      "number": 368,
+      "title": "feat(rag): integrate performance optimizations into RAG pipeline",
       "user": "peterdsimonson",
-      "created_at": "2025-12-02T20:32:50Z",
-      "closed_at": "2025-12-02T20:39:16Z",
-      "lead_time_hours": 0.10722222222222222
+      "created_at": "2025-12-03T20:14:32Z",
+      "closed_at": "2025-12-03T20:19:27Z",
+      "lead_time_hours": 0.08194444444444444
     },
     {
-      "number": 356,
-      "title": "feat(rag): Failure Taxonomy for RAG pipeline error classification",
+      "number": 367,
+      "title": "feat(health): add ingestion quality metrics to health endpoint",
       "user": "peterdsimonson",
-      "created_at": "2025-12-02T17:02:38Z",
-      "closed_at": "2025-12-02T19:19:48Z",
-      "lead_time_hours": 2.286111111111111
+      "created_at": "2025-12-03T17:55:38Z",
+      "closed_at": "2025-12-03T19:23:15Z",
+      "lead_time_hours": 1.4602777777777778
     },
     {
-      "number": 355,
-      "title": "feat(rag): RAG Consistency Locks for deterministic behavior",
+      "number": 366,
+      "title": "feat(rag): Performance / Cost Optimizations utilities",
       "user": "peterdsimonson",
-      "created_at": "2025-12-02T16:11:08Z",
-      "closed_at": "2025-12-02T16:20:07Z",
-      "lead_time_hours": 0.14972222222222223
+      "created_at": "2025-12-03T15:14:30Z",
+      "closed_at": "2025-12-03T17:36:29Z",
+      "lead_time_hours": 2.366388888888889
     },
     {
-      "number": 354,
-      "title": "feat(rag): Session Chains v1 for query chain tracking",
+      "number": 365,
+      "title": "feat(rag): Ingestion Sanity Pipeline for chunk quality validation",
       "user": "peterdsimonson",
-      "created_at": "2025-12-02T15:24:03Z",
-      "closed_at": "2025-12-02T15:29:38Z",
-      "lead_time_hours": 0.09305555555555556
+      "created_at": "2025-12-03T12:59:36Z",
+      "closed_at": "2025-12-03T13:19:03Z",
+      "lead_time_hours": 0.32416666666666666
     },
     {
-      "number": 353,
-      "title": "feat(rag): Telemetry v3 with enhanced observability",
+      "number": 364,
+      "title": "feat(rag): Retrieval Consistency Checks for pre-answer validation",
       "user": "peterdsimonson",
-      "created_at": "2025-12-02T13:41:43Z",
-      "closed_at": "2025-12-02T13:47:26Z",
-      "lead_time_hours": 0.09527777777777778
-    },
-    {
-      "number": 352,
-      "title": "feat(rag): Golden Answer Snapshot Tests for regression detection",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-02T13:17:43Z",
-      "closed_at": "2025-12-02T13:23:33Z",
-      "lead_time_hours": 0.09722222222222222
-    },
-    {
-      "number": 351,
-      "title": "feat(rag): Behavioral Spec Sheets with spec-first LTDD",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-02T04:37:45Z",
-      "closed_at": "2025-12-02T04:42:03Z",
-      "lead_time_hours": 0.07166666666666667
-    },
-    {
-      "number": 349,
-      "title": "feat(rag): Multi-query Expansion with query decomposition",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-02T04:02:39Z",
-      "closed_at": "2025-12-02T04:06:46Z",
-      "lead_time_hours": 0.06861111111111111
+      "created_at": "2025-12-03T12:31:32Z",
+      "closed_at": "2025-12-03T12:36:44Z",
+      "lead_time_hours": 0.08666666666666667
     }
   ]
 }
