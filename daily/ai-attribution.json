@@ -1,44 +1,15 @@
 {
-  "total_commits": 34,
-  "ai_commits": 9,
-  "human_commits": 25,
-  "ai_percentage": 26,
+  "total_commits": 5,
+  "ai_commits": 2,
+  "human_commits": 3,
+  "ai_percentage": 40,
   "ai_commit_shas": [
-    "6836b65af6375b637d06e14d65e0615ced14fa3f",
-    "beb0bf4428dd61472b773547da2fba55c23a797f",
-    "6aab6587611b87d4a0a917bc13a8a0996492b351",
-    "857f4f9d0dd323d48edf1e0d860f71dea0c84e97",
-    "85e250ba1f906e9a2978da7276aa20dd950bb337",
-    "b41da3124d5faeab5b5b8dca441209177a913b08",
-    "bb8a5f913bbc6a7b4ac1cdf0f322b62dff9c8238",
-    "ab4228da89caf1205bca6b45e6a89c17d5db3564",
-    "489f60920a441a20a95259d9b0cca59f113d584c"
+    "9c12781ee44ac5f18616049d33a7bf136967f7f5",
+    "04ec3cda9df11ddf05b8e85e20fa67f14f2c4529"
   ],
   "human_commit_shas": [
-    "72fa5ca21fec58b27d4e5d4a2717cd022b828a10",
-    "10aa6337db1daf83c893dd7b4dc3b4076b28aa7e",
-    "25af72e91fa9f59bfcc0d555d779f6e43c579969",
-    "b52c0cea85f0c6dc5c69298b5d137b2fe60ca85c",
-    "a73b5aded45d1c6ba59fff7d6bf248870f460113",
-    "04cd0df7111ca1f5cfd4fcc1a6abaa83fac35381",
-    "28783b5d80a7c42c27340860977674149a3f20f0",
-    "e1ef25fd7b708da9e51c2ca830f47cdeae44c07e",
-    "ce7609c714d18fc159ebd0ebdf0c8bbc1044ca38",
-    "d06fbcc004183d950aee373e374b3242498c22b0",
-    "2af5e684494a54ed3bfec2bb022afb7bb95baf8c",
-    "948743ea1e8ee7148f07bfd6c4e01d0187b6e6af",
-    "406d5cbfffd9fd2ded6c2705bf200f73e07ac1ab",
-    "6ba2770028f37114462dd6fd491d3d65c85370ec",
-    "5c17ce706b12dc2460e0da143cd8ff273826c9e2",
-    "4a7cccca2aef4dab5480139147a15191b01ad0de",
-    "95351c03d631cee20108e79a752ff2c927e53c68",
-    "900ff14241adfede5be52a9fcb32cbeba3a84165",
-    "4dc588439bdba1bcf9e6fa521acb858163bc2e59",
-    "fa1f3968ac7ea3d034acf3216938cbace416abff",
-    "3ad774658a549d5f27f50e8e83d71882fec0c822",
-    "55ee3879e6779fa28134c45ea5c0a71d5459c4e5",
-    "497e19fb241587305ea87731dd028522f9312432",
-    "c170f61ad32b887f2e4bd13772ce7551a9753211",
-    "8676e96e8c43710962dbe454aff918ff6363a66d"
+    "60b1974c828214cd517c735768d4a66b2aa9d33b",
+    "6bb4e7e0554b12591e26daef57deb1a939138d3e",
+    "545a37c7650ff57846e1e638c12a97b5f03ea6ef"
   ]
 }

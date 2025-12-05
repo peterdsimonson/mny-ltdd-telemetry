@@ -1,85 +1,13 @@
 {
-  "total_merged": 10,
+  "total_merged": 1,
   "items": [
     {
-      "number": 373,
-      "title": "docs(phase4): add session log for Reranker v2 implementation",
+      "number": 375,
+      "title": "feat(rag): implement Domain-Aware Expansion Engine (PR 4.3)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-04T03:12:08Z",
-      "closed_at": "2025-12-04T03:16:20Z",
-      "lead_time_hours": 0.07
-    },
-    {
-      "number": 372,
-      "title": "feat(rag): implement Reranker v2 (Reasoning-Aware Ranking)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-04T02:13:06Z",
-      "closed_at": "2025-12-04T02:18:10Z",
-      "lead_time_hours": 0.08444444444444445
-    },
-    {
-      "number": 371,
-      "title": "feat(rag): add telemetry console logging for diagnostics",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-03T22:14:05Z",
-      "closed_at": "2025-12-03T22:19:12Z",
-      "lead_time_hours": 0.08527777777777777
-    },
-    {
-      "number": 370,
-      "title": "docs(phase3): mark Phase 3 as graduated with completion document",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-03T21:39:37Z",
-      "closed_at": "2025-12-03T21:45:29Z",
-      "lead_time_hours": 0.09777777777777778
-    },
-    {
-      "number": 369,
-      "title": "fix(test): make health endpoint test actually call production endpoint",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-03T20:43:11Z",
-      "closed_at": "2025-12-03T20:47:53Z",
-      "lead_time_hours": 0.07833333333333334
-    },
-    {
-      "number": 368,
-      "title": "feat(rag): integrate performance optimizations into RAG pipeline",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-03T20:14:32Z",
-      "closed_at": "2025-12-03T20:19:27Z",
-      "lead_time_hours": 0.08194444444444444
-    },
-    {
-      "number": 367,
-      "title": "feat(health): add ingestion quality metrics to health endpoint",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-03T17:55:38Z",
-      "closed_at": "2025-12-03T19:23:15Z",
-      "lead_time_hours": 1.4602777777777778
-    },
-    {
-      "number": 366,
-      "title": "feat(rag): Performance / Cost Optimizations utilities",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-03T15:14:30Z",
-      "closed_at": "2025-12-03T17:36:29Z",
-      "lead_time_hours": 2.366388888888889
-    },
-    {
-      "number": 365,
-      "title": "feat(rag): Ingestion Sanity Pipeline for chunk quality validation",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-03T12:59:36Z",
-      "closed_at": "2025-12-03T13:19:03Z",
-      "lead_time_hours": 0.32416666666666666
-    },
-    {
-      "number": 364,
-      "title": "feat(rag): Retrieval Consistency Checks for pre-answer validation",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-03T12:31:32Z",
-      "closed_at": "2025-12-03T12:36:44Z",
-      "lead_time_hours": 0.08666666666666667
+      "created_at": "2025-12-05T02:01:08Z",
+      "closed_at": "2025-12-05T03:14:06Z",
+      "lead_time_hours": 1.2161111111111111
     }
   ]
 }
