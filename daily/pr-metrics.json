@@ -1,13 +1,77 @@
 {
-  "total_merged": 1,
+  "total_merged": 9,
   "items": [
     {
-      "number": 375,
-      "title": "feat(rag): implement Domain-Aware Expansion Engine (PR 4.3)",
+      "number": 385,
+      "title": "feat(rag): PR 4.7 - Continuous Optimization Loop",
       "user": "peterdsimonson",
-      "created_at": "2025-12-05T02:01:08Z",
-      "closed_at": "2025-12-05T03:14:06Z",
-      "lead_time_hours": 1.2161111111111111
+      "created_at": "2025-12-06T02:42:02Z",
+      "closed_at": "2025-12-06T02:55:09Z",
+      "lead_time_hours": 0.21861111111111112
+    },
+    {
+      "number": 384,
+      "title": "feat(rag): PR 4.6 - Real-Time Session Memory",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-06T02:07:41Z",
+      "closed_at": "2025-12-06T02:14:54Z",
+      "lead_time_hours": 0.12027777777777778
+    },
+    {
+      "number": 383,
+      "title": "feat(rag): hot-path caching optimizations (PR 4.5)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-05T22:19:05Z",
+      "closed_at": "2025-12-06T01:34:01Z",
+      "lead_time_hours": 3.2488888888888887
+    },
+    {
+      "number": 382,
+      "title": "fix(rag): refine v2 - conservative under-explained detection",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-05T21:22:18Z",
+      "closed_at": "2025-12-05T21:28:20Z",
+      "lead_time_hours": 0.10055555555555555
+    },
+    {
+      "number": 381,
+      "title": "fix(rag): refine v2 - fix missing citation and under-explained detection",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-05T20:51:00Z",
+      "closed_at": "2025-12-05T20:59:09Z",
+      "lead_time_hours": 0.13583333333333333
+    },
+    {
+      "number": 380,
+      "title": "fix(rag): refine v2 detection logic - proper contradiction and citation detection",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-05T20:11:33Z",
+      "closed_at": "2025-12-05T20:16:13Z",
+      "lead_time_hours": 0.07777777777777778
+    },
+    {
+      "number": 379,
+      "title": "fix(rag): refine v2 detection logic to reduce false positives",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-05T19:43:18Z",
+      "closed_at": "2025-12-05T19:50:05Z",
+      "lead_time_hours": 0.11305555555555556
+    },
+    {
+      "number": 378,
+      "title": "feat(rag): add Refinement v2 (Self-Correction Pass)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-05T13:21:28Z",
+      "closed_at": "2025-12-05T19:14:14Z",
+      "lead_time_hours": 5.879444444444444
+    },
+    {
+      "number": 376,
+      "title": "feat(rag): implement Template Enforcement Engine (PR 4.2)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-05T04:13:14Z",
+      "closed_at": "2025-12-05T12:25:14Z",
+      "lead_time_hours": 8.2
     }
   ]
 }
