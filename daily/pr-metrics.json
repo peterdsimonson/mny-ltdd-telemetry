@@ -1,77 +1,29 @@
 {
-  "total_merged": 9,
+  "total_merged": 3,
   "items": [
     {
-      "number": 385,
-      "title": "feat(rag): PR 4.7 - Continuous Optimization Loop",
+      "number": 389,
+      "title": "fix(ci): ensure preflight-backend always reports status check",
       "user": "peterdsimonson",
-      "created_at": "2025-12-06T02:42:02Z",
-      "closed_at": "2025-12-06T02:55:09Z",
-      "lead_time_hours": 0.21861111111111112
+      "created_at": "2025-12-06T21:47:48Z",
+      "closed_at": "2025-12-07T03:38:51Z",
+      "lead_time_hours": 5.850833333333333
     },
     {
-      "number": 384,
-      "title": "feat(rag): PR 4.6 - Real-Time Session Memory",
+      "number": 388,
+      "title": "feat(ui): enhance SplashScreen with watery clear theme and fusion design",
       "user": "peterdsimonson",
-      "created_at": "2025-12-06T02:07:41Z",
-      "closed_at": "2025-12-06T02:14:54Z",
-      "lead_time_hours": 0.12027777777777778
+      "created_at": "2025-12-06T17:32:23Z",
+      "closed_at": "2025-12-06T22:12:33Z",
+      "lead_time_hours": 4.669444444444444
     },
     {
-      "number": 383,
-      "title": "feat(rag): hot-path caching optimizations (PR 4.5)",
+      "number": 386,
+      "title": "fix(test): correct severity expectation for slow reranker test",
       "user": "peterdsimonson",
-      "created_at": "2025-12-05T22:19:05Z",
-      "closed_at": "2025-12-06T01:34:01Z",
-      "lead_time_hours": 3.2488888888888887
-    },
-    {
-      "number": 382,
-      "title": "fix(rag): refine v2 - conservative under-explained detection",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-05T21:22:18Z",
-      "closed_at": "2025-12-05T21:28:20Z",
-      "lead_time_hours": 0.10055555555555555
-    },
-    {
-      "number": 381,
-      "title": "fix(rag): refine v2 - fix missing citation and under-explained detection",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-05T20:51:00Z",
-      "closed_at": "2025-12-05T20:59:09Z",
-      "lead_time_hours": 0.13583333333333333
-    },
-    {
-      "number": 380,
-      "title": "fix(rag): refine v2 detection logic - proper contradiction and citation detection",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-05T20:11:33Z",
-      "closed_at": "2025-12-05T20:16:13Z",
-      "lead_time_hours": 0.07777777777777778
-    },
-    {
-      "number": 379,
-      "title": "fix(rag): refine v2 detection logic to reduce false positives",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-05T19:43:18Z",
-      "closed_at": "2025-12-05T19:50:05Z",
-      "lead_time_hours": 0.11305555555555556
-    },
-    {
-      "number": 378,
-      "title": "feat(rag): add Refinement v2 (Self-Correction Pass)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-05T13:21:28Z",
-      "closed_at": "2025-12-05T19:14:14Z",
-      "lead_time_hours": 5.879444444444444
-    },
-    {
-      "number": 376,
-      "title": "feat(rag): implement Template Enforcement Engine (PR 4.2)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-05T04:13:14Z",
-      "closed_at": "2025-12-05T12:25:14Z",
-      "lead_time_hours": 8.2
+      "created_at": "2025-12-06T03:16:57Z",
+      "closed_at": "2025-12-06T04:20:19Z",
+      "lead_time_hours": 1.056111111111111
     }
   ]
 }
