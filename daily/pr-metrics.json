@@ -1,101 +1,197 @@
 {
-  "total_merged": 12,
+  "total_merged": 24,
   "items": [
     {
-      "number": 402,
-      "title": "fix(rag): prevent DIAGNOSE from matching causal chain queries",
+      "number": 428,
+      "title": "fix(rag): soften consistency engine + fix false contradiction detection",
       "user": "peterdsimonson",
-      "created_at": "2025-12-08T03:16:18Z",
-      "closed_at": "2025-12-08T03:21:02Z",
-      "lead_time_hours": 0.07888888888888888
+      "created_at": "2025-12-09T02:51:06Z",
+      "closed_at": "2025-12-09T03:37:12Z",
+      "lead_time_hours": 0.7683333333333333
     },
     {
-      "number": 401,
-      "title": "fix(rag): correct lock test expectations for PR 5.2.1",
+      "number": 426,
+      "title": "feat(governance): PR 6.1 Governance Dashboard Enhancements",
       "user": "peterdsimonson",
-      "created_at": "2025-12-08T02:30:56Z",
-      "closed_at": "2025-12-08T02:51:09Z",
-      "lead_time_hours": 0.33694444444444444
+      "created_at": "2025-12-09T02:15:56Z",
+      "closed_at": "2025-12-09T03:06:14Z",
+      "lead_time_hours": 0.8383333333333334
     },
     {
-      "number": 400,
-      "title": "refactor(rag): PR 5.2.1 - Intent Classification Refactor (Priority-Based Rules)",
+      "number": 425,
+      "title": "fix(rag): fix citation links to open documents correctly",
       "user": "peterdsimonson",
-      "created_at": "2025-12-08T02:01:10Z",
-      "closed_at": "2025-12-08T02:11:56Z",
-      "lead_time_hours": 0.17944444444444443
+      "created_at": "2025-12-09T01:21:51Z",
+      "closed_at": "2025-12-09T01:37:44Z",
+      "lead_time_hours": 0.26472222222222225
     },
     {
-      "number": 399,
-      "title": "fix(rag): correct intent classification order for DIAGNOSE vs EXPLAIN",
+      "number": 424,
+      "title": "feat(rag): PR 5.7 Governance Dashboard (MVP)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-08T01:30:55Z",
-      "closed_at": "2025-12-08T01:37:36Z",
-      "lead_time_hours": 0.11138888888888888
+      "created_at": "2025-12-09T00:48:01Z",
+      "closed_at": "2025-12-09T00:57:48Z",
+      "lead_time_hours": 0.16305555555555556
     },
     {
-      "number": 398,
-      "title": "fix(test): correct PR 5.2 Advanced Intent Engine test failures",
+      "number": 423,
+      "title": "docs(ai): add Phase 5 status update",
       "user": "peterdsimonson",
-      "created_at": "2025-12-08T00:36:15Z",
-      "closed_at": "2025-12-08T00:40:36Z",
-      "lead_time_hours": 0.0725
+      "created_at": "2025-12-09T00:31:07Z",
+      "closed_at": "2025-12-09T00:35:45Z",
+      "lead_time_hours": 0.07722222222222222
     },
     {
-      "number": 397,
-      "title": "feat(rag): implement PR 5.2 Advanced Intent Engine",
+      "number": 422,
+      "title": "fix(ci): quarantine namespace profiles and fix log artifacts",
       "user": "peterdsimonson",
-      "created_at": "2025-12-07T23:13:34Z",
-      "closed_at": "2025-12-08T00:08:33Z",
-      "lead_time_hours": 0.9163888888888889
+      "created_at": "2025-12-08T22:41:26Z",
+      "closed_at": "2025-12-08T22:56:56Z",
+      "lead_time_hours": 0.25833333333333336
     },
     {
-      "number": 396,
-      "title": "fix(test): correct degradation count reset test",
+      "number": 421,
+      "title": "docs(ai): add cascade failure report for ChatGPT",
       "user": "peterdsimonson",
-      "created_at": "2025-12-07T22:48:42Z",
-      "closed_at": "2025-12-07T22:52:49Z",
-      "lead_time_hours": 0.06861111111111111
+      "created_at": "2025-12-08T22:13:11Z",
+      "closed_at": "2025-12-08T22:56:58Z",
+      "lead_time_hours": 0.7297222222222223
     },
     {
-      "number": 395,
-      "title": "feat(rag): implement PR 5.1 Dynamic Optimizer v2",
+      "number": 420,
+      "title": "fix(ci): use pipefail instead of PIPESTATUS for log capture",
       "user": "peterdsimonson",
-      "created_at": "2025-12-07T18:42:43Z",
-      "closed_at": "2025-12-07T19:29:57Z",
-      "lead_time_hours": 0.7872222222222223
+      "created_at": "2025-12-08T21:53:37Z",
+      "closed_at": "2025-12-08T21:59:01Z",
+      "lead_time_hours": 0.09
     },
     {
-      "number": 394,
-      "title": "docs(phase5): add Phase 5 roadmap and spec sheets",
+      "number": 419,
+      "title": "chore(ci): upload lock test logs as artifacts for debugging",
       "user": "peterdsimonson",
-      "created_at": "2025-12-07T18:42:38Z",
-      "closed_at": "2025-12-07T18:46:59Z",
-      "lead_time_hours": 0.0725
+      "created_at": "2025-12-08T21:25:47Z",
+      "closed_at": "2025-12-08T21:32:32Z",
+      "lead_time_hours": 0.1125
     },
     {
-      "number": 393,
-      "title": "docs(phase4): add Phase 4 completion document",
+      "number": 418,
+      "title": "fix(rag): use process.cwd() instead of import.meta.url in build test",
       "user": "peterdsimonson",
-      "created_at": "2025-12-07T14:55:46Z",
-      "closed_at": "2025-12-07T15:15:16Z",
-      "lead_time_hours": 0.325
+      "created_at": "2025-12-08T21:07:21Z",
+      "closed_at": "2025-12-08T21:15:02Z",
+      "lead_time_hours": 0.12805555555555556
     },
     {
-      "number": 392,
-      "title": "refactor(ci): LTDD-style preflight pattern + revert UI colors",
+      "number": 417,
+      "title": "fix(rag): convert namespace profiles build test from Jest to Playwright",
       "user": "peterdsimonson",
-      "created_at": "2025-12-07T04:35:34Z",
-      "closed_at": "2025-12-07T04:48:53Z",
-      "lead_time_hours": 0.22194444444444444
+      "created_at": "2025-12-08T20:43:26Z",
+      "closed_at": "2025-12-08T20:48:47Z",
+      "lead_time_hours": 0.08916666666666667
     },
     {
-      "number": 390,
-      "title": "feat(rag): deprecate /ask endpoint with 410 Gone",
+      "number": 416,
+      "title": "fix(rag): improve Dockerfile namespace profiles check",
       "user": "peterdsimonson",
-      "created_at": "2025-12-07T00:09:33Z",
-      "closed_at": "2025-12-07T04:16:49Z",
-      "lead_time_hours": 4.121111111111111
+      "created_at": "2025-12-08T20:00:23Z",
+      "closed_at": "2025-12-08T20:06:37Z",
+      "lead_time_hours": 0.10388888888888889
+    },
+    {
+      "number": 415,
+      "title": "fix(rag): harden namespace profiles build and add build artifact lock test",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T19:32:07Z",
+      "closed_at": "2025-12-08T19:47:12Z",
+      "lead_time_hours": 0.2513888888888889
+    },
+    {
+      "number": 414,
+      "title": "docs(ai): add deployment failure analysis for PR 413",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T19:20:20Z",
+      "closed_at": "2025-12-08T19:30:13Z",
+      "lead_time_hours": 0.16472222222222221
+    },
+    {
+      "number": 413,
+      "title": "fix(rag): use cross-platform Node.js script for copying namespace profiles",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T18:56:22Z",
+      "closed_at": "2025-12-08T19:00:54Z",
+      "lead_time_hours": 0.07555555555555556
+    },
+    {
+      "number": 412,
+      "title": "fix(rag): fix namespace profiles path resolution and build for PR 411",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T18:31:03Z",
+      "closed_at": "2025-12-08T18:35:22Z",
+      "lead_time_hours": 0.07194444444444445
+    },
+    {
+      "number": 411,
+      "title": "fix(rag): fix ESM imports in namespace profiles for PR 410 deployment",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T17:34:50Z",
+      "closed_at": "2025-12-08T17:54:41Z",
+      "lead_time_hours": 0.3308333333333333
+    },
+    {
+      "number": 410,
+      "title": "feat(rag): PR 5.6 Namespace Profiles (per-domain tuning)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T16:51:09Z",
+      "closed_at": "2025-12-08T17:07:18Z",
+      "lead_time_hours": 0.26916666666666667
+    },
+    {
+      "number": 409,
+      "title": "fix(rag): fix Hot-Path Learning test isolation and eviction tracking",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T16:10:11Z",
+      "closed_at": "2025-12-08T16:15:41Z",
+      "lead_time_hours": 0.09166666666666666
+    },
+    {
+      "number": 408,
+      "title": "feat(rag): PR 5.5 Hot-Path Learning (adaptive caching)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T15:27:26Z",
+      "closed_at": "2025-12-08T15:34:11Z",
+      "lead_time_hours": 0.1125
+    },
+    {
+      "number": 407,
+      "title": "fix(rag): correct repairedCitations filtering in Retrieval Guard",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T12:48:38Z",
+      "closed_at": "2025-12-08T12:55:49Z",
+      "lead_time_hours": 0.11972222222222222
+    },
+    {
+      "number": 406,
+      "title": "feat(rag): PR 5.4 - Retrieval Guard (Citation Existence Validator)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T12:13:11Z",
+      "closed_at": "2025-12-08T12:26:37Z",
+      "lead_time_hours": 0.2238888888888889
+    },
+    {
+      "number": 405,
+      "title": "fix(rag): improve contradiction detection patterns in Consistency Engine",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T04:29:54Z",
+      "closed_at": "2025-12-08T04:35:38Z",
+      "lead_time_hours": 0.09555555555555556
+    },
+    {
+      "number": 403,
+      "title": "feat(rag): PR 5.3 - Consistency Engine (Pre-Return Validator)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-08T03:47:22Z",
+      "closed_at": "2025-12-08T04:00:47Z",
+      "lead_time_hours": 0.22361111111111112
     }
   ]
 }
