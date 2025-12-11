@@ -1,157 +1,101 @@
 {
-  "total_merged": 19,
+  "total_merged": 12,
   "items": [
     {
-      "number": 447,
-      "title": "fix(frontend): replace missing Lib global with DocumentService",
+      "number": 460,
+      "title": "fix(ci): handle branch protection API errors in hardening gate",
       "user": "peterdsimonson",
-      "created_at": "2025-12-10T03:18:34Z",
-      "closed_at": "2025-12-10T03:23:45Z",
-      "lead_time_hours": 0.08638888888888889
+      "created_at": "2025-12-10T22:11:40Z",
+      "closed_at": "2025-12-11T01:23:52Z",
+      "lead_time_hours": 3.203333333333333
     },
     {
-      "number": 446,
-      "title": "fix(frontend): add org slug to /governance/namespaces request",
+      "number": 459,
+      "title": "feat: citations always open in new tab with page deep-linking + lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-12-10T02:30:34Z",
-      "closed_at": "2025-12-10T02:39:45Z",
-      "lead_time_hours": 0.15305555555555556
+      "created_at": "2025-12-10T21:45:51Z",
+      "closed_at": "2025-12-10T21:51:48Z",
+      "lead_time_hours": 0.09916666666666667
     },
     {
-      "number": 445,
-      "title": "fix(home): redirect /cognitories to MNY app",
+      "number": 458,
+      "title": "feat(frontend): open citations in new tab with page navigation",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T23:04:17Z",
-      "closed_at": "2025-12-10T02:56:14Z",
-      "lead_time_hours": 3.8658333333333332
+      "created_at": "2025-12-10T21:00:07Z",
+      "closed_at": "2025-12-10T21:14:04Z",
+      "lead_time_hours": 0.2325
     },
     {
-      "number": 444,
-      "title": "fix(frontend): add error handling and empty state to CognitorySelector",
+      "number": 457,
+      "title": "fix(frontend): don't modify GCS signed URLs with alt=media parameter",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T22:32:49Z",
-      "closed_at": "2025-12-09T22:39:31Z",
-      "lead_time_hours": 0.11166666666666666
+      "created_at": "2025-12-10T20:18:06Z",
+      "closed_at": "2025-12-10T20:34:37Z",
+      "lead_time_hours": 0.2752777777777778
     },
     {
-      "number": 443,
-      "title": "fix(frontend): add authentication to CognitorySelector namespace fetch",
+      "number": 456,
+      "title": "fix(backend): use Date object for GCS signed URL expiration",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T22:03:55Z",
-      "closed_at": "2025-12-09T22:09:56Z",
-      "lead_time_hours": 0.10027777777777777
+      "created_at": "2025-12-10T19:50:29Z",
+      "closed_at": "2025-12-10T19:57:07Z",
+      "lead_time_hours": 0.11055555555555556
     },
     {
-      "number": 442,
-      "title": "docs(verification): add MHOWARD_USA end-to-end verification checklist",
+      "number": 455,
+      "title": "fix(backend): use seconds for signed URL expiration, not milliseconds",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T21:58:27Z",
-      "closed_at": "2025-12-09T22:09:59Z",
-      "lead_time_hours": 0.1922222222222222
+      "created_at": "2025-12-10T19:02:30Z",
+      "closed_at": "2025-12-10T19:07:54Z",
+      "lead_time_hours": 0.09
     },
     {
-      "number": 441,
-      "title": "docs(pr4): add multi-cognitory setup guide and namespace isolation locks",
+      "number": 454,
+      "title": "fix(backend): add detailed error logging for GCS signed URL 403 errors",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T21:11:40Z",
-      "closed_at": "2025-12-09T21:34:43Z",
-      "lead_time_hours": 0.38416666666666666
+      "created_at": "2025-12-10T18:14:16Z",
+      "closed_at": "2025-12-10T18:18:54Z",
+      "lead_time_hours": 0.07722222222222222
     },
     {
-      "number": 440,
-      "title": "docs(investigation): PR 3 - Storage trigger investigation",
+      "number": 453,
+      "title": "fix(frontend): architectural fix - separate PDF viewer from retry logic",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T21:07:44Z",
-      "closed_at": "2025-12-09T21:14:52Z",
-      "lead_time_hours": 0.11888888888888889
+      "created_at": "2025-12-10T17:14:57Z",
+      "closed_at": "2025-12-10T17:21:49Z",
+      "lead_time_hours": 0.11444444444444445
     },
     {
-      "number": 439,
-      "title": "fix(tests): make cognitory selector tests more lenient",
+      "number": 452,
+      "title": "fix(frontend): add early return to prevent infinite retry loop in PDFViewer",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T20:44:36Z",
-      "closed_at": "2025-12-09T20:50:54Z",
-      "lead_time_hours": 0.105
+      "created_at": "2025-12-10T16:22:25Z",
+      "closed_at": "2025-12-10T16:29:24Z",
+      "lead_time_hours": 0.11638888888888889
     },
     {
-      "number": 438,
-      "title": "fix(tests): use FRONTEND_URL in cognitory selector lock tests",
+      "number": 451,
+      "title": "fix(frontend): prevent infinite retry loop in PDF viewer expired URL handling",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T20:05:46Z",
-      "closed_at": "2025-12-09T20:17:29Z",
-      "lead_time_hours": 0.19527777777777777
+      "created_at": "2025-12-10T15:21:30Z",
+      "closed_at": "2025-12-10T15:30:19Z",
+      "lead_time_hours": 0.14694444444444443
     },
     {
-      "number": 437,
-      "title": "feat(frontend): PR 2 - Add Cognitory Selector Screen",
+      "number": 450,
+      "title": "fix(frontend): prevent PDFs from opening in Adobe viewer, keep in our PDF.js viewer",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T19:41:11Z",
-      "closed_at": "2025-12-09T19:46:24Z",
-      "lead_time_hours": 0.08694444444444445
+      "created_at": "2025-12-10T12:47:32Z",
+      "closed_at": "2025-12-10T12:53:07Z",
+      "lead_time_hours": 0.09305555555555556
     },
     {
-      "number": 436,
-      "title": "feat(rag): PR 1 - Add MHOWARD_USA namespace profile",
+      "number": 449,
+      "title": "fix(frontend): improve citation links with PDF page navigation and expired URL handling",
       "user": "peterdsimonson",
-      "created_at": "2025-12-09T19:09:30Z",
-      "closed_at": "2025-12-09T19:19:01Z",
-      "lead_time_hours": 0.15861111111111112
-    },
-    {
-      "number": 435,
-      "title": "feat(rag): PR 6.5 Multi-Cognitory Tenant Routing & UI",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-09T16:31:43Z",
-      "closed_at": "2025-12-09T16:36:07Z",
-      "lead_time_hours": 0.07333333333333333
-    },
-    {
-      "number": 434,
-      "title": "feat(rag): PR 6.4 Namespace 2.0 (Tenant-Aware Profiles)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-09T16:12:46Z",
-      "closed_at": "2025-12-09T16:16:48Z",
-      "lead_time_hours": 0.06722222222222222
-    },
-    {
-      "number": 433,
-      "title": "feat(rag): PR 6.3 Conversational Tone Normalizer (CTN)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-09T15:42:14Z",
-      "closed_at": "2025-12-09T15:47:58Z",
-      "lead_time_hours": 0.09555555555555556
-    },
-    {
-      "number": 432,
-      "title": "fix(ltdd): correct lock test for tsconfig inheritance",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-09T15:04:10Z",
-      "closed_at": "2025-12-09T15:10:08Z",
-      "lead_time_hours": 0.09944444444444445
-    },
-    {
-      "number": 430,
-      "title": "feat(ltdd): add exactOptionalPropertyTypes enforcement checks",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-09T03:42:20Z",
-      "closed_at": "2025-12-09T13:53:28Z",
-      "lead_time_hours": 10.185555555555556
-    },
-    {
-      "number": 429,
-      "title": "docs(phase6): add Phase 6 Master Cursor Plan + fix splash screen glass effect",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-09T03:15:56Z",
-      "closed_at": "2025-12-09T10:17:05Z",
-      "lead_time_hours": 7.019166666666667
-    },
-    {
-      "number": 427,
-      "title": "feat(governance): PR 6.2 Governance Explainability Engine",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-09T02:24:04Z",
-      "closed_at": "2025-12-09T10:45:51Z",
-      "lead_time_hours": 8.363055555555556
+      "created_at": "2025-12-10T12:17:36Z",
+      "closed_at": "2025-12-10T12:24:00Z",
+      "lead_time_hours": 0.10666666666666667
     }
   ]
 }
