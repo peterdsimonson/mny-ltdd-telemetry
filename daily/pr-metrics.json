@@ -1,53 +1,45 @@
 {
-  "total_merged": 6,
+  "total_merged": 5,
   "items": [
     {
-      "number": 469,
-      "title": "fix(tests): convert citation lock to shadow lock (non-blocking)",
+      "number": 474,
+      "title": "fix(ci): thin PR hardening gate",
       "user": "peterdsimonson",
-      "created_at": "2025-12-11T22:51:07Z",
-      "closed_at": "2025-12-11T22:58:19Z",
-      "lead_time_hours": 0.12
+      "created_at": "2025-12-12T11:43:17Z",
+      "closed_at": "2025-12-12T13:13:25Z",
+      "lead_time_hours": 1.5022222222222221
     },
     {
-      "number": 468,
-      "title": "fix(tests): add Firebase auth to citation lock test",
+      "number": 473,
+      "title": "chore(ci): PR Ping",
       "user": "peterdsimonson",
-      "created_at": "2025-12-11T21:34:32Z",
-      "closed_at": "2025-12-11T21:50:01Z",
-      "lead_time_hours": 0.25805555555555554
+      "created_at": "2025-12-12T11:42:09Z",
+      "closed_at": "2025-12-12T13:02:38Z",
+      "lead_time_hours": 1.341388888888889
     },
     {
-      "number": 467,
-      "title": "refactor(tests): remove mocks from citation lock test, add unit tests",
+      "number": 471,
+      "title": "fix(ci): add missing lint_typecheck_test job",
       "user": "peterdsimonson",
-      "created_at": "2025-12-11T20:18:13Z",
-      "closed_at": "2025-12-11T20:22:49Z",
-      "lead_time_hours": 0.07666666666666666
+      "created_at": "2025-12-12T11:04:16Z",
+      "closed_at": "2025-12-12T17:12:54Z",
+      "lead_time_hours": 6.143888888888889
     },
     {
-      "number": 466,
-      "title": "fix(tests): trigger RAG query in citation lock tests",
+      "number": 462,
+      "title": "fix(ci): add missing lint_typecheck_test job",
       "user": "peterdsimonson",
-      "created_at": "2025-12-11T19:34:04Z",
-      "closed_at": "2025-12-11T19:38:38Z",
-      "lead_time_hours": 0.07611111111111112
+      "created_at": "2025-12-11T00:40:44Z",
+      "closed_at": "2025-12-12T16:42:10Z",
+      "lead_time_hours": 40.02388888888889
     },
     {
-      "number": 465,
-      "title": "feat(ltdd): meta-governance hardening + CI wiring locks",
+      "number": 461,
+      "title": "feat(backend): add page number tracking to chunking for citation deep-linking",
       "user": "peterdsimonson",
-      "created_at": "2025-12-11T17:09:02Z",
-      "closed_at": "2025-12-11T19:00:00Z",
-      "lead_time_hours": 1.8494444444444444
-    },
-    {
-      "number": 463,
-      "title": "feat(ltdd): meta-governance hardening + CI wiring locks",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-11T03:17:56Z",
-      "closed_at": "2025-12-11T18:24:59Z",
-      "lead_time_hours": 15.1175
+      "created_at": "2025-12-11T00:23:17Z",
+      "closed_at": "2025-12-12T16:07:17Z",
+      "lead_time_hours": 39.733333333333334
     }
   ]
 }
