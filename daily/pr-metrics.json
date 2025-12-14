@@ -1,45 +1,53 @@
 {
-  "total_merged": 5,
+  "total_merged": 6,
   "items": [
     {
-      "number": 474,
-      "title": "fix(ci): thin PR hardening gate",
+      "number": 481,
+      "title": "fix(hosting): migrate app hosting to cognitory-platform with relative API base",
       "user": "peterdsimonson",
-      "created_at": "2025-12-12T11:43:17Z",
-      "closed_at": "2025-12-12T13:13:25Z",
-      "lead_time_hours": 1.5022222222222221
+      "created_at": "2025-12-14T02:37:18Z",
+      "closed_at": "2025-12-14T03:31:17Z",
+      "lead_time_hours": 0.8997222222222222
     },
     {
-      "number": 473,
-      "title": "chore(ci): PR Ping",
+      "number": 480,
+      "title": "feat(hosting): migrate app hosting to cognitory-platform",
       "user": "peterdsimonson",
-      "created_at": "2025-12-12T11:42:09Z",
-      "closed_at": "2025-12-12T13:02:38Z",
-      "lead_time_hours": 1.341388888888889
+      "created_at": "2025-12-14T02:12:11Z",
+      "closed_at": "2025-12-14T02:18:08Z",
+      "lead_time_hours": 0.09916666666666667
     },
     {
-      "number": 471,
-      "title": "fix(ci): add missing lint_typecheck_test job",
+      "number": 479,
+      "title": "fix(tests): complete namespace parameter fixes for lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-12-12T11:04:16Z",
-      "closed_at": "2025-12-12T17:12:54Z",
-      "lead_time_hours": 6.143888888888889
+      "created_at": "2025-12-13T22:16:59Z",
+      "closed_at": "2025-12-13T22:21:45Z",
+      "lead_time_hours": 0.07944444444444444
     },
     {
-      "number": 462,
-      "title": "fix(ci): add missing lint_typecheck_test job",
+      "number": 478,
+      "title": "fix(tests): update lock tests for namespace isolation requirements",
       "user": "peterdsimonson",
-      "created_at": "2025-12-11T00:40:44Z",
-      "closed_at": "2025-12-12T16:42:10Z",
-      "lead_time_hours": 40.02388888888889
+      "created_at": "2025-12-13T21:56:37Z",
+      "closed_at": "2025-12-13T22:01:43Z",
+      "lead_time_hours": 0.085
     },
     {
-      "number": 461,
-      "title": "feat(backend): add page number tracking to chunking for citation deep-linking",
+      "number": 477,
+      "title": "feat(cognitories): host-based resolver + LTDD isolation locks",
       "user": "peterdsimonson",
-      "created_at": "2025-12-11T00:23:17Z",
-      "closed_at": "2025-12-12T16:07:17Z",
-      "lead_time_hours": 39.733333333333334
+      "created_at": "2025-12-13T20:46:19Z",
+      "closed_at": "2025-12-13T21:36:20Z",
+      "lead_time_hours": 0.8336111111111111
+    },
+    {
+      "number": 476,
+      "title": "feat(ltdd): add required-checks contract file and wire workflow + tests",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-13T14:20:01Z",
+      "closed_at": "2025-12-13T14:26:30Z",
+      "lead_time_hours": 0.10805555555555556
     }
   ]
 }
