@@ -1,53 +1,61 @@
 {
-  "total_merged": 6,
+  "total_merged": 7,
   "items": [
     {
-      "number": 481,
-      "title": "fix(hosting): migrate app hosting to cognitory-platform with relative API base",
+      "number": 489,
+      "title": "fix(frontend): Host-aware frontend config (Step 2)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-14T02:37:18Z",
-      "closed_at": "2025-12-14T03:31:17Z",
-      "lead_time_hours": 0.8997222222222222
+      "created_at": "2025-12-15T03:02:08Z",
+      "closed_at": "2025-12-15T03:12:53Z",
+      "lead_time_hours": 0.17916666666666667
     },
     {
-      "number": 480,
-      "title": "feat(hosting): migrate app hosting to cognitory-platform",
+      "number": 488,
+      "title": "feat(landing): Phase L2 - Landing picker reads from backend registry",
       "user": "peterdsimonson",
-      "created_at": "2025-12-14T02:12:11Z",
-      "closed_at": "2025-12-14T02:18:08Z",
-      "lead_time_hours": 0.09916666666666667
+      "created_at": "2025-12-15T02:19:51Z",
+      "closed_at": "2025-12-15T02:24:30Z",
+      "lead_time_hours": 0.0775
     },
     {
-      "number": 479,
-      "title": "fix(tests): complete namespace parameter fixes for lock tests",
+      "number": 487,
+      "title": "fix(storage): add Cognitory domains to GCS bucket CORS",
       "user": "peterdsimonson",
-      "created_at": "2025-12-13T22:16:59Z",
-      "closed_at": "2025-12-13T22:21:45Z",
-      "lead_time_hours": 0.07944444444444444
+      "created_at": "2025-12-14T20:35:00Z",
+      "closed_at": "2025-12-14T20:41:12Z",
+      "lead_time_hours": 0.10333333333333333
     },
     {
-      "number": 478,
-      "title": "fix(tests): update lock tests for namespace isolation requirements",
+      "number": 486,
+      "title": "fix(firebase): add base-path rewrites for API routes",
       "user": "peterdsimonson",
-      "created_at": "2025-12-13T21:56:37Z",
-      "closed_at": "2025-12-13T22:01:43Z",
-      "lead_time_hours": 0.085
+      "created_at": "2025-12-14T20:04:23Z",
+      "closed_at": "2025-12-14T20:11:51Z",
+      "lead_time_hours": 0.12444444444444444
     },
     {
-      "number": 477,
-      "title": "feat(cognitories): host-based resolver + LTDD isolation locks",
+      "number": 485,
+      "title": "fix(frontend): use relative paths in DocumentService for Firebase rewrites",
       "user": "peterdsimonson",
-      "created_at": "2025-12-13T20:46:19Z",
-      "closed_at": "2025-12-13T21:36:20Z",
-      "lead_time_hours": 0.8336111111111111
+      "created_at": "2025-12-14T19:28:16Z",
+      "closed_at": "2025-12-14T19:35:31Z",
+      "lead_time_hours": 0.12083333333333333
     },
     {
-      "number": 476,
-      "title": "feat(ltdd): add required-checks contract file and wire workflow + tests",
+      "number": 484,
+      "title": "fix(backend): add mny.cognitoryai.com to CORS allowlist",
       "user": "peterdsimonson",
-      "created_at": "2025-12-13T14:20:01Z",
-      "closed_at": "2025-12-13T14:26:30Z",
-      "lead_time_hours": 0.10805555555555556
+      "created_at": "2025-12-14T18:16:58Z",
+      "closed_at": "2025-12-14T18:54:12Z",
+      "lead_time_hours": 0.6205555555555555
+    },
+    {
+      "number": 483,
+      "title": "fix(landing): update MNY links to cognitoryai.com and fix splash creed text",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-14T15:50:16Z",
+      "closed_at": "2025-12-14T16:14:45Z",
+      "lead_time_hours": 0.40805555555555556
     }
   ]
 }
