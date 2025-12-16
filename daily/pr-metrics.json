@@ -1,61 +1,77 @@
 {
-  "total_merged": 7,
+  "total_merged": 9,
   "items": [
     {
-      "number": 489,
-      "title": "fix(frontend): Host-aware frontend config (Step 2)",
+      "number": 499,
+      "title": "chore(cognitories): disable legacy mny",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T03:02:08Z",
-      "closed_at": "2025-12-15T03:12:53Z",
-      "lead_time_hours": 0.17916666666666667
+      "created_at": "2025-12-16T02:56:39Z",
+      "closed_at": "2025-12-16T03:30:43Z",
+      "lead_time_hours": 0.5677777777777778
     },
     {
-      "number": 488,
-      "title": "feat(landing): Phase L2 - Landing picker reads from backend registry",
+      "number": 498,
+      "title": "fix(mny_v2): allow CORS origin",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T02:19:51Z",
-      "closed_at": "2025-12-15T02:24:30Z",
-      "lead_time_hours": 0.0775
+      "created_at": "2025-12-16T02:01:09Z",
+      "closed_at": "2025-12-16T02:09:02Z",
+      "lead_time_hours": 0.1313888888888889
     },
     {
-      "number": 487,
-      "title": "fix(storage): add Cognitory domains to GCS bucket CORS",
+      "number": 497,
+      "title": "fix(auth): stop automatic anonymous sign-in",
       "user": "peterdsimonson",
-      "created_at": "2025-12-14T20:35:00Z",
-      "closed_at": "2025-12-14T20:41:12Z",
-      "lead_time_hours": 0.10333333333333333
+      "created_at": "2025-12-15T22:37:12Z",
+      "closed_at": "2025-12-15T22:58:07Z",
+      "lead_time_hours": 0.3486111111111111
     },
     {
-      "number": 486,
-      "title": "fix(firebase): add base-path rewrites for API routes",
+      "number": 496,
+      "title": "feat(landing): glassy card styling and updated cognitory titles",
       "user": "peterdsimonson",
-      "created_at": "2025-12-14T20:04:23Z",
-      "closed_at": "2025-12-14T20:11:51Z",
-      "lead_time_hours": 0.12444444444444444
+      "created_at": "2025-12-15T21:50:36Z",
+      "closed_at": "2025-12-15T21:56:14Z",
+      "lead_time_hours": 0.09388888888888888
     },
     {
-      "number": 485,
-      "title": "fix(frontend): use relative paths in DocumentService for Firebase rewrites",
+      "number": 495,
+      "title": "feat(cognitories): add mny_v2 registry entry with branding",
       "user": "peterdsimonson",
-      "created_at": "2025-12-14T19:28:16Z",
-      "closed_at": "2025-12-14T19:35:31Z",
-      "lead_time_hours": 0.12083333333333333
+      "created_at": "2025-12-15T20:02:51Z",
+      "closed_at": "2025-12-15T20:20:13Z",
+      "lead_time_hours": 0.28944444444444445
     },
     {
-      "number": 484,
-      "title": "fix(backend): add mny.cognitoryai.com to CORS allowlist",
+      "number": 494,
+      "title": "docs: add instructions for adding mny_v2 to registry",
       "user": "peterdsimonson",
-      "created_at": "2025-12-14T18:16:58Z",
-      "closed_at": "2025-12-14T18:54:12Z",
-      "lead_time_hours": 0.6205555555555555
+      "created_at": "2025-12-15T19:57:50Z",
+      "closed_at": "2025-12-15T20:07:31Z",
+      "lead_time_hours": 0.1613888888888889
     },
     {
-      "number": 483,
-      "title": "fix(landing): update MNY links to cognitoryai.com and fix splash creed text",
+      "number": 493,
+      "title": "feat(registry): MHoward branding in registry (single source of truth)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-14T15:50:16Z",
-      "closed_at": "2025-12-14T16:14:45Z",
-      "lead_time_hours": 0.40805555555555556
+      "created_at": "2025-12-15T19:02:42Z",
+      "closed_at": "2025-12-15T19:08:03Z",
+      "lead_time_hours": 0.08916666666666667
+    },
+    {
+      "number": 492,
+      "title": "feat(registry): update MHoward branding in registry",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-15T17:13:09Z",
+      "closed_at": "2025-12-15T17:18:24Z",
+      "lead_time_hours": 0.0875
+    },
+    {
+      "number": 490,
+      "title": "feat(mhoward): CORS allowlist and per-cognitory branding (Step 3B & 3C)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-15T03:43:31Z",
+      "closed_at": "2025-12-15T16:01:29Z",
+      "lead_time_hours": 12.299444444444445
     }
   ]
 }
