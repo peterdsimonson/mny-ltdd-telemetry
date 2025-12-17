@@ -1,77 +1,101 @@
 {
-  "total_merged": 9,
+  "total_merged": 12,
   "items": [
     {
-      "number": 499,
-      "title": "chore(cognitories): disable legacy mny",
+      "number": 512,
+      "title": "fix: use brandTitle from registry for landing page cards",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T02:56:39Z",
-      "closed_at": "2025-12-16T03:30:43Z",
-      "lead_time_hours": 0.5677777777777778
+      "created_at": "2025-12-17T03:19:28Z",
+      "closed_at": "2025-12-17T03:26:23Z",
+      "lead_time_hours": 0.11527777777777778
     },
     {
-      "number": 498,
-      "title": "fix(mny_v2): allow CORS origin",
+      "number": 511,
+      "title": "feat: enable automatic anonymous auth for first-time/incognito users",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T02:01:09Z",
-      "closed_at": "2025-12-16T02:09:02Z",
-      "lead_time_hours": 0.1313888888888889
+      "created_at": "2025-12-17T02:34:10Z",
+      "closed_at": "2025-12-17T02:38:44Z",
+      "lead_time_hours": 0.07611111111111112
     },
     {
-      "number": 497,
-      "title": "fix(auth): stop automatic anonymous sign-in",
+      "number": 510,
+      "title": "fix: add mcapella-usa and mny-v2 to Firebase/GCS CORS config",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T22:37:12Z",
-      "closed_at": "2025-12-15T22:58:07Z",
-      "lead_time_hours": 0.3486111111111111
+      "created_at": "2025-12-16T22:46:14Z",
+      "closed_at": "2025-12-16T22:51:57Z",
+      "lead_time_hours": 0.09527777777777778
     },
     {
-      "number": 496,
-      "title": "feat(landing): glassy card styling and updated cognitory titles",
+      "number": 509,
+      "title": "feat: add mcapella_usa cognitory (Mitchell College of Business)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T21:50:36Z",
-      "closed_at": "2025-12-15T21:56:14Z",
-      "lead_time_hours": 0.09388888888888888
+      "created_at": "2025-12-16T20:16:57Z",
+      "closed_at": "2025-12-16T20:23:24Z",
+      "lead_time_hours": 0.1075
     },
     {
-      "number": 495,
-      "title": "feat(cognitories): add mny_v2 registry entry with branding",
+      "number": 508,
+      "title": "feat(home): add glass effect to header",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T20:02:51Z",
-      "closed_at": "2025-12-15T20:20:13Z",
-      "lead_time_hours": 0.28944444444444445
+      "created_at": "2025-12-16T19:23:17Z",
+      "closed_at": "2025-12-16T19:27:37Z",
+      "lead_time_hours": 0.07222222222222222
     },
     {
-      "number": 494,
-      "title": "docs: add instructions for adding mny_v2 to registry",
+      "number": 507,
+      "title": "fix(home): fix TypeScript errors in FusionSun component",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T19:57:50Z",
-      "closed_at": "2025-12-15T20:07:31Z",
-      "lead_time_hours": 0.1613888888888889
+      "created_at": "2025-12-16T18:34:22Z",
+      "closed_at": "2025-12-16T18:42:39Z",
+      "lead_time_hours": 0.13805555555555554
     },
     {
-      "number": 493,
-      "title": "feat(registry): MHoward branding in registry (single source of truth)",
+      "number": 506,
+      "title": "feat(home): add fusion sun animation to landing page",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T19:02:42Z",
-      "closed_at": "2025-12-15T19:08:03Z",
-      "lead_time_hours": 0.08916666666666667
+      "created_at": "2025-12-16T18:19:48Z",
+      "closed_at": "2025-12-16T18:24:29Z",
+      "lead_time_hours": 0.07805555555555556
     },
     {
-      "number": 492,
-      "title": "feat(registry): update MHoward branding in registry",
+      "number": 505,
+      "title": "feat(governance): add CI enforcement for LTDD lock-change gate",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T17:13:09Z",
-      "closed_at": "2025-12-15T17:18:24Z",
-      "lead_time_hours": 0.0875
+      "created_at": "2025-12-16T16:49:50Z",
+      "closed_at": "2025-12-16T16:54:47Z",
+      "lead_time_hours": 0.0825
     },
     {
-      "number": 490,
-      "title": "feat(mhoward): CORS allowlist and per-cognitory branding (Step 3B & 3C)",
+      "number": 504,
+      "title": "feat(governance): add LTDD lock-change gate to Cursor behavior",
       "user": "peterdsimonson",
-      "created_at": "2025-12-15T03:43:31Z",
-      "closed_at": "2025-12-15T16:01:29Z",
-      "lead_time_hours": 12.299444444444445
+      "created_at": "2025-12-16T16:03:51Z",
+      "closed_at": "2025-12-16T16:09:51Z",
+      "lead_time_hours": 0.1
+    },
+    {
+      "number": 503,
+      "title": "docs(governance): document CODEOWNERS protection for all lock test locations",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-16T13:08:24Z",
+      "closed_at": "2025-12-16T13:14:50Z",
+      "lead_time_hours": 0.10722222222222222
+    },
+    {
+      "number": 502,
+      "title": "fix(governance): extend CODEOWNERS to cover all lock test locations",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-16T12:37:49Z",
+      "closed_at": "2025-12-16T12:44:04Z",
+      "lead_time_hours": 0.10416666666666667
+    },
+    {
+      "number": 500,
+      "title": "fix(ltdd): update ingest parse quality lock to use enabled mny-v2 host",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-16T04:00:34Z",
+      "closed_at": "2025-12-16T04:09:11Z",
+      "lead_time_hours": 0.1436111111111111
     }
   ]
 }
