@@ -1,101 +1,197 @@
 {
-  "total_merged": 12,
+  "total_merged": 24,
   "items": [
     {
-      "number": 512,
-      "title": "fix: use brandTitle from registry for landing page cards",
+      "number": 539,
+      "title": "feat(rag): PR 7.8 - Explicit Answer Mode Disclosure",
       "user": "peterdsimonson",
-      "created_at": "2025-12-17T03:19:28Z",
-      "closed_at": "2025-12-17T03:26:23Z",
-      "lead_time_hours": 0.11527777777777778
+      "created_at": "2025-12-18T03:05:11Z",
+      "closed_at": "2025-12-18T03:17:20Z",
+      "lead_time_hours": 0.2025
     },
     {
-      "number": 511,
-      "title": "feat: enable automatic anonymous auth for first-time/incognito users",
+      "number": 538,
+      "title": "fix: remove 'library-bound' string from test answer text",
       "user": "peterdsimonson",
-      "created_at": "2025-12-17T02:34:10Z",
-      "closed_at": "2025-12-17T02:38:44Z",
-      "lead_time_hours": 0.07611111111111112
+      "created_at": "2025-12-18T02:27:35Z",
+      "closed_at": "2025-12-18T02:33:54Z",
+      "lead_time_hours": 0.10527777777777778
     },
     {
-      "number": 510,
-      "title": "fix: add mcapella-usa and mny-v2 to Firebase/GCS CORS config",
+      "number": 537,
+      "title": "fix: convert lock_rag_namespace_profiles.spec.ts to static inspection",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T22:46:14Z",
-      "closed_at": "2025-12-16T22:51:57Z",
-      "lead_time_hours": 0.09527777777777778
+      "created_at": "2025-12-18T02:04:27Z",
+      "closed_at": "2025-12-18T02:12:23Z",
+      "lead_time_hours": 0.1322222222222222
     },
     {
-      "number": 509,
-      "title": "feat: add mcapella_usa cognitory (Mitchell College of Business)",
+      "number": 536,
+      "title": "fix: convert lock_rag_namespace_2.0.spec.ts to static inspection",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T20:16:57Z",
-      "closed_at": "2025-12-16T20:23:24Z",
-      "lead_time_hours": 0.1075
+      "created_at": "2025-12-18T01:38:00Z",
+      "closed_at": "2025-12-18T01:45:35Z",
+      "lead_time_hours": 0.12638888888888888
     },
     {
-      "number": 508,
-      "title": "feat(home): add glass effect to header",
+      "number": 534,
+      "title": "fix: add lock_rag_namespace_2.0.spec.ts to allowlist (deployment fix)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T19:23:17Z",
-      "closed_at": "2025-12-16T19:27:37Z",
-      "lead_time_hours": 0.07222222222222222
+      "created_at": "2025-12-18T01:08:55Z",
+      "closed_at": "2025-12-18T01:13:17Z",
+      "lead_time_hours": 0.07277777777777777
     },
     {
-      "number": 507,
-      "title": "fix(home): fix TypeScript errors in FusionSun component",
+      "number": 532,
+      "title": "fix: add AI Context section to PR template",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T18:34:22Z",
-      "closed_at": "2025-12-16T18:42:39Z",
-      "lead_time_hours": 0.13805555555555554
+      "created_at": "2025-12-18T00:16:13Z",
+      "closed_at": "2025-12-18T00:27:40Z",
+      "lead_time_hours": 0.19083333333333333
     },
     {
-      "number": 506,
-      "title": "feat(home): add fusion sun animation to landing page",
+      "number": 531,
+      "title": "feat: add meta synthesis golden answer snapshots (PR 7.7)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T18:19:48Z",
-      "closed_at": "2025-12-16T18:24:29Z",
-      "lead_time_hours": 0.07805555555555556
+      "created_at": "2025-12-18T00:04:50Z",
+      "closed_at": "2025-12-18T00:52:05Z",
+      "lead_time_hours": 0.7875
     },
     {
-      "number": 505,
-      "title": "feat(governance): add CI enforcement for LTDD lock-change gate",
+      "number": 530,
+      "title": "fix: implement ratcheting invariant for backend imports in lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T16:49:50Z",
-      "closed_at": "2025-12-16T16:54:47Z",
-      "lead_time_hours": 0.0825
+      "created_at": "2025-12-17T23:30:44Z",
+      "closed_at": "2025-12-17T23:40:07Z",
+      "lead_time_hours": 0.15638888888888888
     },
     {
-      "number": 504,
-      "title": "feat(governance): add LTDD lock-change gate to Cursor behavior",
+      "number": 529,
+      "title": "fix: make PR 7.6 lock tests static (no imports, no auth calls)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T16:03:51Z",
-      "closed_at": "2025-12-16T16:09:51Z",
-      "lead_time_hours": 0.1
+      "created_at": "2025-12-17T22:50:42Z",
+      "closed_at": "2025-12-17T22:58:00Z",
+      "lead_time_hours": 0.12166666666666667
     },
     {
-      "number": 503,
-      "title": "docs(governance): document CODEOWNERS protection for all lock test locations",
+      "number": 528,
+      "title": "fix(ci): build workspace packages before running lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T13:08:24Z",
-      "closed_at": "2025-12-16T13:14:50Z",
-      "lead_time_hours": 0.10722222222222222
+      "created_at": "2025-12-17T22:09:42Z",
+      "closed_at": "2025-12-17T22:14:59Z",
+      "lead_time_hours": 0.08805555555555555
     },
     {
-      "number": 502,
-      "title": "fix(governance): extend CODEOWNERS to cover all lock test locations",
+      "number": 527,
+      "title": "fix(test): update meta telemetry tests to verify code structure instead of HTTP calls",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T12:37:49Z",
-      "closed_at": "2025-12-16T12:44:04Z",
-      "lead_time_hours": 0.10416666666666667
+      "created_at": "2025-12-17T21:44:11Z",
+      "closed_at": "2025-12-17T21:53:25Z",
+      "lead_time_hours": 0.15388888888888888
     },
     {
-      "number": 500,
-      "title": "fix(ltdd): update ingest parse quality lock to use enabled mny-v2 host",
+      "number": 526,
+      "title": "feat(rag): PR 7.6 Meta Telemetry & Governance Dashboard Hooks",
       "user": "peterdsimonson",
-      "created_at": "2025-12-16T04:00:34Z",
-      "closed_at": "2025-12-16T04:09:11Z",
-      "lead_time_hours": 0.1436111111111111
+      "created_at": "2025-12-17T19:16:31Z",
+      "closed_at": "2025-12-17T19:23:11Z",
+      "lead_time_hours": 0.1111111111111111
+    },
+    {
+      "number": 525,
+      "title": "fix(rag): exclude common words from org pattern",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T18:25:45Z",
+      "closed_at": "2025-12-17T18:34:43Z",
+      "lead_time_hours": 0.14944444444444444
+    },
+    {
+      "number": 524,
+      "title": "fix(rag): smarter entity extraction with structural rules",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T18:08:03Z",
+      "closed_at": "2025-12-17T18:13:02Z",
+      "lead_time_hours": 0.08305555555555555
+    },
+    {
+      "number": 523,
+      "title": "fix(test): update entity test to match conservative extraction",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T17:53:29Z",
+      "closed_at": "2025-12-17T18:00:36Z",
+      "lead_time_hours": 0.11861111111111111
+    },
+    {
+      "number": 522,
+      "title": "fix(rag): improve entity extraction to avoid false positives",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T17:33:34Z",
+      "closed_at": "2025-12-17T17:38:06Z",
+      "lead_time_hours": 0.07555555555555556
+    },
+    {
+      "number": 521,
+      "title": "feat(rag): PR 7.5 - Meta safety & hallucination guard",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T17:02:15Z",
+      "closed_at": "2025-12-17T17:06:59Z",
+      "lead_time_hours": 0.07888888888888888
+    },
+    {
+      "number": 520,
+      "title": "feat(rag): PR 7.4 - Meta gaps & research planner",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T16:10:43Z",
+      "closed_at": "2025-12-17T16:15:26Z",
+      "lead_time_hours": 0.07861111111111112
+    },
+    {
+      "number": 519,
+      "title": "feat(rag): PR 7.3 - Meta Synthesizer (library-bound opinions)",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T15:23:33Z",
+      "closed_at": "2025-12-17T15:28:11Z",
+      "lead_time_hours": 0.07722222222222222
+    },
+    {
+      "number": 518,
+      "title": "feat(rag): PR 7.2 - Meta Templates & Answer Structure",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T12:53:04Z",
+      "closed_at": "2025-12-17T12:57:17Z",
+      "lead_time_hours": 0.07027777777777777
+    },
+    {
+      "number": 517,
+      "title": "feat(rag): PR 7.1 - Meta Intent Classifier & Router",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T12:24:45Z",
+      "closed_at": "2025-12-17T12:29:17Z",
+      "lead_time_hours": 0.07555555555555556
+    },
+    {
+      "number": 516,
+      "title": "fix(specs): add quotes to frontmatter values for spec validation",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T12:02:04Z",
+      "closed_at": "2025-12-17T12:06:33Z",
+      "lead_time_hours": 0.07472222222222222
+    },
+    {
+      "number": 515,
+      "title": "fix(specs): add required frontmatter and sections to meta spec files",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T04:32:11Z",
+      "closed_at": "2025-12-17T04:36:38Z",
+      "lead_time_hours": 0.07416666666666667
+    },
+    {
+      "number": 513,
+      "title": "PR 7.0: Meta-Synthesis Feature Flag & Spec Skeletons",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-17T04:04:00Z",
+      "closed_at": "2025-12-17T04:13:54Z",
+      "lead_time_hours": 0.165
     }
   ]
 }
