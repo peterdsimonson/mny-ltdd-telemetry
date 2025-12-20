@@ -1,125 +1,101 @@
 {
-  "total_merged": 15,
+  "total_merged": 12,
   "items": [
     {
-      "number": 555,
-      "title": "ci(debug): add debug output to MNY app verification",
+      "number": 571,
+      "title": "fix: guardrail ignore self file",
       "user": "peterdsimonson",
-      "created_at": "2025-12-19T03:05:58Z",
-      "closed_at": "2025-12-19T03:16:20Z",
-      "lead_time_hours": 0.17277777777777778
+      "created_at": "2025-12-20T02:59:58Z",
+      "closed_at": "2025-12-20T03:09:30Z",
+      "lead_time_hours": 0.15888888888888889
     },
     {
-      "number": 554,
-      "title": "fix(ci): inject data-commit attribute in MNY build script",
+      "number": 570,
+      "title": "fix: guardrail exclude scripts/legacy",
       "user": "peterdsimonson",
-      "created_at": "2025-12-19T02:30:41Z",
-      "closed_at": "2025-12-19T02:36:01Z",
-      "lead_time_hours": 0.08888888888888889
+      "created_at": "2025-12-20T02:29:28Z",
+      "closed_at": "2025-12-20T02:40:31Z",
+      "lead_time_hours": 0.18416666666666667
     },
     {
-      "number": 553,
-      "title": "feat(ci): PR C - workflow updates for commit injection and validation",
+      "number": 569,
+      "title": "chore: quarantine legacy migration scripts",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T22:23:55Z",
-      "closed_at": "2025-12-19T01:53:29Z",
-      "lead_time_hours": 3.492777777777778
+      "created_at": "2025-12-20T00:17:00Z",
+      "closed_at": "2025-12-20T00:23:55Z",
+      "lead_time_hours": 0.11527777777777778
     },
     {
-      "number": 552,
-      "title": "feat(ci): PR B - Firebase cache headers for index.html",
+      "number": 566,
+      "title": "fix: make guardrail match only URL/origin usage of smallgistics.com",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T22:17:25Z",
-      "closed_at": "2025-12-18T22:48:25Z",
-      "lead_time_hours": 0.5166666666666667
+      "created_at": "2025-12-19T21:52:23Z",
+      "closed_at": "2025-12-19T22:10:22Z",
+      "lead_time_hours": 0.2997222222222222
     },
     {
-      "number": 551,
-      "title": "feat(ci): PR A - commit injection and build marker validation",
+      "number": 565,
+      "title": "fix(ci): replace remaining smallgistics.com references in workflows",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T22:12:01Z",
-      "closed_at": "2025-12-18T22:26:10Z",
-      "lead_time_hours": 0.23583333333333334
+      "created_at": "2025-12-19T19:14:21Z",
+      "closed_at": "2025-12-19T20:55:57Z",
+      "lead_time_hours": 1.6933333333333334
     },
     {
-      "number": 550,
-      "title": "fix(deploy): add data-test marker to landing page HTML",
+      "number": 564,
+      "title": "fix(ci): update test and backend CORS, add smallgistics guardrail",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T21:25:05Z",
-      "closed_at": "2025-12-18T21:35:24Z",
-      "lead_time_hours": 0.17194444444444446
+      "created_at": "2025-12-19T18:54:51Z",
+      "closed_at": "2025-12-19T19:02:55Z",
+      "lead_time_hours": 0.13444444444444445
     },
     {
-      "number": 549,
-      "title": "fix(deploy): use correct pnpm filter names for builds",
+      "number": 563,
+      "title": "fix(ci): replace smallgistics.com with cognitoryai.com domains",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T20:48:43Z",
-      "closed_at": "2025-12-18T21:03:02Z",
-      "lead_time_hours": 0.2386111111111111
+      "created_at": "2025-12-19T18:15:09Z",
+      "closed_at": "2025-12-19T18:19:32Z",
+      "lead_time_hours": 0.07305555555555555
     },
     {
-      "number": 548,
-      "title": "fix(deploy): add OIDC auth to deploy-frontend and fix blockers",
+      "number": 562,
+      "title": "PR 8.X — Canonical Frontend Domain: mny-v2.cognitoryai.com (Ban smallgistics)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T19:51:03Z",
-      "closed_at": "2025-12-18T20:12:24Z",
-      "lead_time_hours": 0.35583333333333333
+      "created_at": "2025-12-19T16:44:14Z",
+      "closed_at": "2025-12-19T16:49:29Z",
+      "lead_time_hours": 0.0875
     },
     {
-      "number": 547,
-      "title": "fix(deploy): use plain docker commands for OIDC compatibility",
+      "number": 560,
+      "title": "debug(ci): verify Firebase deployment target and file contents",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T19:10:06Z",
-      "closed_at": "2025-12-18T19:17:07Z",
-      "lead_time_hours": 0.11694444444444445
+      "created_at": "2025-12-19T13:22:06Z",
+      "closed_at": "2025-12-19T13:29:08Z",
+      "lead_time_hours": 0.11722222222222223
     },
     {
-      "number": 546,
-      "title": "fix(deploy): improve deployment success rate (Phase 1 quick wins)",
+      "number": 559,
+      "title": "fix(ci): comprehensive fix for data-commit deployment issue",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T18:13:52Z",
-      "closed_at": "2025-12-18T19:00:04Z",
-      "lead_time_hours": 0.77
+      "created_at": "2025-12-19T12:41:44Z",
+      "closed_at": "2025-12-19T12:51:57Z",
+      "lead_time_hours": 0.17027777777777778
     },
     {
-      "number": 545,
-      "title": "feat(rag): PR 8.2 session context v1 (transparent, user-editable)",
+      "number": 558,
+      "title": "debug(ci): add detailed logging to data-commit injection",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T17:39:07Z",
-      "closed_at": "2025-12-18T17:55:40Z",
-      "lead_time_hours": 0.2758333333333333
+      "created_at": "2025-12-19T11:56:31Z",
+      "closed_at": "2025-12-19T12:04:00Z",
+      "lead_time_hours": 0.12472222222222222
     },
     {
-      "number": 544,
-      "title": "feat(rag): PR 8.1 clarification engine v1 (max 2 questions)",
+      "number": 556,
+      "title": "fix(ci): improve data-commit injection and verification",
       "user": "peterdsimonson",
-      "created_at": "2025-12-18T17:02:21Z",
-      "closed_at": "2025-12-18T17:06:47Z",
-      "lead_time_hours": 0.07388888888888889
-    },
-    {
-      "number": 543,
-      "title": "fix(locks): update PR 7.8 meta unlabeled test for PR 8.0 banner format",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-18T16:02:58Z",
-      "closed_at": "2025-12-18T16:07:16Z",
-      "lead_time_hours": 0.07166666666666667
-    },
-    {
-      "number": 542,
-      "title": "fix(locks): update PR 7.8 lock test for PR 8.0 banner format changes",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-18T15:38:16Z",
-      "closed_at": "2025-12-18T15:44:46Z",
-      "lead_time_hours": 0.10833333333333334
-    },
-    {
-      "number": 541,
-      "title": "feat(phase8): PR 8.0 - Mode Banner v1 (Lookup vs Reasoning vs Opinion)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-18T12:55:00Z",
-      "closed_at": "2025-12-18T12:58:58Z",
-      "lead_time_hours": 0.0661111111111111
+      "created_at": "2025-12-19T03:44:12Z",
+      "closed_at": "2025-12-19T03:52:45Z",
+      "lead_time_hours": 0.1425
     }
   ]
 }
