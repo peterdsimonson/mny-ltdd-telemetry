@@ -7,14 +7,14 @@
       "capability": "research_mode",
       "reason": "Research mode endpoint (/research/private/start) not implemented yet - returns 404",
       "expires": "2025-12-31T23:59:59Z",
-      "days_remaining": 7,
+      "days_remaining": 6,
       "approved_by": "pdsimonson"
     },
     {
       "capability": "hybrid_mode",
       "reason": "Hybrid mode endpoint (/research/hybrid/start) not implemented yet - returns 404",
       "expires": "2025-12-31T23:59:59Z",
-      "days_remaining": 7,
+      "days_remaining": 6,
       "approved_by": "pdsimonson"
     }
   ]
