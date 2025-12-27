@@ -1,37 +1,85 @@
 {
-  "total_merged": 4,
+  "total_merged": 10,
   "items": [
     {
-      "number": 607,
-      "title": "feat(rag): page-aware PDF chunking with accurate page metadata",
+      "number": 618,
+      "title": "fix(rag): tighten prompt determinism for Phase 8.7 lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-12-25T19:22:53Z",
-      "closed_at": "2025-12-26T01:00:11Z",
-      "lead_time_hours": 5.621666666666667
+      "created_at": "2025-12-27T03:17:22Z",
+      "closed_at": "2025-12-27T03:27:16Z",
+      "lead_time_hours": 0.165
     },
     {
-      "number": 606,
-      "title": "docs(ops): registry truth + GCS CORS + citation navigation",
+      "number": 617,
+      "title": "fix(tests): add x-forwarded-host header helper for Phase 8.7 lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-12-25T18:20:09Z",
-      "closed_at": "2025-12-25T19:14:36Z",
-      "lead_time_hours": 0.9075
+      "created_at": "2025-12-27T02:34:57Z",
+      "closed_at": "2025-12-27T02:45:37Z",
+      "lead_time_hours": 0.17777777777777778
     },
     {
-      "number": 605,
-      "title": "fix(release): exclude citation harness test from production lock tests",
+      "number": 616,
+      "title": "fix(tests): add Firebase authentication to Phase 8.7 lock tests",
       "user": "peterdsimonson",
-      "created_at": "2025-12-25T14:29:14Z",
-      "closed_at": "2025-12-25T14:59:38Z",
-      "lead_time_hours": 0.5066666666666667
+      "created_at": "2025-12-27T01:47:21Z",
+      "closed_at": "2025-12-27T01:54:49Z",
+      "lead_time_hours": 0.12444444444444444
     },
     {
-      "number": 600,
-      "title": "test(lock): add citation navigation page parameter lock test",
+      "number": 615,
+      "title": "feat(rag): phase-8.7 clarification + epistemics hardening",
       "user": "peterdsimonson",
-      "created_at": "2025-12-22T03:21:59Z",
-      "closed_at": "2025-12-25T13:53:30Z",
-      "lead_time_hours": 82.52527777777777
+      "created_at": "2025-12-27T00:59:43Z",
+      "closed_at": "2025-12-27T01:19:21Z",
+      "lead_time_hours": 0.32722222222222225
+    },
+    {
+      "number": 614,
+      "title": "Phase 8.6 — Epistemic Calibration & Coverage-Aware Enumeration",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-26T20:58:39Z",
+      "closed_at": "2025-12-26T21:04:07Z",
+      "lead_time_hours": 0.09111111111111111
+    },
+    {
+      "number": 613,
+      "title": "feat(phase8): answer mode telemetry + governance dashboard",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-26T18:40:15Z",
+      "closed_at": "2025-12-26T18:56:28Z",
+      "lead_time_hours": 0.2702777777777778
+    },
+    {
+      "number": 612,
+      "title": "fix(locks): update PLAN banner assertions for PR 8.3",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-26T13:15:02Z",
+      "closed_at": "2025-12-26T15:26:25Z",
+      "lead_time_hours": 2.189722222222222
+    },
+    {
+      "number": 611,
+      "title": "feat(rag): PR 8.3 PLAN mode implementation",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-26T12:36:07Z",
+      "closed_at": "2025-12-26T12:43:12Z",
+      "lead_time_hours": 0.11805555555555555
+    },
+    {
+      "number": 609,
+      "title": "feat(admin): add reindex endpoint for page-aware chunking",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-26T01:28:46Z",
+      "closed_at": "2025-12-26T04:53:53Z",
+      "lead_time_hours": 3.4186111111111113
+    },
+    {
+      "number": 608,
+      "title": "feat(infra): lock in preview cleanup + guardrail to prevent per-PR services",
+      "user": "peterdsimonson",
+      "created_at": "2025-12-26T01:22:54Z",
+      "closed_at": "2025-12-26T04:29:32Z",
+      "lead_time_hours": 3.1105555555555555
     }
   ]
 }
