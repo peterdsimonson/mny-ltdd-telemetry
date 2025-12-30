@@ -1,125 +1,61 @@
 {
-  "total_merged": 15,
+  "total_merged": 7,
   "items": [
     {
-      "number": 650,
-      "title": "fix: remove obsolete PLAN mode banner text assertions (PR #649 follow-up)",
+      "number": 658,
+      "title": "fix(rag): restore system-meta routing + install routing spine",
       "user": "peterdsimonson",
-      "created_at": "2025-12-29T02:47:53Z",
-      "closed_at": "2025-12-29T03:05:19Z",
-      "lead_time_hours": 0.29055555555555557
+      "created_at": "2025-12-30T02:35:35Z",
+      "closed_at": "2025-12-30T02:49:40Z",
+      "lead_time_hours": 0.23472222222222222
     },
     {
-      "number": 649,
-      "title": "fix: update lock_plan_mode_trigger to match PR #647 banner text",
+      "number": 657,
+      "title": "fix(rag): restore META_SYSTEM_KNOWLEDGE routing priority",
       "user": "peterdsimonson",
-      "created_at": "2025-12-29T02:28:11Z",
-      "closed_at": "2025-12-29T02:34:16Z",
-      "lead_time_hours": 0.10138888888888889
+      "created_at": "2025-12-30T02:07:45Z",
+      "closed_at": "2025-12-30T02:15:39Z",
+      "lead_time_hours": 0.13166666666666665
     },
     {
-      "number": 648,
-      "title": "fix: ensure Footer always displays 'deployed' text (PR #647 deployment fix)",
+      "number": 656,
+      "title": "fix(rag): block unsupported named terms (library-truth gate)",
       "user": "peterdsimonson",
-      "created_at": "2025-12-29T02:03:25Z",
-      "closed_at": "2025-12-29T02:12:36Z",
-      "lead_time_hours": 0.15305555555555556
+      "created_at": "2025-12-30T00:14:37Z",
+      "closed_at": "2025-12-30T00:46:21Z",
+      "lead_time_hours": 0.5288888888888889
     },
     {
-      "number": 647,
-      "title": "feat(rag): library-meta language cleanup + locks",
+      "number": 655,
+      "title": "chore(ci): fix firebase preview auth + remove target:list dependency",
       "user": "peterdsimonson",
-      "created_at": "2025-12-29T01:15:58Z",
-      "closed_at": "2025-12-29T01:32:48Z",
-      "lead_time_hours": 0.28055555555555556
+      "created_at": "2025-12-29T17:13:34Z",
+      "closed_at": "2025-12-29T19:23:19Z",
+      "lead_time_hours": 2.1625
     },
     {
-      "number": 646,
-      "title": "Phase 8.8e — Named-Concept Governance Lock (Library-Meta)",
+      "number": 654,
+      "title": "fix(rag): force library-meta early + normalize inline bullets",
       "user": "peterdsimonson",
-      "created_at": "2025-12-28T23:55:40Z",
-      "closed_at": "2025-12-29T00:43:35Z",
-      "lead_time_hours": 0.7986111111111112
+      "created_at": "2025-12-29T15:30:00Z",
+      "closed_at": "2025-12-29T22:35:57Z",
+      "lead_time_hours": 7.099166666666667
     },
     {
-      "number": 645,
-      "title": "fix(locks): make citation requirement conditional for empty test orgs (PR #644)",
+      "number": 653,
+      "title": "fix(rag): library-meta semantic repair + suppress coverage/clarify for meta intents",
       "user": "peterdsimonson",
-      "created_at": "2025-12-28T23:17:31Z",
-      "closed_at": "2025-12-28T23:28:06Z",
-      "lead_time_hours": 0.1763888888888889
+      "created_at": "2025-12-29T13:12:56Z",
+      "closed_at": "2025-12-29T13:29:13Z",
+      "lead_time_hours": 0.2713888888888889
     },
     {
-      "number": 644,
-      "title": "Phase 8.8d — Group B Library-Meta Governance Locks",
+      "number": 652,
+      "title": "fix(rag): tighten library-meta cleanup + suppress clarifying for library-meta summaries",
       "user": "peterdsimonson",
-      "created_at": "2025-12-28T19:35:40Z",
-      "closed_at": "2025-12-28T20:32:41Z",
-      "lead_time_hours": 0.9502777777777778
-    },
-    {
-      "number": 643,
-      "title": "Phase 8.8c-fix2 — Citation Normalizer for Library-meta Queries",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-28T19:09:48Z",
-      "closed_at": "2025-12-28T19:15:17Z",
-      "lead_time_hours": 0.0913888888888889
-    },
-    {
-      "number": 642,
-      "title": "Phase 8.8c-fix2 — Library-meta Must Preempt Coverage-fail and Courtesy Responder",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-28T18:31:47Z",
-      "closed_at": "2025-12-28T18:42:10Z",
-      "lead_time_hours": 0.17305555555555555
-    },
-    {
-      "number": 641,
-      "title": "Phase 8.8c-fix — Routing Order Hardening",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-28T17:59:35Z",
-      "closed_at": "2025-12-28T18:07:56Z",
-      "lead_time_hours": 0.13916666666666666
-    },
-    {
-      "number": 640,
-      "title": "Phase 8.8c — Library Meta Synthesis Routing (No Clarify Loop)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-28T14:13:51Z",
-      "closed_at": "2025-12-28T16:17:48Z",
-      "lead_time_hours": 2.0658333333333334
-    },
-    {
-      "number": 639,
-      "title": "fix(locks): refine Phase 8.8b lock tests - remove toLowerCase, expand RAG ban",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-28T13:30:09Z",
-      "closed_at": "2025-12-28T13:36:05Z",
-      "lead_time_hours": 0.09888888888888889
-    },
-    {
-      "number": 638,
-      "title": "fix: add x-forwarded-host header for PR #637 lock tests",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-28T12:51:50Z",
-      "closed_at": "2025-12-28T12:58:56Z",
-      "lead_time_hours": 0.11833333333333333
-    },
-    {
-      "number": 637,
-      "title": "fix: Phase 8.8b lock tests authentication (fixes PR #635 deployment)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-28T12:24:54Z",
-      "closed_at": "2025-12-28T12:30:47Z",
-      "lead_time_hours": 0.09805555555555556
-    },
-    {
-      "number": 635,
-      "title": "Phase 8.8b — META_SYSTEM_KNOWLEDGE Governance Locks (Group A)",
-      "user": "peterdsimonson",
-      "created_at": "2025-12-28T03:50:54Z",
-      "closed_at": "2025-12-28T04:03:53Z",
-      "lead_time_hours": 0.21638888888888888
+      "created_at": "2025-12-29T12:42:25Z",
+      "closed_at": "2025-12-29T12:52:07Z",
+      "lead_time_hours": 0.16166666666666665
     }
   ]
 }
