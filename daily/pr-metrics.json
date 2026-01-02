@@ -1,37 +1,117 @@
 {
-  "total_merged": 4,
+  "total_merged": 14,
   "items": [
     {
-      "number": 677,
-      "title": "feat(ltdd): bound retrieval-ready polling + add namespace logs",
+      "number": 695,
+      "title": "fix(ingestion): enforce Firestore-before-Pinecone invariant + fast-fail split-brain detection",
       "user": "peterdsimonson",
-      "created_at": "2025-12-31T22:13:28Z",
-      "closed_at": "2025-12-31T22:19:00Z",
-      "lead_time_hours": 0.09222222222222222
+      "created_at": "2026-01-02T02:22:31Z",
+      "closed_at": "2026-01-02T02:31:01Z",
+      "lead_time_hours": 0.14166666666666666
     },
     {
-      "number": 676,
-      "title": "fix(locks): remove routing-spine beforeAll; K′1 system-meta must not upload",
+      "number": 694,
+      "title": "fix(tests): fix PR #693 three failures - code bug, test PDF, telemetry assertions",
       "user": "peterdsimonson",
-      "created_at": "2025-12-31T17:04:11Z",
-      "closed_at": "2025-12-31T21:22:10Z",
-      "lead_time_hours": 4.299722222222222
+      "created_at": "2026-01-02T00:41:44Z",
+      "closed_at": "2026-01-02T00:47:25Z",
+      "lead_time_hours": 0.09472222222222222
     },
     {
-      "number": 675,
-      "title": "fix(ci): add GCS_BUCKET env var to preview backend deployment",
+      "number": 693,
+      "title": "fix(middleware): lookup org by doc ID first, then slug; accept slug-or-id match",
       "user": "peterdsimonson",
-      "created_at": "2025-12-31T15:33:48Z",
-      "closed_at": "2025-12-31T16:16:12Z",
-      "lead_time_hours": 0.7066666666666667
+      "created_at": "2026-01-01T23:52:45Z",
+      "closed_at": "2026-01-01T23:59:37Z",
+      "lead_time_hours": 0.11444444444444445
     },
     {
-      "number": 674,
-      "title": "fix(ci): make PR governance self-contained (upload+query use preview backend)",
+      "number": 692,
+      "title": "fix(middleware): move LTDD org override to requireOrgBinding for consistency",
       "user": "peterdsimonson",
-      "created_at": "2025-12-31T13:21:15Z",
-      "closed_at": "2025-12-31T14:04:00Z",
-      "lead_time_hours": 0.7125
+      "created_at": "2026-01-01T22:45:17Z",
+      "closed_at": "2026-01-01T22:51:03Z",
+      "lead_time_hours": 0.0961111111111111
+    },
+    {
+      "number": 691,
+      "title": "fix(ci): add LTDD_MODE=true to release candidate backend deployment",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T21:58:11Z",
+      "closed_at": "2026-01-01T22:04:02Z",
+      "lead_time_hours": 0.0975
+    },
+    {
+      "number": 690,
+      "title": "fix(upload): add hard guard to prevent test orgs from resolving to production",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T21:09:27Z",
+      "closed_at": "2026-01-01T21:33:33Z",
+      "lead_time_hours": 0.40166666666666667
+    },
+    {
+      "number": 689,
+      "title": "fix(ci): add guardrail to fail if BACKEND_URL contains candidate---mny-backend",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T20:35:28Z",
+      "closed_at": "2026-01-01T20:43:46Z",
+      "lead_time_hours": 0.13833333333333334
+    },
+    {
+      "number": 688,
+      "title": "feat(diagnostics): add upload response diagnostics (HTTP response instead of Cloud Run logs)",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T20:07:04Z",
+      "closed_at": "2026-01-01T20:12:38Z",
+      "lead_time_hours": 0.09277777777777778
+    },
+    {
+      "number": 687,
+      "title": "feat(diagnostics): add upload.ts trace breadcrumbs",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T19:24:43Z",
+      "closed_at": "2026-01-01T19:33:27Z",
+      "lead_time_hours": 0.14555555555555555
+    },
+    {
+      "number": 686,
+      "title": "feat(diagnostics): add Firestore create diagnostic logging",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T18:30:55Z",
+      "closed_at": "2026-01-01T18:47:21Z",
+      "lead_time_hours": 0.2738888888888889
+    },
+    {
+      "number": 685,
+      "title": "chore(ci): scope PR governance lock tests to routing spine",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T17:25:05Z",
+      "closed_at": "2026-01-01T18:02:38Z",
+      "lead_time_hours": 0.6258333333333334
+    },
+    {
+      "number": 683,
+      "title": "fix(backend): index-status org resolution via x-org-id header",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T15:45:09Z",
+      "closed_at": "2026-01-01T15:54:16Z",
+      "lead_time_hours": 0.15194444444444444
+    },
+    {
+      "number": 682,
+      "title": "fix(ltdd): use index-status for readiness gate instead of citations",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T13:23:47Z",
+      "closed_at": "2026-01-01T13:36:52Z",
+      "lead_time_hours": 0.21805555555555556
+    },
+    {
+      "number": 680,
+      "title": "fix(ltdd): pass namespace via headers; honor explicit namespace in upload + index-status",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-01T05:17:06Z",
+      "closed_at": "2026-01-01T05:25:21Z",
+      "lead_time_hours": 0.1375
     }
   ]
 }
