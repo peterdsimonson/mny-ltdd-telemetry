@@ -1,117 +1,109 @@
 {
-  "total_merged": 14,
+  "total_merged": 13,
   "items": [
     {
-      "number": 695,
-      "title": "fix(ingestion): enforce Firestore-before-Pinecone invariant + fast-fail split-brain detection",
+      "number": 709,
+      "title": "fix(ltdd): stop namespace explosion and enforce fail-closed namespace (PR #709)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-02T02:22:31Z",
-      "closed_at": "2026-01-02T02:31:01Z",
-      "lead_time_hours": 0.14166666666666666
+      "created_at": "2026-01-03T01:22:14Z",
+      "closed_at": "2026-01-03T01:28:57Z",
+      "lead_time_hours": 0.11194444444444444
     },
     {
-      "number": 694,
-      "title": "fix(tests): fix PR #693 three failures - code bug, test PDF, telemetry assertions",
+      "number": 708,
+      "title": "fix(rag): normalize /rag/ask response shape and add test logging (PR #708)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-02T00:41:44Z",
-      "closed_at": "2026-01-02T00:47:25Z",
-      "lead_time_hours": 0.09472222222222222
+      "created_at": "2026-01-02T23:46:37Z",
+      "closed_at": "2026-01-02T23:52:44Z",
+      "lead_time_hours": 0.10194444444444445
     },
     {
-      "number": 693,
-      "title": "fix(middleware): lookup org by doc ID first, then slug; accept slug-or-id match",
+      "number": 707,
+      "title": "fix(test): log full upload diagnostics without filtering",
       "user": "peterdsimonson",
-      "created_at": "2026-01-01T23:52:45Z",
-      "closed_at": "2026-01-01T23:59:37Z",
-      "lead_time_hours": 0.11444444444444445
+      "created_at": "2026-01-02T22:36:25Z",
+      "closed_at": "2026-01-02T22:41:50Z",
+      "lead_time_hours": 0.09027777777777778
     },
     {
-      "number": 692,
-      "title": "fix(middleware): move LTDD org override to requireOrgBinding for consistency",
+      "number": 706,
+      "title": "fix(upload): trigger LTDD visibility check via x-org-id header",
       "user": "peterdsimonson",
-      "created_at": "2026-01-01T22:45:17Z",
-      "closed_at": "2026-01-01T22:51:03Z",
-      "lead_time_hours": 0.0961111111111111
+      "created_at": "2026-01-02T21:57:36Z",
+      "closed_at": "2026-01-02T22:04:02Z",
+      "lead_time_hours": 0.10722222222222222
     },
     {
-      "number": 691,
-      "title": "fix(ci): add LTDD_MODE=true to release candidate backend deployment",
+      "number": 705,
+      "title": "feat(upload): make ingestion deterministic for LTDD with post-upsert visibility check",
       "user": "peterdsimonson",
-      "created_at": "2026-01-01T21:58:11Z",
-      "closed_at": "2026-01-01T22:04:02Z",
-      "lead_time_hours": 0.0975
+      "created_at": "2026-01-02T21:16:45Z",
+      "closed_at": "2026-01-02T21:23:04Z",
+      "lead_time_hours": 0.10527777777777778
     },
     {
-      "number": 690,
-      "title": "fix(upload): add hard guard to prevent test orgs from resolving to production",
+      "number": 704,
+      "title": "feat(rag): add org scoping to Pinecone queries and fix citation docId preservation",
       "user": "peterdsimonson",
-      "created_at": "2026-01-01T21:09:27Z",
-      "closed_at": "2026-01-01T21:33:33Z",
-      "lead_time_hours": 0.40166666666666667
+      "created_at": "2026-01-02T19:14:06Z",
+      "closed_at": "2026-01-02T20:29:03Z",
+      "lead_time_hours": 1.2491666666666668
     },
     {
-      "number": 689,
-      "title": "fix(ci): add guardrail to fail if BACKEND_URL contains candidate---mny-backend",
+      "number": 703,
+      "title": "fix(lock): update org binding consistency test expectations",
       "user": "peterdsimonson",
-      "created_at": "2026-01-01T20:35:28Z",
-      "closed_at": "2026-01-01T20:43:46Z",
-      "lead_time_hours": 0.13833333333333334
-    },
-    {
-      "number": 688,
-      "title": "feat(diagnostics): add upload response diagnostics (HTTP response instead of Cloud Run logs)",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-01T20:07:04Z",
-      "closed_at": "2026-01-01T20:12:38Z",
-      "lead_time_hours": 0.09277777777777778
-    },
-    {
-      "number": 687,
-      "title": "feat(diagnostics): add upload.ts trace breadcrumbs",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-01T19:24:43Z",
-      "closed_at": "2026-01-01T19:33:27Z",
-      "lead_time_hours": 0.14555555555555555
-    },
-    {
-      "number": 686,
-      "title": "feat(diagnostics): add Firestore create diagnostic logging",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-01T18:30:55Z",
-      "closed_at": "2026-01-01T18:47:21Z",
-      "lead_time_hours": 0.2738888888888889
-    },
-    {
-      "number": 685,
-      "title": "chore(ci): scope PR governance lock tests to routing spine",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-01T17:25:05Z",
-      "closed_at": "2026-01-01T18:02:38Z",
-      "lead_time_hours": 0.6258333333333334
-    },
-    {
-      "number": 683,
-      "title": "fix(backend): index-status org resolution via x-org-id header",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-01T15:45:09Z",
-      "closed_at": "2026-01-01T15:54:16Z",
-      "lead_time_hours": 0.15194444444444444
-    },
-    {
-      "number": 682,
-      "title": "fix(ltdd): use index-status for readiness gate instead of citations",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-01T13:23:47Z",
-      "closed_at": "2026-01-01T13:36:52Z",
+      "created_at": "2026-01-02T18:17:07Z",
+      "closed_at": "2026-01-02T18:30:12Z",
       "lead_time_hours": 0.21805555555555556
     },
     {
-      "number": 680,
-      "title": "fix(ltdd): pass namespace via headers; honor explicit namespace in upload + index-status",
+      "number": 702,
+      "title": "feat(upload): improve error diagnostics with phase markers for LTDD",
       "user": "peterdsimonson",
-      "created_at": "2026-01-01T05:17:06Z",
-      "closed_at": "2026-01-01T05:25:21Z",
-      "lead_time_hours": 0.1375
+      "created_at": "2026-01-02T17:21:58Z",
+      "closed_at": "2026-01-02T18:14:57Z",
+      "lead_time_hours": 0.8830555555555556
+    },
+    {
+      "number": 701,
+      "title": "fix(ltdd): remove duplicate citations declaration",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-02T15:50:24Z",
+      "closed_at": "2026-01-02T15:57:59Z",
+      "lead_time_hours": 0.12638888888888888
+    },
+    {
+      "number": 700,
+      "title": "test(ltdd): add diagnostic logging for timeout diagnosis",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-02T15:18:49Z",
+      "closed_at": "2026-01-02T15:30:12Z",
+      "lead_time_hours": 0.1897222222222222
+    },
+    {
+      "number": 699,
+      "title": "test(ltdd): log last index-status response body on timeout",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-02T14:28:05Z",
+      "closed_at": "2026-01-02T14:35:05Z",
+      "lead_time_hours": 0.11666666666666667
+    },
+    {
+      "number": 698,
+      "title": "feat(debug): add route inventory logging and test instrumentation",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-02T13:42:03Z",
+      "closed_at": "2026-01-02T13:51:41Z",
+      "lead_time_hours": 0.16055555555555556
+    },
+    {
+      "number": 696,
+      "title": "fix(rag): unify org resolution in index-status endpoint",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-02T04:09:01Z",
+      "closed_at": "2026-01-02T04:31:54Z",
+      "lead_time_hours": 0.3813888888888889
     }
   ]
 }
