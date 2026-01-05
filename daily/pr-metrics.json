@@ -2,76 +2,76 @@
   "total_merged": 9,
   "items": [
     {
-      "number": 719,
-      "title": "feat(rag): move telemetry into HTTP responses and add global error logging",
+      "number": 729,
+      "title": "fix(ci): do not cancel preview guardrails runs",
       "user": "peterdsimonson",
-      "created_at": "2026-01-04T03:19:37Z",
-      "closed_at": "2026-01-04T03:35:38Z",
-      "lead_time_hours": 0.26694444444444443
+      "created_at": "2026-01-05T02:41:36Z",
+      "closed_at": "2026-01-05T03:14:34Z",
+      "lead_time_hours": 0.5494444444444444
     },
     {
-      "number": 718,
-      "title": "feat(rag): add K'1 error logging and enhanced Pinecone telemetry",
+      "number": 728,
+      "title": "test(locks): add upload failure diagnostics for lock_test_org_cannot_resolve_to_production",
       "user": "peterdsimonson",
-      "created_at": "2026-01-04T02:15:27Z",
-      "closed_at": "2026-01-04T02:44:22Z",
-      "lead_time_hours": 0.48194444444444445
+      "created_at": "2026-01-04T22:32:53Z",
+      "closed_at": "2026-01-04T22:41:58Z",
+      "lead_time_hours": 0.15138888888888888
     },
     {
-      "number": 717,
-      "title": "fix(rag): make ltddDebug null-safe and match counts numeric",
+      "number": 727,
+      "title": "ci(governance): increase timeout to 45 minutes for preview deployment wait",
       "user": "peterdsimonson",
-      "created_at": "2026-01-04T01:42:28Z",
-      "closed_at": "2026-01-04T01:48:58Z",
-      "lead_time_hours": 0.10833333333333334
+      "created_at": "2026-01-04T21:55:50Z",
+      "closed_at": "2026-01-04T22:01:35Z",
+      "lead_time_hours": 0.09583333333333334
     },
     {
-      "number": 716,
-      "title": "feat(ltdd): add debug telemetry to /rag/ask response and K'1 test error printing (PR #716)",
+      "number": 726,
+      "title": "fix(ltdd): automatically include x-namespace header for LTDD requests",
       "user": "peterdsimonson",
-      "created_at": "2026-01-04T01:01:17Z",
-      "closed_at": "2026-01-04T01:11:27Z",
-      "lead_time_hours": 0.16944444444444445
+      "created_at": "2026-01-04T21:30:09Z",
+      "closed_at": "2026-01-04T21:35:45Z",
+      "lead_time_hours": 0.09333333333333334
     },
     {
-      "number": 715,
-      "title": "debug(ltdd): add detection logging for telemetry diagnosis",
+      "number": 725,
+      "title": "ci(governance): add GH_TOKEN env var for preview deployment wait step",
       "user": "peterdsimonson",
-      "created_at": "2026-01-04T00:20:24Z",
-      "closed_at": "2026-01-04T00:26:10Z",
-      "lead_time_hours": 0.0961111111111111
+      "created_at": "2026-01-04T20:11:54Z",
+      "closed_at": "2026-01-04T20:17:23Z",
+      "lead_time_hours": 0.0913888888888889
     },
     {
-      "number": 714,
-      "title": "feat(telemetry): add deep Pinecone query/indexing telemetry for LTDD",
+      "number": 724,
+      "title": "ci(governance): wait for preview deployment before resolving URLs",
       "user": "peterdsimonson",
-      "created_at": "2026-01-03T23:50:11Z",
-      "closed_at": "2026-01-03T23:56:09Z",
-      "lead_time_hours": 0.09944444444444445
+      "created_at": "2026-01-04T19:19:56Z",
+      "closed_at": "2026-01-04T19:32:37Z",
+      "lead_time_hours": 0.21138888888888888
     },
     {
-      "number": 713,
-      "title": "fix(rag): route LTDD requests to PINECONE_HOST_LTDD + fix namespace resolution",
+      "number": 723,
+      "title": "feat(ltdd): add query proof tracking for Pinecone queries",
       "user": "peterdsimonson",
-      "created_at": "2026-01-03T23:18:01Z",
-      "closed_at": "2026-01-03T23:24:14Z",
-      "lead_time_hours": 0.10361111111111111
+      "created_at": "2026-01-04T15:33:02Z",
+      "closed_at": "2026-01-04T15:47:58Z",
+      "lead_time_hours": 0.24888888888888888
     },
     {
-      "number": 712,
-      "title": "fix(rag): route LTDD to Pinecone LTDD host end-to-end",
+      "number": 722,
+      "title": "fix(rag): allow SYSTEM_META queries without namespace requirement",
       "user": "peterdsimonson",
-      "created_at": "2026-01-03T20:13:22Z",
-      "closed_at": "2026-01-03T22:57:12Z",
-      "lead_time_hours": 2.7305555555555556
+      "created_at": "2026-01-04T14:44:40Z",
+      "closed_at": "2026-01-04T14:50:29Z",
+      "lead_time_hours": 0.09694444444444444
     },
     {
-      "number": 711,
-      "title": "chore(contract): pinecone delete host override + fail-closed logging",
+      "number": 721,
+      "title": "fix(rag): correct ltddDebug wiring and add pineconeIndexName telemetry",
       "user": "peterdsimonson",
-      "created_at": "2026-01-03T14:42:28Z",
-      "closed_at": "2026-01-03T14:52:20Z",
-      "lead_time_hours": 0.16444444444444445
+      "created_at": "2026-01-04T14:01:38Z",
+      "closed_at": "2026-01-04T14:07:32Z",
+      "lead_time_hours": 0.09833333333333333
     }
   ]
 }
