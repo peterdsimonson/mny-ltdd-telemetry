@@ -1,93 +1,69 @@
 {
-  "total_merged": 11,
+  "total_merged": 8,
   "items": [
     {
-      "number": 742,
-      "title": "test(rag): add diagnostic logging for K'2/K'4 citation failures",
+      "number": 753,
+      "title": "fix(status): enforce boundary invariant for Status mode uncertainty",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T02:19:22Z",
-      "closed_at": "2026-01-06T02:35:36Z",
-      "lead_time_hours": 0.27055555555555555
+      "created_at": "2026-01-07T02:59:44Z",
+      "closed_at": "2026-01-07T03:17:51Z",
+      "lead_time_hours": 0.30194444444444446
     },
     {
-      "number": 741,
-      "title": "fix(rag): honor namespace on upload and return library-meta citations",
+      "number": 752,
+      "title": "fix(status): enforce epistemic-hedge invariant on \"library does not cover\" path",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T01:38:29Z",
-      "closed_at": "2026-01-06T01:57:42Z",
-      "lead_time_hours": 0.3202777777777778
+      "created_at": "2026-01-06T23:11:01Z",
+      "closed_at": "2026-01-06T23:16:20Z",
+      "lead_time_hours": 0.08861111111111111
     },
     {
-      "number": 739,
-      "title": "fix(rag): include citations in library-meta responses",
+      "number": 751,
+      "title": "fix(rag): enforce template phrases for lock test compliance",
       "user": "peterdsimonson",
-      "created_at": "2026-01-05T22:43:55Z",
-      "closed_at": "2026-01-05T23:01:11Z",
-      "lead_time_hours": 0.2877777777777778
+      "created_at": "2026-01-06T20:28:12Z",
+      "closed_at": "2026-01-06T22:39:29Z",
+      "lead_time_hours": 2.1880555555555556
     },
     {
-      "number": 738,
-      "title": "fix(rag): honor LTDD namespace for lock tests",
+      "number": 749,
+      "title": "chore: post-748 verification and LTDD hygiene",
       "user": "peterdsimonson",
-      "created_at": "2026-01-05T21:58:45Z",
-      "closed_at": "2026-01-05T22:17:47Z",
-      "lead_time_hours": 0.31722222222222224
+      "created_at": "2026-01-06T18:54:22Z",
+      "closed_at": "2026-01-06T19:13:04Z",
+      "lead_time_hours": 0.31166666666666665
     },
     {
-      "number": 737,
-      "title": "fix(rag): compute isLtddLockTest early using resolved orgId",
+      "number": 748,
+      "title": "fix(rag): enforce REASONING_OVER_LIBRARY citation invariant from match source",
       "user": "peterdsimonson",
-      "created_at": "2026-01-05T18:04:26Z",
-      "closed_at": "2026-01-05T18:20:29Z",
-      "lead_time_hours": 0.2675
+      "created_at": "2026-01-06T18:10:06Z",
+      "closed_at": "2026-01-06T18:30:01Z",
+      "lead_time_hours": 0.33194444444444443
     },
     {
-      "number": 736,
-      "title": "fix(ci): set PINECONE_INDEX_NAME for backend deploy",
+      "number": 747,
+      "title": "diag: log K2 library-meta retrieval vs citation invariants",
       "user": "peterdsimonson",
-      "created_at": "2026-01-05T17:22:41Z",
-      "closed_at": "2026-01-05T17:41:44Z",
-      "lead_time_hours": 0.3175
+      "created_at": "2026-01-06T16:09:48Z",
+      "closed_at": "2026-01-06T16:29:27Z",
+      "lead_time_hours": 0.3275
     },
     {
-      "number": 735,
-      "title": "fix(rag): force LTDD lock test marker queries through RAG pipeline",
+      "number": 745,
+      "title": "fix(ci): wait for preview_deploy job instead of entire workflow",
       "user": "peterdsimonson",
-      "created_at": "2026-01-05T16:30:47Z",
-      "closed_at": "2026-01-05T16:51:55Z",
-      "lead_time_hours": 0.3522222222222222
+      "created_at": "2026-01-06T12:33:54Z",
+      "closed_at": "2026-01-06T12:50:22Z",
+      "lead_time_hours": 0.27444444444444444
     },
     {
-      "number": 734,
-      "title": "fix(rag): verify LTDD test uploads using explicit marker queries",
+      "number": 743,
+      "title": "fix(security): harden /index/file and /library endpoints against org parameter injection",
       "user": "peterdsimonson",
-      "created_at": "2026-01-05T15:20:29Z",
-      "closed_at": "2026-01-05T15:55:03Z",
-      "lead_time_hours": 0.5761111111111111
-    },
-    {
-      "number": 733,
-      "title": "fix(ci): break governance preview wait cycle",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-05T14:31:28Z",
-      "closed_at": "2026-01-05T14:38:20Z",
-      "lead_time_hours": 0.11444444444444445
-    },
-    {
-      "number": 732,
-      "title": "fix(ci): enable LTDD harness routes in production builds",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-05T13:40:49Z",
-      "closed_at": "2026-01-05T14:15:54Z",
-      "lead_time_hours": 0.5847222222222223
-    },
-    {
-      "number": 730,
-      "title": "fix(rag): add coverageRequired to telemetry and enhance detection patterns",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-05T03:44:01Z",
-      "closed_at": "2026-01-05T04:18:08Z",
-      "lead_time_hours": 0.5686111111111111
+      "created_at": "2026-01-06T03:43:55Z",
+      "closed_at": "2026-01-06T12:03:13Z",
+      "lead_time_hours": 8.321666666666667
     }
   ]
 }
