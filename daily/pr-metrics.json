@@ -1,69 +1,85 @@
 {
-  "total_merged": 8,
+  "total_merged": 10,
   "items": [
     {
-      "number": 753,
-      "title": "fix(status): enforce boundary invariant for Status mode uncertainty",
+      "number": 765,
+      "title": "fix(ci): add RAG_API_KEY to preview-guardrails workflow",
       "user": "peterdsimonson",
-      "created_at": "2026-01-07T02:59:44Z",
-      "closed_at": "2026-01-07T03:17:51Z",
-      "lead_time_hours": 0.30194444444444446
+      "created_at": "2026-01-08T03:23:57Z",
+      "closed_at": "2026-01-08T03:29:01Z",
+      "lead_time_hours": 0.08444444444444445
     },
     {
-      "number": 752,
-      "title": "fix(status): enforce epistemic-hedge invariant on \"library does not cover\" path",
+      "number": 764,
+      "title": "chore(ci): pass RAG_API_KEY to governance lock tests",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T23:11:01Z",
-      "closed_at": "2026-01-06T23:16:20Z",
-      "lead_time_hours": 0.08861111111111111
+      "created_at": "2026-01-08T03:01:01Z",
+      "closed_at": "2026-01-08T03:06:36Z",
+      "lead_time_hours": 0.09305555555555556
     },
     {
-      "number": 751,
-      "title": "fix(rag): enforce template phrases for lock test compliance",
+      "number": 762,
+      "title": "fix(ltdd): use fixed namespace to prevent Pinecone accumulation",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T20:28:12Z",
-      "closed_at": "2026-01-06T22:39:29Z",
-      "lead_time_hours": 2.1880555555555556
+      "created_at": "2026-01-08T01:49:17Z",
+      "closed_at": "2026-01-08T02:44:03Z",
+      "lead_time_hours": 0.9127777777777778
     },
     {
-      "number": 749,
-      "title": "chore: post-748 verification and LTDD hygiene",
+      "number": 760,
+      "title": "feat(auth): add org membership roles and enforce library access",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T18:54:22Z",
-      "closed_at": "2026-01-06T19:13:04Z",
-      "lead_time_hours": 0.31166666666666665
+      "created_at": "2026-01-07T21:16:14Z",
+      "closed_at": "2026-01-07T21:31:51Z",
+      "lead_time_hours": 0.2602777777777778
     },
     {
-      "number": 748,
-      "title": "fix(rag): enforce REASONING_OVER_LIBRARY citation invariant from match source",
+      "number": 759,
+      "title": "feat(auth): PR-D1 backend authentication binding (Firebase Auth ID token verification)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T18:10:06Z",
-      "closed_at": "2026-01-06T18:30:01Z",
-      "lead_time_hours": 0.33194444444444443
+      "created_at": "2026-01-07T20:25:03Z",
+      "closed_at": "2026-01-07T20:42:50Z",
+      "lead_time_hours": 0.29638888888888887
     },
     {
-      "number": 747,
-      "title": "diag: log K2 library-meta retrieval vs citation invariants",
+      "number": 758,
+      "title": "feat(access): implement owner-only access control for documents (PR-C1)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T16:09:48Z",
-      "closed_at": "2026-01-06T16:29:27Z",
-      "lead_time_hours": 0.3275
+      "created_at": "2026-01-07T19:13:24Z",
+      "closed_at": "2026-01-07T19:54:29Z",
+      "lead_time_hours": 0.6847222222222222
     },
     {
-      "number": 745,
-      "title": "fix(ci): wait for preview_deploy job instead of entire workflow",
+      "number": 757,
+      "title": "feat(ux): implement frontend UX for document visibility + attestation (PR-B2)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T12:33:54Z",
-      "closed_at": "2026-01-06T12:50:22Z",
-      "lead_time_hours": 0.27444444444444444
+      "created_at": "2026-01-07T16:50:02Z",
+      "closed_at": "2026-01-07T17:07:38Z",
+      "lead_time_hours": 0.29333333333333333
     },
     {
-      "number": 743,
-      "title": "fix(security): harden /index/file and /library endpoints against org parameter injection",
+      "number": 756,
+      "title": "feat(security): implement document visibility contract (PR-B1)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-06T03:43:55Z",
-      "closed_at": "2026-01-06T12:03:13Z",
-      "lead_time_hours": 8.321666666666667
+      "created_at": "2026-01-07T16:00:22Z",
+      "closed_at": "2026-01-07T16:17:04Z",
+      "lead_time_hours": 0.2783333333333333
+    },
+    {
+      "number": 755,
+      "title": "fix(security): prevent LTDD test documents from appearing in production UIs",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-07T12:50:44Z",
+      "closed_at": "2026-01-07T13:19:02Z",
+      "lead_time_hours": 0.4716666666666667
+    },
+    {
+      "number": 750,
+      "title": "docs: audit org/namespace resolution across endpoints",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-06T19:52:36Z",
+      "closed_at": "2026-01-07T04:04:25Z",
+      "lead_time_hours": 8.196944444444444
     }
   ]
 }
