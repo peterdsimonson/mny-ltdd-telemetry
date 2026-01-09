@@ -1,85 +1,45 @@
 {
-  "total_merged": 10,
+  "total_merged": 5,
   "items": [
     {
-      "number": 765,
-      "title": "fix(ci): add RAG_API_KEY to preview-guardrails workflow",
+      "number": 771,
+      "title": "feat(backend): add requireOrgMember() middleware for library routes",
       "user": "peterdsimonson",
-      "created_at": "2026-01-08T03:23:57Z",
-      "closed_at": "2026-01-08T03:29:01Z",
-      "lead_time_hours": 0.08444444444444445
+      "created_at": "2026-01-09T00:02:39Z",
+      "closed_at": "2026-01-09T00:18:31Z",
+      "lead_time_hours": 0.2644444444444444
     },
     {
-      "number": 764,
-      "title": "chore(ci): pass RAG_API_KEY to governance lock tests",
+      "number": 770,
+      "title": "fix(ltdd): upload/index must honor x-org-id and x-namespace (not host fallback)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-08T03:01:01Z",
-      "closed_at": "2026-01-08T03:06:36Z",
-      "lead_time_hours": 0.09305555555555556
+      "created_at": "2026-01-08T20:24:14Z",
+      "closed_at": "2026-01-08T22:32:49Z",
+      "lead_time_hours": 2.1430555555555557
     },
     {
-      "number": 762,
-      "title": "fix(ltdd): use fixed namespace to prevent Pinecone accumulation",
+      "number": 768,
+      "title": "fix(ltdd): make rag-test-setup readiness use index-status not citations",
       "user": "peterdsimonson",
-      "created_at": "2026-01-08T01:49:17Z",
-      "closed_at": "2026-01-08T02:44:03Z",
-      "lead_time_hours": 0.9127777777777778
+      "created_at": "2026-01-08T18:00:02Z",
+      "closed_at": "2026-01-08T18:05:50Z",
+      "lead_time_hours": 0.09666666666666666
     },
     {
-      "number": 760,
-      "title": "feat(auth): add org membership roles and enforce library access",
+      "number": 767,
+      "title": "chore(ci): wire RAG_API_KEY for governance-checks in release.yml",
       "user": "peterdsimonson",
-      "created_at": "2026-01-07T21:16:14Z",
-      "closed_at": "2026-01-07T21:31:51Z",
-      "lead_time_hours": 0.2602777777777778
+      "created_at": "2026-01-08T15:46:08Z",
+      "closed_at": "2026-01-08T16:03:01Z",
+      "lead_time_hours": 0.2813888888888889
     },
     {
-      "number": 759,
-      "title": "feat(auth): PR-D1 backend authentication binding (Firebase Auth ID token verification)",
+      "number": 763,
+      "title": "fix(ci): serialize LTDD lock tests across PRs to prevent namespace clobbering",
       "user": "peterdsimonson",
-      "created_at": "2026-01-07T20:25:03Z",
-      "closed_at": "2026-01-07T20:42:50Z",
-      "lead_time_hours": 0.29638888888888887
-    },
-    {
-      "number": 758,
-      "title": "feat(access): implement owner-only access control for documents (PR-C1)",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-07T19:13:24Z",
-      "closed_at": "2026-01-07T19:54:29Z",
-      "lead_time_hours": 0.6847222222222222
-    },
-    {
-      "number": 757,
-      "title": "feat(ux): implement frontend UX for document visibility + attestation (PR-B2)",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-07T16:50:02Z",
-      "closed_at": "2026-01-07T17:07:38Z",
-      "lead_time_hours": 0.29333333333333333
-    },
-    {
-      "number": 756,
-      "title": "feat(security): implement document visibility contract (PR-B1)",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-07T16:00:22Z",
-      "closed_at": "2026-01-07T16:17:04Z",
-      "lead_time_hours": 0.2783333333333333
-    },
-    {
-      "number": 755,
-      "title": "fix(security): prevent LTDD test documents from appearing in production UIs",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-07T12:50:44Z",
-      "closed_at": "2026-01-07T13:19:02Z",
-      "lead_time_hours": 0.4716666666666667
-    },
-    {
-      "number": 750,
-      "title": "docs: audit org/namespace resolution across endpoints",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-06T19:52:36Z",
-      "closed_at": "2026-01-07T04:04:25Z",
-      "lead_time_hours": 8.196944444444444
+      "created_at": "2026-01-08T02:06:59Z",
+      "closed_at": "2026-01-08T17:30:22Z",
+      "lead_time_hours": 15.389722222222222
     }
   ]
 }

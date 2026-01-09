@@ -1,0 +1,1134 @@
+{
+  "config": {
+    "configFile": "/home/runner/work/mny-platform/mny-platform/playwright.config.ts",
+    "rootDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/4de7fa444ae315361ae340ca262ebafdf4f4be70",
+        "commitHash": "4de7fa444ae315361ae340ca262ebafdf4f4be70",
+        "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/20840501990"
+      },
+      "gitCommit": {
+        "shortHash": "4de7fa4",
+        "hash": "4de7fa444ae315361ae340ca262ebafdf4f4be70",
+        "subject": "Merge pull request #771 from peterdsimonson/feat/pr-e1-membership-middleware",
+        "body": "Merge pull request #771 from peterdsimonson/feat/pr-e1-membership-middleware\n\nfeat(backend): add requireOrgMember() middleware for library routes",
+        "author": {
+          "name": "peterdsimonson-ltdd",
+          "email": "psimonson@southalabama.edu",
+          "time": 1767917911000
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "time": 1767917911000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "commitHash": "4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/20840501990"
+          },
+          "gitCommit": {
+            "shortHash": "4de7fa4",
+            "hash": "4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "subject": "Merge pull request #771 from peterdsimonson/feat/pr-e1-membership-middleware",
+            "body": "Merge pull request #771 from peterdsimonson/feat/pr-e1-membership-middleware\n\nfeat(backend): add requireOrgMember() middleware for library routes",
+            "author": {
+              "name": "peterdsimonson-ltdd",
+              "email": "psimonson@southalabama.edu",
+              "time": 1767917911000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1767917911000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "commitHash": "4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/20840501990"
+          },
+          "gitCommit": {
+            "shortHash": "4de7fa4",
+            "hash": "4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "subject": "Merge pull request #771 from peterdsimonson/feat/pr-e1-membership-middleware",
+            "body": "Merge pull request #771 from peterdsimonson/feat/pr-e1-membership-middleware\n\nfeat(backend): add requireOrgMember() middleware for library routes",
+            "author": {
+              "name": "peterdsimonson-ltdd",
+              "email": "psimonson@southalabama.edu",
+              "time": 1767917911000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1767917911000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "commitHash": "4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/20840501990"
+          },
+          "gitCommit": {
+            "shortHash": "4de7fa4",
+            "hash": "4de7fa444ae315361ae340ca262ebafdf4f4be70",
+            "subject": "Merge pull request #771 from peterdsimonson/feat/pr-e1-membership-middleware",
+            "body": "Merge pull request #771 from peterdsimonson/feat/pr-e1-membership-middleware\n\nfeat(backend): add requireOrgMember() middleware for library routes",
+            "author": {
+              "name": "peterdsimonson-ltdd",
+              "email": "psimonson@southalabama.edu",
+              "time": 1767917911000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1767917911000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 1,
+    "webServer": {
+      "command": "cd apps/home && pnpm dev",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "lock_capability_matrix.spec.ts",
+      "file": "lock_capability_matrix.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Capability Matrix (Lock Tests)",
+          "file": "lock_capability_matrix.spec.ts",
+          "line": 26,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Fast Mode contract MUST hold",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 3520,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 3494ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:27.746Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 177,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 132ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-01-09T03:48:31.919Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/mny-platform/mny-platform/test-results/lock_capability_matrix-Cap-f118a-ast-Mode-contract-MUST-hold-chromium-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    },
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 152,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 126ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-01-09T03:48:32.769Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-b6b4f626aaa18137a73a",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "Research Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Research mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 75,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 143,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:33.601Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Research mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 75,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-a748c0579e9faa46b989",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "Hybrid Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Hybrid mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 159,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 59,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:33.782Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Hybrid mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 159,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-3c5e23ee7c8138021f36",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 133,
+              "column": 7
+            },
+            {
+              "title": "Backend health check MUST pass",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 56,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:33.862Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-1158f0b6bc3c99daf197",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "Fast Mode contract MUST hold",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 141,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 114ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:34.573Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    },
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 150,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 109ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-01-09T03:48:35.369Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/mny-platform/mny-platform/test-results/lock_capability_matrix-Cap-f118a-ast-Mode-contract-MUST-hold-firefox-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    },
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 142,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 119ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-01-09T03:48:36.192Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-67046a8c87bb50f6a897",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "Research Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Research mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 75,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 136,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:36.992Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Research mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 75,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-f0c4cef695f2748331a7",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "Hybrid Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Hybrid mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 159,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 47,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:37.158Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Hybrid mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 159,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-71685b475cdbcc43734b",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 133,
+              "column": 7
+            },
+            {
+              "title": "Backend health check MUST pass",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 51,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:37.231Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-e2736b6c38cf03aa6d7d",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "Fast Mode contract MUST hold",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 148,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 125ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:37.922Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    },
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 168,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 116ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-01-09T03:48:38.739Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/mny-platform/mny-platform/test-results/lock_capability_matrix-Cap-f118a-ast-Mode-contract-MUST-hold-webkit-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    },
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 146,
+                      "error": {
+                        "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                          "column": 7,
+                          "line": 55
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m       validation\u001b[33m.\u001b[39mvalid\u001b[33m,\u001b[39m\n \u001b[90m 54 |\u001b[39m       \u001b[32m`Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m     )\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m   \u001b[90m// Test Research Mode Contract\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "column": 7,
+                            "line": 55
+                          },
+                          "message": "Error: Fast Mode violations:\n  - Response not ok: expected ok=true\n  - No answer provided\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\n  53 |       validation.valid,\n  54 |       `Fast Mode violations:\\n${validation.violations.map(v => `  - ${v}`).join(\"\\n\")}`,\n> 55 |     ).toBeTruthy();\n     |       ^\n  56 |   });\n  57 |\n  58 |   // Test Research Mode Contract\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts:55:7"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Fast Mode Response Time: 120ms\n"
+                        },
+                        {
+                          "text": "Fast Mode Answer Length: 0 chars\n"
+                        },
+                        {
+                          "text": "Fast Mode Citations: 0 (kinds: )\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-01-09T03:48:39.579Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "column": 7,
+                        "line": 55
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-0f26c2648672e238a79f",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "Research Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Research mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 75,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 144,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:40.389Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Research mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 75,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-be038be97cbd99f3b307",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "Hybrid Mode contract MUST hold",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Hybrid mode not implemented yet",
+                      "location": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                        "line": 159,
+                        "column": 12
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 54,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:40.565Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "description": "Hybrid mode not implemented yet",
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_capability_matrix.spec.ts",
+                            "line": 159,
+                            "column": 12
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-912143b860236c5f2eaf",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 133,
+              "column": 7
+            },
+            {
+              "title": "Backend health check MUST pass",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 63,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-09T03:48:40.639Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6bd38550f1cf3422273d-8dbb526be8cf525a27d9",
+              "file": "lock_capability_matrix.spec.ts",
+              "line": 215,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-09T03:48:25.024Z",
+    "duration": 15725.243000000002,
+    "expected": 3,
+    "skipped": 6,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}
