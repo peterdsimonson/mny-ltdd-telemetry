@@ -1,45 +1,69 @@
 {
-  "total_merged": 5,
+  "total_merged": 8,
   "items": [
     {
-      "number": 771,
-      "title": "feat(backend): add requireOrgMember() middleware for library routes",
+      "number": 780,
+      "title": "fix(hosting): add /api/admin/** rewrite to Firebase Hosting proxy",
       "user": "peterdsimonson",
-      "created_at": "2026-01-09T00:02:39Z",
-      "closed_at": "2026-01-09T00:18:31Z",
-      "lead_time_hours": 0.2644444444444444
+      "created_at": "2026-01-10T02:54:25Z",
+      "closed_at": "2026-01-10T03:04:33Z",
+      "lead_time_hours": 0.1688888888888889
     },
     {
-      "number": 770,
-      "title": "fix(ltdd): upload/index must honor x-org-id and x-namespace (not host fallback)",
+      "number": 779,
+      "title": "fix(bootstrap): attach status and code to error objects for reliable detection",
       "user": "peterdsimonson",
-      "created_at": "2026-01-08T20:24:14Z",
-      "closed_at": "2026-01-08T22:32:49Z",
-      "lead_time_hours": 2.1430555555555557
+      "created_at": "2026-01-09T21:51:52Z",
+      "closed_at": "2026-01-10T03:04:35Z",
+      "lead_time_hours": 5.211944444444445
     },
     {
-      "number": 768,
-      "title": "fix(ltdd): make rag-test-setup readiness use index-status not citations",
+      "number": 778,
+      "title": "fix(ci): use release-specific concurrency group",
       "user": "peterdsimonson",
-      "created_at": "2026-01-08T18:00:02Z",
-      "closed_at": "2026-01-08T18:05:50Z",
-      "lead_time_hours": 0.09666666666666666
+      "created_at": "2026-01-09T20:35:25Z",
+      "closed_at": "2026-01-09T20:47:37Z",
+      "lead_time_hours": 0.20333333333333334
     },
     {
-      "number": 767,
-      "title": "chore(ci): wire RAG_API_KEY for governance-checks in release.yml",
+      "number": 777,
+      "title": "fix(bootstrap): implement state latch for org_membership_required",
       "user": "peterdsimonson",
-      "created_at": "2026-01-08T15:46:08Z",
-      "closed_at": "2026-01-08T16:03:01Z",
-      "lead_time_hours": 0.2813888888888889
+      "created_at": "2026-01-09T19:53:32Z",
+      "closed_at": "2026-01-09T20:06:38Z",
+      "lead_time_hours": 0.21833333333333332
     },
     {
-      "number": 763,
-      "title": "fix(ci): serialize LTDD lock tests across PRs to prevent namespace clobbering",
+      "number": 776,
+      "title": "fix(bootstrap): improve button visibility condition for org_membership_required",
       "user": "peterdsimonson",
-      "created_at": "2026-01-08T02:06:59Z",
-      "closed_at": "2026-01-08T17:30:22Z",
-      "lead_time_hours": 15.389722222222222
+      "created_at": "2026-01-09T17:04:13Z",
+      "closed_at": "2026-01-09T17:41:26Z",
+      "lead_time_hours": 0.6202777777777778
+    },
+    {
+      "number": 775,
+      "title": "feat(pr-bootstrap): add one-time self-bootstrap endpoint for workspace initialization",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-09T15:50:30Z",
+      "closed_at": "2026-01-09T16:19:10Z",
+      "lead_time_hours": 0.4777777777777778
+    },
+    {
+      "number": 774,
+      "title": "feat(pr-f1): enforce role-based viewability permissions",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-09T04:52:11Z",
+      "closed_at": "2026-01-09T05:05:57Z",
+      "lead_time_hours": 0.22944444444444445
+    },
+    {
+      "number": 772,
+      "title": "feat(pr-e2): frontend minimal login + attach JWT to API calls",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-09T03:52:48Z",
+      "closed_at": "2026-01-09T04:05:08Z",
+      "lead_time_hours": 0.20555555555555555
     }
   ]
 }
