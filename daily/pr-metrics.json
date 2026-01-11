@@ -1,69 +1,93 @@
 {
-  "total_merged": 8,
+  "total_merged": 11,
   "items": [
     {
-      "number": 780,
-      "title": "fix(hosting): add /api/admin/** rewrite to Firebase Hosting proxy",
+      "number": 792,
+      "title": "fix(governance): add index-status debug + normalize Pinecone host selection",
       "user": "peterdsimonson",
-      "created_at": "2026-01-10T02:54:25Z",
-      "closed_at": "2026-01-10T03:04:33Z",
-      "lead_time_hours": 0.1688888888888889
+      "created_at": "2026-01-11T00:45:36Z",
+      "closed_at": "2026-01-11T02:45:10Z",
+      "lead_time_hours": 1.9927777777777778
     },
     {
-      "number": 779,
-      "title": "fix(bootstrap): attach status and code to error objects for reliable detection",
+      "number": 791,
+      "title": "fix(rag): detect LTDD org ids with underscores for namespace override",
       "user": "peterdsimonson",
-      "created_at": "2026-01-09T21:51:52Z",
-      "closed_at": "2026-01-10T03:04:35Z",
-      "lead_time_hours": 5.211944444444445
+      "created_at": "2026-01-11T00:15:21Z",
+      "closed_at": "2026-01-11T00:27:35Z",
+      "lead_time_hours": 0.2038888888888889
     },
     {
-      "number": 778,
-      "title": "fix(ci): use release-specific concurrency group",
+      "number": 790,
+      "title": "fix(test): use canonical org ID in upload headers to match seeding",
       "user": "peterdsimonson",
-      "created_at": "2026-01-09T20:35:25Z",
-      "closed_at": "2026-01-09T20:47:37Z",
+      "created_at": "2026-01-10T23:33:38Z",
+      "closed_at": "2026-01-10T23:45:34Z",
+      "lead_time_hours": 0.1988888888888889
+    },
+    {
+      "number": 789,
+      "title": "fix(governance): normalize LTDD org allowlist + remove ALLOW_SELF_BOOTSTRAP from release",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-10T23:04:52Z",
+      "closed_at": "2026-01-10T23:17:23Z",
+      "lead_time_hours": 0.2086111111111111
+    },
+    {
+      "number": 788,
+      "title": "fix(test): use x-org-id with canonicalized org slug to match Firestore path",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-10T22:26:13Z",
+      "closed_at": "2026-01-10T22:38:20Z",
+      "lead_time_hours": 0.20194444444444445
+    },
+    {
+      "number": 787,
+      "title": "fix(preview): mount RAG_API_KEY for preview backend",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-10T21:50:26Z",
+      "closed_at": "2026-01-10T22:02:14Z",
+      "lead_time_hours": 0.19666666666666666
+    },
+    {
+      "number": 786,
+      "title": "fix(governance): decode JWT token directly instead of calling /debug/whoami",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-10T20:52:21Z",
+      "closed_at": "2026-01-10T21:17:41Z",
+      "lead_time_hours": 0.4222222222222222
+    },
+    {
+      "number": 785,
+      "title": "fix(governance): seed membership before upload in library prep",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-10T20:14:40Z",
+      "closed_at": "2026-01-10T20:33:07Z",
+      "lead_time_hours": 0.3075
+    },
+    {
+      "number": 784,
+      "title": "test(ltdd): preflight membership seeding diagnostics",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-10T19:42:34Z",
+      "closed_at": "2026-01-10T19:54:56Z",
+      "lead_time_hours": 0.2061111111111111
+    },
+    {
+      "number": 783,
+      "title": "feat(phase3): enforce doc viewability ACL (owner/editor/viewer) + LTDD locks",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-10T18:46:27Z",
+      "closed_at": "2026-01-10T18:58:39Z",
       "lead_time_hours": 0.20333333333333334
     },
     {
-      "number": 777,
-      "title": "fix(bootstrap): implement state latch for org_membership_required",
+      "number": 782,
+      "title": "feat(deploy): temporarily enable bootstrap latch for ownership claim",
       "user": "peterdsimonson",
-      "created_at": "2026-01-09T19:53:32Z",
-      "closed_at": "2026-01-09T20:06:38Z",
-      "lead_time_hours": 0.21833333333333332
-    },
-    {
-      "number": 776,
-      "title": "fix(bootstrap): improve button visibility condition for org_membership_required",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-09T17:04:13Z",
-      "closed_at": "2026-01-09T17:41:26Z",
-      "lead_time_hours": 0.6202777777777778
-    },
-    {
-      "number": 775,
-      "title": "feat(pr-bootstrap): add one-time self-bootstrap endpoint for workspace initialization",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-09T15:50:30Z",
-      "closed_at": "2026-01-09T16:19:10Z",
-      "lead_time_hours": 0.4777777777777778
-    },
-    {
-      "number": 774,
-      "title": "feat(pr-f1): enforce role-based viewability permissions",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-09T04:52:11Z",
-      "closed_at": "2026-01-09T05:05:57Z",
-      "lead_time_hours": 0.22944444444444445
-    },
-    {
-      "number": 772,
-      "title": "feat(pr-e2): frontend minimal login + attach JWT to API calls",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-09T03:52:48Z",
-      "closed_at": "2026-01-09T04:05:08Z",
-      "lead_time_hours": 0.20555555555555555
+      "created_at": "2026-01-10T12:53:19Z",
+      "closed_at": "2026-01-10T12:58:23Z",
+      "lead_time_hours": 0.08444444444444445
     }
   ]
 }
