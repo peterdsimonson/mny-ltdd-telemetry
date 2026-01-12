@@ -1,93 +1,77 @@
 {
-  "total_merged": 11,
+  "total_merged": 9,
   "items": [
     {
-      "number": 792,
-      "title": "fix(governance): add index-status debug + normalize Pinecone host selection",
+      "number": 804,
+      "title": "fix(ltdd): strengthen shape probe log + enforce docId extraction invariant",
       "user": "peterdsimonson",
-      "created_at": "2026-01-11T00:45:36Z",
-      "closed_at": "2026-01-11T02:45:10Z",
-      "lead_time_hours": 1.9927777777777778
+      "created_at": "2026-01-12T01:40:15Z",
+      "closed_at": "2026-01-12T02:08:14Z",
+      "lead_time_hours": 0.4663888888888889
     },
     {
-      "number": 791,
-      "title": "fix(rag): detect LTDD org ids with underscores for namespace override",
+      "number": 803,
+      "title": "fix(ltdd): add canonical docId extraction helper + shape probe log",
       "user": "peterdsimonson",
-      "created_at": "2026-01-11T00:15:21Z",
-      "closed_at": "2026-01-11T00:27:35Z",
-      "lead_time_hours": 0.2038888888888889
+      "created_at": "2026-01-12T01:01:00Z",
+      "closed_at": "2026-01-12T01:08:13Z",
+      "lead_time_hours": 0.12027777777777778
     },
     {
-      "number": 790,
-      "title": "fix(test): use canonical org ID in upload headers to match seeding",
+      "number": 802,
+      "title": "fix(ltdd): surface boundary diagnostics in 422 + fix route telemetry",
       "user": "peterdsimonson",
-      "created_at": "2026-01-10T23:33:38Z",
-      "closed_at": "2026-01-10T23:45:34Z",
-      "lead_time_hours": 0.1988888888888889
+      "created_at": "2026-01-12T00:21:37Z",
+      "closed_at": "2026-01-12T00:33:53Z",
+      "lead_time_hours": 0.20444444444444446
     },
     {
-      "number": 789,
-      "title": "fix(governance): normalize LTDD org allowlist + remove ALLOW_SELF_BOOTSTRAP from release",
+      "number": 801,
+      "title": "LTDD: make citation boundary logs unconditional + add drop-reasons histogram",
       "user": "peterdsimonson",
-      "created_at": "2026-01-10T23:04:52Z",
-      "closed_at": "2026-01-10T23:17:23Z",
-      "lead_time_hours": 0.2086111111111111
+      "created_at": "2026-01-11T23:39:13Z",
+      "closed_at": "2026-01-11T23:44:18Z",
+      "lead_time_hours": 0.08472222222222223
     },
     {
-      "number": 788,
-      "title": "fix(test): use x-org-id with canonicalized org slug to match Firestore path",
+      "number": 800,
+      "title": "fix(governance): fail-closed citations for library-meta + traces",
       "user": "peterdsimonson",
-      "created_at": "2026-01-10T22:26:13Z",
-      "closed_at": "2026-01-10T22:38:20Z",
-      "lead_time_hours": 0.20194444444444445
+      "created_at": "2026-01-11T15:23:47Z",
+      "closed_at": "2026-01-11T15:51:02Z",
+      "lead_time_hours": 0.45416666666666666
     },
     {
-      "number": 787,
-      "title": "fix(preview): mount RAG_API_KEY for preview backend",
+      "number": 799,
+      "title": "fix(ltdd): harden org ID canonicalization (no fallback, deterministic creation)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-10T21:50:26Z",
-      "closed_at": "2026-01-10T22:02:14Z",
-      "lead_time_hours": 0.19666666666666666
+      "created_at": "2026-01-11T14:40:06Z",
+      "closed_at": "2026-01-11T14:53:23Z",
+      "lead_time_hours": 0.22138888888888889
     },
     {
-      "number": 786,
-      "title": "fix(governance): decode JWT token directly instead of calling /debug/whoami",
+      "number": 798,
+      "title": "fix(ltdd): enforce deterministic org doc IDs for LTDD (no -1 suffixes)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-10T20:52:21Z",
-      "closed_at": "2026-01-10T21:17:41Z",
-      "lead_time_hours": 0.4222222222222222
+      "created_at": "2026-01-11T13:58:41Z",
+      "closed_at": "2026-01-11T14:19:18Z",
+      "lead_time_hours": 0.3436111111111111
     },
     {
-      "number": 785,
-      "title": "fix(governance): seed membership before upload in library prep",
+      "number": 797,
+      "title": "fix(ltdd): index-status reports readiness independent of visibility in LTDD_MODE",
       "user": "peterdsimonson",
-      "created_at": "2026-01-10T20:14:40Z",
-      "closed_at": "2026-01-10T20:33:07Z",
-      "lead_time_hours": 0.3075
+      "created_at": "2026-01-11T13:15:29Z",
+      "closed_at": "2026-01-11T13:27:28Z",
+      "lead_time_hours": 0.19972222222222222
     },
     {
-      "number": 784,
-      "title": "test(ltdd): preflight membership seeding diagnostics",
+      "number": 794,
+      "title": "fix(ltdd): index-status reports readiness independent of visibility in LTDD_MODE",
       "user": "peterdsimonson",
-      "created_at": "2026-01-10T19:42:34Z",
-      "closed_at": "2026-01-10T19:54:56Z",
-      "lead_time_hours": 0.2061111111111111
-    },
-    {
-      "number": 783,
-      "title": "feat(phase3): enforce doc viewability ACL (owner/editor/viewer) + LTDD locks",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-10T18:46:27Z",
-      "closed_at": "2026-01-10T18:58:39Z",
-      "lead_time_hours": 0.20333333333333334
-    },
-    {
-      "number": 782,
-      "title": "feat(deploy): temporarily enable bootstrap latch for ownership claim",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-10T12:53:19Z",
-      "closed_at": "2026-01-10T12:58:23Z",
-      "lead_time_hours": 0.08444444444444445
+      "created_at": "2026-01-11T04:48:03Z",
+      "closed_at": "2026-01-11T04:59:58Z",
+      "lead_time_hours": 0.1986111111111111
     }
   ]
 }
