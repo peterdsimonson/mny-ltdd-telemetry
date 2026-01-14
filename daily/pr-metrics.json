@@ -1,53 +1,69 @@
 {
-  "total_merged": 6,
+  "total_merged": 8,
   "items": [
     {
-      "number": 811,
-      "title": "fix(backend): enable admin test endpoints in candidate via per-request guard",
+      "number": 820,
+      "title": "fix: revert text/plain support, correct fail-closed scope",
       "user": "peterdsimonson",
-      "created_at": "2026-01-13T03:29:29Z",
-      "closed_at": "2026-01-13T03:41:46Z",
-      "lead_time_hours": 0.20472222222222222
+      "created_at": "2026-01-14T03:14:09Z",
+      "closed_at": "2026-01-14T03:28:26Z",
+      "lead_time_hours": 0.23805555555555555
     },
     {
-      "number": 810,
-      "title": "fix(ci): set COGNITORY_HOST for candidate URL lock tests + boundary-3 drop reasons",
+      "number": 819,
+      "title": "fix(locks): fail-closed for LTDD org empty citations in research-library",
       "user": "peterdsimonson",
-      "created_at": "2026-01-13T02:34:28Z",
-      "closed_at": "2026-01-13T02:47:01Z",
-      "lead_time_hours": 0.20916666666666667
+      "created_at": "2026-01-14T02:26:49Z",
+      "closed_at": "2026-01-14T02:42:20Z",
+      "lead_time_hours": 0.2586111111111111
     },
     {
-      "number": 809,
-      "title": "fix(rag): prevent docIds overwrite + add threshold fallback for library-meta",
+      "number": 818,
+      "title": "test(ltdd): add surface map meta-locks for CIC enforcement",
       "user": "peterdsimonson",
-      "created_at": "2026-01-12T21:24:01Z",
-      "closed_at": "2026-01-13T00:04:52Z",
-      "lead_time_hours": 2.680833333333333
+      "created_at": "2026-01-14T00:44:35Z",
+      "closed_at": "2026-01-14T02:03:09Z",
+      "lead_time_hours": 1.3094444444444444
     },
     {
-      "number": 808,
-      "title": "fix(rag): wire canonical docIds into telemetry.docIdsLength and b2.candidateDocIds",
+      "number": 817,
+      "title": "chore(ci): enforce CIC block in PR template + validator",
       "user": "peterdsimonson",
-      "created_at": "2026-01-12T16:18:32Z",
-      "closed_at": "2026-01-12T16:24:19Z",
-      "lead_time_hours": 0.09638888888888889
+      "created_at": "2026-01-14T00:09:38Z",
+      "closed_at": "2026-01-14T00:22:37Z",
+      "lead_time_hours": 0.21638888888888888
     },
     {
-      "number": 807,
-      "title": "fix(rag): use canonical retrievedDocIds from cappedMatches for telemetry and b1",
+      "number": 816,
+      "title": "fix(locks): add x-namespace header to lock_ingest_parse_quality requests",
       "user": "peterdsimonson",
-      "created_at": "2026-01-12T12:58:17Z",
-      "closed_at": "2026-01-12T13:10:01Z",
-      "lead_time_hours": 0.19555555555555557
+      "created_at": "2026-01-13T23:14:57Z",
+      "closed_at": "2026-01-13T23:20:50Z",
+      "lead_time_hours": 0.09805555555555556
     },
     {
-      "number": 805,
-      "title": "fix(rag): unify doc identity extraction for coverage + citations (LTDD evidence in b1)",
+      "number": 815,
+      "title": "fix(locks): add membership seeding to lock_ingest_parse_quality test",
       "user": "peterdsimonson",
-      "created_at": "2026-01-12T03:51:28Z",
-      "closed_at": "2026-01-12T04:03:29Z",
-      "lead_time_hours": 0.20027777777777778
+      "created_at": "2026-01-13T20:50:46Z",
+      "closed_at": "2026-01-13T21:11:10Z",
+      "lead_time_hours": 0.34
+    },
+    {
+      "number": 814,
+      "title": "fix(admin): remove RAG_API_KEY requirement from /admin/test/* routes",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-13T19:58:19Z",
+      "closed_at": "2026-01-13T20:24:08Z",
+      "lead_time_hours": 0.43027777777777776
+    },
+    {
+      "number": 813,
+      "title": "fix(admin): add diagnostic header for guard failures",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-13T17:27:50Z",
+      "closed_at": "2026-01-13T17:39:52Z",
+      "lead_time_hours": 0.20055555555555554
     }
   ]
 }
