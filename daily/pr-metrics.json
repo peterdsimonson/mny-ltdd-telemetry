@@ -2,68 +2,68 @@
   "total_merged": 8,
   "items": [
     {
-      "number": 820,
-      "title": "fix: revert text/plain support, correct fail-closed scope",
+      "number": 830,
+      "title": "fix(library): deterministic metadata lookup by docId for LTDD",
       "user": "peterdsimonson",
-      "created_at": "2026-01-14T03:14:09Z",
-      "closed_at": "2026-01-14T03:28:26Z",
-      "lead_time_hours": 0.23805555555555555
+      "created_at": "2026-01-15T03:15:26Z",
+      "closed_at": "2026-01-15T03:21:31Z",
+      "lead_time_hours": 0.10138888888888889
     },
     {
-      "number": 819,
-      "title": "fix(locks): fail-closed for LTDD org empty citations in research-library",
+      "number": 829,
+      "title": "fix(rag): library meta candidate pool",
       "user": "peterdsimonson",
-      "created_at": "2026-01-14T02:26:49Z",
-      "closed_at": "2026-01-14T02:42:20Z",
-      "lead_time_hours": 0.2586111111111111
+      "created_at": "2026-01-15T00:38:54Z",
+      "closed_at": "2026-01-15T02:36:26Z",
+      "lead_time_hours": 1.958888888888889
     },
     {
-      "number": 818,
-      "title": "test(ltdd): add surface map meta-locks for CIC enforcement",
+      "number": 827,
+      "title": "fix(ltdd): canonical org ingestion + retrieval lock",
       "user": "peterdsimonson",
-      "created_at": "2026-01-14T00:44:35Z",
-      "closed_at": "2026-01-14T02:03:09Z",
-      "lead_time_hours": 1.3094444444444444
+      "created_at": "2026-01-14T21:13:56Z",
+      "closed_at": "2026-01-14T21:27:19Z",
+      "lead_time_hours": 0.22305555555555556
     },
     {
-      "number": 817,
-      "title": "chore(ci): enforce CIC block in PR template + validator",
+      "number": 826,
+      "title": "fix(upload): canonicalize LTDD org override",
       "user": "peterdsimonson",
-      "created_at": "2026-01-14T00:09:38Z",
-      "closed_at": "2026-01-14T00:22:37Z",
-      "lead_time_hours": 0.21638888888888888
+      "created_at": "2026-01-14T19:46:43Z",
+      "closed_at": "2026-01-14T19:52:28Z",
+      "lead_time_hours": 0.09583333333333334
     },
     {
-      "number": 816,
-      "title": "fix(locks): add x-namespace header to lock_ingest_parse_quality requests",
+      "number": 825,
+      "title": "fix(locks): seed deterministic document in clarification follow-up test",
       "user": "peterdsimonson",
-      "created_at": "2026-01-13T23:14:57Z",
-      "closed_at": "2026-01-13T23:20:50Z",
-      "lead_time_hours": 0.09805555555555556
+      "created_at": "2026-01-14T17:13:01Z",
+      "closed_at": "2026-01-14T17:43:04Z",
+      "lead_time_hours": 0.5008333333333334
     },
     {
-      "number": 815,
-      "title": "fix(locks): add membership seeding to lock_ingest_parse_quality test",
+      "number": 824,
+      "title": "fix(locks): accept fail-closed empty citations in org binding consistency test",
       "user": "peterdsimonson",
-      "created_at": "2026-01-13T20:50:46Z",
-      "closed_at": "2026-01-13T21:11:10Z",
-      "lead_time_hours": 0.34
+      "created_at": "2026-01-14T16:19:45Z",
+      "closed_at": "2026-01-14T16:32:23Z",
+      "lead_time_hours": 0.21055555555555555
     },
     {
-      "number": 814,
-      "title": "fix(admin): remove RAG_API_KEY requirement from /admin/test/* routes",
+      "number": 823,
+      "title": "test(ltdd): diagnostic logging for 422 response body",
       "user": "peterdsimonson",
-      "created_at": "2026-01-13T19:58:19Z",
-      "closed_at": "2026-01-13T20:24:08Z",
-      "lead_time_hours": 0.43027777777777776
+      "created_at": "2026-01-14T13:19:14Z",
+      "closed_at": "2026-01-14T15:41:04Z",
+      "lead_time_hours": 2.363888888888889
     },
     {
-      "number": 813,
-      "title": "fix(admin): add diagnostic header for guard failures",
+      "number": 822,
+      "title": "fix(locks): ensure boundaries always included in clarifier fail-closed",
       "user": "peterdsimonson",
-      "created_at": "2026-01-13T17:27:50Z",
-      "closed_at": "2026-01-13T17:39:52Z",
-      "lead_time_hours": 0.20055555555555554
+      "created_at": "2026-01-14T12:29:24Z",
+      "closed_at": "2026-01-14T12:41:28Z",
+      "lead_time_hours": 0.2011111111111111
     }
   ]
 }
