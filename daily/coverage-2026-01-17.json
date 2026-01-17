@@ -1,0 +1,1783 @@
+{
+  "config": {
+    "configFile": "/home/runner/work/mny-platform/mny-platform/playwright.config.ts",
+    "rootDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/c510b02d6581b512b558d3fcf76d47db9c784482",
+        "commitHash": "c510b02d6581b512b558d3fcf76d47db9c784482",
+        "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/21087873073"
+      },
+      "gitCommit": {
+        "shortHash": "c510b02d",
+        "hash": "c510b02d6581b512b558d3fcf76d47db9c784482",
+        "subject": "Merge pull request #849 from peterdsimonson/wip/ltdd-telemetry-on-200",
+        "body": "Merge pull request #849 from peterdsimonson/wip/ltdd-telemetry-on-200\n\nfix(rag): LTDD telemetry on 200",
+        "author": {
+          "name": "peterdsimonson-ltdd",
+          "email": "psimonson@southalabama.edu",
+          "time": 1768620952000
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "time": 1768620952000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/c510b02d6581b512b558d3fcf76d47db9c784482",
+            "commitHash": "c510b02d6581b512b558d3fcf76d47db9c784482",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/21087873073"
+          },
+          "gitCommit": {
+            "shortHash": "c510b02d",
+            "hash": "c510b02d6581b512b558d3fcf76d47db9c784482",
+            "subject": "Merge pull request #849 from peterdsimonson/wip/ltdd-telemetry-on-200",
+            "body": "Merge pull request #849 from peterdsimonson/wip/ltdd-telemetry-on-200\n\nfix(rag): LTDD telemetry on 200",
+            "author": {
+              "name": "peterdsimonson-ltdd",
+              "email": "psimonson@southalabama.edu",
+              "time": 1768620952000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1768620952000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/c510b02d6581b512b558d3fcf76d47db9c784482",
+            "commitHash": "c510b02d6581b512b558d3fcf76d47db9c784482",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/21087873073"
+          },
+          "gitCommit": {
+            "shortHash": "c510b02d",
+            "hash": "c510b02d6581b512b558d3fcf76d47db9c784482",
+            "subject": "Merge pull request #849 from peterdsimonson/wip/ltdd-telemetry-on-200",
+            "body": "Merge pull request #849 from peterdsimonson/wip/ltdd-telemetry-on-200\n\nfix(rag): LTDD telemetry on 200",
+            "author": {
+              "name": "peterdsimonson-ltdd",
+              "email": "psimonson@southalabama.edu",
+              "time": 1768620952000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1768620952000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/work/mny-platform/mny-platform/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/peterdsimonson/mny-platform/commit/c510b02d6581b512b558d3fcf76d47db9c784482",
+            "commitHash": "c510b02d6581b512b558d3fcf76d47db9c784482",
+            "buildHref": "https://github.com/peterdsimonson/mny-platform/actions/runs/21087873073"
+          },
+          "gitCommit": {
+            "shortHash": "c510b02d",
+            "hash": "c510b02d6581b512b558d3fcf76d47db9c784482",
+            "subject": "Merge pull request #849 from peterdsimonson/wip/ltdd-telemetry-on-200",
+            "body": "Merge pull request #849 from peterdsimonson/wip/ltdd-telemetry-on-200\n\nfix(rag): LTDD telemetry on 200",
+            "author": {
+              "name": "peterdsimonson-ltdd",
+              "email": "psimonson@southalabama.edu",
+              "time": 1768620952000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1768620952000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/runner/work/mny-platform/mny-platform/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.0",
+    "workers": 1,
+    "webServer": {
+      "command": "cd apps/home && pnpm dev",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "lock_coverage_guard.spec.ts",
+      "file": "lock_coverage_guard.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Capability Coverage Guard",
+          "file": "lock_coverage_guard.spec.ts",
+          "line": 48,
+          "column": 6,
+          "specs": [
+            {
+              "title": "All contracts must have corresponding tests",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' (Fast (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' (Research (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' (Hybrid (Library + Web)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' (Document Upload & Processing) is defined\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:32.583Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-ca2860d3b4a590a4605d",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "Skipped capabilities must have valid waivers",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 11,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:32.625Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 16,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-01-17T03:42:33.296Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/mny-platform/mny-platform/test-results/lock_coverage_guard-Capabi-8bcc3-ies-must-have-valid-waivers-chromium-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    },
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-01-17T03:42:33.958Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-5cd26b6a25ccf2cd07f4",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have expected behavior defined",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 3 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 3 behavior constraints\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:34.605Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-a5025efcc228406a1426",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have explicit invariants",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 5 invariants\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:34.645Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-6d875c42eab7a6f5c42a",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 140,
+              "column": 7
+            },
+            {
+              "title": "Waiver file must be valid JSON with required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:34.674Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-a65c3b5a13a419673487",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 172,
+              "column": 7
+            },
+            {
+              "title": "Coverage guard protects against regression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📊 Coverage Status:\n"
+                        },
+                        {
+                          "text": "  - Total contracts: 4\n"
+                        },
+                        {
+                          "text": "  - Active waivers: 2\n"
+                        },
+                        {
+                          "text": "  - Testable capabilities: 2\n"
+                        },
+                        {
+                          "text": "\n✅ Coverage Guard: All 4 contracts are protected\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:34.701Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-f18016fc710dc40561bc",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have corresponding tests",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' (Fast (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' (Research (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' (Hybrid (Library + Web)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' (Document Upload & Processing) is defined\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:35.382Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-38c29c8ff9266d4336bf",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "Skipped capabilities must have valid waivers",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 11,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:35.427Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    },
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 16,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-01-17T03:42:36.084Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/mny-platform/mny-platform/test-results/lock_coverage_guard-Capabi-8bcc3-ies-must-have-valid-waivers-firefox-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    },
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 16,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-01-17T03:42:36.747Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-1a938cb1be9fbf9e0dee",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have expected behavior defined",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 3 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 3 behavior constraints\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:37.420Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-b05b88c9e84809b25148",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have explicit invariants",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 5 invariants\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:37.460Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-15eb1f8d65575f046cbf",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 140,
+              "column": 7
+            },
+            {
+              "title": "Waiver file must be valid JSON with required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:37.490Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-a8b196353d0186bee771",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 172,
+              "column": 7
+            },
+            {
+              "title": "Coverage guard protects against regression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📊 Coverage Status:\n"
+                        },
+                        {
+                          "text": "  - Total contracts: 4\n"
+                        },
+                        {
+                          "text": "  - Active waivers: 2\n"
+                        },
+                        {
+                          "text": "  - Testable capabilities: 2\n"
+                        },
+                        {
+                          "text": "\n✅ Coverage Guard: All 4 contracts are protected\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:37.518Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-0702f00416d357a35b9a",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 215,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have corresponding tests",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' (Fast (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' (Research (Library Only)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' (Hybrid (Library + Web)) is defined\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' (Document Upload & Processing) is defined\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:38.236Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-871b2226ab5a799e83d1",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "Skipped capabilities must have valid waivers",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:38.278Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    },
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 10,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2026-01-17T03:42:38.924Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/mny-platform/mny-platform/test-results/lock_coverage_guard-Capabi-8bcc3-ies-must-have-valid-waivers-webkit-retry1/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    },
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 16,
+                      "error": {
+                        "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7",
+                        "location": {
+                          "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                          "column": 7,
+                          "line": 105
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 103 |\u001b[39m       violations\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39m\n \u001b[90m 104 |\u001b[39m       \u001b[32m`Waiver violations:\\n${violations.join(\"\\n\")}`\u001b[39m\u001b[33m,\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 105 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 106 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 107 |\u001b[39m\n \u001b[90m 108 |\u001b[39m   test(\u001b[32m\"All contracts must have expected behavior defined\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                            "column": 7,
+                            "line": 105
+                          },
+                          "message": "Error: Waiver violations:\nWaiver for 'research_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\nWaiver for 'hybrid_mode' EXPIRED on 2025-12-31T23:59:59Z - must be reviewed or removed\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  103 |       violations.length,\n  104 |       `Waiver violations:\\n${violations.join(\"\\n\")}`,\n> 105 |     ).toBe(0);\n      |       ^\n  106 |   });\n  107 |\n  108 |   test(\"All contracts must have expected behavior defined\", () => {\n    at /home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts:105:7"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2026-01-17T03:42:39.599Z",
+                      "annotations": [],
+                      "attachments": [],
+                      "errorLocation": {
+                        "file": "/home/runner/work/mny-platform/mny-platform/tests/e2e/lock_coverage_guard.spec.ts",
+                        "column": 7,
+                        "line": 105
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-1ac196842ee8bf201e2c",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 74,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have expected behavior defined",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 3 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 behavior constraints\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 3 behavior constraints\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:40.254Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-33b815de446893dcd827",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "All contracts must have explicit invariants",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Contract 'fast_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'research_mode' has 5 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'hybrid_mode' has 4 invariants\n"
+                        },
+                        {
+                          "text": "✓ Contract 'document_upload' has 5 invariants\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:40.296Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-c9db1aaef2cb64b74f4e",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 140,
+              "column": 7
+            },
+            {
+              "title": "Waiver file must be valid JSON with required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:40.324Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-2565481eed34a7a275d4",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 172,
+              "column": 7
+            },
+            {
+              "title": "Coverage guard protects against regression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "📊 Coverage Status:\n"
+                        },
+                        {
+                          "text": "  - Total contracts: 4\n"
+                        },
+                        {
+                          "text": "  - Active waivers: 2\n"
+                        },
+                        {
+                          "text": "  - Testable capabilities: 2\n"
+                        },
+                        {
+                          "text": "\n✅ Coverage Guard: All 4 contracts are protected\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-17T03:42:40.355Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "04e2f71dc39d2979491f-b7c597bf26f4e2c6991c",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 215,
+              "column": 7
+            }
+          ],
+          "suites": [
+            {
+              "title": "Infrastructure Contracts (Phase 2.5)",
+              "file": "lock_coverage_guard.spec.ts",
+              "line": 237,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "All infrastructure contracts must be defined",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ Found 5 infrastructure contracts\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:34.720Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-573bbef36ea59493af3e",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 238,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must have test coverage",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:34.742Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-f27865f30f0cc8275b6a",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 250,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must NOT be skippable",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ All 5 infrastructure contracts are enforced (no skips)\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:34.758Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-6707c55d3755747ceaa2",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 277,
+                  "column": 9
+                },
+                {
+                  "title": "All four LTDD layers must be covered",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "\n✅ All 4 LTDD layers are covered:\n"
+                            },
+                            {
+                              "text": "  - Layer 1: Code Quality (TypeScript, ESLint) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 2: Feature Contracts (4 capabilities) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 3: Infrastructure Health (5 contracts) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 4: Meta-Verification (Coverage Guard) ✓\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:34.773Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-8f56580e3e0e6cdc816f",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 299,
+                  "column": 9
+                },
+                {
+                  "title": "All infrastructure contracts must be defined",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ Found 5 infrastructure contracts\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:37.544Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-abe27cf51b8514b78213",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 238,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must have test coverage",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:37.560Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-cfece648462001564dcc",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 250,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must NOT be skippable",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ All 5 infrastructure contracts are enforced (no skips)\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:37.576Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-172d5354ce102924e6f2",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 277,
+                  "column": 9
+                },
+                {
+                  "title": "All four LTDD layers must be covered",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "firefox",
+                      "projectName": "firefox",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "\n✅ All 4 LTDD layers are covered:\n"
+                            },
+                            {
+                              "text": "  - Layer 1: Code Quality (TypeScript, ESLint) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 2: Feature Contracts (4 capabilities) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 3: Infrastructure Health (5 contracts) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 4: Meta-Verification (Coverage Guard) ✓\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:37.601Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-d7646db6f1f4423b6fea",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 299,
+                  "column": 9
+                },
+                {
+                  "title": "All infrastructure contracts must be defined",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 13,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ Found 5 infrastructure contracts\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:40.374Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-83e594beff52e9bde9fd",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 238,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must have test coverage",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:40.402Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-f012ac29cd4d4806c276",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 250,
+                  "column": 9
+                },
+                {
+                  "title": "Infrastructure contracts must NOT be skippable",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ All 5 infrastructure contracts are enforced (no skips)\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:40.416Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-47745516d30fc01bb815",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 277,
+                  "column": 9
+                },
+                {
+                  "title": "All four LTDD layers must be covered",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "webkit",
+                      "projectName": "webkit",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 2,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "\n✅ All 4 LTDD layers are covered:\n"
+                            },
+                            {
+                              "text": "  - Layer 1: Code Quality (TypeScript, ESLint) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 2: Feature Contracts (4 capabilities) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 3: Infrastructure Health (5 contracts) ✓\n"
+                            },
+                            {
+                              "text": "  - Layer 4: Meta-Verification (Coverage Guard) ✓\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-01-17T03:42:40.440Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "04e2f71dc39d2979491f-285f0dd3b78011e98853",
+                  "file": "lock_coverage_guard.spec.ts",
+                  "line": 299,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-17T03:42:29.716Z",
+    "duration": 10768.657,
+    "expected": 27,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

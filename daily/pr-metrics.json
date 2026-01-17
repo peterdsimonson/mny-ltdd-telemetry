@@ -1,4 +1,125 @@
 {
-  "total_merged": 0,
-  "items": []
+  "total_merged": 15,
+  "items": [
+    {
+      "number": 849,
+      "title": "fix(rag): LTDD telemetry on 200",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-17T03:24:26Z",
+      "closed_at": "2026-01-17T03:35:52Z",
+      "lead_time_hours": 0.19055555555555556
+    },
+    {
+      "number": 848,
+      "title": "fix(locks): seed clarify follow-up concepts",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-17T02:30:10Z",
+      "closed_at": "2026-01-17T02:41:59Z",
+      "lead_time_hours": 0.19694444444444445
+    },
+    {
+      "number": 847,
+      "title": "fix(rag): relax library-meta fallback text gating",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T23:01:17Z",
+      "closed_at": "2026-01-17T01:19:00Z",
+      "lead_time_hours": 2.2952777777777778
+    },
+    {
+      "number": 845,
+      "title": "fix(ltdd): write namespace metadata",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T21:30:22Z",
+      "closed_at": "2026-01-16T21:42:29Z",
+      "lead_time_hours": 0.20194444444444445
+    },
+    {
+      "number": 844,
+      "title": "chore(ltdd): add pinecone metadata counts",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T20:48:16Z",
+      "closed_at": "2026-01-16T21:02:13Z",
+      "lead_time_hours": 0.2325
+    },
+    {
+      "number": 843,
+      "title": "chore(rag): add pinecone host fields to 422",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T20:02:45Z",
+      "closed_at": "2026-01-16T20:15:46Z",
+      "lead_time_hours": 0.21694444444444444
+    },
+    {
+      "number": 842,
+      "title": "fix(rag): use LTDD pinecone host in ask",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T19:19:11Z",
+      "closed_at": "2026-01-16T19:33:43Z",
+      "lead_time_hours": 0.24222222222222223
+    },
+    {
+      "number": 841,
+      "title": "fix(ltdd): allow test docs in LTDD context",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T18:13:00Z",
+      "closed_at": "2026-01-16T18:25:33Z",
+      "lead_time_hours": 0.20916666666666667
+    },
+    {
+      "number": 840,
+      "title": "chore(ltdd): tag library 404 branches",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T17:30:12Z",
+      "closed_at": "2026-01-16T17:42:32Z",
+      "lead_time_hours": 0.20555555555555555
+    },
+    {
+      "number": 839,
+      "title": "chore(ltdd): expand firestore identity headers",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T16:52:40Z",
+      "closed_at": "2026-01-16T17:04:41Z",
+      "lead_time_hours": 0.20027777777777778
+    },
+    {
+      "number": 838,
+      "title": "Infra: switch Node base image to Public ECR mirror (avoid Docker Hub 504)",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T15:33:48Z",
+      "closed_at": "2026-01-16T15:39:27Z",
+      "lead_time_hours": 0.09416666666666666
+    },
+    {
+      "number": 837,
+      "title": "LTDD debug: expose Firestore identity on /api/library 404",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T15:21:02Z",
+      "closed_at": "2026-01-16T16:05:46Z",
+      "lead_time_hours": 0.7455555555555555
+    },
+    {
+      "number": 836,
+      "title": "LTDD debug: expose resolved org binding on /api/library 404",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T14:36:10Z",
+      "closed_at": "2026-01-16T14:43:18Z",
+      "lead_time_hours": 0.11888888888888889
+    },
+    {
+      "number": 835,
+      "title": "chore(release): allow header org binding on candidate",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T13:45:09Z",
+      "closed_at": "2026-01-16T13:59:41Z",
+      "lead_time_hours": 0.24222222222222223
+    },
+    {
+      "number": 834,
+      "title": "chore(ltdd): stability scaffolding for evidence, taxonomy, and workflow determinism",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-16T11:52:55Z",
+      "closed_at": "2026-01-16T13:05:14Z",
+      "lead_time_hours": 1.2052777777777777
+    }
+  ]
 }
