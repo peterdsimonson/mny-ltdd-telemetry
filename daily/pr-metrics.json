@@ -1,69 +1,109 @@
 {
-  "total_merged": 8,
+  "total_merged": 13,
   "items": [
     {
-      "number": 859,
-      "title": "fix(rag): deterministic coverage list",
+      "number": 876,
+      "title": "fix: LTDD lookup citations backfill",
       "user": "peterdsimonson",
-      "created_at": "2026-01-18T02:57:46Z",
-      "closed_at": "2026-01-18T03:03:15Z",
+      "created_at": "2026-01-19T03:42:31Z",
+      "closed_at": "2026-01-19T03:48:17Z",
+      "lead_time_hours": 0.0961111111111111
+    },
+    {
+      "number": 875,
+      "title": "fix: org binding telemetry echo + library-meta K′3 citation assembly",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-19T02:36:15Z",
+      "closed_at": "2026-01-19T03:16:30Z",
+      "lead_time_hours": 0.6708333333333333
+    },
+    {
+      "number": 874,
+      "title": "fix: allow LTDD boundary disclosure",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-19T01:34:17Z",
+      "closed_at": "2026-01-19T01:45:39Z",
+      "lead_time_hours": 0.18944444444444444
+    },
+    {
+      "number": 873,
+      "title": "fix: skip clarifier in LTDD",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T23:24:00Z",
+      "closed_at": "2026-01-18T23:36:05Z",
+      "lead_time_hours": 0.2013888888888889
+    },
+    {
+      "number": 872,
+      "title": "fix: canonicalize coverage-required answerText",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T22:43:02Z",
+      "closed_at": "2026-01-18T22:54:47Z",
+      "lead_time_hours": 0.19583333333333333
+    },
+    {
+      "number": 871,
+      "title": "fix: ensure coverage list starts with newline",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T21:53:24Z",
+      "closed_at": "2026-01-18T21:59:23Z",
+      "lead_time_hours": 0.09972222222222223
+    },
+    {
+      "number": 870,
+      "title": "fix: strip coverage newline at return",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T20:27:06Z",
+      "closed_at": "2026-01-18T20:34:03Z",
+      "lead_time_hours": 0.11583333333333333
+    },
+    {
+      "number": 869,
+      "title": "fix: strip leading newline in coverage-required list",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T19:40:43Z",
+      "closed_at": "2026-01-18T19:52:52Z",
+      "lead_time_hours": 0.2025
+    },
+    {
+      "number": 868,
+      "title": "fix: deterministic coverage-required list",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T18:08:10Z",
+      "closed_at": "2026-01-18T18:28:32Z",
+      "lead_time_hours": 0.33944444444444444
+    },
+    {
+      "number": 867,
+      "title": "fix: K2 candidate citation fallback",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T15:33:11Z",
+      "closed_at": "2026-01-18T15:46:20Z",
+      "lead_time_hours": 0.21916666666666668
+    },
+    {
+      "number": 865,
+      "title": "fix: assumptions before banner",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T14:08:56Z",
+      "closed_at": "2026-01-18T14:24:52Z",
+      "lead_time_hours": 0.26555555555555554
+    },
+    {
+      "number": 863,
+      "title": "fix: restore answer mode banner injection",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T04:22:40Z",
+      "closed_at": "2026-01-18T04:36:04Z",
+      "lead_time_hours": 0.22333333333333333
+    },
+    {
+      "number": 862,
+      "title": "fix(governance): align expectedSha with PR head",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-18T03:54:08Z",
+      "closed_at": "2026-01-18T03:59:37Z",
       "lead_time_hours": 0.0913888888888889
-    },
-    {
-      "number": 858,
-      "title": "fix(rag): enforce col0 coverage list",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-18T02:20:33Z",
-      "closed_at": "2026-01-18T02:32:49Z",
-      "lead_time_hours": 0.20444444444444446
-    },
-    {
-      "number": 857,
-      "title": "fix: parseable coverage enumeration",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-18T01:33:49Z",
-      "closed_at": "2026-01-18T01:45:45Z",
-      "lead_time_hours": 0.1988888888888889
-    },
-    {
-      "number": 856,
-      "title": "fix: coverage enumeration re-emit",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-18T00:57:04Z",
-      "closed_at": "2026-01-18T01:09:16Z",
-      "lead_time_hours": 0.20333333333333334
-    },
-    {
-      "number": 855,
-      "title": "fix: coverage-required retrieval fallback",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-18T00:05:56Z",
-      "closed_at": "2026-01-18T00:17:40Z",
-      "lead_time_hours": 0.19555555555555557
-    },
-    {
-      "number": 854,
-      "title": "fix(rag): propagate LTDD marker",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-17T20:55:26Z",
-      "closed_at": "2026-01-17T22:03:46Z",
-      "lead_time_hours": 1.1388888888888888
-    },
-    {
-      "number": 853,
-      "title": "test(ltdd): assert marker strong matches",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-17T20:12:49Z",
-      "closed_at": "2026-01-17T20:24:40Z",
-      "lead_time_hours": 0.1975
-    },
-    {
-      "number": 851,
-      "title": "fix(locks): marker strong matches telemetry",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-17T14:10:20Z",
-      "closed_at": "2026-01-17T19:12:02Z",
-      "lead_time_hours": 5.028333333333333
     }
   ]
 }
