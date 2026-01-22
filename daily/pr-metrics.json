@@ -1,77 +1,37 @@
 {
-  "total_merged": 9,
+  "total_merged": 4,
   "items": [
     {
-      "number": 896,
-      "title": "fix(ui): route uploads through /api",
+      "number": 901,
+      "title": "feat(ui): enable owner visibility toggle in prod (whoami-driven)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-21T03:02:24Z",
-      "closed_at": "2026-01-21T03:08:13Z",
-      "lead_time_hours": 0.09694444444444444
+      "created_at": "2026-01-22T00:30:11Z",
+      "closed_at": "2026-01-22T00:37:44Z",
+      "lead_time_hours": 0.12583333333333332
     },
     {
-      "number": 895,
-      "title": "feat(auth): owner-only membership admin v1 (list/set/remove)",
+      "number": 900,
+      "title": "fix(library): owner visibility toggle + public-share acknowledgment",
       "user": "peterdsimonson",
-      "created_at": "2026-01-21T01:50:49Z",
-      "closed_at": "2026-01-21T01:56:49Z",
-      "lead_time_hours": 0.1
+      "created_at": "2026-01-21T20:59:21Z",
+      "closed_at": "2026-01-21T21:48:45Z",
+      "lead_time_hours": 0.8233333333333334
     },
     {
-      "number": 894,
-      "title": "fix(hosting): route /api/** to backend",
+      "number": 899,
+      "title": "fix(auth): hard-disable anonymous sign-in in prod",
       "user": "peterdsimonson",
-      "created_at": "2026-01-21T00:44:18Z",
-      "closed_at": "2026-01-21T00:50:07Z",
-      "lead_time_hours": 0.09694444444444444
+      "created_at": "2026-01-21T15:48:50Z",
+      "closed_at": "2026-01-21T15:54:37Z",
+      "lead_time_hours": 0.09638888888888889
     },
     {
-      "number": 893,
-      "title": "fix(ui): stop anonymous sign-in in prod",
+      "number": 898,
+      "title": "fix(ui/auth): eliminate prod anonymous sign-in + stop auto popup + whoami truth",
       "user": "peterdsimonson",
-      "created_at": "2026-01-21T00:32:31Z",
-      "closed_at": "2026-01-21T01:16:02Z",
-      "lead_time_hours": 0.7252777777777778
-    },
-    {
-      "number": 892,
-      "title": "feat(ui): whoami-driven role + capabilities gating",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-20T22:59:36Z",
-      "closed_at": "2026-01-21T00:01:37Z",
-      "lead_time_hours": 1.033611111111111
-    },
-    {
-      "number": 891,
-      "title": "feat(ui): firebase auth sign-in + api token plumbing",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-20T20:48:24Z",
-      "closed_at": "2026-01-20T20:54:35Z",
-      "lead_time_hours": 0.10305555555555555
-    },
-    {
-      "number": 890,
-      "title": "fix(ltdd): whoami lock forwarded-host helper",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-20T20:10:23Z",
-      "closed_at": "2026-01-20T20:23:57Z",
-      "lead_time_hours": 0.22611111111111112
-    },
-    {
-      "number": 889,
-      "title": "feat(auth): add /api/whoami introspection (role, binding, capabilities)",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-20T18:11:38Z",
-      "closed_at": "2026-01-20T18:19:18Z",
-      "lead_time_hours": 0.12777777777777777
-    },
-    {
-      "number": 888,
-      "title": "Auth Spine v1: enforce permissions on docs, upload, library, ask (LTDD)",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-20T15:28:35Z",
-      "closed_at": "2026-01-20T17:16:43Z",
-      "lead_time_hours": 1.8022222222222222
+      "created_at": "2026-01-21T12:28:00Z",
+      "closed_at": "2026-01-21T12:40:25Z",
+      "lead_time_hours": 0.20694444444444443
     }
   ]
 }
