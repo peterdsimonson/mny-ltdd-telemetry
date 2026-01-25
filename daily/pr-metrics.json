@@ -1,69 +1,77 @@
 {
-  "total_merged": 8,
+  "total_merged": 9,
   "items": [
     {
-      "number": 922,
-      "title": "fix(ltdd): enforce marker extraction on upload",
+      "number": 932,
+      "title": "test(ltdd): use marker ask response",
       "user": "peterdsimonson",
-      "created_at": "2026-01-23T20:38:23Z",
-      "closed_at": "2026-01-23T20:51:21Z",
-      "lead_time_hours": 0.21611111111111111
+      "created_at": "2026-01-25T02:19:51Z",
+      "closed_at": "2026-01-25T02:27:05Z",
+      "lead_time_hours": 0.12055555555555555
     },
     {
-      "number": 921,
-      "title": "fix(auth): acceptInvite must never downgrade roles",
+      "number": 931,
+      "title": "test(ltdd): disambiguate rag ask telemetry",
       "user": "peterdsimonson",
-      "created_at": "2026-01-23T17:58:16Z",
-      "closed_at": "2026-01-23T18:04:01Z",
+      "created_at": "2026-01-24T23:53:35Z",
+      "closed_at": "2026-01-24T23:59:19Z",
+      "lead_time_hours": 0.09555555555555556
+    },
+    {
+      "number": 930,
+      "title": "fix(rag): always include filter binding in telemetry",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-24T21:43:53Z",
+      "closed_at": "2026-01-24T21:49:23Z",
+      "lead_time_hours": 0.09166666666666666
+    },
+    {
+      "number": 929,
+      "title": "fix(rag): include ltdd filter binding telemetry",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-24T18:48:17Z",
+      "closed_at": "2026-01-24T19:06:41Z",
+      "lead_time_hours": 0.30666666666666664
+    },
+    {
+      "number": 928,
+      "title": "feat(rag): tenant anti-bleed (422 binding + citation filter + LTDD locks)",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-24T18:13:43Z",
+      "closed_at": "2026-01-24T18:19:28Z",
       "lead_time_hours": 0.09583333333333334
     },
     {
-      "number": 920,
-      "title": "feat(ui): revoke invites + member role display v1",
+      "number": 927,
+      "title": "fix: keep explicit library badge colors winning",
       "user": "peterdsimonson",
-      "created_at": "2026-01-23T17:33:53Z",
-      "closed_at": "2026-01-23T17:39:39Z",
+      "created_at": "2026-01-24T16:26:38Z",
+      "closed_at": "2026-01-24T16:38:47Z",
+      "lead_time_hours": 0.2025
+    },
+    {
+      "number": 926,
+      "title": "feat(ui): reapply explicit library badge styles",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-24T13:56:42Z",
+      "closed_at": "2026-01-24T14:02:28Z",
       "lead_time_hours": 0.0961111111111111
     },
     {
-      "number": 919,
-      "title": "fix(auth): prevent owner role downgrade on invite accept",
+      "number": 925,
+      "title": "feat(ui): refine library badge colors",
       "user": "peterdsimonson",
-      "created_at": "2026-01-23T15:55:51Z",
-      "closed_at": "2026-01-23T16:50:32Z",
-      "lead_time_hours": 0.9113888888888889
+      "created_at": "2026-01-24T13:08:04Z",
+      "closed_at": "2026-01-24T13:14:56Z",
+      "lead_time_hours": 0.11444444444444445
     },
     {
-      "number": 918,
-      "title": "fix(rag): enforce orgId+namespace filter in retrieval",
+      "number": 923,
+      "title": "feat(ui): library badge color updates",
       "user": "peterdsimonson",
-      "created_at": "2026-01-23T10:25:28Z",
-      "closed_at": "2026-01-23T10:33:46Z",
-      "lead_time_hours": 0.13833333333333334
-    },
-    {
-      "number": 917,
-      "title": "fix: stabilize library frontend lock",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-23T09:35:42Z",
-      "closed_at": "2026-01-23T09:42:10Z",
-      "lead_time_hours": 0.10777777777777778
-    },
-    {
-      "number": 916,
-      "title": "fix: defer session context UI lock",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-23T09:09:14Z",
-      "closed_at": "2026-01-23T09:14:57Z",
-      "lead_time_hours": 0.09527777777777778
-    },
-    {
-      "number": 914,
-      "title": "fix: gate missing-pepper lock to LTDD-only simulation",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-23T03:48:27Z",
-      "closed_at": "2026-01-23T03:54:12Z",
-      "lead_time_hours": 0.09583333333333334
+      "created_at": "2026-01-24T03:55:30Z",
+      "closed_at": "2026-01-24T04:02:33Z",
+      "lead_time_hours": 0.1175
     }
   ]
 }
