@@ -1,77 +1,85 @@
 {
-  "total_merged": 9,
+  "total_merged": 10,
   "items": [
     {
-      "number": 932,
-      "title": "test(ltdd): use marker ask response",
+      "number": 945,
+      "title": "fix(ltdd): self-heal stale doc when firestore exists and vectors=0 for 60s",
       "user": "peterdsimonson",
-      "created_at": "2026-01-25T02:19:51Z",
-      "closed_at": "2026-01-25T02:27:05Z",
-      "lead_time_hours": 0.12055555555555555
+      "created_at": "2026-01-26T03:30:46Z",
+      "closed_at": "2026-01-26T03:36:22Z",
+      "lead_time_hours": 0.09333333333333334
     },
     {
-      "number": 931,
-      "title": "test(ltdd): disambiguate rag ask telemetry",
+      "number": 943,
+      "title": "fix(ltdd): hedge locks beforeAll 180s → 420s for 300s seed precondition",
       "user": "peterdsimonson",
-      "created_at": "2026-01-24T23:53:35Z",
-      "closed_at": "2026-01-24T23:59:19Z",
+      "created_at": "2026-01-26T02:34:18Z",
+      "closed_at": "2026-01-26T02:39:35Z",
+      "lead_time_hours": 0.08805555555555555
+    },
+    {
+      "number": 942,
+      "title": "fix(ltdd): block ensureTestDocumentUploaded until retrieval-ready; hedge locks maxWait 300",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-26T01:52:31Z",
+      "closed_at": "2026-01-26T01:58:38Z",
+      "lead_time_hours": 0.10194444444444445
+    },
+    {
+      "number": 941,
+      "title": "fix(ltdd): seed ltdd-library-test.pdf in hedge locks to fix 422 empty citations",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-26T01:10:01Z",
+      "closed_at": "2026-01-26T01:15:45Z",
       "lead_time_hours": 0.09555555555555556
     },
     {
-      "number": 930,
-      "title": "fix(rag): always include filter binding in telemetry",
+      "number": 940,
+      "title": "fix(rag): LTDD 422 Case A — isLtddOrg ltdd_* and 422 diag",
       "user": "peterdsimonson",
-      "created_at": "2026-01-24T21:43:53Z",
-      "closed_at": "2026-01-24T21:49:23Z",
-      "lead_time_hours": 0.09166666666666666
+      "created_at": "2026-01-26T00:32:27Z",
+      "closed_at": "2026-01-26T00:44:06Z",
+      "lead_time_hours": 0.19416666666666665
     },
     {
-      "number": 929,
-      "title": "fix(rag): include ltdd filter binding telemetry",
+      "number": 939,
+      "title": "fix(rag): K′2/K′3 library-meta ensure Top themes or How to use this Cognitory",
       "user": "peterdsimonson",
-      "created_at": "2026-01-24T18:48:17Z",
-      "closed_at": "2026-01-24T19:06:41Z",
-      "lead_time_hours": 0.30666666666666664
+      "created_at": "2026-01-25T23:20:21Z",
+      "closed_at": "2026-01-25T23:47:07Z",
+      "lead_time_hours": 0.4461111111111111
     },
     {
-      "number": 928,
-      "title": "feat(rag): tenant anti-bleed (422 binding + citation filter + LTDD locks)",
+      "number": 937,
+      "title": "fix(rag): restore META_SYSTEM_KNOWLEDGE, status-hedge, and claim-spam governance",
       "user": "peterdsimonson",
-      "created_at": "2026-01-24T18:13:43Z",
-      "closed_at": "2026-01-24T18:19:28Z",
-      "lead_time_hours": 0.09583333333333334
+      "created_at": "2026-01-25T22:31:39Z",
+      "closed_at": "2026-01-25T22:37:21Z",
+      "lead_time_hours": 0.095
     },
     {
-      "number": 927,
-      "title": "fix: keep explicit library badge colors winning",
+      "number": 936,
+      "title": "feat(rag): claim citation verifier (Track 2-B2.1)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-24T16:26:38Z",
-      "closed_at": "2026-01-24T16:38:47Z",
-      "lead_time_hours": 0.2025
+      "created_at": "2026-01-25T20:28:30Z",
+      "closed_at": "2026-01-25T20:33:59Z",
+      "lead_time_hours": 0.0913888888888889
     },
     {
-      "number": 926,
-      "title": "feat(ui): reapply explicit library badge styles",
+      "number": 935,
+      "title": "feat(rag): Track 2-B1 claim extraction telemetry",
       "user": "peterdsimonson",
-      "created_at": "2026-01-24T13:56:42Z",
-      "closed_at": "2026-01-24T14:02:28Z",
-      "lead_time_hours": 0.0961111111111111
+      "created_at": "2026-01-25T16:15:01Z",
+      "closed_at": "2026-01-25T16:22:38Z",
+      "lead_time_hours": 0.12694444444444444
     },
     {
-      "number": 925,
-      "title": "feat(ui): refine library badge colors",
+      "number": 934,
+      "title": "feat(rag): Track 2-A answer engine telemetry + LTDD lock v1",
       "user": "peterdsimonson",
-      "created_at": "2026-01-24T13:08:04Z",
-      "closed_at": "2026-01-24T13:14:56Z",
-      "lead_time_hours": 0.11444444444444445
-    },
-    {
-      "number": 923,
-      "title": "feat(ui): library badge color updates",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-24T03:55:30Z",
-      "closed_at": "2026-01-24T04:02:33Z",
-      "lead_time_hours": 0.1175
+      "created_at": "2026-01-25T13:50:59Z",
+      "closed_at": "2026-01-25T13:56:40Z",
+      "lead_time_hours": 0.09472222222222222
     }
   ]
 }
