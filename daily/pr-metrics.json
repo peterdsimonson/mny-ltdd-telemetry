@@ -1,85 +1,117 @@
 {
-  "total_merged": 10,
+  "total_merged": 14,
   "items": [
     {
-      "number": 945,
-      "title": "fix(ltdd): self-heal stale doc when firestore exists and vectors=0 for 60s",
+      "number": 960,
+      "title": "fix(rag): canonicalize effective query for rules engine",
       "user": "peterdsimonson",
-      "created_at": "2026-01-26T03:30:46Z",
-      "closed_at": "2026-01-26T03:36:22Z",
-      "lead_time_hours": 0.09333333333333334
+      "created_at": "2026-01-27T03:24:54Z",
+      "closed_at": "2026-01-27T03:37:14Z",
+      "lead_time_hours": 0.20555555555555555
     },
     {
-      "number": 943,
-      "title": "fix(ltdd): hedge locks beforeAll 180s → 420s for 300s seed precondition",
+      "number": 959,
+      "title": "fix(rag): make named-concept boundary authoritative",
       "user": "peterdsimonson",
-      "created_at": "2026-01-26T02:34:18Z",
-      "closed_at": "2026-01-26T02:39:35Z",
-      "lead_time_hours": 0.08805555555555555
+      "created_at": "2026-01-27T02:44:48Z",
+      "closed_at": "2026-01-27T02:57:59Z",
+      "lead_time_hours": 0.21972222222222224
     },
     {
-      "number": 942,
-      "title": "fix(ltdd): block ensureTestDocumentUploaded until retrieval-ready; hedge locks maxWait 300",
+      "number": 958,
+      "title": "fix(rag): add definition-style override in early no-evidence return",
       "user": "peterdsimonson",
-      "created_at": "2026-01-26T01:52:31Z",
-      "closed_at": "2026-01-26T01:58:38Z",
-      "lead_time_hours": 0.10194444444444445
+      "created_at": "2026-01-27T01:42:48Z",
+      "closed_at": "2026-01-27T01:54:48Z",
+      "lead_time_hours": 0.2
     },
     {
-      "number": 941,
-      "title": "fix(ltdd): seed ltdd-library-test.pdf in hedge locks to fix 422 empty citations",
+      "number": 957,
+      "title": "fix(rag): prevent definition-style queries from using generic FACTUAL fallback",
       "user": "peterdsimonson",
-      "created_at": "2026-01-26T01:10:01Z",
-      "closed_at": "2026-01-26T01:15:45Z",
-      "lead_time_hours": 0.09555555555555556
+      "created_at": "2026-01-26T23:17:19Z",
+      "closed_at": "2026-01-26T23:34:41Z",
+      "lead_time_hours": 0.28944444444444445
     },
     {
-      "number": 940,
-      "title": "fix(rag): LTDD 422 Case A — isLtddOrg ltdd_* and 422 diag",
+      "number": 956,
+      "title": "fix(rag): classify 'Define ...' as FACTUAL intent for Track 2C routing",
       "user": "peterdsimonson",
-      "created_at": "2026-01-26T00:32:27Z",
-      "closed_at": "2026-01-26T00:44:06Z",
-      "lead_time_hours": 0.19416666666666665
+      "created_at": "2026-01-26T20:19:28Z",
+      "closed_at": "2026-01-26T20:32:03Z",
+      "lead_time_hours": 0.20972222222222223
     },
     {
-      "number": 939,
-      "title": "fix(rag): K′2/K′3 library-meta ensure Top themes or How to use this Cognitory",
+      "number": 955,
+      "title": "fix(rag): exclude LIBRARY_META from definition-style hard override",
       "user": "peterdsimonson",
-      "created_at": "2026-01-25T23:20:21Z",
-      "closed_at": "2026-01-25T23:47:07Z",
-      "lead_time_hours": 0.4461111111111111
+      "created_at": "2026-01-26T19:26:41Z",
+      "closed_at": "2026-01-26T19:32:51Z",
+      "lead_time_hours": 0.10277777777777777
     },
     {
-      "number": 937,
-      "title": "fix(rag): restore META_SYSTEM_KNOWLEDGE, status-hedge, and claim-spam governance",
+      "number": 954,
+      "title": "Track 2C: Make definition-style no-evidence return clean GAP (including \"Define …\")",
       "user": "peterdsimonson",
-      "created_at": "2026-01-25T22:31:39Z",
-      "closed_at": "2026-01-25T22:37:21Z",
-      "lead_time_hours": 0.095
+      "created_at": "2026-01-26T18:43:03Z",
+      "closed_at": "2026-01-26T18:56:16Z",
+      "lead_time_hours": 0.22027777777777777
     },
     {
-      "number": 936,
-      "title": "feat(rag): claim citation verifier (Track 2-B2.1)",
+      "number": 953,
+      "title": "fix(rag): Track 2C - GAP responses skip post-processing",
       "user": "peterdsimonson",
-      "created_at": "2026-01-25T20:28:30Z",
-      "closed_at": "2026-01-25T20:33:59Z",
-      "lead_time_hours": 0.0913888888888889
+      "created_at": "2026-01-26T17:54:59Z",
+      "closed_at": "2026-01-26T18:03:28Z",
+      "lead_time_hours": 0.1413888888888889
     },
     {
-      "number": 935,
-      "title": "feat(rag): Track 2-B1 claim extraction telemetry",
+      "number": 952,
+      "title": "feat(rag): Track 2C - Named Concept Boundary",
       "user": "peterdsimonson",
-      "created_at": "2026-01-25T16:15:01Z",
-      "closed_at": "2026-01-25T16:22:38Z",
-      "lead_time_hours": 0.12694444444444444
+      "created_at": "2026-01-26T17:05:39Z",
+      "closed_at": "2026-01-26T17:22:13Z",
+      "lead_time_hours": 0.2761111111111111
     },
     {
-      "number": 934,
-      "title": "feat(rag): Track 2-A answer engine telemetry + LTDD lock v1",
+      "number": 951,
+      "title": "fix(rag): hedge ex-ante \"reasonable\" verdicts at finalization",
       "user": "peterdsimonson",
-      "created_at": "2026-01-25T13:50:59Z",
-      "closed_at": "2026-01-25T13:56:40Z",
-      "lead_time_hours": 0.09472222222222222
+      "created_at": "2026-01-26T14:33:20Z",
+      "closed_at": "2026-01-26T14:39:03Z",
+      "lead_time_hours": 0.09527777777777778
+    },
+    {
+      "number": 950,
+      "title": "fix(rag): minimal post-verifier ex-ante prefix + skip STATUS verifier",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-26T13:56:00Z",
+      "closed_at": "2026-01-26T14:03:56Z",
+      "lead_time_hours": 0.1322222222222222
+    },
+    {
+      "number": 949,
+      "title": "fix(rag): change claim verifier fallback to include 'do not explicitly state'",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-26T12:46:17Z",
+      "closed_at": "2026-01-26T12:58:10Z",
+      "lead_time_hours": 0.19805555555555557
+    },
+    {
+      "number": 948,
+      "title": "fix(rag): skip claim verifier for library-meta (restore 8.8k locks)",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-26T12:13:38Z",
+      "closed_at": "2026-01-26T12:20:46Z",
+      "lead_time_hours": 0.11888888888888889
+    },
+    {
+      "number": 947,
+      "title": "fix(rag): enforce ex-ante reasonableness hedge tokens at finalization",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-26T11:46:36Z",
+      "closed_at": "2026-01-26T12:20:48Z",
+      "lead_time_hours": 0.57
     }
   ]
 }
