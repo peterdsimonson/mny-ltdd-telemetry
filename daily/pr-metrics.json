@@ -1,117 +1,53 @@
 {
-  "total_merged": 14,
+  "total_merged": 6,
   "items": [
     {
-      "number": 960,
-      "title": "fix(rag): canonicalize effective query for rules engine",
+      "number": 967,
+      "title": "feat(rag): implement AnswerPlan chokepoint pattern",
       "user": "peterdsimonson",
-      "created_at": "2026-01-27T03:24:54Z",
-      "closed_at": "2026-01-27T03:37:14Z",
-      "lead_time_hours": 0.20555555555555555
+      "created_at": "2026-01-28T02:24:38Z",
+      "closed_at": "2026-01-28T03:23:54Z",
+      "lead_time_hours": 0.9877777777777778
     },
     {
-      "number": 959,
-      "title": "fix(rag): make named-concept boundary authoritative",
+      "number": 966,
+      "title": "fix(rag): initialize telemetry parent objects before nested access",
       "user": "peterdsimonson",
-      "created_at": "2026-01-27T02:44:48Z",
-      "closed_at": "2026-01-27T02:57:59Z",
-      "lead_time_hours": 0.21972222222222224
+      "created_at": "2026-01-28T01:14:05Z",
+      "closed_at": "2026-01-28T01:27:06Z",
+      "lead_time_hours": 0.21694444444444444
     },
     {
-      "number": 958,
-      "title": "fix(rag): add definition-style override in early no-evidence return",
+      "number": 965,
+      "title": "fix(rag): enforce Named-Concept GAP via pre-retrieval decision",
       "user": "peterdsimonson",
-      "created_at": "2026-01-27T01:42:48Z",
-      "closed_at": "2026-01-27T01:54:48Z",
-      "lead_time_hours": 0.2
+      "created_at": "2026-01-28T00:41:19Z",
+      "closed_at": "2026-01-28T00:46:35Z",
+      "lead_time_hours": 0.08777777777777777
     },
     {
-      "number": 957,
-      "title": "fix(rag): prevent definition-style queries from using generic FACTUAL fallback",
+      "number": 964,
+      "title": "fix(ltdd): authenticate ask telemetry lock",
       "user": "peterdsimonson",
-      "created_at": "2026-01-26T23:17:19Z",
-      "closed_at": "2026-01-26T23:34:41Z",
-      "lead_time_hours": 0.28944444444444445
+      "created_at": "2026-01-28T00:09:14Z",
+      "closed_at": "2026-01-28T00:17:29Z",
+      "lead_time_hours": 0.1375
     },
     {
-      "number": 956,
-      "title": "fix(rag): classify 'Define ...' as FACTUAL intent for Track 2C routing",
+      "number": 963,
+      "title": "feat(rag): force mandatory observability fields in /rag/ask responses (PR A)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-26T20:19:28Z",
-      "closed_at": "2026-01-26T20:32:03Z",
-      "lead_time_hours": 0.20972222222222223
+      "created_at": "2026-01-27T18:23:37Z",
+      "closed_at": "2026-01-27T21:06:31Z",
+      "lead_time_hours": 2.715
     },
     {
-      "number": 955,
-      "title": "fix(rag): exclude LIBRARY_META from definition-style hard override",
+      "number": 962,
+      "title": "fix(rag): make named-concept GAP authoritative and unpostprocessable",
       "user": "peterdsimonson",
-      "created_at": "2026-01-26T19:26:41Z",
-      "closed_at": "2026-01-26T19:32:51Z",
-      "lead_time_hours": 0.10277777777777777
-    },
-    {
-      "number": 954,
-      "title": "Track 2C: Make definition-style no-evidence return clean GAP (including \"Define …\")",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-26T18:43:03Z",
-      "closed_at": "2026-01-26T18:56:16Z",
-      "lead_time_hours": 0.22027777777777777
-    },
-    {
-      "number": 953,
-      "title": "fix(rag): Track 2C - GAP responses skip post-processing",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-26T17:54:59Z",
-      "closed_at": "2026-01-26T18:03:28Z",
-      "lead_time_hours": 0.1413888888888889
-    },
-    {
-      "number": 952,
-      "title": "feat(rag): Track 2C - Named Concept Boundary",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-26T17:05:39Z",
-      "closed_at": "2026-01-26T17:22:13Z",
-      "lead_time_hours": 0.2761111111111111
-    },
-    {
-      "number": 951,
-      "title": "fix(rag): hedge ex-ante \"reasonable\" verdicts at finalization",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-26T14:33:20Z",
-      "closed_at": "2026-01-26T14:39:03Z",
-      "lead_time_hours": 0.09527777777777778
-    },
-    {
-      "number": 950,
-      "title": "fix(rag): minimal post-verifier ex-ante prefix + skip STATUS verifier",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-26T13:56:00Z",
-      "closed_at": "2026-01-26T14:03:56Z",
-      "lead_time_hours": 0.1322222222222222
-    },
-    {
-      "number": 949,
-      "title": "fix(rag): change claim verifier fallback to include 'do not explicitly state'",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-26T12:46:17Z",
-      "closed_at": "2026-01-26T12:58:10Z",
-      "lead_time_hours": 0.19805555555555557
-    },
-    {
-      "number": 948,
-      "title": "fix(rag): skip claim verifier for library-meta (restore 8.8k locks)",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-26T12:13:38Z",
-      "closed_at": "2026-01-26T12:20:46Z",
-      "lead_time_hours": 0.11888888888888889
-    },
-    {
-      "number": 947,
-      "title": "fix(rag): enforce ex-ante reasonableness hedge tokens at finalization",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-26T11:46:36Z",
-      "closed_at": "2026-01-26T12:20:48Z",
-      "lead_time_hours": 0.57
+      "created_at": "2026-01-27T17:30:26Z",
+      "closed_at": "2026-01-27T17:58:43Z",
+      "lead_time_hours": 0.4713888888888889
     }
   ]
 }
