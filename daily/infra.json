@@ -1,1005 +1,935 @@
 {
-  "since": "2026-01-27T03:51:34Z",
-  "total_runs": 114,
+  "since": "2026-01-28T03:57:46Z",
+  "total_runs": 93,
   "runs": [
     {
-      "id": 21423698088,
+      "id": 21463360419,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T02:31:43Z",
+      "updated_at": "2026-01-29T02:31:43Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21463360625,
       "name": "Prod Guardrails",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2026-01-28T03:23:58Z",
-      "updated_at": "2026-01-28T03:24:40Z",
-      "duration_ms": 42000
-    },
-    {
-      "id": 21423698076,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:23:58Z",
-      "updated_at": "2026-01-28T03:25:19Z",
-      "duration_ms": 81000
-    },
-    {
-      "id": 21423698080,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2026-01-28T03:23:58Z",
-      "updated_at": "2026-01-28T03:39:56Z",
-      "duration_ms": 958000
-    },
-    {
-      "id": 21423697744,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:23:57Z",
-      "updated_at": "2026-01-28T03:23:57Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423697837,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:23:57Z",
-      "updated_at": "2026-01-28T03:23:57Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423697950,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:23:57Z",
-      "updated_at": "2026-01-28T03:23:57Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423697618,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:23:56Z",
-      "updated_at": "2026-01-28T03:23:56Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423578843,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:18:03Z",
-      "updated_at": "2026-01-28T03:18:03Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423579032,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:18:03Z",
-      "updated_at": "2026-01-28T03:18:03Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423578483,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:18:02Z",
-      "updated_at": "2026-01-28T03:18:02Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423578664,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:18:02Z",
-      "updated_at": "2026-01-28T03:18:02Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423380631,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:08:51Z",
-      "updated_at": "2026-01-28T03:08:51Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423380760,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:08:51Z",
-      "updated_at": "2026-01-28T03:08:51Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423380387,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:08:50Z",
-      "updated_at": "2026-01-28T03:08:50Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21423380537,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T03:08:50Z",
-      "updated_at": "2026-01-28T03:08:50Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21422439149,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T02:24:26Z",
-      "updated_at": "2026-01-28T02:24:26Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21422439037,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T02:24:25Z",
-      "updated_at": "2026-01-28T02:24:25Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21422438764,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T02:24:25Z",
-      "updated_at": "2026-01-28T02:24:25Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21422438910,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T02:24:25Z",
-      "updated_at": "2026-01-28T02:24:25Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21421932810,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T02:00:58Z",
-      "updated_at": "2026-01-28T02:00:58Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21421932941,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T02:00:58Z",
-      "updated_at": "2026-01-28T02:00:58Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21421933052,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T02:00:58Z",
-      "updated_at": "2026-01-28T02:00:58Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21421932585,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T02:00:57Z",
-      "updated_at": "2026-01-28T02:00:57Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21421192513,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:27:11Z",
-      "updated_at": "2026-01-28T01:27:53Z",
-      "duration_ms": 42000
-    },
-    {
-      "id": 21421192514,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:27:11Z",
-      "updated_at": "2026-01-28T01:28:16Z",
-      "duration_ms": 65000
-    },
-    {
-      "id": 21421192511,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:27:11Z",
-      "updated_at": "2026-01-28T01:42:20Z",
-      "duration_ms": 909000
-    },
-    {
-      "id": 21421192092,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:27:10Z",
-      "updated_at": "2026-01-28T01:27:10Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21421192254,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:27:10Z",
-      "updated_at": "2026-01-28T01:27:10Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21421191781,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:27:09Z",
-      "updated_at": "2026-01-28T01:27:09Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21421191927,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:27:09Z",
-      "updated_at": "2026-01-28T01:27:09Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420921321,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:14:57Z",
-      "updated_at": "2026-01-28T01:14:57Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420920900,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:14:56Z",
-      "updated_at": "2026-01-28T01:14:56Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420921029,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:14:56Z",
-      "updated_at": "2026-01-28T01:14:56Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420921198,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:14:56Z",
-      "updated_at": "2026-01-28T01:14:56Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420899744,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:14:04Z",
-      "updated_at": "2026-01-28T01:14:04Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420899939,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:14:04Z",
-      "updated_at": "2026-01-28T01:14:04Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420899396,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:14:03Z",
-      "updated_at": "2026-01-28T01:14:03Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420899568,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T01:14:03Z",
-      "updated_at": "2026-01-28T01:14:03Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420255296,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:46:39Z",
-      "updated_at": "2026-01-28T00:46:39Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420255489,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:46:39Z",
-      "updated_at": "2026-01-28T00:47:22Z",
-      "duration_ms": 43000
-    },
-    {
-      "id": 21420255485,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:46:39Z",
-      "updated_at": "2026-01-28T00:47:46Z",
-      "duration_ms": 67000
-    },
-    {
-      "id": 21420255488,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:46:39Z",
-      "updated_at": "2026-01-28T01:01:48Z",
-      "duration_ms": 909000
-    },
-    {
-      "id": 21420254822,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:46:38Z",
-      "updated_at": "2026-01-28T00:46:38Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420254965,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:46:38Z",
-      "updated_at": "2026-01-28T00:46:38Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420255136,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:46:38Z",
-      "updated_at": "2026-01-28T00:46:38Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420119842,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:41:11Z",
-      "updated_at": "2026-01-28T00:41:11Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420120052,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:41:11Z",
-      "updated_at": "2026-01-28T00:41:11Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420119501,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:41:10Z",
-      "updated_at": "2026-01-28T00:41:10Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21420119685,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:41:10Z",
-      "updated_at": "2026-01-28T00:41:10Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21419543347,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "created_at": "2026-01-28T00:17:33Z",
-      "updated_at": "2026-01-28T00:33:56Z",
-      "duration_ms": 983000
-    },
-    {
-      "id": 21419543360,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:17:33Z",
-      "updated_at": "2026-01-28T00:18:11Z",
-      "duration_ms": 38000
-    },
-    {
-      "id": 21419543355,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:17:33Z",
-      "updated_at": "2026-01-28T00:18:41Z",
-      "duration_ms": 68000
-    },
-    {
-      "id": 21419542636,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:17:32Z",
-      "updated_at": "2026-01-28T00:17:32Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21419542863,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:17:32Z",
-      "updated_at": "2026-01-28T00:17:32Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21419542447,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:17:31Z",
-      "updated_at": "2026-01-28T00:17:31Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21419542261,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:17:31Z",
-      "updated_at": "2026-01-28T00:17:31Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21419323755,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:09:04Z",
-      "updated_at": "2026-01-28T00:09:04Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21419323942,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:09:04Z",
-      "updated_at": "2026-01-28T00:09:04Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21419323385,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:09:03Z",
-      "updated_at": "2026-01-28T00:09:03Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21419323578,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-28T00:09:03Z",
-      "updated_at": "2026-01-28T00:09:03Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21417219751,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T22:46:26Z",
-      "updated_at": "2026-01-27T22:46:26Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21417219957,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T22:46:26Z",
-      "updated_at": "2026-01-27T22:46:26Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21417219422,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T22:46:25Z",
-      "updated_at": "2026-01-27T22:46:25Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21417219615,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T22:46:25Z",
-      "updated_at": "2026-01-27T22:46:25Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21414195143,
-      "name": "Release (Golden Path)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T21:06:36Z",
-      "updated_at": "2026-01-27T21:23:44Z",
-      "duration_ms": 1028000
-    },
-    {
-      "id": 21414195154,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T21:06:36Z",
-      "updated_at": "2026-01-27T21:07:28Z",
-      "duration_ms": 52000
-    },
-    {
-      "id": 21414195158,
-      "name": "Lock Tests (Production Sentinel)",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T21:06:36Z",
-      "updated_at": "2026-01-27T21:07:47Z",
-      "duration_ms": 71000
-    },
-    {
-      "id": 21414194355,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T21:06:35Z",
-      "updated_at": "2026-01-27T21:06:35Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21414194727,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T21:06:35Z",
-      "updated_at": "2026-01-27T21:06:35Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21414193865,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T21:06:34Z",
-      "updated_at": "2026-01-27T21:06:34Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21414193553,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T21:06:33Z",
-      "updated_at": "2026-01-27T21:06:33Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413805367,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:54:39Z",
-      "updated_at": "2026-01-27T20:54:39Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413805196,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:54:39Z",
-      "updated_at": "2026-01-27T20:54:39Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413805005,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:54:38Z",
-      "updated_at": "2026-01-27T20:54:38Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413804757,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:54:38Z",
-      "updated_at": "2026-01-27T20:54:38Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413783348,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:53:56Z",
-      "updated_at": "2026-01-27T20:53:56Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413783484,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:53:56Z",
-      "updated_at": "2026-01-27T20:53:56Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413782965,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:53:55Z",
-      "updated_at": "2026-01-27T20:53:55Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413783174,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:53:55Z",
-      "updated_at": "2026-01-27T20:53:55Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413749583,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:52:55Z",
-      "updated_at": "2026-01-27T20:52:55Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413749780,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:52:55Z",
-      "updated_at": "2026-01-27T20:52:55Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413749199,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:52:54Z",
-      "updated_at": "2026-01-27T20:52:54Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21413749373,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T20:52:54Z",
-      "updated_at": "2026-01-27T20:52:54Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21409071431,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T18:23:42Z",
-      "updated_at": "2026-01-27T18:23:42Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21409068497,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T18:23:36Z",
-      "updated_at": "2026-01-27T18:23:36Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21409065442,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T18:23:30Z",
-      "updated_at": "2026-01-27T18:23:30Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21409062333,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T18:23:24Z",
-      "updated_at": "2026-01-27T18:23:24Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21409041641,
-      "name": ".github/workflows/hardening-gate.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T18:22:48Z",
-      "updated_at": "2026-01-27T18:22:48Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21409041155,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T18:22:47Z",
-      "updated_at": "2026-01-27T18:22:47Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21409041387,
-      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T18:22:47Z",
-      "updated_at": "2026-01-27T18:22:47Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21409040837,
-      "name": ".github/workflows/ci.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T18:22:46Z",
-      "updated_at": "2026-01-27T18:22:46Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21408299573,
-      "name": "Prod Guardrails",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T17:58:48Z",
-      "updated_at": "2026-01-27T17:59:33Z",
+      "created_at": "2026-01-29T02:31:43Z",
+      "updated_at": "2026-01-29T02:32:28Z",
       "duration_ms": 45000
     },
     {
-      "id": 21408299563,
+      "id": 21463360682,
       "name": "Lock Tests (Production Sentinel)",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2026-01-27T17:58:48Z",
-      "updated_at": "2026-01-27T17:59:53Z",
-      "duration_ms": 65000
+      "created_at": "2026-01-29T02:31:43Z",
+      "updated_at": "2026-01-29T02:32:46Z",
+      "duration_ms": 63000
     },
     {
-      "id": 21408299565,
+      "id": 21463360648,
       "name": "Release (Golden Path)",
       "event": "push",
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-01-27T17:58:48Z",
-      "updated_at": "2026-01-27T18:16:58Z",
-      "duration_ms": 1090000
+      "created_at": "2026-01-29T02:31:43Z",
+      "updated_at": "2026-01-29T02:48:50Z",
+      "duration_ms": 1027000
     },
     {
-      "id": 21408299272,
+      "id": 21463360261,
       "name": ".github/workflows/hardening-gate.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2026-01-27T17:58:47Z",
-      "updated_at": "2026-01-27T17:58:47Z",
+      "created_at": "2026-01-29T02:31:42Z",
+      "updated_at": "2026-01-29T02:31:42Z",
       "duration_ms": 0
     },
     {
-      "id": 21408298543,
+      "id": 21463360114,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T02:31:42Z",
+      "updated_at": "2026-01-29T02:31:42Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21463359995,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T02:31:41Z",
+      "updated_at": "2026-01-29T02:31:41Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21463140505,
       "name": ".github/workflows/ltdd-sync-branch-protection.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2026-01-27T17:58:46Z",
-      "updated_at": "2026-01-27T17:58:46Z",
+      "created_at": "2026-01-29T02:20:30Z",
+      "updated_at": "2026-01-29T02:20:30Z",
       "duration_ms": 0
     },
     {
-      "id": 21408298795,
-      "name": ".github/workflows/daily-ltdd-telemetry.yml",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "failure",
-      "created_at": "2026-01-27T17:58:46Z",
-      "updated_at": "2026-01-27T17:58:46Z",
-      "duration_ms": 0
-    },
-    {
-      "id": 21408299007,
+      "id": 21463140645,
       "name": ".github/workflows/ci.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2026-01-27T17:58:46Z",
-      "updated_at": "2026-01-27T17:58:46Z",
+      "created_at": "2026-01-29T02:20:30Z",
+      "updated_at": "2026-01-29T02:20:30Z",
       "duration_ms": 0
     },
     {
-      "id": 21407845440,
+      "id": 21463140374,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T02:20:29Z",
+      "updated_at": "2026-01-29T02:20:29Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21463140251,
       "name": ".github/workflows/daily-ltdd-telemetry.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2026-01-27T17:44:07Z",
-      "updated_at": "2026-01-27T17:44:07Z",
+      "created_at": "2026-01-29T02:20:29Z",
+      "updated_at": "2026-01-29T02:20:29Z",
       "duration_ms": 0
     },
     {
-      "id": 21407845212,
+      "id": 21461701331,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:10:38Z",
+      "updated_at": "2026-01-29T01:11:21Z",
+      "duration_ms": 43000
+    },
+    {
+      "id": 21461701329,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:10:38Z",
+      "updated_at": "2026-01-29T01:11:49Z",
+      "duration_ms": 71000
+    },
+    {
+      "id": 21461701311,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-01-29T01:10:38Z",
+      "updated_at": "2026-01-29T01:26:50Z",
+      "duration_ms": 972000
+    },
+    {
+      "id": 21461700890,
       "name": ".github/workflows/ci.yml",
       "event": "push",
       "status": "completed",
       "conclusion": "failure",
-      "created_at": "2026-01-27T17:44:06Z",
-      "updated_at": "2026-01-27T17:44:06Z",
+      "created_at": "2026-01-29T01:10:37Z",
+      "updated_at": "2026-01-29T01:10:37Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461701108,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:10:37Z",
+      "updated_at": "2026-01-29T01:10:37Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461700687,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:10:36Z",
+      "updated_at": "2026-01-29T01:10:36Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461700536,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:10:36Z",
+      "updated_at": "2026-01-29T01:10:36Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461477615,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:00:16Z",
+      "updated_at": "2026-01-29T01:00:16Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461477762,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:00:16Z",
+      "updated_at": "2026-01-29T01:00:16Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461477858,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:00:16Z",
+      "updated_at": "2026-01-29T01:00:16Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461477449,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T01:00:15Z",
+      "updated_at": "2026-01-29T01:00:15Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461010566,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T00:38:44Z",
+      "updated_at": "2026-01-29T00:38:44Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461010644,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T00:38:44Z",
+      "updated_at": "2026-01-29T00:38:44Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461010768,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T00:38:44Z",
+      "updated_at": "2026-01-29T00:38:44Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21461010464,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-29T00:38:43Z",
+      "updated_at": "2026-01-29T00:38:43Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21456531768,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:41:31Z",
+      "updated_at": "2026-01-28T21:42:13Z",
+      "duration_ms": 42000
+    },
+    {
+      "id": 21456531704,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:41:31Z",
+      "updated_at": "2026-01-28T21:42:47Z",
+      "duration_ms": 76000
+    },
+    {
+      "id": 21456531746,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-01-28T21:41:31Z",
+      "updated_at": "2026-01-28T21:59:55Z",
+      "duration_ms": 1104000
+    },
+    {
+      "id": 21456531077,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:41:30Z",
+      "updated_at": "2026-01-28T21:41:30Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21456531325,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:41:30Z",
+      "updated_at": "2026-01-28T21:41:30Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21456530615,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:41:29Z",
+      "updated_at": "2026-01-28T21:41:29Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21456530862,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:41:29Z",
+      "updated_at": "2026-01-28T21:41:29Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21455820140,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:18:58Z",
+      "updated_at": "2026-01-28T21:18:58Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21455820316,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:18:58Z",
+      "updated_at": "2026-01-28T21:18:58Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21455819731,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:18:57Z",
+      "updated_at": "2026-01-28T21:18:57Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21455819956,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T21:18:57Z",
+      "updated_at": "2026-01-28T21:18:57Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21454317034,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:27:55Z",
+      "updated_at": "2026-01-28T20:27:55Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21454317320,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:27:55Z",
+      "updated_at": "2026-01-28T20:28:33Z",
+      "duration_ms": 38000
+    },
+    {
+      "id": 21454317358,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:27:55Z",
+      "updated_at": "2026-01-28T20:29:05Z",
+      "duration_ms": 70000
+    },
+    {
+      "id": 21454317318,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-01-28T20:27:55Z",
+      "updated_at": "2026-01-28T20:47:29Z",
+      "duration_ms": 1174000
+    },
+    {
+      "id": 21454316661,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:27:54Z",
+      "updated_at": "2026-01-28T20:27:54Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21454316845,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:27:54Z",
+      "updated_at": "2026-01-28T20:27:54Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21454316521,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:27:53Z",
+      "updated_at": "2026-01-28T20:27:53Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21453946794,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:15:04Z",
+      "updated_at": "2026-01-28T20:15:04Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21453947006,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:15:04Z",
+      "updated_at": "2026-01-28T20:15:04Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21453947245,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:15:04Z",
+      "updated_at": "2026-01-28T20:15:04Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21453946591,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:15:03Z",
+      "updated_at": "2026-01-28T20:15:03Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21453877253,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:12:42Z",
+      "updated_at": "2026-01-28T20:12:42Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21453877024,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:12:41Z",
+      "updated_at": "2026-01-28T20:12:41Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21453876765,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:12:41Z",
+      "updated_at": "2026-01-28T20:12:41Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21453876381,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T20:12:40Z",
+      "updated_at": "2026-01-28T20:12:40Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21448041471,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T17:10:41Z",
+      "updated_at": "2026-01-28T17:11:22Z",
+      "duration_ms": 41000
+    },
+    {
+      "id": 21448041528,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T17:10:41Z",
+      "updated_at": "2026-01-28T17:12:01Z",
+      "duration_ms": 80000
+    },
+    {
+      "id": 21448041455,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-01-28T17:10:41Z",
+      "updated_at": "2026-01-28T17:29:37Z",
+      "duration_ms": 1136000
+    },
+    {
+      "id": 21448040908,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T17:10:40Z",
+      "updated_at": "2026-01-28T17:10:40Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21448040169,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T17:10:39Z",
+      "updated_at": "2026-01-28T17:10:39Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21448040561,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T17:10:39Z",
+      "updated_at": "2026-01-28T17:10:39Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21448039620,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T17:10:38Z",
+      "updated_at": "2026-01-28T17:10:38Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21447216609,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T16:47:06Z",
+      "updated_at": "2026-01-28T16:47:06Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21447216887,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T16:47:06Z",
+      "updated_at": "2026-01-28T16:47:06Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21447216345,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T16:47:05Z",
+      "updated_at": "2026-01-28T16:47:05Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21447216043,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T16:47:04Z",
+      "updated_at": "2026-01-28T16:47:04Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21439394738,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T13:06:05Z",
+      "updated_at": "2026-01-28T13:21:32Z",
+      "duration_ms": 927000
+    },
+    {
+      "id": 21439394709,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T13:06:05Z",
+      "updated_at": "2026-01-28T13:07:14Z",
+      "duration_ms": 69000
+    },
+    {
+      "id": 21439394745,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T13:06:05Z",
+      "updated_at": "2026-01-28T13:06:50Z",
+      "duration_ms": 45000
+    },
+    {
+      "id": 21439394150,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T13:06:04Z",
+      "updated_at": "2026-01-28T13:06:04Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21439394379,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T13:06:04Z",
+      "updated_at": "2026-01-28T13:06:04Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21439393915,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T13:06:03Z",
+      "updated_at": "2026-01-28T13:06:03Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21439393676,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T13:06:03Z",
+      "updated_at": "2026-01-28T13:06:03Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21439196323,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T12:59:49Z",
+      "updated_at": "2026-01-28T12:59:49Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21439195771,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T12:59:48Z",
+      "updated_at": "2026-01-28T12:59:48Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21439196114,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T12:59:48Z",
+      "updated_at": "2026-01-28T12:59:48Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21439195481,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T12:59:47Z",
+      "updated_at": "2026-01-28T12:59:47Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21434211878,
+      "name": "Prod Guardrails",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:17:00Z",
+      "updated_at": "2026-01-28T10:17:40Z",
+      "duration_ms": 40000
+    },
+    {
+      "id": 21434211828,
+      "name": "Lock Tests (Production Sentinel)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:17:00Z",
+      "updated_at": "2026-01-28T10:18:13Z",
+      "duration_ms": 73000
+    },
+    {
+      "id": 21434211868,
+      "name": "Release (Golden Path)",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-01-28T10:17:00Z",
+      "updated_at": "2026-01-28T10:33:46Z",
+      "duration_ms": 1006000
+    },
+    {
+      "id": 21434211435,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:16:59Z",
+      "updated_at": "2026-01-28T10:16:59Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21434210876,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:16:58Z",
+      "updated_at": "2026-01-28T10:16:58Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21434211180,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:16:58Z",
+      "updated_at": "2026-01-28T10:16:58Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21434210516,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:16:57Z",
+      "updated_at": "2026-01-28T10:16:57Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433885524,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:06:46Z",
+      "updated_at": "2026-01-28T10:06:46Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433885267,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:06:45Z",
+      "updated_at": "2026-01-28T10:06:45Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433884943,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:06:45Z",
+      "updated_at": "2026-01-28T10:06:45Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433884725,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:06:44Z",
+      "updated_at": "2026-01-28T10:06:44Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433810240,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:04:38Z",
+      "updated_at": "2026-01-28T10:04:38Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433809721,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:04:37Z",
+      "updated_at": "2026-01-28T10:04:37Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433809968,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:04:37Z",
+      "updated_at": "2026-01-28T10:04:37Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433809521,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:04:36Z",
+      "updated_at": "2026-01-28T10:04:36Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433708173,
+      "name": ".github/workflows/daily-ltdd-telemetry.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:01:32Z",
+      "updated_at": "2026-01-28T10:01:32Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433708423,
+      "name": ".github/workflows/hardening-gate.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:01:32Z",
+      "updated_at": "2026-01-28T10:01:32Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433707650,
+      "name": ".github/workflows/ltdd-sync-branch-protection.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:01:31Z",
+      "updated_at": "2026-01-28T10:01:31Z",
+      "duration_ms": 0
+    },
+    {
+      "id": 21433707908,
+      "name": ".github/workflows/ci.yml",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-01-28T10:01:31Z",
+      "updated_at": "2026-01-28T10:01:31Z",
       "duration_ms": 0
     }
   ]

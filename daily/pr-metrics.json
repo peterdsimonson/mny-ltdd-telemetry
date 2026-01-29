@@ -1,53 +1,61 @@
 {
-  "total_merged": 6,
+  "total_merged": 7,
   "items": [
     {
-      "number": 967,
-      "title": "feat(rag): implement AnswerPlan chokepoint pattern",
+      "number": 975,
+      "title": "feat(rag): LIBRARY_META identity anchor — force-include MNY chunk + prompt (PR 975)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-28T02:24:38Z",
-      "closed_at": "2026-01-28T03:23:54Z",
-      "lead_time_hours": 0.9877777777777778
+      "created_at": "2026-01-29T02:20:29Z",
+      "closed_at": "2026-01-29T02:31:39Z",
+      "lead_time_hours": 0.18611111111111112
     },
     {
-      "number": 966,
-      "title": "fix(rag): initialize telemetry parent objects before nested access",
+      "number": 974,
+      "title": "fix(rag): verifier fallback conditional — ex-ante vs neutral",
       "user": "peterdsimonson",
-      "created_at": "2026-01-28T01:14:05Z",
-      "closed_at": "2026-01-28T01:27:06Z",
-      "lead_time_hours": 0.21694444444444444
+      "created_at": "2026-01-29T00:38:45Z",
+      "closed_at": "2026-01-29T01:10:34Z",
+      "lead_time_hours": 0.5302777777777777
     },
     {
-      "number": 965,
-      "title": "fix(rag): enforce Named-Concept GAP via pre-retrieval decision",
+      "number": 973,
+      "title": "fix(rag): answerKind never none — chokepoint stamp + contract violation (PR A)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-28T00:41:19Z",
-      "closed_at": "2026-01-28T00:46:35Z",
-      "lead_time_hours": 0.08777777777777777
+      "created_at": "2026-01-28T21:19:15Z",
+      "closed_at": "2026-01-28T21:41:27Z",
+      "lead_time_hours": 0.37
     },
     {
-      "number": 964,
-      "title": "fix(ltdd): authenticate ask telemetry lock",
+      "number": 972,
+      "title": "fix(rag): hedge injection must use effectiveQuery only, never contextualQuery (PR Z)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-28T00:09:14Z",
-      "closed_at": "2026-01-28T00:17:29Z",
-      "lead_time_hours": 0.1375
+      "created_at": "2026-01-28T20:12:43Z",
+      "closed_at": "2026-01-28T20:27:51Z",
+      "lead_time_hours": 0.25222222222222224
     },
     {
-      "number": 963,
-      "title": "feat(rag): force mandatory observability fields in /rag/ask responses (PR A)",
+      "number": 971,
+      "title": "fix(ltdd): update answerMode completeness lock to include DEFINITION",
       "user": "peterdsimonson",
-      "created_at": "2026-01-27T18:23:37Z",
-      "closed_at": "2026-01-27T21:06:31Z",
-      "lead_time_hours": 2.715
+      "created_at": "2026-01-28T16:47:07Z",
+      "closed_at": "2026-01-28T17:10:35Z",
+      "lead_time_hours": 0.39111111111111113
     },
     {
-      "number": 962,
-      "title": "fix(rag): make named-concept GAP authoritative and unpostprocessable",
+      "number": 970,
+      "title": "feat(rag): definition-mode extractive answer for Golden Share",
       "user": "peterdsimonson",
-      "created_at": "2026-01-27T17:30:26Z",
-      "closed_at": "2026-01-27T17:58:43Z",
-      "lead_time_hours": 0.4713888888888889
+      "created_at": "2026-01-28T13:00:15Z",
+      "closed_at": "2026-01-28T13:06:00Z",
+      "lead_time_hours": 0.09583333333333334
+    },
+    {
+      "number": 969,
+      "title": "fix(rag): evidence-aware NAMED_CONCEPT_GAP — micro probe before GAP (contract 1.1/4.1)",
+      "user": "peterdsimonson",
+      "created_at": "2026-01-28T10:03:02Z",
+      "closed_at": "2026-01-28T10:16:55Z",
+      "lead_time_hours": 0.2313888888888889
     }
   ]
 }
