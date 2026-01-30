@@ -1,61 +1,37 @@
 {
-  "total_merged": 7,
+  "total_merged": 4,
   "items": [
     {
-      "number": 975,
-      "title": "feat(rag): LIBRARY_META identity anchor — force-include MNY chunk + prompt (PR 975)",
+      "number": 980,
+      "title": "fix(rag): include intent in cache key (PR 979.1) — lock_rag_response_caching",
       "user": "peterdsimonson",
-      "created_at": "2026-01-29T02:20:29Z",
-      "closed_at": "2026-01-29T02:31:39Z",
-      "lead_time_hours": 0.18611111111111112
+      "created_at": "2026-01-30T02:21:58Z",
+      "closed_at": "2026-01-30T02:42:04Z",
+      "lead_time_hours": 0.335
     },
     {
-      "number": 974,
-      "title": "fix(rag): verifier fallback conditional — ex-ante vs neutral",
+      "number": 979,
+      "title": "fix(rag): PR 979 cache safe — validator on hit, fall-through on fail, key versioning",
       "user": "peterdsimonson",
-      "created_at": "2026-01-29T00:38:45Z",
-      "closed_at": "2026-01-29T01:10:34Z",
-      "lead_time_hours": 0.5302777777777777
+      "created_at": "2026-01-29T22:30:19Z",
+      "closed_at": "2026-01-29T23:08:03Z",
+      "lead_time_hours": 0.6288888888888889
     },
     {
-      "number": 973,
-      "title": "fix(rag): answerKind never none — chokepoint stamp + contract violation (PR A)",
+      "number": 978,
+      "title": "feat(rag): PR 978 definition mode enforcement — hard validator + GAP fallback",
       "user": "peterdsimonson",
-      "created_at": "2026-01-28T21:19:15Z",
-      "closed_at": "2026-01-28T21:41:27Z",
-      "lead_time_hours": 0.37
+      "created_at": "2026-01-29T20:27:01Z",
+      "closed_at": "2026-01-29T20:33:53Z",
+      "lead_time_hours": 0.11444444444444445
     },
     {
-      "number": 972,
-      "title": "fix(rag): hedge injection must use effectiveQuery only, never contextualQuery (PR Z)",
+      "number": 977,
+      "title": "fix(rag): Phase 0.3 FACTUAL_NO_EVIDENCE and citationWiringFailure contract",
       "user": "peterdsimonson",
-      "created_at": "2026-01-28T20:12:43Z",
-      "closed_at": "2026-01-28T20:27:51Z",
-      "lead_time_hours": 0.25222222222222224
-    },
-    {
-      "number": 971,
-      "title": "fix(ltdd): update answerMode completeness lock to include DEFINITION",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-28T16:47:07Z",
-      "closed_at": "2026-01-28T17:10:35Z",
-      "lead_time_hours": 0.39111111111111113
-    },
-    {
-      "number": 970,
-      "title": "feat(rag): definition-mode extractive answer for Golden Share",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-28T13:00:15Z",
-      "closed_at": "2026-01-28T13:06:00Z",
-      "lead_time_hours": 0.09583333333333334
-    },
-    {
-      "number": 969,
-      "title": "fix(rag): evidence-aware NAMED_CONCEPT_GAP — micro probe before GAP (contract 1.1/4.1)",
-      "user": "peterdsimonson",
-      "created_at": "2026-01-28T10:03:02Z",
-      "closed_at": "2026-01-28T10:16:55Z",
-      "lead_time_hours": 0.2313888888888889
+      "created_at": "2026-01-29T13:35:34Z",
+      "closed_at": "2026-01-29T13:48:03Z",
+      "lead_time_hours": 0.20805555555555555
     }
   ]
 }
