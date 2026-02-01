@@ -2,76 +2,76 @@
   "total_merged": 9,
   "items": [
     {
-      "number": 990,
-      "title": "fix(rag): NOT_ESTABLISHED TDZ — move constant above first use (PR 990)",
+      "number": 1000,
+      "title": "fix(rag): sanitize answerText and dedupe citations to enforce output contract",
       "user": "peterdsimonson",
-      "created_at": "2026-01-31T02:19:21Z",
-      "closed_at": "2026-01-31T02:25:05Z",
-      "lead_time_hours": 0.09555555555555556
+      "created_at": "2026-01-31T23:52:32Z",
+      "closed_at": "2026-02-01T00:01:29Z",
+      "lead_time_hours": 0.14916666666666667
     },
     {
-      "number": 989,
-      "title": "fix(rag): keep answerMode invariant; add summaryMode subfield",
+      "number": 999,
+      "title": "feat(rag): add debug=0 telemetry trimming to /rag/ask",
       "user": "peterdsimonson",
-      "created_at": "2026-01-31T01:07:45Z",
-      "closed_at": "2026-01-31T01:29:04Z",
-      "lead_time_hours": 0.3552777777777778
+      "created_at": "2026-01-31T19:18:36Z",
+      "closed_at": "2026-01-31T19:31:00Z",
+      "lead_time_hours": 0.20666666666666667
     },
     {
-      "number": 988,
-      "title": "fix(rag): SUMMARY modes + no boundary spam in summary path (PR 988)",
+      "number": 998,
+      "title": "feat(backend): question suite runner (POST /rag/ask, JSONL + MD report)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-30T19:52:07Z",
-      "closed_at": "2026-01-30T21:46:04Z",
-      "lead_time_hours": 1.8991666666666667
+      "created_at": "2026-01-31T16:22:22Z",
+      "closed_at": "2026-01-31T16:28:05Z",
+      "lead_time_hours": 0.09527777777777778
     },
     {
-      "number": 987,
-      "title": "fix(rag): STATUS gap hedge token for lock_status_epistemic_hedge_success (PR 987)",
+      "number": 997,
+      "title": "fix(rag): guardrails v2 (strip uncited bullets, enforce cited definition sentence)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-30T18:49:15Z",
-      "closed_at": "2026-01-30T18:55:06Z",
-      "lead_time_hours": 0.0975
+      "created_at": "2026-01-31T15:40:49Z",
+      "closed_at": "2026-01-31T15:46:28Z",
+      "lead_time_hours": 0.09416666666666666
     },
     {
-      "number": 986,
-      "title": "fix(rag): PR 986 — strip repeated boundary spam from non-gap answers",
+      "number": 996,
+      "title": "fix(rag): answer mode templates (definition/status/lookup)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-30T14:14:18Z",
-      "closed_at": "2026-01-30T14:21:26Z",
-      "lead_time_hours": 0.11888888888888889
+      "created_at": "2026-01-31T13:47:26Z",
+      "closed_at": "2026-01-31T13:54:00Z",
+      "lead_time_hours": 0.10944444444444444
     },
     {
-      "number": 985,
-      "title": "fix(rag): PR 985 — GAP-exempt ltdd_fail_closed_empty_citations",
+      "number": 995,
+      "title": "fix(rag): answer quality guardrails (evidence-aware clamps)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-30T11:51:25Z",
-      "closed_at": "2026-01-30T11:59:13Z",
-      "lead_time_hours": 0.13
+      "created_at": "2026-01-31T13:21:31Z",
+      "closed_at": "2026-01-31T13:27:07Z",
+      "lead_time_hours": 0.09333333333333334
     },
     {
-      "number": 984,
-      "title": "fix(rag): enforce STATUS mode evidence requirement (PR 984)",
+      "number": 994,
+      "title": "fix(rag): definition contract (alias map + routing clamp)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-30T11:08:05Z",
-      "closed_at": "2026-01-30T11:17:09Z",
-      "lead_time_hours": 0.1511111111111111
+      "created_at": "2026-01-31T10:03:23Z",
+      "closed_at": "2026-01-31T12:50:12Z",
+      "lead_time_hours": 2.7802777777777776
     },
     {
-      "number": 983,
-      "title": "fix(rag): status epistemic hedge canonicalization (PR 982)",
+      "number": 993,
+      "title": "fix(rag): definition composer for evidence-backed definitions",
       "user": "peterdsimonson",
-      "created_at": "2026-01-30T10:13:01Z",
-      "closed_at": "2026-01-30T10:19:29Z",
-      "lead_time_hours": 0.10777777777777778
+      "created_at": "2026-01-31T09:30:23Z",
+      "closed_at": "2026-01-31T09:36:08Z",
+      "lead_time_hours": 0.09583333333333334
     },
     {
-      "number": 981,
-      "title": "fix(rag): final contract clamp (gap has no citations; markers required)",
+      "number": 992,
+      "title": "fix(rag): answer composer hygiene (no hedge spam)",
       "user": "peterdsimonson",
-      "created_at": "2026-01-30T03:11:58Z",
-      "closed_at": "2026-01-30T09:49:24Z",
-      "lead_time_hours": 6.623888888888889
+      "created_at": "2026-01-31T08:48:09Z",
+      "closed_at": "2026-01-31T09:00:13Z",
+      "lead_time_hours": 0.2011111111111111
     }
   ]
 }
