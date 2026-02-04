@@ -1,29 +1,93 @@
 {
-  "total_merged": 3,
+  "total_merged": 11,
   "items": [
     {
-      "number": 1005,
-      "title": "fix(rag): prevent library-meta cleanup from overwriting coverage-required answers",
+      "number": 1017,
+      "title": "test(lock): citation spine v1 (no orphan markers, docId required)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-03T03:15:38Z",
-      "closed_at": "2026-02-03T03:28:23Z",
-      "lead_time_hours": 0.2125
+      "created_at": "2026-02-04T03:14:45Z",
+      "closed_at": "2026-02-04T03:20:32Z",
+      "lead_time_hours": 0.09638888888888889
     },
     {
-      "number": 1004,
-      "title": "fix(rag): enforce coverage-required enumeration contract",
+      "number": 1016,
+      "title": "feat(spine): citation spine v1 (marker-to-docId mapping in telemetry)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-03T02:46:36Z",
-      "closed_at": "2026-02-03T02:52:31Z",
-      "lead_time_hours": 0.09861111111111111
+      "created_at": "2026-02-04T02:41:18Z",
+      "closed_at": "2026-02-04T02:47:01Z",
+      "lead_time_hours": 0.09527777777777778
     },
     {
-      "number": 1003,
-      "title": "fix(rag): contract layer must not invent coverage-required content",
+      "number": 1015,
+      "title": "test(lock): doc id spine v1 (citationDocIds required when cited)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-02T19:04:39Z",
-      "closed_at": "2026-02-02T19:17:36Z",
-      "lead_time_hours": 0.21583333333333332
+      "created_at": "2026-02-04T02:03:19Z",
+      "closed_at": "2026-02-04T02:16:44Z",
+      "lead_time_hours": 0.22361111111111112
+    },
+    {
+      "number": 1014,
+      "title": "feat(rag): Doc ID Spine v1 — citationDocIds in telemetry",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-04T01:34:33Z",
+      "closed_at": "2026-02-04T01:40:53Z",
+      "lead_time_hours": 0.10555555555555556
+    },
+    {
+      "number": 1013,
+      "title": "test(lock): tenant binding spine v2 (correct org/namespace/source)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-04T00:29:26Z",
+      "closed_at": "2026-02-04T00:46:17Z",
+      "lead_time_hours": 0.2808333333333333
+    },
+    {
+      "number": 1012,
+      "title": "fix(rag): populate tenantBindingSource in QA telemetry",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-03T23:25:14Z",
+      "closed_at": "2026-02-03T23:31:27Z",
+      "lead_time_hours": 0.10361111111111111
+    },
+    {
+      "number": 1011,
+      "title": "test(lock): tenant binding spine v1 truth line emitted",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-03T22:35:48Z",
+      "closed_at": "2026-02-03T22:43:43Z",
+      "lead_time_hours": 0.13194444444444445
+    },
+    {
+      "number": 1010,
+      "title": "feat(spine): tenant binding spine v1 (explicit resolution + truth line)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-03T21:50:51Z",
+      "closed_at": "2026-02-03T22:08:59Z",
+      "lead_time_hours": 0.3022222222222222
+    },
+    {
+      "number": 1009,
+      "title": "fix(rag): final-stage coverage contract + request-derived trigger",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-03T17:58:33Z",
+      "closed_at": "2026-02-03T18:04:30Z",
+      "lead_time_hours": 0.09916666666666667
+    },
+    {
+      "number": 1008,
+      "title": "fix(rag): stabilize coverage-required enumeration contract",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-03T13:38:57Z",
+      "closed_at": "2026-02-03T13:47:32Z",
+      "lead_time_hours": 0.14305555555555555
+    },
+    {
+      "number": 1007,
+      "title": "fix(rag): guarantee coverage-required intro token",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-03T09:30:10Z",
+      "closed_at": "2026-02-03T09:42:27Z",
+      "lead_time_hours": 0.20472222222222222
     }
   ]
 }
