@@ -1,93 +1,101 @@
 {
-  "total_merged": 11,
+  "total_merged": 12,
   "items": [
     {
-      "number": 1017,
-      "title": "test(lock): citation spine v1 (no orphan markers, docId required)",
+      "number": 1030,
+      "title": "feat(rag): synthesis debug at send + strict dash bullets in prompt (PR #1030)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T03:14:45Z",
-      "closed_at": "2026-02-04T03:20:32Z",
-      "lead_time_hours": 0.09638888888888889
+      "created_at": "2026-02-05T03:20:10Z",
+      "closed_at": "2026-02-05T03:29:50Z",
+      "lead_time_hours": 0.16111111111111112
     },
     {
-      "number": 1016,
-      "title": "feat(spine): citation spine v1 (marker-to-docId mapping in telemetry)",
+      "number": 1029,
+      "title": "fix(rag): preserve newlines for synthesis in retrievalGuard and claimVerifier",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T02:41:18Z",
-      "closed_at": "2026-02-04T02:47:01Z",
-      "lead_time_hours": 0.09527777777777778
+      "created_at": "2026-02-04T23:41:21Z",
+      "closed_at": "2026-02-05T01:54:30Z",
+      "lead_time_hours": 2.2191666666666667
     },
     {
-      "number": 1015,
-      "title": "test(lock): doc id spine v1 (citationDocIds required when cited)",
+      "number": 1028,
+      "title": "fix(rag): preserve newlines for synthesis in answer contract",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T02:03:19Z",
-      "closed_at": "2026-02-04T02:16:44Z",
-      "lead_time_hours": 0.22361111111111112
+      "created_at": "2026-02-04T21:19:24Z",
+      "closed_at": "2026-02-04T21:34:13Z",
+      "lead_time_hours": 0.24694444444444444
     },
     {
-      "number": 1014,
-      "title": "feat(rag): Doc ID Spine v1 — citationDocIds in telemetry",
+      "number": 1027,
+      "title": "fix(rag): synthesis prompt requires bullets per section",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T01:34:33Z",
-      "closed_at": "2026-02-04T01:40:53Z",
-      "lead_time_hours": 0.10555555555555556
+      "created_at": "2026-02-04T20:29:00Z",
+      "closed_at": "2026-02-04T20:50:28Z",
+      "lead_time_hours": 0.35777777777777775
     },
     {
-      "number": 1013,
-      "title": "test(lock): tenant binding spine v2 (correct org/namespace/source)",
+      "number": 1026,
+      "title": "fix(rag): enforce synthesis headers at final answerText boundary",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T00:29:26Z",
-      "closed_at": "2026-02-04T00:46:17Z",
-      "lead_time_hours": 0.2808333333333333
+      "created_at": "2026-02-04T19:44:51Z",
+      "closed_at": "2026-02-04T20:04:36Z",
+      "lead_time_hours": 0.32916666666666666
     },
     {
-      "number": 1012,
-      "title": "fix(rag): populate tenantBindingSource in QA telemetry",
+      "number": 1025,
+      "title": "fix(rag): synthesis mode must emit required headers",
       "user": "peterdsimonson",
-      "created_at": "2026-02-03T23:25:14Z",
-      "closed_at": "2026-02-03T23:31:27Z",
-      "lead_time_hours": 0.10361111111111111
+      "created_at": "2026-02-04T18:35:18Z",
+      "closed_at": "2026-02-04T19:08:31Z",
+      "lead_time_hours": 0.5536111111111112
     },
     {
-      "number": 1011,
-      "title": "test(lock): tenant binding spine v1 truth line emitted",
+      "number": 1024,
+      "title": "fix(rag): force routeMode SYNTHESIS in final response when answerMode is SYNTHESIS",
       "user": "peterdsimonson",
-      "created_at": "2026-02-03T22:35:48Z",
-      "closed_at": "2026-02-03T22:43:43Z",
-      "lead_time_hours": 0.13194444444444445
+      "created_at": "2026-02-04T15:35:31Z",
+      "closed_at": "2026-02-04T15:50:44Z",
+      "lead_time_hours": 0.2536111111111111
     },
     {
-      "number": 1010,
-      "title": "feat(spine): tenant binding spine v1 (explicit resolution + truth line)",
+      "number": 1023,
+      "title": "fix(rag): preserve synthesis routeMode in final telemetry assembly",
       "user": "peterdsimonson",
-      "created_at": "2026-02-03T21:50:51Z",
-      "closed_at": "2026-02-03T22:08:59Z",
-      "lead_time_hours": 0.3022222222222222
+      "created_at": "2026-02-04T12:35:56Z",
+      "closed_at": "2026-02-04T12:53:02Z",
+      "lead_time_hours": 0.285
     },
     {
-      "number": 1009,
-      "title": "fix(rag): final-stage coverage contract + request-derived trigger",
+      "number": 1022,
+      "title": "fix(rag): synthesis telemetry must use routeMode=SYNTHESIS",
       "user": "peterdsimonson",
-      "created_at": "2026-02-03T17:58:33Z",
-      "closed_at": "2026-02-03T18:04:30Z",
-      "lead_time_hours": 0.09916666666666667
+      "created_at": "2026-02-04T11:57:02Z",
+      "closed_at": "2026-02-04T12:02:50Z",
+      "lead_time_hours": 0.09666666666666666
     },
     {
-      "number": 1008,
-      "title": "fix(rag): stabilize coverage-required enumeration contract",
+      "number": 1020,
+      "title": "test(lock): update answerMode telemetry completeness for SYNTHESIS",
       "user": "peterdsimonson",
-      "created_at": "2026-02-03T13:38:57Z",
-      "closed_at": "2026-02-03T13:47:32Z",
-      "lead_time_hours": 0.14305555555555555
+      "created_at": "2026-02-04T04:28:16Z",
+      "closed_at": "2026-02-04T04:33:46Z",
+      "lead_time_hours": 0.09166666666666666
     },
     {
-      "number": 1007,
-      "title": "fix(rag): guarantee coverage-required intro token",
+      "number": 1019,
+      "title": "test(lock): synthesis mode v1 contract (structure + citations)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-03T09:30:10Z",
-      "closed_at": "2026-02-03T09:42:27Z",
-      "lead_time_hours": 0.20472222222222222
+      "created_at": "2026-02-04T04:00:10Z",
+      "closed_at": "2026-02-04T04:59:33Z",
+      "lead_time_hours": 0.9897222222222222
+    },
+    {
+      "number": 1018,
+      "title": "feat(rag): synthesis mode v1 (library-grounded synthesis with counterevidence)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-04T03:50:11Z",
+      "closed_at": "2026-02-04T04:04:13Z",
+      "lead_time_hours": 0.2338888888888889
     }
   ]
 }
