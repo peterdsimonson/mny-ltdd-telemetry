@@ -1,101 +1,93 @@
 {
-  "total_merged": 12,
+  "total_merged": 11,
   "items": [
     {
-      "number": 1030,
-      "title": "feat(rag): synthesis debug at send + strict dash bullets in prompt (PR #1030)",
+      "number": 1044,
+      "title": "fix(synthesis): strip filler bullets at send boundary",
       "user": "peterdsimonson",
-      "created_at": "2026-02-05T03:20:10Z",
-      "closed_at": "2026-02-05T03:29:50Z",
-      "lead_time_hours": 0.16111111111111112
+      "created_at": "2026-02-06T03:09:23Z",
+      "closed_at": "2026-02-06T03:22:59Z",
+      "lead_time_hours": 0.22666666666666666
     },
     {
-      "number": 1029,
-      "title": "fix(rag): preserve newlines for synthesis in retrievalGuard and claimVerifier",
+      "number": 1043,
+      "title": "fix(rag): force EVALUATE/EXPLAIN/COMPARE intent to SYNTHESIS, add lock (post-#922)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T23:41:21Z",
-      "closed_at": "2026-02-05T01:54:30Z",
-      "lead_time_hours": 2.2191666666666667
+      "created_at": "2026-02-06T02:00:31Z",
+      "closed_at": "2026-02-06T02:27:15Z",
+      "lead_time_hours": 0.44555555555555554
     },
     {
-      "number": 1028,
-      "title": "fix(rag): preserve newlines for synthesis in answer contract",
+      "number": 1042,
+      "title": "fix(rag): retrofit citations onto uncited Synthesis/Contradictions/WhyWrong bullets",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T21:19:24Z",
-      "closed_at": "2026-02-04T21:34:13Z",
-      "lead_time_hours": 0.24694444444444444
+      "created_at": "2026-02-06T00:59:40Z",
+      "closed_at": "2026-02-06T01:14:08Z",
+      "lead_time_hours": 0.2411111111111111
     },
     {
-      "number": 1027,
-      "title": "fix(rag): synthesis prompt requires bullets per section",
+      "number": 1041,
+      "title": "fix(rag): synthesis evidence-present must meet contract bullets + citations",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T20:29:00Z",
-      "closed_at": "2026-02-04T20:50:28Z",
-      "lead_time_hours": 0.35777777777777775
+      "created_at": "2026-02-05T21:22:14Z",
+      "closed_at": "2026-02-05T23:14:43Z",
+      "lead_time_hours": 1.8747222222222222
     },
     {
-      "number": 1026,
-      "title": "fix(rag): enforce synthesis headers at final answerText boundary",
+      "number": 1040,
+      "title": "fix(rag): force answerMode=SYNTHESIS when routeMode is SYNTHESIS",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T19:44:51Z",
-      "closed_at": "2026-02-04T20:04:36Z",
-      "lead_time_hours": 0.32916666666666666
+      "created_at": "2026-02-05T20:36:59Z",
+      "closed_at": "2026-02-05T20:48:45Z",
+      "lead_time_hours": 0.19611111111111112
     },
     {
-      "number": 1025,
-      "title": "fix(rag): synthesis mode must emit required headers",
+      "number": 1039,
+      "title": "test(lock): seed ltdd-ci for synthesis v1 contract determinism",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T18:35:18Z",
-      "closed_at": "2026-02-04T19:08:31Z",
-      "lead_time_hours": 0.5536111111111112
+      "created_at": "2026-02-05T19:55:03Z",
+      "closed_at": "2026-02-05T20:04:28Z",
+      "lead_time_hours": 0.15694444444444444
     },
     {
-      "number": 1024,
-      "title": "fix(rag): force routeMode SYNTHESIS in final response when answerMode is SYNTHESIS",
+      "number": 1037,
+      "title": "test(lock): synthesis v1 allows no-evidence outcome when retrieval is empty",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T15:35:31Z",
-      "closed_at": "2026-02-04T15:50:44Z",
-      "lead_time_hours": 0.2536111111111111
+      "created_at": "2026-02-05T13:56:42Z",
+      "closed_at": "2026-02-05T15:12:29Z",
+      "lead_time_hours": 1.2630555555555556
     },
     {
-      "number": 1023,
-      "title": "fix(rag): preserve synthesis routeMode in final telemetry assembly",
+      "number": 1035,
+      "title": "fix(rag): synthesis no-evidence fallback + bulletize synthesis sections",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T12:35:56Z",
-      "closed_at": "2026-02-04T12:53:02Z",
-      "lead_time_hours": 0.285
+      "created_at": "2026-02-05T13:21:08Z",
+      "closed_at": "2026-02-05T13:27:19Z",
+      "lead_time_hours": 0.10305555555555555
     },
     {
-      "number": 1022,
-      "title": "fix(rag): synthesis telemetry must use routeMode=SYNTHESIS",
+      "number": 1034,
+      "title": "fix(rag): status no-evidence uses epistemic hedge token",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T11:57:02Z",
-      "closed_at": "2026-02-04T12:02:50Z",
-      "lead_time_hours": 0.09666666666666666
+      "created_at": "2026-02-05T10:53:53Z",
+      "closed_at": "2026-02-05T11:05:02Z",
+      "lead_time_hours": 0.18583333333333332
     },
     {
-      "number": 1020,
-      "title": "test(lock): update answerMode telemetry completeness for SYNTHESIS",
+      "number": 1033,
+      "title": "fix(rag): Synthesis label ≠ lane — retrieval uses decideRoute only; synthesis threshold fallback",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T04:28:16Z",
-      "closed_at": "2026-02-04T04:33:46Z",
-      "lead_time_hours": 0.09166666666666666
+      "created_at": "2026-02-05T10:04:35Z",
+      "closed_at": "2026-02-05T10:10:28Z",
+      "lead_time_hours": 0.09805555555555556
     },
     {
-      "number": 1019,
-      "title": "test(lock): synthesis mode v1 contract (structure + citations)",
+      "number": 1031,
+      "title": "test(lock): synthesis v1 contract prints synthesisDebug on failure",
       "user": "peterdsimonson",
-      "created_at": "2026-02-04T04:00:10Z",
-      "closed_at": "2026-02-04T04:59:33Z",
-      "lead_time_hours": 0.9897222222222222
-    },
-    {
-      "number": 1018,
-      "title": "feat(rag): synthesis mode v1 (library-grounded synthesis with counterevidence)",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-04T03:50:11Z",
-      "closed_at": "2026-02-04T04:04:13Z",
-      "lead_time_hours": 0.2338888888888889
+      "created_at": "2026-02-05T04:07:37Z",
+      "closed_at": "2026-02-05T04:13:09Z",
+      "lead_time_hours": 0.09222222222222222
     }
   ]
 }
