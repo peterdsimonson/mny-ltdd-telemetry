@@ -1,93 +1,61 @@
 {
-  "total_merged": 11,
+  "total_merged": 7,
   "items": [
     {
-      "number": 1044,
-      "title": "fix(synthesis): strip filler bullets at send boundary",
+      "number": 1052,
+      "title": "fix(rag): guarantee LOOKUP minimum yield (>=2 items)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-06T03:09:23Z",
-      "closed_at": "2026-02-06T03:22:59Z",
-      "lead_time_hours": 0.22666666666666666
+      "created_at": "2026-02-07T01:29:27Z",
+      "closed_at": "2026-02-07T01:35:04Z",
+      "lead_time_hours": 0.09361111111111112
     },
     {
-      "number": 1043,
-      "title": "fix(rag): force EVALUATE/EXPLAIN/COMPARE intent to SYNTHESIS, add lock (post-#922)",
+      "number": 1051,
+      "title": "fix(rag): LOOKUP filler ban + minimum substance (send-boundary)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-06T02:00:31Z",
-      "closed_at": "2026-02-06T02:27:15Z",
-      "lead_time_hours": 0.44555555555555554
+      "created_at": "2026-02-07T00:31:58Z",
+      "closed_at": "2026-02-07T00:46:10Z",
+      "lead_time_hours": 0.23666666666666666
     },
     {
-      "number": 1042,
-      "title": "fix(rag): retrofit citations onto uncited Synthesis/Contradictions/WhyWrong bullets",
+      "number": 1050,
+      "title": "fix(rag): enforce minimum claim yield for synthesis when evidence is sufficient",
       "user": "peterdsimonson",
-      "created_at": "2026-02-06T00:59:40Z",
-      "closed_at": "2026-02-06T01:14:08Z",
-      "lead_time_hours": 0.2411111111111111
+      "created_at": "2026-02-06T23:46:00Z",
+      "closed_at": "2026-02-07T00:00:08Z",
+      "lead_time_hours": 0.23555555555555555
     },
     {
-      "number": 1041,
-      "title": "fix(rag): synthesis evidence-present must meet contract bullets + citations",
+      "number": 1049,
+      "title": "fix(governance): remove 'retrieved documents' phrasing in synthesis defaults",
       "user": "peterdsimonson",
-      "created_at": "2026-02-05T21:22:14Z",
-      "closed_at": "2026-02-05T23:14:43Z",
-      "lead_time_hours": 1.8747222222222222
+      "created_at": "2026-02-06T17:52:58Z",
+      "closed_at": "2026-02-06T19:42:32Z",
+      "lead_time_hours": 1.826111111111111
     },
     {
-      "number": 1040,
-      "title": "fix(rag): force answerMode=SYNTHESIS when routeMode is SYNTHESIS",
+      "number": 1048,
+      "title": "fix(governance): synthesis v1 lock low-evidence branch for release 21750790927",
       "user": "peterdsimonson",
-      "created_at": "2026-02-05T20:36:59Z",
-      "closed_at": "2026-02-05T20:48:45Z",
-      "lead_time_hours": 0.19611111111111112
+      "created_at": "2026-02-06T13:03:27Z",
+      "closed_at": "2026-02-06T16:03:42Z",
+      "lead_time_hours": 3.004166666666667
     },
     {
-      "number": 1039,
-      "title": "test(lock): seed ltdd-ci for synthesis v1 contract determinism",
+      "number": 1047,
+      "title": "fix(synthesis): low-evidence SYNTHESIS must terminate, not pad",
       "user": "peterdsimonson",
-      "created_at": "2026-02-05T19:55:03Z",
-      "closed_at": "2026-02-05T20:04:28Z",
-      "lead_time_hours": 0.15694444444444444
+      "created_at": "2026-02-06T11:58:13Z",
+      "closed_at": "2026-02-06T12:36:12Z",
+      "lead_time_hours": 0.6330555555555556
     },
     {
-      "number": 1037,
-      "title": "test(lock): synthesis v1 allows no-evidence outcome when retrieval is empty",
+      "number": 1045,
+      "title": "fix(synthesis): low-coverage extractive bullets (no meta bullets)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-05T13:56:42Z",
-      "closed_at": "2026-02-05T15:12:29Z",
-      "lead_time_hours": 1.2630555555555556
-    },
-    {
-      "number": 1035,
-      "title": "fix(rag): synthesis no-evidence fallback + bulletize synthesis sections",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-05T13:21:08Z",
-      "closed_at": "2026-02-05T13:27:19Z",
-      "lead_time_hours": 0.10305555555555555
-    },
-    {
-      "number": 1034,
-      "title": "fix(rag): status no-evidence uses epistemic hedge token",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-05T10:53:53Z",
-      "closed_at": "2026-02-05T11:05:02Z",
-      "lead_time_hours": 0.18583333333333332
-    },
-    {
-      "number": 1033,
-      "title": "fix(rag): Synthesis label ≠ lane — retrieval uses decideRoute only; synthesis threshold fallback",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-05T10:04:35Z",
-      "closed_at": "2026-02-05T10:10:28Z",
-      "lead_time_hours": 0.09805555555555556
-    },
-    {
-      "number": 1031,
-      "title": "test(lock): synthesis v1 contract prints synthesisDebug on failure",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-05T04:07:37Z",
-      "closed_at": "2026-02-05T04:13:09Z",
-      "lead_time_hours": 0.09222222222222222
+      "created_at": "2026-02-06T04:10:10Z",
+      "closed_at": "2026-02-06T20:27:32Z",
+      "lead_time_hours": 16.289444444444445
     }
   ]
 }
