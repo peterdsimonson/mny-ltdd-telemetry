@@ -1,77 +1,117 @@
 {
-  "total_merged": 9,
+  "total_merged": 14,
   "items": [
     {
-      "number": 1069,
-      "title": "fix(rag): split inline LOOKUP numbered markers after prefixes",
+      "number": 1077,
+      "title": "fix(rag): stop scaffold template leak",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T03:45:45Z",
-      "closed_at": "2026-02-08T03:58:29Z",
-      "lead_time_hours": 0.21222222222222223
+      "created_at": "2026-02-09T03:38:53Z",
+      "closed_at": "2026-02-09T03:52:08Z",
+      "lead_time_hours": 0.22083333333333333
     },
     {
-      "number": 1066,
-      "title": "fix(ltdd): use correct expected SHA for preview governance",
+      "number": 1076,
+      "title": "fix(ci): stop release candidate /health 404",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T03:12:38Z",
-      "closed_at": "2026-02-08T03:17:49Z",
-      "lead_time_hours": 0.08638888888888889
+      "created_at": "2026-02-09T01:29:58Z",
+      "closed_at": "2026-02-09T01:35:56Z",
+      "lead_time_hours": 0.09944444444444445
     },
     {
-      "number": 1065,
-      "title": "fix(rag): harden LOOKUP sanitizer against junk items",
+      "number": 1075,
+      "title": "fix: stop placeholder scaffold from overwriting answers",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T01:06:19Z",
-      "closed_at": "2026-02-08T01:27:53Z",
-      "lead_time_hours": 0.35944444444444446
+      "created_at": "2026-02-08T21:35:53Z",
+      "closed_at": "2026-02-08T21:41:38Z",
+      "lead_time_hours": 0.09583333333333334
     },
     {
-      "number": 1064,
-      "title": "fix: fail closed on /rag/ask upstream timeout",
+      "number": 1074,
+      "title": "fix: Golden Path LOOKUP no-evidence returns 200 STATUS/GAP",
       "user": "peterdsimonson",
-      "created_at": "2026-02-07T19:06:30Z",
-      "closed_at": "2026-02-07T19:22:06Z",
-      "lead_time_hours": 0.26
+      "created_at": "2026-02-08T19:41:20Z",
+      "closed_at": "2026-02-08T19:48:56Z",
+      "lead_time_hours": 0.12666666666666668
     },
     {
-      "number": 1063,
-      "title": "fix(rag): fail closed ex-ante without hedge token",
+      "number": 1073,
+      "title": "fix(rag): make index-status Pinecone probe non-degenerate",
       "user": "peterdsimonson",
-      "created_at": "2026-02-07T17:50:37Z",
-      "closed_at": "2026-02-07T17:56:14Z",
-      "lead_time_hours": 0.09361111111111112
+      "created_at": "2026-02-08T15:47:43Z",
+      "closed_at": "2026-02-08T15:53:34Z",
+      "lead_time_hours": 0.0975
     },
     {
-      "number": 1062,
-      "title": "test(ltdd): fix LOOKUP numbered item parsing",
+      "number": 1072,
+      "title": "fix(rag): fail-close EVALUATE on empty citations",
       "user": "peterdsimonson",
-      "created_at": "2026-02-07T17:14:47Z",
-      "closed_at": "2026-02-07T17:20:35Z",
-      "lead_time_hours": 0.09666666666666666
+      "created_at": "2026-02-08T14:39:50Z",
+      "closed_at": "2026-02-08T14:45:46Z",
+      "lead_time_hours": 0.09888888888888889
     },
     {
-      "number": 1061,
-      "title": "fix(rag): contract viability gate + STATUS/GAP fail-closed",
+      "number": 1071,
+      "title": "fix(rag): enforce min synthesis bullets in evidence-present regime",
       "user": "peterdsimonson",
-      "created_at": "2026-02-07T15:17:46Z",
-      "closed_at": "2026-02-07T15:30:16Z",
-      "lead_time_hours": 0.20833333333333334
+      "created_at": "2026-02-08T12:08:06Z",
+      "closed_at": "2026-02-08T12:31:17Z",
+      "lead_time_hours": 0.3863888888888889
     },
     {
-      "number": 1055,
-      "title": "docs(ai): Answer Contract v1 (research-grade)",
+      "number": 1068,
+      "title": "ci(prod-guardrails): wait for gcr.io sha tag to exist",
       "user": "peterdsimonson",
-      "created_at": "2026-02-07T03:10:56Z",
-      "closed_at": "2026-02-07T23:59:54Z",
-      "lead_time_hours": 20.816111111111113
+      "created_at": "2026-02-08T03:15:00Z",
+      "closed_at": "2026-02-08T13:01:59Z",
+      "lead_time_hours": 9.783055555555556
     },
     {
-      "number": 1053,
-      "title": "fix(rag): fail-closed contract viability gate to STATUS/GAP",
+      "number": 1067,
+      "title": "ci(prod-sentinel): provide RAG_API_KEY for lock tests",
       "user": "peterdsimonson",
-      "created_at": "2026-02-07T03:01:28Z",
-      "closed_at": "2026-02-07T12:58:31Z",
-      "lead_time_hours": 9.950833333333334
+      "created_at": "2026-02-08T03:14:06Z",
+      "closed_at": "2026-02-08T08:18:12Z",
+      "lead_time_hours": 5.068333333333333
+    },
+    {
+      "number": 1059,
+      "title": "fix(rag): LTDD claim evidence map diagnostics",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-07T03:19:33Z",
+      "closed_at": "2026-02-08T18:21:02Z",
+      "lead_time_hours": 39.02472222222222
+    },
+    {
+      "number": 1058,
+      "title": "fix(rag): extend contract gate to EXPLAIN/COMPARE/DEFINITION",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-07T03:17:48Z",
+      "closed_at": "2026-02-08T20:19:06Z",
+      "lead_time_hours": 41.02166666666667
+    },
+    {
+      "number": 1057,
+      "title": "feat(frontend): section-aware answer rendering",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-07T03:15:17Z",
+      "closed_at": "2026-02-08T17:58:05Z",
+      "lead_time_hours": 38.71333333333333
+    },
+    {
+      "number": 1056,
+      "title": "feat(rag): intentBucket telemetry (contract v1)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-07T03:13:00Z",
+      "closed_at": "2026-02-08T15:19:00Z",
+      "lead_time_hours": 36.1
+    },
+    {
+      "number": 1054,
+      "title": "test(ltdd): EVALUATE must be research-useful or fail closed",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-07T03:09:10Z",
+      "closed_at": "2026-02-08T13:56:11Z",
+      "lead_time_hours": 34.783611111111114
     }
   ]
 }
