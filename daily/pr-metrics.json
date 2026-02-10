@@ -1,117 +1,85 @@
 {
-  "total_merged": 14,
+  "total_merged": 10,
   "items": [
     {
-      "number": 1077,
-      "title": "fix(rag): stop scaffold template leak",
+      "number": 1088,
+      "title": "feat(rag): harden definition scoring to fix marker-only answers",
       "user": "peterdsimonson",
-      "created_at": "2026-02-09T03:38:53Z",
-      "closed_at": "2026-02-09T03:52:08Z",
-      "lead_time_hours": 0.22083333333333333
+      "created_at": "2026-02-10T03:56:17Z",
+      "closed_at": "2026-02-10T04:11:11Z",
+      "lead_time_hours": 0.24833333333333332
     },
     {
-      "number": 1076,
-      "title": "fix(ci): stop release candidate /health 404",
+      "number": 1087,
+      "title": "fix(rag): unconditionally set routeMode=SYNTHESIS for synthesis mode",
       "user": "peterdsimonson",
-      "created_at": "2026-02-09T01:29:58Z",
-      "closed_at": "2026-02-09T01:35:56Z",
-      "lead_time_hours": 0.09944444444444445
+      "created_at": "2026-02-10T02:46:04Z",
+      "closed_at": "2026-02-10T03:25:41Z",
+      "lead_time_hours": 0.6602777777777777
     },
     {
-      "number": 1075,
-      "title": "fix: stop placeholder scaffold from overwriting answers",
+      "number": 1086,
+      "title": "feat(rag): deterministic junk filter (PR #2)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T21:35:53Z",
-      "closed_at": "2026-02-08T21:41:38Z",
-      "lead_time_hours": 0.09583333333333334
+      "created_at": "2026-02-10T02:13:44Z",
+      "closed_at": "2026-02-10T02:19:52Z",
+      "lead_time_hours": 0.10222222222222223
     },
     {
-      "number": 1074,
-      "title": "fix: Golden Path LOOKUP no-evidence returns 200 STATUS/GAP",
+      "number": 1085,
+      "title": "feat(rag): evaluation harness MVP (PR #1)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T19:41:20Z",
-      "closed_at": "2026-02-08T19:48:56Z",
-      "lead_time_hours": 0.12666666666666668
+      "created_at": "2026-02-10T00:56:25Z",
+      "closed_at": "2026-02-10T01:23:20Z",
+      "lead_time_hours": 0.4486111111111111
     },
     {
-      "number": 1073,
-      "title": "fix(rag): make index-status Pinecone probe non-degenerate",
+      "number": 1084,
+      "title": "fix(definition): sentence extractor + acronym expansion",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T15:47:43Z",
-      "closed_at": "2026-02-08T15:53:34Z",
-      "lead_time_hours": 0.0975
+      "created_at": "2026-02-09T23:57:19Z",
+      "closed_at": "2026-02-10T00:10:36Z",
+      "lead_time_hours": 0.22138888888888889
     },
     {
-      "number": 1072,
-      "title": "fix(rag): fail-close EVALUATE on empty citations",
+      "number": 1083,
+      "title": "fix(ci): unblock governance wait for preview deploy",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T14:39:50Z",
-      "closed_at": "2026-02-08T14:45:46Z",
-      "lead_time_hours": 0.09888888888888889
+      "created_at": "2026-02-09T19:29:42Z",
+      "closed_at": "2026-02-09T19:35:47Z",
+      "lead_time_hours": 0.10138888888888889
     },
     {
-      "number": 1071,
-      "title": "fix(rag): enforce min synthesis bullets in evidence-present regime",
+      "number": 1082,
+      "title": "fix: definition snippet selection for DEFINITION",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T12:08:06Z",
-      "closed_at": "2026-02-08T12:31:17Z",
-      "lead_time_hours": 0.3863888888888889
+      "created_at": "2026-02-09T18:47:36Z",
+      "closed_at": "2026-02-09T20:10:25Z",
+      "lead_time_hours": 1.3802777777777777
     },
     {
-      "number": 1068,
-      "title": "ci(prod-guardrails): wait for gcr.io sha tag to exist",
+      "number": 1081,
+      "title": "fix(ci): stop CI from deploying production",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T03:15:00Z",
-      "closed_at": "2026-02-08T13:01:59Z",
-      "lead_time_hours": 9.783055555555556
+      "created_at": "2026-02-09T15:17:08Z",
+      "closed_at": "2026-02-09T15:23:07Z",
+      "lead_time_hours": 0.09972222222222223
     },
     {
-      "number": 1067,
-      "title": "ci(prod-sentinel): provide RAG_API_KEY for lock tests",
+      "number": 1080,
+      "title": "fix: prevent marker-only DEFINITION outputs",
       "user": "peterdsimonson",
-      "created_at": "2026-02-08T03:14:06Z",
-      "closed_at": "2026-02-08T08:18:12Z",
-      "lead_time_hours": 5.068333333333333
+      "created_at": "2026-02-09T12:09:20Z",
+      "closed_at": "2026-02-09T12:15:10Z",
+      "lead_time_hours": 0.09722222222222222
     },
     {
-      "number": 1059,
-      "title": "fix(rag): LTDD claim evidence map diagnostics",
+      "number": 1078,
+      "title": "fix: restore governance locks after scaffold guard",
       "user": "peterdsimonson",
-      "created_at": "2026-02-07T03:19:33Z",
-      "closed_at": "2026-02-08T18:21:02Z",
-      "lead_time_hours": 39.02472222222222
-    },
-    {
-      "number": 1058,
-      "title": "fix(rag): extend contract gate to EXPLAIN/COMPARE/DEFINITION",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-07T03:17:48Z",
-      "closed_at": "2026-02-08T20:19:06Z",
-      "lead_time_hours": 41.02166666666667
-    },
-    {
-      "number": 1057,
-      "title": "feat(frontend): section-aware answer rendering",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-07T03:15:17Z",
-      "closed_at": "2026-02-08T17:58:05Z",
-      "lead_time_hours": 38.71333333333333
-    },
-    {
-      "number": 1056,
-      "title": "feat(rag): intentBucket telemetry (contract v1)",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-07T03:13:00Z",
-      "closed_at": "2026-02-08T15:19:00Z",
-      "lead_time_hours": 36.1
-    },
-    {
-      "number": 1054,
-      "title": "test(ltdd): EVALUATE must be research-useful or fail closed",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-07T03:09:10Z",
-      "closed_at": "2026-02-08T13:56:11Z",
-      "lead_time_hours": 34.783611111111114
+      "created_at": "2026-02-09T04:12:44Z",
+      "closed_at": "2026-02-09T04:20:14Z",
+      "lead_time_hours": 0.125
     }
   ]
 }
