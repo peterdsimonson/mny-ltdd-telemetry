@@ -1,85 +1,69 @@
 {
-  "total_merged": 10,
+  "total_merged": 8,
   "items": [
     {
-      "number": 1088,
-      "title": "feat(rag): harden definition scoring to fix marker-only answers",
+      "number": 1098,
+      "title": "feat(governance): CIC file-to-surface explicit mapping",
       "user": "peterdsimonson",
-      "created_at": "2026-02-10T03:56:17Z",
-      "closed_at": "2026-02-10T04:11:11Z",
-      "lead_time_hours": 0.24833333333333332
+      "created_at": "2026-02-11T02:09:01Z",
+      "closed_at": "2026-02-11T02:23:34Z",
+      "lead_time_hours": 0.2425
     },
     {
-      "number": 1087,
-      "title": "fix(rag): unconditionally set routeMode=SYNTHESIS for synthesis mode",
+      "number": 1097,
+      "title": "fix(rag): allow preview hosts when ALLOW_PREVIEW_HOSTS=true",
       "user": "peterdsimonson",
-      "created_at": "2026-02-10T02:46:04Z",
-      "closed_at": "2026-02-10T03:25:41Z",
-      "lead_time_hours": 0.6602777777777777
+      "created_at": "2026-02-10T20:42:03Z",
+      "closed_at": "2026-02-11T03:08:08Z",
+      "lead_time_hours": 6.434722222222222
     },
     {
-      "number": 1086,
-      "title": "feat(rag): deterministic junk filter (PR #2)",
+      "number": 1096,
+      "title": "fix(rag): preserve hyphens in quoted UUID markers for keyword retrieval",
       "user": "peterdsimonson",
-      "created_at": "2026-02-10T02:13:44Z",
-      "closed_at": "2026-02-10T02:19:52Z",
-      "lead_time_hours": 0.10222222222222223
+      "created_at": "2026-02-10T18:07:21Z",
+      "closed_at": "2026-02-10T20:05:59Z",
+      "lead_time_hours": 1.9772222222222222
     },
     {
-      "number": 1085,
-      "title": "feat(rag): evaluation harness MVP (PR #1)",
+      "number": 1095,
+      "title": "fix(rag): unconditional fail-closed for tenant boundary violations (409)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-10T00:56:25Z",
-      "closed_at": "2026-02-10T01:23:20Z",
-      "lead_time_hours": 0.4486111111111111
+      "created_at": "2026-02-10T17:01:45Z",
+      "closed_at": "2026-02-10T17:33:11Z",
+      "lead_time_hours": 0.5238888888888888
     },
     {
-      "number": 1084,
-      "title": "fix(definition): sentence extractor + acronym expansion",
+      "number": 1093,
+      "title": "fix(rag): mandatory tenant filtering + fail-closed verification guard",
       "user": "peterdsimonson",
-      "created_at": "2026-02-09T23:57:19Z",
-      "closed_at": "2026-02-10T00:10:36Z",
-      "lead_time_hours": 0.22138888888888889
+      "created_at": "2026-02-10T13:24:38Z",
+      "closed_at": "2026-02-10T13:46:27Z",
+      "lead_time_hours": 0.3636111111111111
     },
     {
-      "number": 1083,
-      "title": "fix(ci): unblock governance wait for preview deploy",
+      "number": 1092,
+      "title": "feat(rag): phase 0 - define invariant contracts",
       "user": "peterdsimonson",
-      "created_at": "2026-02-09T19:29:42Z",
-      "closed_at": "2026-02-09T19:35:47Z",
-      "lead_time_hours": 0.10138888888888889
+      "created_at": "2026-02-10T11:04:24Z",
+      "closed_at": "2026-02-10T11:26:57Z",
+      "lead_time_hours": 0.37583333333333335
     },
     {
-      "number": 1082,
-      "title": "fix: definition snippet selection for DEFINITION",
+      "number": 1091,
+      "title": "feat(eval): integrate RAG eval harness into CI",
       "user": "peterdsimonson",
-      "created_at": "2026-02-09T18:47:36Z",
-      "closed_at": "2026-02-09T20:10:25Z",
-      "lead_time_hours": 1.3802777777777777
+      "created_at": "2026-02-10T09:36:33Z",
+      "closed_at": "2026-02-10T09:53:14Z",
+      "lead_time_hours": 0.27805555555555556
     },
     {
-      "number": 1081,
-      "title": "fix(ci): stop CI from deploying production",
+      "number": 1090,
+      "title": "fix(rag): correct definition telemetry condition (null check)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-09T15:17:08Z",
-      "closed_at": "2026-02-09T15:23:07Z",
-      "lead_time_hours": 0.09972222222222223
-    },
-    {
-      "number": 1080,
-      "title": "fix: prevent marker-only DEFINITION outputs",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-09T12:09:20Z",
-      "closed_at": "2026-02-09T12:15:10Z",
-      "lead_time_hours": 0.09722222222222222
-    },
-    {
-      "number": 1078,
-      "title": "fix: restore governance locks after scaffold guard",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-09T04:12:44Z",
-      "closed_at": "2026-02-09T04:20:14Z",
-      "lead_time_hours": 0.125
+      "created_at": "2026-02-10T08:53:58Z",
+      "closed_at": "2026-02-10T09:02:09Z",
+      "lead_time_hours": 0.1363888888888889
     }
   ]
 }
