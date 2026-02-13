@@ -1,21 +1,53 @@
 {
-  "total_merged": 2,
+  "total_merged": 6,
   "items": [
     {
-      "number": 1102,
-      "title": "chore(ltdd): deflake stale tenant and pcQuery locks",
+      "number": 1109,
+      "title": "fix(ltdd): deflake lock_clarification_followup_answers indexing race",
       "user": "peterdsimonson",
-      "created_at": "2026-02-11T08:11:43Z",
-      "closed_at": "2026-02-11T08:18:52Z",
-      "lead_time_hours": 0.11916666666666667
+      "created_at": "2026-02-13T03:16:55Z",
+      "closed_at": "2026-02-13T03:26:55Z",
+      "lead_time_hours": 0.16666666666666666
     },
     {
-      "number": 1100,
-      "title": "fix(rag): extract UUID markers for LTDD clarification follow-up lock",
+      "number": 1108,
+      "title": "docs(sessions): record Golden Path success, PR 1107 merge",
       "user": "peterdsimonson",
-      "created_at": "2026-02-11T04:16:22Z",
-      "closed_at": "2026-02-11T04:24:36Z",
-      "lead_time_hours": 0.13722222222222222
+      "created_at": "2026-02-13T02:47:39Z",
+      "closed_at": "2026-02-13T02:56:38Z",
+      "lead_time_hours": 0.14972222222222223
+    },
+    {
+      "number": 1107,
+      "title": "fix(ltdd): use custom token in getFirebaseIdToken for API tests",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T01:59:17Z",
+      "closed_at": "2026-02-13T02:27:50Z",
+      "lead_time_hours": 0.47583333333333333
+    },
+    {
+      "number": 1106,
+      "title": "fix(ci): move mint script to frontend so firebase-admin resolves",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T01:28:31Z",
+      "closed_at": "2026-02-13T01:37:56Z",
+      "lead_time_hours": 0.15694444444444444
+    },
+    {
+      "number": 1105,
+      "title": "fix(auth): satisfy no-empty lint in ensureSignedIn catch block",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T01:09:24Z",
+      "closed_at": "2026-02-13T01:16:10Z",
+      "lead_time_hours": 0.11277777777777778
+    },
+    {
+      "number": 1104,
+      "title": "feat(auth): Firebase custom token for LTDD lock tests (Steps 5a, 5c)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T00:36:37Z",
+      "closed_at": "2026-02-13T01:02:43Z",
+      "lead_time_hours": 0.435
     }
   ]
 }
