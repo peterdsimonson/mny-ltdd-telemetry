@@ -1,53 +1,109 @@
 {
-  "total_merged": 6,
+  "total_merged": 13,
   "items": [
     {
-      "number": 1109,
-      "title": "fix(ltdd): deflake lock_clarification_followup_answers indexing race",
+      "number": 1123,
+      "title": "test(ltdd): lock NAMED_CONCEPT_GAP extraction (no re-inline)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T03:16:55Z",
-      "closed_at": "2026-02-13T03:26:55Z",
-      "lead_time_hours": 0.16666666666666666
+      "created_at": "2026-02-14T03:32:37Z",
+      "closed_at": "2026-02-14T03:38:26Z",
+      "lead_time_hours": 0.09694444444444444
     },
     {
-      "number": 1108,
-      "title": "docs(sessions): record Golden Path success, PR 1107 merge",
+      "number": 1122,
+      "title": "refactor(rag): extract NAMED_CONCEPT_GAP handler (Option B PR 1)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T02:47:39Z",
-      "closed_at": "2026-02-13T02:56:38Z",
-      "lead_time_hours": 0.14972222222222223
+      "created_at": "2026-02-14T02:18:54Z",
+      "closed_at": "2026-02-14T02:25:47Z",
+      "lead_time_hours": 0.11472222222222223
     },
     {
-      "number": 1107,
-      "title": "fix(ltdd): use custom token in getFirebaseIdToken for API tests",
+      "number": 1121,
+      "title": "refactor(rag): wire emitTelemetryStage (Step 7 PR 6)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T01:59:17Z",
-      "closed_at": "2026-02-13T02:27:50Z",
-      "lead_time_hours": 0.47583333333333333
+      "created_at": "2026-02-14T01:37:55Z",
+      "closed_at": "2026-02-14T01:44:10Z",
+      "lead_time_hours": 0.10416666666666667
     },
     {
-      "number": 1106,
-      "title": "fix(ci): move mint script to frontend so firebase-admin resolves",
+      "number": 1120,
+      "title": "refactor(rag): wire applyAnswerContractStage (Step 7 PR 5)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T01:28:31Z",
-      "closed_at": "2026-02-13T01:37:56Z",
-      "lead_time_hours": 0.15694444444444444
+      "created_at": "2026-02-14T01:03:40Z",
+      "closed_at": "2026-02-14T01:16:44Z",
+      "lead_time_hours": 0.21777777777777776
     },
     {
-      "number": 1105,
-      "title": "fix(auth): satisfy no-empty lint in ensureSignedIn catch block",
+      "number": 1119,
+      "title": "fix(rag): case-insensitive marker matching for ltddMarkerStrongMatchesCount",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T01:09:24Z",
-      "closed_at": "2026-02-13T01:16:10Z",
-      "lead_time_hours": 0.11277777777777778
+      "created_at": "2026-02-14T00:02:10Z",
+      "closed_at": "2026-02-14T00:40:12Z",
+      "lead_time_hours": 0.6338888888888888
     },
     {
-      "number": 1104,
-      "title": "feat(auth): Firebase custom token for LTDD lock tests (Steps 5a, 5c)",
+      "number": 1118,
+      "title": "feat(rag): wire composeAnswerStage (Step 7 PR 4)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T00:36:37Z",
-      "closed_at": "2026-02-13T01:02:43Z",
-      "lead_time_hours": 0.435
+      "created_at": "2026-02-13T21:56:09Z",
+      "closed_at": "2026-02-13T22:09:40Z",
+      "lead_time_hours": 0.22527777777777777
+    },
+    {
+      "number": 1117,
+      "title": "feat(rag): wire rerankStage (Step 7 PR 3)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T20:20:51Z",
+      "closed_at": "2026-02-13T21:25:57Z",
+      "lead_time_hours": 1.085
+    },
+    {
+      "number": 1116,
+      "title": "fix(rag): validate FailureClassification at boundary",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T20:13:00Z",
+      "closed_at": "2026-02-13T20:38:17Z",
+      "lead_time_hours": 0.42138888888888887
+    },
+    {
+      "number": 1115,
+      "title": "refactor(rag): wire retrieveStage as thin wrapper (no behavior change)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T17:18:36Z",
+      "closed_at": "2026-02-13T17:27:14Z",
+      "lead_time_hours": 0.1438888888888889
+    },
+    {
+      "number": 1114,
+      "title": "refactor(rag): remove module-level LLM client override",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T16:30:36Z",
+      "closed_at": "2026-02-13T16:37:02Z",
+      "lead_time_hours": 0.10722222222222222
+    },
+    {
+      "number": 1113,
+      "title": "refactor(rag): wire resolvePlanStage (Step 7 PR 1)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T12:41:55Z",
+      "closed_at": "2026-02-13T12:55:03Z",
+      "lead_time_hours": 0.21888888888888888
+    },
+    {
+      "number": 1112,
+      "title": "fix(ltdd): update lock_phase_8_8b for decideRoute extraction",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T12:17:30Z",
+      "closed_at": "2026-02-13T12:23:24Z",
+      "lead_time_hours": 0.09833333333333333
+    },
+    {
+      "number": 1111,
+      "title": "refactor(rag): extract buildAnswerPlan + add pipeline stage stubs",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-13T11:40:04Z",
+      "closed_at": "2026-02-13T11:55:45Z",
+      "lead_time_hours": 0.2613888888888889
     }
   ]
 }
