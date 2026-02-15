@@ -1,109 +1,181 @@
 {
-  "total_merged": 13,
+  "total_merged": 22,
   "items": [
     {
-      "number": 1123,
-      "title": "test(ltdd): lock NAMED_CONCEPT_GAP extraction (no re-inline)",
+      "number": 1147,
+      "title": "fix(rag): single source of truth for DEFINITION_GAP_MESSAGE",
       "user": "peterdsimonson",
-      "created_at": "2026-02-14T03:32:37Z",
-      "closed_at": "2026-02-14T03:38:26Z",
-      "lead_time_hours": 0.09694444444444444
+      "created_at": "2026-02-15T03:32:18Z",
+      "closed_at": "2026-02-15T03:38:17Z",
+      "lead_time_hours": 0.09972222222222223
     },
     {
-      "number": 1122,
-      "title": "refactor(rag): extract NAMED_CONCEPT_GAP handler (Option B PR 1)",
+      "number": 1146,
+      "title": "refactor(rag): extract probeLibraryForConcept to earlyExits",
       "user": "peterdsimonson",
-      "created_at": "2026-02-14T02:18:54Z",
-      "closed_at": "2026-02-14T02:25:47Z",
-      "lead_time_hours": 0.11472222222222223
+      "created_at": "2026-02-15T02:46:54Z",
+      "closed_at": "2026-02-15T02:59:32Z",
+      "lead_time_hours": 0.21055555555555555
     },
     {
-      "number": 1121,
-      "title": "refactor(rag): wire emitTelemetryStage (Step 7 PR 6)",
+      "number": 1145,
+      "title": "docs(session): complete marker-split story with green run link",
       "user": "peterdsimonson",
-      "created_at": "2026-02-14T01:37:55Z",
-      "closed_at": "2026-02-14T01:44:10Z",
-      "lead_time_hours": 0.10416666666666667
+      "created_at": "2026-02-15T02:03:52Z",
+      "closed_at": "2026-02-15T02:10:15Z",
+      "lead_time_hours": 0.1063888888888889
     },
     {
-      "number": 1120,
-      "title": "refactor(rag): wire applyAnswerContractStage (Step 7 PR 5)",
+      "number": 1144,
+      "title": "fix(rag): marker split robustness for lock_clarification_followup_answers",
       "user": "peterdsimonson",
-      "created_at": "2026-02-14T01:03:40Z",
-      "closed_at": "2026-02-14T01:16:44Z",
-      "lead_time_hours": 0.21777777777777776
+      "created_at": "2026-02-15T01:30:29Z",
+      "closed_at": "2026-02-15T01:43:53Z",
+      "lead_time_hours": 0.22333333333333333
     },
     {
-      "number": 1119,
-      "title": "fix(rag): case-insensitive marker matching for ltddMarkerStrongMatchesCount",
+      "number": 1143,
+      "title": "fix(rag): enforce LOOKUP minimum substance at answer boundary",
       "user": "peterdsimonson",
-      "created_at": "2026-02-14T00:02:10Z",
-      "closed_at": "2026-02-14T00:40:12Z",
-      "lead_time_hours": 0.6338888888888888
+      "created_at": "2026-02-15T00:45:02Z",
+      "closed_at": "2026-02-15T01:07:01Z",
+      "lead_time_hours": 0.3663888888888889
     },
     {
-      "number": 1118,
-      "title": "feat(rag): wire composeAnswerStage (Step 7 PR 4)",
+      "number": 1142,
+      "title": "refactor(rag): move runApplyAnswerQualityGuardrailsBlock into applyAnswerContract",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T21:56:09Z",
-      "closed_at": "2026-02-13T22:09:40Z",
-      "lead_time_hours": 0.22527777777777777
+      "created_at": "2026-02-14T22:33:46Z",
+      "closed_at": "2026-02-15T00:02:30Z",
+      "lead_time_hours": 1.478888888888889
     },
     {
-      "number": 1117,
-      "title": "feat(rag): wire rerankStage (Step 7 PR 3)",
+      "number": 1141,
+      "title": "test(ltdd): lock conversational function count ratchet",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T20:20:51Z",
-      "closed_at": "2026-02-13T21:25:57Z",
-      "lead_time_hours": 1.085
+      "created_at": "2026-02-14T22:32:11Z",
+      "closed_at": "2026-02-14T22:37:24Z",
+      "lead_time_hours": 0.08694444444444445
     },
     {
-      "number": 1116,
-      "title": "fix(rag): validate FailureClassification at boundary",
+      "number": 1140,
+      "title": "test(ltdd): lock RAG architecture target doc presence",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T20:13:00Z",
-      "closed_at": "2026-02-13T20:38:17Z",
-      "lead_time_hours": 0.42138888888888887
+      "created_at": "2026-02-14T21:51:05Z",
+      "closed_at": "2026-02-14T21:58:50Z",
+      "lead_time_hours": 0.12916666666666668
     },
     {
-      "number": 1115,
-      "title": "refactor(rag): wire retrieveStage as thin wrapper (no behavior change)",
+      "number": 1139,
+      "title": "docs(rag): add orchestrated pipeline architecture target + Cursor rules",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T17:18:36Z",
-      "closed_at": "2026-02-13T17:27:14Z",
-      "lead_time_hours": 0.1438888888888889
+      "created_at": "2026-02-14T21:49:58Z",
+      "closed_at": "2026-02-14T22:05:00Z",
+      "lead_time_hours": 0.25055555555555553
     },
     {
-      "number": 1114,
-      "title": "refactor(rag): remove module-level LLM client override",
+      "number": 1138,
+      "title": "refactor(rag): move runEmitTelemetryBlock into emitTelemetry stage (PR 5)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T16:30:36Z",
-      "closed_at": "2026-02-13T16:37:02Z",
-      "lead_time_hours": 0.10722222222222222
+      "created_at": "2026-02-14T21:18:58Z",
+      "closed_at": "2026-02-14T21:25:07Z",
+      "lead_time_hours": 0.1025
     },
     {
-      "number": 1113,
-      "title": "refactor(rag): wire resolvePlanStage (Step 7 PR 1)",
+      "number": 1137,
+      "title": "refactor(rag): move runComposeAnswerBlock into composeAnswer stage (PR 4)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T12:41:55Z",
-      "closed_at": "2026-02-13T12:55:03Z",
-      "lead_time_hours": 0.21888888888888888
+      "created_at": "2026-02-14T20:46:59Z",
+      "closed_at": "2026-02-14T20:58:15Z",
+      "lead_time_hours": 0.18777777777777777
     },
     {
-      "number": 1112,
-      "title": "fix(ltdd): update lock_phase_8_8b for decideRoute extraction",
+      "number": 1136,
+      "title": "fix(ltdd): lock_epistemic_hedging check retrieve.ts for coverage escalation",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T12:17:30Z",
-      "closed_at": "2026-02-13T12:23:24Z",
-      "lead_time_hours": 0.09833333333333333
+      "created_at": "2026-02-14T18:17:10Z",
+      "closed_at": "2026-02-14T18:32:29Z",
+      "lead_time_hours": 0.25527777777777777
     },
     {
-      "number": 1111,
-      "title": "refactor(rag): extract buildAnswerPlan + add pipeline stage stubs",
+      "number": 1135,
+      "title": "refactor(rag): move runRetrievalBlock + decomposeQuery into retrieve stage (PR 3b)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-13T11:40:04Z",
-      "closed_at": "2026-02-13T11:55:45Z",
-      "lead_time_hours": 0.2613888888888889
+      "created_at": "2026-02-14T17:52:08Z",
+      "closed_at": "2026-02-14T17:58:07Z",
+      "lead_time_hours": 0.09972222222222223
+    },
+    {
+      "number": 1134,
+      "title": "docs(ai): add successful Release run link to spine-403 session",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T17:20:09Z",
+      "closed_at": "2026-02-14T17:26:02Z",
+      "lead_time_hours": 0.09805555555555556
+    },
+    {
+      "number": 1133,
+      "title": "fix(ltdd): deflake spine tests — seed membership before /rag/ask",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T16:46:14Z",
+      "closed_at": "2026-02-14T16:59:33Z",
+      "lead_time_hours": 0.22194444444444444
+    },
+    {
+      "number": 1132,
+      "title": "refactor(rag): extract retrieval query helpers (tokens + merge)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T16:17:59Z",
+      "closed_at": "2026-02-14T16:25:42Z",
+      "lead_time_hours": 0.12861111111111112
+    },
+    {
+      "number": 1131,
+      "title": "refactor(rag): extract resolveChunkId + move runRerankBlock (PR 2a+2b combined)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T14:35:42Z",
+      "closed_at": "2026-02-14T14:49:46Z",
+      "lead_time_hours": 0.23444444444444446
+    },
+    {
+      "number": 1129,
+      "title": "refactor(rag): extract normalized concept matching helpers",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T14:03:58Z",
+      "closed_at": "2026-02-14T14:10:08Z",
+      "lead_time_hours": 0.10277777777777777
+    },
+    {
+      "number": 1128,
+      "title": "refactor(rag): lock pipeline stages stay delegated",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T13:18:03Z",
+      "closed_at": "2026-02-14T13:31:03Z",
+      "lead_time_hours": 0.21666666666666667
+    },
+    {
+      "number": 1127,
+      "title": "refactor(rag): extend lock with decideRoute + buildAnswerPlan checks",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T12:42:11Z",
+      "closed_at": "2026-02-14T12:55:18Z",
+      "lead_time_hours": 0.21861111111111112
+    },
+    {
+      "number": 1126,
+      "title": "test(ltdd): extend lock with SYSTEM_META + wire growth guard as required check",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T12:03:59Z",
+      "closed_at": "2026-02-14T12:10:00Z",
+      "lead_time_hours": 0.10027777777777777
+    },
+    {
+      "number": 1124,
+      "title": "ci(ltdd): guard conversational.ts PR growth (>50 lines)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-14T03:33:02Z",
+      "closed_at": "2026-02-14T04:40:43Z",
+      "lead_time_hours": 1.1280555555555556
     }
   ]
 }
