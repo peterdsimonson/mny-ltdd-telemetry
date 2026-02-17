@@ -1,69 +1,125 @@
 {
-  "total_merged": 8,
+  "total_merged": 15,
   "items": [
     {
-      "number": 1156,
-      "title": "refactor(rag): centralize clarification and courtesy gates in libraryMeta/policy.ts",
+      "number": 1175,
+      "title": "fix(ci): set GITHUB_TOKEN env for CIC step",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T01:58:43Z",
-      "closed_at": "2026-02-16T02:32:32Z",
-      "lead_time_hours": 0.5636111111111111
+      "created_at": "2026-02-17T01:51:24Z",
+      "closed_at": "2026-02-17T02:06:14Z",
+      "lead_time_hours": 0.24722222222222223
     },
     {
-      "number": 1155,
-      "title": "refactor(rag): centralize unsupported-term gate in libraryMeta/policy.ts",
+      "number": 1174,
+      "title": "fix(ci): always fetch PR body via github-script",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T01:55:38Z",
-      "closed_at": "2026-02-16T02:09:18Z",
-      "lead_time_hours": 0.22777777777777777
+      "created_at": "2026-02-17T01:12:26Z",
+      "closed_at": "2026-02-17T01:26:43Z",
+      "lead_time_hours": 0.23805555555555555
     },
     {
-      "number": 1154,
-      "title": "chore: add session doc + trigger Release to wire LTDD_TEST_KEY",
+      "number": 1171,
+      "title": "fix(ci): add gh CLI + retry for PR body fetch when payload empty",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T00:46:41Z",
-      "closed_at": "2026-02-16T00:58:57Z",
-      "lead_time_hours": 0.20444444444444446
+      "created_at": "2026-02-16T22:36:47Z",
+      "closed_at": "2026-02-17T00:32:05Z",
+      "lead_time_hours": 1.9216666666666666
     },
     {
-      "number": 1153,
-      "title": "refactor(rag): centralize LIBRARY_META into libraryMetaCtx",
+      "number": 1169,
+      "title": "ci(golden-path): fail-fast LTDD_TEST_KEY injection gate before lock suite",
       "user": "peterdsimonson",
-      "created_at": "2026-02-15T23:48:22Z",
-      "closed_at": "2026-02-16T00:24:42Z",
-      "lead_time_hours": 0.6055555555555555
+      "created_at": "2026-02-16T21:12:43Z",
+      "closed_at": "2026-02-16T21:33:36Z",
+      "lead_time_hours": 0.34805555555555556
     },
     {
-      "number": 1152,
-      "title": "fix(rag): LIBRARY_META extraction + synthesis gate ingress-derived",
+      "number": 1168,
+      "title": "ci(golden-path): point missing_key failures to LTDD_TEST_KEY checklist",
       "user": "peterdsimonson",
-      "created_at": "2026-02-15T12:59:19Z",
-      "closed_at": "2026-02-15T13:12:39Z",
-      "lead_time_hours": 0.2222222222222222
+      "created_at": "2026-02-16T19:20:22Z",
+      "closed_at": "2026-02-16T19:45:20Z",
+      "lead_time_hours": 0.4161111111111111
     },
     {
-      "number": 1151,
-      "title": "refactor(rag): extract LIBRARY_META helpers to libraryMeta modules",
+      "number": 1167,
+      "title": "ci: add bash -n validation for shell scripts in preflight",
       "user": "peterdsimonson",
-      "created_at": "2026-02-15T12:28:57Z",
-      "closed_at": "2026-02-15T12:35:04Z",
-      "lead_time_hours": 0.10194444444444445
+      "created_at": "2026-02-16T19:15:27Z",
+      "closed_at": "2026-02-16T19:24:37Z",
+      "lead_time_hours": 0.1527777777777778
     },
     {
-      "number": 1150,
-      "title": "refactor(rag): extract definition handler into definition/index.ts",
+      "number": 1166,
+      "title": "governance(golden-path): add LTDD test-key injection verification and diagnostics",
       "user": "peterdsimonson",
-      "created_at": "2026-02-15T11:43:33Z",
-      "closed_at": "2026-02-15T11:49:41Z",
-      "lead_time_hours": 0.10222222222222223
+      "created_at": "2026-02-16T18:38:21Z",
+      "closed_at": "2026-02-16T18:53:04Z",
+      "lead_time_hours": 0.2452777777777778
     },
     {
-      "number": 1149,
-      "title": "fix(rag): make SYNTHESIS intent sticky at route boundary",
+      "number": 1165,
+      "title": "fix(ci): CIC step fetch PR body from API first for reruns",
       "user": "peterdsimonson",
-      "created_at": "2026-02-15T11:02:04Z",
-      "closed_at": "2026-02-15T11:08:11Z",
-      "lead_time_hours": 0.10194444444444445
+      "created_at": "2026-02-16T15:25:22Z",
+      "closed_at": "2026-02-16T16:00:34Z",
+      "lead_time_hours": 0.5866666666666667
+    },
+    {
+      "number": 1164,
+      "title": "refactor(rag): extract canonicalizeEffectiveQuery to query module",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-16T14:34:15Z",
+      "closed_at": "2026-02-16T14:46:19Z",
+      "lead_time_hours": 0.2011111111111111
+    },
+    {
+      "number": 1163,
+      "title": "refactor(rag): extract buildCitationSpine to citations module",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-16T14:23:25Z",
+      "closed_at": "2026-02-16T15:34:07Z",
+      "lead_time_hours": 1.1783333333333332
+    },
+    {
+      "number": 1162,
+      "title": "refactor(rag): extract enforceSupportedNamedTerms to evidence/",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-16T13:18:45Z",
+      "closed_at": "2026-02-16T13:55:33Z",
+      "lead_time_hours": 0.6133333333333333
+    },
+    {
+      "number": 1161,
+      "title": "refactor(rag): extract LIBRARY_META K2K3 check",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-16T13:16:34Z",
+      "closed_at": "2026-02-16T13:31:44Z",
+      "lead_time_hours": 0.25277777777777777
+    },
+    {
+      "number": 1160,
+      "title": "refactor(rag): extract LIBRARY_META post-processing helpers",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-16T12:44:31Z",
+      "closed_at": "2026-02-16T12:52:21Z",
+      "lead_time_hours": 0.13055555555555556
+    },
+    {
+      "number": 1159,
+      "title": "fix(locks): deflake lock_clarification_followup_answers index-status",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-16T11:14:58Z",
+      "closed_at": "2026-02-16T11:21:19Z",
+      "lead_time_hours": 0.10583333333333333
+    },
+    {
+      "number": 1157,
+      "title": "refactor(rag): Phase 1 — centralize coverage + strong-matches policy gates",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-16T03:00:33Z",
+      "closed_at": "2026-02-16T10:44:15Z",
+      "lead_time_hours": 7.7283333333333335
     }
   ]
 }
