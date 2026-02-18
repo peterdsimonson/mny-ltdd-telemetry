@@ -1,125 +1,85 @@
 {
-  "total_merged": 15,
+  "total_merged": 10,
   "items": [
     {
-      "number": 1175,
-      "title": "fix(ci): set GITHUB_TOKEN env for CIC step",
+      "number": 1184,
+      "title": "ci(rag): use preview backend for PRs, prod for main",
       "user": "peterdsimonson",
-      "created_at": "2026-02-17T01:51:24Z",
-      "closed_at": "2026-02-17T02:06:14Z",
-      "lead_time_hours": 0.24722222222222223
+      "created_at": "2026-02-18T01:09:59Z",
+      "closed_at": "2026-02-18T01:23:52Z",
+      "lead_time_hours": 0.2313888888888889
     },
     {
-      "number": 1174,
-      "title": "fix(ci): always fetch PR body via github-script",
+      "number": 1183,
+      "title": "ci(rag): add retrieval scorecard job (informational)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-17T01:12:26Z",
-      "closed_at": "2026-02-17T01:26:43Z",
-      "lead_time_hours": 0.23805555555555555
+      "created_at": "2026-02-17T21:20:46Z",
+      "closed_at": "2026-02-17T21:34:16Z",
+      "lead_time_hours": 0.225
     },
     {
-      "number": 1171,
-      "title": "fix(ci): add gh CLI + retry for PR body fetch when payload empty",
+      "number": 1182,
+      "title": "refactor(rbg): add pipeline loss/retention metrics to telemetry (Q1)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T22:36:47Z",
-      "closed_at": "2026-02-17T00:32:05Z",
-      "lead_time_hours": 1.9216666666666666
+      "created_at": "2026-02-17T17:24:45Z",
+      "closed_at": "2026-02-17T17:30:55Z",
+      "lead_time_hours": 0.10277777777777777
     },
     {
-      "number": 1169,
-      "title": "ci(golden-path): fail-fast LTDD_TEST_KEY injection gate before lock suite",
+      "number": 1181,
+      "title": "refactor(rbg): add retrieval→citation debug pipeline telemetry (A7.2)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T21:12:43Z",
-      "closed_at": "2026-02-16T21:33:36Z",
-      "lead_time_hours": 0.34805555555555556
+      "created_at": "2026-02-17T16:40:23Z",
+      "closed_at": "2026-02-17T16:55:01Z",
+      "lead_time_hours": 0.24388888888888888
     },
     {
-      "number": 1168,
-      "title": "ci(golden-path): point missing_key failures to LTDD_TEST_KEY checklist",
+      "number": 1180,
+      "title": "refactor(rbg): add elapsedMillis usage measurement (no enforcement)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T19:20:22Z",
-      "closed_at": "2026-02-16T19:45:20Z",
-      "lead_time_hours": 0.4161111111111111
+      "created_at": "2026-02-17T15:50:28Z",
+      "closed_at": "2026-02-17T15:56:36Z",
+      "lead_time_hours": 0.10222222222222223
     },
     {
-      "number": 1167,
-      "title": "ci: add bash -n validation for shell scripts in preflight",
+      "number": 1179,
+      "title": "refactor(rbg): A4+A5 — termination builder + citation marker coverage floor",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T19:15:27Z",
-      "closed_at": "2026-02-16T19:24:37Z",
-      "lead_time_hours": 0.1527777777777778
+      "created_at": "2026-02-17T14:48:20Z",
+      "closed_at": "2026-02-17T15:02:10Z",
+      "lead_time_hours": 0.23055555555555557
     },
     {
-      "number": 1166,
-      "title": "governance(golden-path): add LTDD test-key injection verification and diagnostics",
+      "number": 1178,
+      "title": "refactor(rbg): A3 — first enforcement chokepoint (maxMillis)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T18:38:21Z",
-      "closed_at": "2026-02-16T18:53:04Z",
-      "lead_time_hours": 0.2452777777777778
+      "created_at": "2026-02-17T13:32:28Z",
+      "closed_at": "2026-02-17T14:22:36Z",
+      "lead_time_hours": 0.8355555555555556
     },
     {
-      "number": 1165,
-      "title": "fix(ci): CIC step fetch PR body from API first for reruns",
+      "number": 1177,
+      "title": "fix(rag): restore telemetry.effectiveOrgId for LTDD locks",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T15:25:22Z",
-      "closed_at": "2026-02-16T16:00:34Z",
-      "lead_time_hours": 0.5866666666666667
+      "created_at": "2026-02-17T13:06:29Z",
+      "closed_at": "2026-02-17T13:12:20Z",
+      "lead_time_hours": 0.0975
     },
     {
-      "number": 1164,
-      "title": "refactor(rag): extract canonicalizeEffectiveQuery to query module",
+      "number": 1172,
+      "title": "refactor(rbg): introduce executionContext spine (no enforcement)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T14:34:15Z",
-      "closed_at": "2026-02-16T14:46:19Z",
-      "lead_time_hours": 0.2011111111111111
+      "created_at": "2026-02-17T01:00:30Z",
+      "closed_at": "2026-02-17T12:45:24Z",
+      "lead_time_hours": 11.748333333333333
     },
     {
-      "number": 1163,
-      "title": "refactor(rag): extract buildCitationSpine to citations module",
+      "number": 1170,
+      "title": "refactor(rbg): add budget + termination telemetry (no behavior change)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-16T14:23:25Z",
-      "closed_at": "2026-02-16T15:34:07Z",
-      "lead_time_hours": 1.1783333333333332
-    },
-    {
-      "number": 1162,
-      "title": "refactor(rag): extract enforceSupportedNamedTerms to evidence/",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-16T13:18:45Z",
-      "closed_at": "2026-02-16T13:55:33Z",
-      "lead_time_hours": 0.6133333333333333
-    },
-    {
-      "number": 1161,
-      "title": "refactor(rag): extract LIBRARY_META K2K3 check",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-16T13:16:34Z",
-      "closed_at": "2026-02-16T13:31:44Z",
-      "lead_time_hours": 0.25277777777777777
-    },
-    {
-      "number": 1160,
-      "title": "refactor(rag): extract LIBRARY_META post-processing helpers",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-16T12:44:31Z",
-      "closed_at": "2026-02-16T12:52:21Z",
-      "lead_time_hours": 0.13055555555555556
-    },
-    {
-      "number": 1159,
-      "title": "fix(locks): deflake lock_clarification_followup_answers index-status",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-16T11:14:58Z",
-      "closed_at": "2026-02-16T11:21:19Z",
-      "lead_time_hours": 0.10583333333333333
-    },
-    {
-      "number": 1157,
-      "title": "refactor(rag): Phase 1 — centralize coverage + strong-matches policy gates",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-16T03:00:33Z",
-      "closed_at": "2026-02-16T10:44:15Z",
-      "lead_time_hours": 7.7283333333333335
+      "created_at": "2026-02-16T21:54:35Z",
+      "closed_at": "2026-02-17T12:10:22Z",
+      "lead_time_hours": 14.263055555555555
     }
   ]
 }
