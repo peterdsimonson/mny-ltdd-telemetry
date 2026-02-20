@@ -1,37 +1,13 @@
 {
-  "total_merged": 4,
+  "total_merged": 1,
   "items": [
     {
-      "number": 1190,
-      "title": "fix(rag): marker matching across non-adjacent chunks in doc order",
+      "number": 1192,
+      "title": "fix(library): Pinecone delete always, host parity with ingestion",
       "user": "peterdsimonson",
-      "created_at": "2026-02-19T02:54:54Z",
-      "closed_at": "2026-02-19T03:07:10Z",
-      "lead_time_hours": 0.20444444444444446
-    },
-    {
-      "number": 1188,
-      "title": "fix(lock K′3): align library-meta routing spine with coverage-required contract",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-19T02:12:54Z",
-      "closed_at": "2026-02-19T02:18:38Z",
-      "lead_time_hours": 0.09555555555555556
-    },
-    {
-      "number": 1187,
-      "title": "fix(rag-eval): use Firebase ID token instead of LTDD_TEST_KEY",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-19T00:33:10Z",
-      "closed_at": "2026-02-19T00:46:57Z",
-      "lead_time_hours": 0.22972222222222222
-    },
-    {
-      "number": 1186,
-      "title": "feat(rag): eval auth gate for retrieval scorecard in preview",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-18T12:40:50Z",
-      "closed_at": "2026-02-18T12:53:54Z",
-      "lead_time_hours": 0.21777777777777776
+      "created_at": "2026-02-19T10:03:38Z",
+      "closed_at": "2026-02-19T10:16:33Z",
+      "lead_time_hours": 0.2152777777777778
     }
   ]
 }
