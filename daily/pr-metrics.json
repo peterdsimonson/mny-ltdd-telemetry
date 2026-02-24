@@ -1,133 +1,77 @@
 {
-  "total_merged": 16,
+  "total_merged": 9,
   "items": [
     {
-      "number": 1239,
-      "title": "fix(rag): diversity enforcement v2 + insufficient_diversity fallback",
+      "number": 1249,
+      "title": "feat(rag): add pipeline drop diagnosis telemetry (PR #1249)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-23T03:38:56Z",
-      "closed_at": "2026-02-23T03:52:15Z",
-      "lead_time_hours": 0.22194444444444444
+      "created_at": "2026-02-24T02:37:30Z",
+      "closed_at": "2026-02-24T02:49:55Z",
+      "lead_time_hours": 0.20694444444444443
     },
     {
-      "number": 1238,
-      "title": "fix(ci/rag): preserve citation docId contract + make gold cleanup non-fatal",
+      "number": 1248,
+      "title": "PR #1248 — Retrieval Health + Define Anchor Guard (gold-ci / runScope)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-23T02:35:10Z",
-      "closed_at": "2026-02-23T02:48:02Z",
-      "lead_time_hours": 0.21444444444444444
+      "created_at": "2026-02-24T01:20:33Z",
+      "closed_at": "2026-02-24T01:40:49Z",
+      "lead_time_hours": 0.3377777777777778
     },
     {
-      "number": 1237,
-      "title": "fix(gold-ci): preserve citation metadata + enforce gold-ci citation fields at response boundary",
+      "number": 1247,
+      "title": "fix(rag): salvage LOOKUP shape after prune + stabilize STATUS lock",
       "user": "peterdsimonson",
-      "created_at": "2026-02-23T01:55:21Z",
-      "closed_at": "2026-02-23T02:08:42Z",
-      "lead_time_hours": 0.2225
+      "created_at": "2026-02-24T00:27:01Z",
+      "closed_at": "2026-02-24T00:41:13Z",
+      "lead_time_hours": 0.23666666666666666
     },
     {
-      "number": 1236,
-      "title": "fix(ci): resolve Cloud Run candidate_url via json+jq and tag latestCreatedRevision",
+      "number": 1246,
+      "title": "fix(rag): downgrade to STATUS when claim verifier prunes below LOOKUP min substance",
       "user": "peterdsimonson",
-      "created_at": "2026-02-23T00:36:39Z",
-      "closed_at": "2026-02-23T00:52:46Z",
-      "lead_time_hours": 0.26861111111111113
+      "created_at": "2026-02-23T22:45:21Z",
+      "closed_at": "2026-02-23T22:51:16Z",
+      "lead_time_hours": 0.09861111111111111
     },
     {
-      "number": 1235,
-      "title": "fix(ci): reliable Cloud Run candidate_url + preflight",
+      "number": 1245,
+      "title": "fix(rag): run claim verifier after emitTelemetryStage (PR #1245)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-23T00:17:38Z",
-      "closed_at": "2026-02-23T00:23:39Z",
-      "lead_time_hours": 0.10027777777777777
+      "created_at": "2026-02-23T21:09:01Z",
+      "closed_at": "2026-02-23T21:24:24Z",
+      "lead_time_hours": 0.2563888888888889
     },
     {
-      "number": 1234,
-      "title": "test(rag-eval): assert gold-ci citations preserve corpus/runScope",
+      "number": 1244,
+      "title": "fix(rag-eval): preserve claim_verifier telemetry across all paths",
       "user": "peterdsimonson",
-      "created_at": "2026-02-22T23:28:01Z",
-      "closed_at": "2026-02-23T01:25:13Z",
-      "lead_time_hours": 1.9533333333333334
+      "created_at": "2026-02-23T20:03:02Z",
+      "closed_at": "2026-02-23T20:17:54Z",
+      "lead_time_hours": 0.2477777777777778
     },
     {
-      "number": 1233,
-      "title": "fix(rag): preserve citation metadata for gold-ci tenant boundary filter",
+      "number": 1243,
+      "title": "fix(ci): verify RAG_CLAIM_VERIFIER_ENABLED on candidate before gold eval",
       "user": "peterdsimonson",
-      "created_at": "2026-02-22T23:26:32Z",
-      "closed_at": "2026-02-22T23:32:49Z",
-      "lead_time_hours": 0.10472222222222222
+      "created_at": "2026-02-23T16:33:41Z",
+      "closed_at": "2026-02-23T16:40:22Z",
+      "lead_time_hours": 0.11138888888888888
     },
     {
-      "number": 1232,
-      "title": "fix(ci): write seed-stats.json relative to repo root",
+      "number": 1242,
+      "title": "fix(rag): prove retrieval + claim-verifier execution in gold eval telemetry",
       "user": "peterdsimonson",
-      "created_at": "2026-02-22T22:41:58Z",
-      "closed_at": "2026-02-22T22:48:06Z",
-      "lead_time_hours": 0.10222222222222223
+      "created_at": "2026-02-23T15:43:59Z",
+      "closed_at": "2026-02-23T16:06:26Z",
+      "lead_time_hours": 0.37416666666666665
     },
     {
-      "number": 1231,
-      "title": "fix(ci): unify LTDD_TEST_KEY via GSM + add LTDD auth smoke check + seed observability",
+      "number": 1241,
+      "title": "feat(rag): claim-verifier stage drops unsupported bullets",
       "user": "peterdsimonson",
-      "created_at": "2026-02-22T19:33:40Z",
-      "closed_at": "2026-02-22T20:07:20Z",
-      "lead_time_hours": 0.5611111111111111
-    },
-    {
-      "number": 1230,
-      "title": "fix(gold-ci): correct tenant boundary predicate + stabilize cleanup/coverage diagnostics",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-22T18:57:32Z",
-      "closed_at": "2026-02-22T19:13:51Z",
-      "lead_time_hours": 0.27194444444444443
-    },
-    {
-      "number": 1229,
-      "title": "fix: LTDD gold eval tenant binding + promotion safety",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-22T17:04:45Z",
-      "closed_at": "2026-02-22T17:17:00Z",
-      "lead_time_hours": 0.20416666666666666
-    },
-    {
-      "number": 1228,
-      "title": "fix(ci): harden LTDD pinecone cleanup + prevent prod namespace bleed into LTDD index",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-22T14:19:44Z",
-      "closed_at": "2026-02-22T14:25:43Z",
-      "lead_time_hours": 0.09972222222222223
-    },
-    {
-      "number": 1227,
-      "title": "fix(locks): pcQuery tenant isolation + import comment for lock compliance",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-22T12:03:49Z",
-      "closed_at": "2026-02-22T13:41:05Z",
-      "lead_time_hours": 1.6211111111111112
-    },
-    {
-      "number": 1226,
-      "title": "fix(ci): gold gate — fetch PINECONE_HOST_LTDD from GSM via OIDC",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-22T12:02:54Z",
-      "closed_at": "2026-02-22T12:10:40Z",
-      "lead_time_hours": 0.12944444444444445
-    },
-    {
-      "number": 1225,
-      "title": "feat(rag-eval): PR2a gold-ci + runScope filter — eliminate namespace cap",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-22T11:24:57Z",
-      "closed_at": "2026-02-22T11:37:35Z",
-      "lead_time_hours": 0.21055555555555555
-    },
-    {
-      "number": 1224,
-      "title": "fix(ci): Pinecone cleanup runs tsx script, deletes gold-* with retention",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-22T09:36:18Z",
-      "closed_at": "2026-02-22T09:49:59Z",
-      "lead_time_hours": 0.22805555555555557
+      "created_at": "2026-02-23T12:16:50Z",
+      "closed_at": "2026-02-23T12:37:07Z",
+      "lead_time_hours": 0.33805555555555555
     }
   ]
 }
