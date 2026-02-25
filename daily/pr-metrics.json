@@ -1,77 +1,53 @@
 {
-  "total_merged": 9,
+  "total_merged": 6,
   "items": [
     {
-      "number": 1249,
-      "title": "feat(rag): add pipeline drop diagnosis telemetry (PR #1249)",
+      "number": 1256,
+      "title": "fix(rag): stamp metadata.corpus and metadata.runScope on salvage citations",
       "user": "peterdsimonson",
-      "created_at": "2026-02-24T02:37:30Z",
-      "closed_at": "2026-02-24T02:49:55Z",
-      "lead_time_hours": 0.20694444444444443
+      "created_at": "2026-02-25T03:14:24Z",
+      "closed_at": "2026-02-25T03:29:46Z",
+      "lead_time_hours": 0.2561111111111111
     },
     {
-      "number": 1248,
-      "title": "PR #1248 — Retrieval Health + Define Anchor Guard (gold-ci / runScope)",
+      "number": 1255,
+      "title": "fix(rag): apply salvage before fail-closed returns",
       "user": "peterdsimonson",
-      "created_at": "2026-02-24T01:20:33Z",
-      "closed_at": "2026-02-24T01:40:49Z",
-      "lead_time_hours": 0.3377777777777778
+      "created_at": "2026-02-24T20:38:17Z",
+      "closed_at": "2026-02-24T20:48:22Z",
+      "lead_time_hours": 0.16805555555555557
     },
     {
-      "number": 1247,
-      "title": "fix(rag): salvage LOOKUP shape after prune + stabilize STATUS lock",
+      "number": 1254,
+      "title": "fix(rag): carry salvage citations forward for contract-gate override (PR #1254)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-24T00:27:01Z",
-      "closed_at": "2026-02-24T00:41:13Z",
-      "lead_time_hours": 0.23666666666666666
+      "created_at": "2026-02-24T17:43:46Z",
+      "closed_at": "2026-02-24T18:20:02Z",
+      "lead_time_hours": 0.6044444444444445
     },
     {
-      "number": 1246,
-      "title": "fix(rag): downgrade to STATUS when claim verifier prunes below LOOKUP min substance",
+      "number": 1253,
+      "title": "fix(rag): STATUS citations when evidence exists (PR #1253)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-23T22:45:21Z",
-      "closed_at": "2026-02-23T22:51:16Z",
-      "lead_time_hours": 0.09861111111111111
+      "created_at": "2026-02-24T13:13:28Z",
+      "closed_at": "2026-02-24T13:29:45Z",
+      "lead_time_hours": 0.2713888888888889
     },
     {
-      "number": 1245,
-      "title": "fix(rag): run claim verifier after emitTelemetryStage (PR #1245)",
+      "number": 1252,
+      "title": "fix(rag): strip eval-harness expansion suffixes in extractNamedConcept (PR #1252)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-23T21:09:01Z",
-      "closed_at": "2026-02-23T21:24:24Z",
-      "lead_time_hours": 0.2563888888888889
+      "created_at": "2026-02-24T11:16:39Z",
+      "closed_at": "2026-02-24T11:22:29Z",
+      "lead_time_hours": 0.09722222222222222
     },
     {
-      "number": 1244,
-      "title": "fix(rag-eval): preserve claim_verifier telemetry across all paths",
+      "number": 1251,
+      "title": "fix(rag): Track 2C concept matching (reduce false NAMED_CONCEPT_GAP)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-23T20:03:02Z",
-      "closed_at": "2026-02-23T20:17:54Z",
-      "lead_time_hours": 0.2477777777777778
-    },
-    {
-      "number": 1243,
-      "title": "fix(ci): verify RAG_CLAIM_VERIFIER_ENABLED on candidate before gold eval",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-23T16:33:41Z",
-      "closed_at": "2026-02-23T16:40:22Z",
-      "lead_time_hours": 0.11138888888888888
-    },
-    {
-      "number": 1242,
-      "title": "fix(rag): prove retrieval + claim-verifier execution in gold eval telemetry",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-23T15:43:59Z",
-      "closed_at": "2026-02-23T16:06:26Z",
-      "lead_time_hours": 0.37416666666666665
-    },
-    {
-      "number": 1241,
-      "title": "feat(rag): claim-verifier stage drops unsupported bullets",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-23T12:16:50Z",
-      "closed_at": "2026-02-23T12:37:07Z",
-      "lead_time_hours": 0.33805555555555555
+      "created_at": "2026-02-24T10:08:53Z",
+      "closed_at": "2026-02-24T10:16:44Z",
+      "lead_time_hours": 0.13083333333333333
     }
   ]
 }
