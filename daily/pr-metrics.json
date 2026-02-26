@@ -1,53 +1,29 @@
 {
-  "total_merged": 6,
+  "total_merged": 3,
   "items": [
     {
-      "number": 1256,
-      "title": "fix(rag): stamp metadata.corpus and metadata.runScope on salvage citations",
+      "number": 1260,
+      "title": "fix(ci): bump governance-checks timeout + cache Playwright browsers",
       "user": "peterdsimonson",
-      "created_at": "2026-02-25T03:14:24Z",
-      "closed_at": "2026-02-25T03:29:46Z",
-      "lead_time_hours": 0.2561111111111111
+      "created_at": "2026-02-25T12:59:09Z",
+      "closed_at": "2026-02-25T13:13:20Z",
+      "lead_time_hours": 0.2363888888888889
     },
     {
-      "number": 1255,
-      "title": "fix(rag): apply salvage before fail-closed returns",
+      "number": 1259,
+      "title": "fix(rag): Extractability v2 — accept bullets, definitions, concept-anchored; reject garbage (PR #1259)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-24T20:38:17Z",
-      "closed_at": "2026-02-24T20:48:22Z",
-      "lead_time_hours": 0.16805555555555557
+      "created_at": "2026-02-25T11:56:47Z",
+      "closed_at": "2026-02-25T12:12:14Z",
+      "lead_time_hours": 0.2575
     },
     {
-      "number": 1254,
-      "title": "fix(rag): carry salvage citations forward for contract-gate override (PR #1254)",
+      "number": 1258,
+      "title": "fix(rag): force contractSatisfied=false for STATUS/GAP answers (PR #1257)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-24T17:43:46Z",
-      "closed_at": "2026-02-24T18:20:02Z",
-      "lead_time_hours": 0.6044444444444445
-    },
-    {
-      "number": 1253,
-      "title": "fix(rag): STATUS citations when evidence exists (PR #1253)",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-24T13:13:28Z",
-      "closed_at": "2026-02-24T13:29:45Z",
-      "lead_time_hours": 0.2713888888888889
-    },
-    {
-      "number": 1252,
-      "title": "fix(rag): strip eval-harness expansion suffixes in extractNamedConcept (PR #1252)",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-24T11:16:39Z",
-      "closed_at": "2026-02-24T11:22:29Z",
-      "lead_time_hours": 0.09722222222222222
-    },
-    {
-      "number": 1251,
-      "title": "fix(rag): Track 2C concept matching (reduce false NAMED_CONCEPT_GAP)",
-      "user": "peterdsimonson",
-      "created_at": "2026-02-24T10:08:53Z",
-      "closed_at": "2026-02-24T10:16:44Z",
-      "lead_time_hours": 0.13083333333333333
+      "created_at": "2026-02-25T11:15:51Z",
+      "closed_at": "2026-02-25T11:23:00Z",
+      "lead_time_hours": 0.11916666666666667
     }
   ]
 }
