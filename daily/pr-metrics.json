@@ -1,29 +1,37 @@
 {
-  "total_merged": 3,
+  "total_merged": 4,
   "items": [
     {
-      "number": 1260,
-      "title": "fix(ci): bump governance-checks timeout + cache Playwright browsers",
+      "number": 1265,
+      "title": "fix(rag): restore governance locks after PR #1264",
       "user": "peterdsimonson",
-      "created_at": "2026-02-25T12:59:09Z",
-      "closed_at": "2026-02-25T13:13:20Z",
-      "lead_time_hours": 0.2363888888888889
+      "created_at": "2026-02-26T20:59:40Z",
+      "closed_at": "2026-02-26T21:12:07Z",
+      "lead_time_hours": 0.2075
     },
     {
-      "number": 1259,
-      "title": "fix(rag): Extractability v2 — accept bullets, definitions, concept-anchored; reject garbage (PR #1259)",
+      "number": 1264,
+      "title": "chore(rag): add LTDD extractability debug telemetry (pre-gate diagnostics)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-25T11:56:47Z",
-      "closed_at": "2026-02-25T12:12:14Z",
-      "lead_time_hours": 0.2575
+      "created_at": "2026-02-26T17:50:25Z",
+      "closed_at": "2026-02-26T18:21:12Z",
+      "lead_time_hours": 0.5130555555555556
     },
     {
-      "number": 1258,
-      "title": "fix(rag): force contractSatisfied=false for STATUS/GAP answers (PR #1257)",
+      "number": 1263,
+      "title": "fix(ci): LTDD guard rejection classification (PR #1262)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-25T11:15:51Z",
-      "closed_at": "2026-02-25T11:23:00Z",
-      "lead_time_hours": 0.11916666666666667
+      "created_at": "2026-02-26T15:16:38Z",
+      "closed_at": "2026-02-26T16:13:49Z",
+      "lead_time_hours": 0.9530555555555555
+    },
+    {
+      "number": 1261,
+      "title": "feat(rag): add LTDD pre-citation chunks telemetry (PR #1261)",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-26T04:25:41Z",
+      "closed_at": "2026-02-26T11:28:12Z",
+      "lead_time_hours": 7.041944444444445
     }
   ]
 }
