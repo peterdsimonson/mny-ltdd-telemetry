@@ -1,53 +1,61 @@
 {
-  "total_merged": 6,
+  "total_merged": 7,
   "items": [
     {
-      "number": 1272,
-      "title": "fix(rag): enforce citation markers at terminal return",
+      "number": 1280,
+      "title": "fix(rag): enforce diversity floor + route for/against queries to LOOKUP",
       "user": "peterdsimonson",
-      "created_at": "2026-02-28T03:07:02Z",
-      "closed_at": "2026-02-28T03:21:44Z",
-      "lead_time_hours": 0.245
+      "created_at": "2026-03-01T02:25:32Z",
+      "closed_at": "2026-03-01T02:39:15Z",
+      "lead_time_hours": 0.2286111111111111
     },
     {
-      "number": 1271,
-      "title": "fix(rag): inject citation markers when gap answers have citations (PR #1271)",
+      "number": 1279,
+      "title": "fix(rag): explain and prevent total pack→citation drop (Lane A)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-28T02:02:47Z",
-      "closed_at": "2026-02-28T02:17:03Z",
-      "lead_time_hours": 0.23777777777777778
+      "created_at": "2026-03-01T00:17:38Z",
+      "closed_at": "2026-03-01T00:38:44Z",
+      "lead_time_hours": 0.3516666666666667
     },
     {
-      "number": 1270,
-      "title": "fix(tests): deflake marker wait with retrieval-shaped probe",
+      "number": 1278,
+      "title": "fix(rag): enforce citations⇒markers at terminal response",
       "user": "peterdsimonson",
-      "created_at": "2026-02-28T00:33:23Z",
-      "closed_at": "2026-02-28T00:46:43Z",
-      "lead_time_hours": 0.2222222222222222
+      "created_at": "2026-02-28T23:25:32Z",
+      "closed_at": "2026-02-28T23:42:37Z",
+      "lead_time_hours": 0.2847222222222222
     },
     {
-      "number": 1269,
-      "title": "fix(tests): deflake clarification followup marker retrieval",
+      "number": 1277,
+      "title": "fix(rag): enforce citations ⇒ markers invariant (lock_gap_with_citations_has_markers)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-27T19:47:36Z",
-      "closed_at": "2026-02-27T20:00:56Z",
-      "lead_time_hours": 0.2222222222222222
+      "created_at": "2026-02-28T21:49:25Z",
+      "closed_at": "2026-02-28T22:13:21Z",
+      "lead_time_hours": 0.3988888888888889
     },
     {
-      "number": 1268,
-      "title": "fix(rag): emit extractabilityDebug on salvage early-return (gold-ci)",
+      "number": 1276,
+      "title": "fix(rag-eval): scorecard retrievedDocs from citations when chunkCoverage missing",
       "user": "peterdsimonson",
-      "created_at": "2026-02-27T17:28:43Z",
-      "closed_at": "2026-02-27T17:45:13Z",
-      "lead_time_hours": 0.275
+      "created_at": "2026-02-28T21:08:56Z",
+      "closed_at": "2026-02-28T21:14:39Z",
+      "lead_time_hours": 0.09527777777777778
     },
     {
-      "number": 1267,
-      "title": "fix(locks): make lock_extractability_debug_telemetry robust to Prettier",
+      "number": 1275,
+      "title": "fix(rag): apply runScope to sequential keyword retrieval (gold-ci)",
       "user": "peterdsimonson",
-      "created_at": "2026-02-27T11:08:01Z",
-      "closed_at": "2026-02-27T11:14:04Z",
-      "lead_time_hours": 0.10083333333333333
+      "created_at": "2026-02-28T19:55:13Z",
+      "closed_at": "2026-02-28T20:30:21Z",
+      "lead_time_hours": 0.5855555555555556
+    },
+    {
+      "number": 1273,
+      "title": "feat(rag): Phase 1 evidence preservation - stop dropping citations on named-concept gap",
+      "user": "peterdsimonson",
+      "created_at": "2026-02-28T04:18:51Z",
+      "closed_at": "2026-02-28T05:46:07Z",
+      "lead_time_hours": 1.4544444444444444
     }
   ]
 }
