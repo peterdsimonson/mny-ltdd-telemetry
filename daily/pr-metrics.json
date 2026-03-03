@@ -1,109 +1,77 @@
 {
-  "total_merged": 13,
+  "total_merged": 9,
   "items": [
     {
-      "number": 1295,
-      "title": "feat(rag): Phase 3A definition-intent evidence prioritization",
+      "number": 1306,
+      "title": "fix(rag): add chunk histogram, distribution, outliers to ingestionMetrics (PR-B0)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-02T03:43:03Z",
-      "closed_at": "2026-03-02T03:50:17Z",
-      "lead_time_hours": 0.12055555555555555
+      "created_at": "2026-03-03T03:37:12Z",
+      "closed_at": "2026-03-03T03:50:30Z",
+      "lead_time_hours": 0.22166666666666668
     },
     {
-      "number": 1294,
-      "title": "fix(locks): lock_org_binding_consistency — drop retrieval-dependent assertion",
+      "number": 1305,
+      "title": "fix(rag): scrub numeric/too-short LOOKUP numbered items (deterministic)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-02T01:55:57Z",
-      "closed_at": "2026-03-02T02:10:50Z",
-      "lead_time_hours": 0.24805555555555556
+      "created_at": "2026-03-03T00:28:21Z",
+      "closed_at": "2026-03-03T00:35:15Z",
+      "lead_time_hours": 0.115
     },
     {
-      "number": 1293,
-      "title": "fix(rag): deployment diversity cap 3→6 so default is not overridden",
+      "number": 1304,
+      "title": "fix(rag): definition composer accepts acronym expansion as grounded definition",
       "user": "peterdsimonson",
-      "created_at": "2026-03-02T01:16:34Z",
-      "closed_at": "2026-03-02T01:24:30Z",
-      "lead_time_hours": 0.1322222222222222
+      "created_at": "2026-03-02T23:29:20Z",
+      "closed_at": "2026-03-02T23:43:34Z",
+      "lead_time_hours": 0.23722222222222222
     },
     {
-      "number": 1292,
-      "title": "feat(rag): Phase 2A packing breadth — max chunks per doc 3→6 + lock",
+      "number": 1303,
+      "title": "fix(release): enable rerank v2 via Cloud Run env vars",
       "user": "peterdsimonson",
-      "created_at": "2026-03-01T22:20:51Z",
-      "closed_at": "2026-03-01T22:35:39Z",
-      "lead_time_hours": 0.24666666666666667
+      "created_at": "2026-03-02T20:46:20Z",
+      "closed_at": "2026-03-02T21:02:08Z",
+      "lead_time_hours": 0.2633333333333333
     },
     {
-      "number": 1291,
-      "title": "feat(rag): Phase 2A retrieval breadth — reduce retrieval_low, add lock",
+      "number": 1302,
+      "title": "fix(rag): prove rerankV2 enablement and boost execution in telemetry",
       "user": "peterdsimonson",
-      "created_at": "2026-03-01T21:39:02Z",
-      "closed_at": "2026-03-01T21:45:14Z",
-      "lead_time_hours": 0.10333333333333333
+      "created_at": "2026-03-02T19:38:44Z",
+      "closed_at": "2026-03-02T19:52:25Z",
+      "lead_time_hours": 0.22805555555555557
     },
     {
-      "number": 1290,
-      "title": "fix(backend): allow multi-segment gold-* namespaces in LTDD allowlist",
+      "number": 1301,
+      "title": "test(ltdd): add spine lock chunkId diagnostics",
       "user": "peterdsimonson",
-      "created_at": "2026-03-01T20:03:57Z",
-      "closed_at": "2026-03-01T20:10:09Z",
-      "lead_time_hours": 0.10333333333333333
+      "created_at": "2026-03-02T18:39:44Z",
+      "closed_at": "2026-03-02T18:59:11Z",
+      "lead_time_hours": 0.32416666666666666
     },
     {
-      "number": 1289,
-      "title": "LTDD: per-run gold namespace + retention cleanup (no storage growth)",
+      "number": 1299,
+      "title": "fix(rag): filter numeric/page fragments from LOOKUP extractables",
       "user": "peterdsimonson",
-      "created_at": "2026-03-01T19:48:48Z",
-      "closed_at": "2026-03-01T20:45:10Z",
-      "lead_time_hours": 0.9394444444444444
+      "created_at": "2026-03-02T15:15:47Z",
+      "closed_at": "2026-03-02T15:21:56Z",
+      "lead_time_hours": 0.1025
     },
     {
-      "number": 1287,
-      "title": "LTDD: align governance eval namespace to gold-ltdd-test (fix run 22549540660)",
+      "number": 1298,
+      "title": "feat(rag): rerank observability + lock precision (PR #1298)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-01T18:45:23Z",
-      "closed_at": "2026-03-01T19:45:48Z",
-      "lead_time_hours": 1.0069444444444444
+      "created_at": "2026-03-02T13:06:29Z",
+      "closed_at": "2026-03-02T13:12:37Z",
+      "lead_time_hours": 0.10222222222222223
     },
     {
-      "number": 1286,
-      "title": "LTDD: ensure evaluation namespace populated before governance eval",
+      "number": 1297,
+      "title": "fix(rag): propagate plan into PipelineContext so rerank sees answerMode",
       "user": "peterdsimonson",
-      "created_at": "2026-03-01T18:00:05Z",
-      "closed_at": "2026-03-01T18:18:00Z",
-      "lead_time_hours": 0.2986111111111111
-    },
-    {
-      "number": 1285,
-      "title": "LTDD: fix brittle PLAN-before-LOOKUP static lock",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-01T14:37:51Z",
-      "closed_at": "2026-03-01T14:44:55Z",
-      "lead_time_hours": 0.11777777777777777
-    },
-    {
-      "number": 1284,
-      "title": "Phase 1C: Enforce LOOKUP routing finalization in conversational (fix governance lock)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-01T14:00:22Z",
-      "closed_at": "2026-03-01T14:13:41Z",
-      "lead_time_hours": 0.22194444444444444
-    },
-    {
-      "number": 1282,
-      "title": "fix(rag): preserve candidate evidence before contract evaluation (Phase 1C)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-01T04:49:58Z",
-      "closed_at": "2026-03-01T05:06:46Z",
-      "lead_time_hours": 0.28
-    },
-    {
-      "number": 1281,
-      "title": "fix(rag): prevent zero extractability when evidence exists (Phase 1B)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-01T04:00:33Z",
-      "closed_at": "2026-03-01T04:11:24Z",
-      "lead_time_hours": 0.18083333333333335
+      "created_at": "2026-03-02T11:18:30Z",
+      "closed_at": "2026-03-02T11:26:32Z",
+      "lead_time_hours": 0.1338888888888889
     }
   ]
 }
