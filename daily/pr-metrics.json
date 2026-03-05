@@ -1,77 +1,21 @@
 {
-  "total_merged": 9,
+  "total_merged": 2,
   "items": [
     {
-      "number": 1316,
-      "title": "feat(retrieval): PR4.1 keyword-filter candidate set behind flag",
+      "number": 1319,
+      "title": "ci(release): enable RAG_LEXICAL_CANDIDATES for gold eval gate (PR4.2b)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-04T03:25:18Z",
-      "closed_at": "2026-03-04T03:40:06Z",
-      "lead_time_hours": 0.24666666666666667
+      "created_at": "2026-03-04T11:27:39Z",
+      "closed_at": "2026-03-04T15:15:03Z",
+      "lead_time_hours": 3.79
     },
     {
-      "number": 1315,
-      "title": "feat(chunking): PR2A.2 definition/list cohesion",
+      "number": 1318,
+      "title": "feat(rag): PR4.2 deterministic hybrid merge (interleave-v1)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-03T22:11:32Z",
-      "closed_at": "2026-03-03T22:24:42Z",
-      "lead_time_hours": 0.21944444444444444
-    },
-    {
-      "number": 1314,
-      "title": "feat(chunking): PR2A.1 heading/path upgrades",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-03T21:09:52Z",
-      "closed_at": "2026-03-03T21:29:07Z",
-      "lead_time_hours": 0.32083333333333336
-    },
-    {
-      "number": 1313,
-      "title": "feat(chunking): add \\n\\n to splitOversizedBlock separator hierarchy (PR1.1)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-03T20:06:55Z",
-      "closed_at": "2026-03-03T20:22:31Z",
-      "lead_time_hours": 0.26
-    },
-    {
-      "number": 1312,
-      "title": "fix(chunking): check isTableLine before isListLine (PR0 table-vs-list)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-03T17:28:51Z",
-      "closed_at": "2026-03-03T17:49:31Z",
-      "lead_time_hours": 0.34444444444444444
-    },
-    {
-      "number": 1311,
-      "title": "fix(rag): add chunkCoverage + retrievalAttempted to early exits for lock_diversity_chunk_survival",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-03T13:21:53Z",
-      "closed_at": "2026-03-03T13:28:49Z",
-      "lead_time_hours": 0.11555555555555555
-    },
-    {
-      "number": 1309,
-      "title": "fix(rag): handle undefined req.headers in resolveNamespaceWithOverride (PR-B3)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-03T03:37:13Z",
-      "closed_at": "2026-03-03T16:12:25Z",
-      "lead_time_hours": 12.586666666666666
-    },
-    {
-      "number": 1307,
-      "title": "fix(locks): ESM-safe __dirname in lock_pdf_ingestion (PR-B1)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-03T03:37:12Z",
-      "closed_at": "2026-03-03T11:58:08Z",
-      "lead_time_hours": 8.348888888888888
-    },
-    {
-      "number": 1308,
-      "title": "fix(cors): add mny_v2 Cloud Run hostnames to allowlist (PR-B2)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-03T03:37:12Z",
-      "closed_at": "2026-03-03T15:31:04Z",
-      "lead_time_hours": 11.897777777777778
+      "created_at": "2026-03-04T11:23:31Z",
+      "closed_at": "2026-03-04T11:36:20Z",
+      "lead_time_hours": 0.2136111111111111
     }
   ]
 }
