@@ -1,21 +1,29 @@
 {
-  "total_merged": 2,
+  "total_merged": 3,
   "items": [
     {
-      "number": 1319,
-      "title": "ci(release): enable RAG_LEXICAL_CANDIDATES for gold eval gate (PR4.2b)",
+      "number": 1323,
+      "title": "fix(rag-eval): PR4.8 reindex gold ingest/eval to v3-ltdd",
       "user": "peterdsimonson",
-      "created_at": "2026-03-04T11:27:39Z",
-      "closed_at": "2026-03-04T15:15:03Z",
-      "lead_time_hours": 3.79
+      "created_at": "2026-03-06T00:45:53Z",
+      "closed_at": "2026-03-06T02:58:11Z",
+      "lead_time_hours": 2.205
     },
     {
-      "number": 1318,
-      "title": "feat(rag): PR4.2 deterministic hybrid merge (interleave-v1)",
+      "number": 1322,
+      "title": "feat(pinecone): PR4.6 dual-index routing (v2/v3)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-04T11:23:31Z",
-      "closed_at": "2026-03-04T11:36:20Z",
-      "lead_time_hours": 0.2136111111111111
+      "created_at": "2026-03-06T00:45:52Z",
+      "closed_at": "2026-03-06T00:52:08Z",
+      "lead_time_hours": 0.10444444444444445
+    },
+    {
+      "number": 1321,
+      "title": "ci(ops): PR4.7 wire Pinecone v3 env vars into deploy",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-06T00:45:52Z",
+      "closed_at": "2026-03-06T01:51:11Z",
+      "lead_time_hours": 1.0886111111111112
     }
   ]
 }
