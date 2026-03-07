@@ -1,29 +1,37 @@
 {
-  "total_merged": 3,
+  "total_merged": 4,
   "items": [
     {
-      "number": 1323,
-      "title": "fix(rag-eval): PR4.8 reindex gold ingest/eval to v3-ltdd",
+      "number": 1328,
+      "title": "refactor(rag): extract buildChunkCoverage to satisfy function-count ratchet",
       "user": "peterdsimonson",
-      "created_at": "2026-03-06T00:45:53Z",
-      "closed_at": "2026-03-06T02:58:11Z",
-      "lead_time_hours": 2.205
+      "created_at": "2026-03-06T16:49:15Z",
+      "closed_at": "2026-03-06T17:00:38Z",
+      "lead_time_hours": 0.1897222222222222
     },
     {
-      "number": 1322,
-      "title": "feat(pinecone): PR4.6 dual-index routing (v2/v3)",
+      "number": 1327,
+      "title": "fix(ci): governance-checks smoke host + telemetry chunkCoverage + readiness wait",
       "user": "peterdsimonson",
-      "created_at": "2026-03-06T00:45:52Z",
-      "closed_at": "2026-03-06T00:52:08Z",
-      "lead_time_hours": 0.10444444444444445
+      "created_at": "2026-03-06T15:44:26Z",
+      "closed_at": "2026-03-06T15:57:46Z",
+      "lead_time_hours": 0.2222222222222222
     },
     {
-      "number": 1321,
-      "title": "ci(ops): PR4.7 wire Pinecone v3 env vars into deploy",
+      "number": 1326,
+      "title": "feat(retrieval): PR4.11 hybrid dense + sparse lexical query (v3 LTDD only)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-06T00:45:52Z",
-      "closed_at": "2026-03-06T01:51:11Z",
-      "lead_time_hours": 1.0886111111111112
+      "created_at": "2026-03-06T13:01:10Z",
+      "closed_at": "2026-03-06T13:07:25Z",
+      "lead_time_hours": 0.10416666666666667
+    },
+    {
+      "number": 1325,
+      "title": "feat(pinecone): PR4.10 sparse lexical vectors at ingestion (v3 only)",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-06T12:07:53Z",
+      "closed_at": "2026-03-06T12:21:05Z",
+      "lead_time_hours": 0.22
     }
   ]
 }
