@@ -1,45 +1,69 @@
 {
-  "total_merged": 5,
+  "total_merged": 8,
   "items": [
     {
-      "number": 1344,
-      "title": "feat(rag): improve global acronym/entity definition retrieval",
+      "number": 1353,
+      "title": "fix(rag-eval): build workspace packages before BGE local backend",
       "user": "peterdsimonson",
-      "created_at": "2026-03-09T19:31:46Z",
-      "closed_at": "2026-03-10T02:28:43Z",
-      "lead_time_hours": 6.949166666666667
+      "created_at": "2026-03-11T01:44:37Z",
+      "closed_at": "2026-03-11T01:52:06Z",
+      "lead_time_hours": 0.12472222222222222
     },
     {
-      "number": 1343,
-      "title": "fix(rag-eval): bucket SYSTEM_META as ok, not retrieval_zero",
+      "number": 1352,
+      "title": "fix(rag-eval): BGE harness diagnostics — log artifact, 180s timeout, timestamps",
       "user": "peterdsimonson",
-      "created_at": "2026-03-09T18:42:22Z",
-      "closed_at": "2026-03-09T18:48:58Z",
-      "lead_time_hours": 0.11
+      "created_at": "2026-03-10T23:56:50Z",
+      "closed_at": "2026-03-11T00:06:08Z",
+      "lead_time_hours": 0.155
     },
     {
-      "number": 1342,
-      "title": "feat(rag): definition-preserving chunking + corpus determinism + NSPC lock deferral",
+      "number": 1351,
+      "title": "feat(rag): optional BGE cross-encoder eval path in gold corpus workflow",
       "user": "peterdsimonson",
-      "created_at": "2026-03-09T17:34:11Z",
-      "closed_at": "2026-03-09T17:47:54Z",
-      "lead_time_hours": 0.2286111111111111
+      "created_at": "2026-03-10T23:11:12Z",
+      "closed_at": "2026-03-10T23:18:21Z",
+      "lead_time_hours": 0.11916666666666667
     },
     {
-      "number": 1341,
-      "title": "feat(rag): definition-preserving chunking + NSPC definition-signal lock",
+      "number": 1350,
+      "title": "feat(rag): Phase B0 safe evaluation harness",
       "user": "peterdsimonson",
-      "created_at": "2026-03-09T16:25:08Z",
-      "closed_at": "2026-03-09T16:39:20Z",
-      "lead_time_hours": 0.23666666666666666
+      "created_at": "2026-03-10T19:46:42Z",
+      "closed_at": "2026-03-10T20:05:49Z",
+      "lead_time_hours": 0.3186111111111111
     },
     {
-      "number": 1340,
-      "title": "feat(rag): penalize procedural chunks in definition mode + NSPC lock",
+      "number": 1349,
+      "title": "fix(release): RAG_RERANK_V2_MODE=v2-only to prevent hybrid zero-score 422s",
       "user": "peterdsimonson",
-      "created_at": "2026-03-09T13:53:36Z",
-      "closed_at": "2026-03-09T14:08:41Z",
-      "lead_time_hours": 0.2513888888888889
+      "created_at": "2026-03-10T18:21:05Z",
+      "closed_at": "2026-03-10T18:28:56Z",
+      "lead_time_hours": 0.13083333333333333
+    },
+    {
+      "number": 1348,
+      "title": "feat(rag): Phase B0 PR 2 — real cross-encoder in rerankerCrossEncoder.ts",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-10T16:47:42Z",
+      "closed_at": "2026-03-10T17:34:02Z",
+      "lead_time_hours": 0.7722222222222223
+    },
+    {
+      "number": 1347,
+      "title": "feat(rag): Phase B0 cross-encoder reranker wiring (stub)",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-10T15:16:00Z",
+      "closed_at": "2026-03-10T15:37:40Z",
+      "lead_time_hours": 0.3611111111111111
+    },
+    {
+      "number": 1346,
+      "title": "feat(rag): add trace:nspc-evidence-set for Case A/B diagnostic",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-10T10:19:48Z",
+      "closed_at": "2026-03-10T12:55:26Z",
+      "lead_time_hours": 2.593888888888889
     }
   ]
 }
