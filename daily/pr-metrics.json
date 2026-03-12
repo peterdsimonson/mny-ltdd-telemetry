@@ -1,69 +1,61 @@
 {
-  "total_merged": 8,
+  "total_merged": 7,
   "items": [
     {
-      "number": 1353,
-      "title": "fix(rag-eval): build workspace packages before BGE local backend",
+      "number": 1361,
+      "title": "fix(rag-eval): vector presence proof curl timeout + retry + JSON validation",
       "user": "peterdsimonson",
-      "created_at": "2026-03-11T01:44:37Z",
-      "closed_at": "2026-03-11T01:52:06Z",
-      "lead_time_hours": 0.12472222222222222
+      "created_at": "2026-03-12T02:37:01Z",
+      "closed_at": "2026-03-12T02:44:29Z",
+      "lead_time_hours": 0.12444444444444444
     },
     {
-      "number": 1352,
-      "title": "fix(rag-eval): BGE harness diagnostics — log artifact, 180s timeout, timestamps",
+      "number": 1360,
+      "title": "fix(rag-eval): coverage map runScope filter + 60min timeout for Phase C/BGE",
       "user": "peterdsimonson",
-      "created_at": "2026-03-10T23:56:50Z",
-      "closed_at": "2026-03-11T00:06:08Z",
-      "lead_time_hours": 0.155
+      "created_at": "2026-03-12T01:42:24Z",
+      "closed_at": "2026-03-12T01:51:54Z",
+      "lead_time_hours": 0.15833333333333333
     },
     {
-      "number": 1351,
-      "title": "feat(rag): optional BGE cross-encoder eval path in gold corpus workflow",
+      "number": 1359,
+      "title": "feat(rag-eval): add evidence_selector_eval_relax_gate for Phase C exploration",
       "user": "peterdsimonson",
-      "created_at": "2026-03-10T23:11:12Z",
-      "closed_at": "2026-03-10T23:18:21Z",
-      "lead_time_hours": 0.11916666666666667
+      "created_at": "2026-03-11T23:48:41Z",
+      "closed_at": "2026-03-11T23:56:46Z",
+      "lead_time_hours": 0.13472222222222222
     },
     {
-      "number": 1350,
-      "title": "feat(rag): Phase B0 safe evaluation harness",
+      "number": 1358,
+      "title": "feat(rag): Phase C.1 anchor-first evidence selector tuning",
       "user": "peterdsimonson",
-      "created_at": "2026-03-10T19:46:42Z",
-      "closed_at": "2026-03-10T20:05:49Z",
-      "lead_time_hours": 0.3186111111111111
+      "created_at": "2026-03-11T22:19:27Z",
+      "closed_at": "2026-03-11T22:35:56Z",
+      "lead_time_hours": 0.2747222222222222
     },
     {
-      "number": 1349,
-      "title": "fix(release): RAG_RERANK_V2_MODE=v2-only to prevent hybrid zero-score 422s",
+      "number": 1357,
+      "title": "feat(rag): Phase C evidence-set selector + CI eval path",
       "user": "peterdsimonson",
-      "created_at": "2026-03-10T18:21:05Z",
-      "closed_at": "2026-03-10T18:28:56Z",
-      "lead_time_hours": 0.13083333333333333
+      "created_at": "2026-03-11T19:29:38Z",
+      "closed_at": "2026-03-11T19:46:10Z",
+      "lead_time_hours": 0.27555555555555555
     },
     {
-      "number": 1348,
-      "title": "feat(rag): Phase B0 PR 2 — real cross-encoder in rerankerCrossEncoder.ts",
+      "number": 1356,
+      "title": "feat(rag-eval): BGE tuning — relax gate, fusion 0.4, larger pool",
       "user": "peterdsimonson",
-      "created_at": "2026-03-10T16:47:42Z",
-      "closed_at": "2026-03-10T17:34:02Z",
-      "lead_time_hours": 0.7722222222222223
+      "created_at": "2026-03-11T15:56:33Z",
+      "closed_at": "2026-03-11T16:11:52Z",
+      "lead_time_hours": 0.25527777777777777
     },
     {
-      "number": 1347,
-      "title": "feat(rag): Phase B0 cross-encoder reranker wiring (stub)",
+      "number": 1355,
+      "title": "fix(rag-eval): use turbo to build BGE backend and workspace deps",
       "user": "peterdsimonson",
-      "created_at": "2026-03-10T15:16:00Z",
-      "closed_at": "2026-03-10T15:37:40Z",
-      "lead_time_hours": 0.3611111111111111
-    },
-    {
-      "number": 1346,
-      "title": "feat(rag): add trace:nspc-evidence-set for Case A/B diagnostic",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-10T10:19:48Z",
-      "closed_at": "2026-03-10T12:55:26Z",
-      "lead_time_hours": 2.593888888888889
+      "created_at": "2026-03-11T14:46:57Z",
+      "closed_at": "2026-03-11T14:54:45Z",
+      "lead_time_hours": 0.13
     }
   ]
 }
