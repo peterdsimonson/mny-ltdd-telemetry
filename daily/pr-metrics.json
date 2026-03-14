@@ -1,45 +1,61 @@
 {
-  "total_merged": 5,
+  "total_merged": 7,
   "items": [
     {
-      "number": 1368,
-      "title": "fix: restore terminal lock boundary",
+      "number": 1376,
+      "title": "fix: repair gold gate lint import",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T02:43:12Z",
-      "closed_at": "2026-03-13T02:51:07Z",
-      "lead_time_hours": 0.13194444444444445
+      "created_at": "2026-03-13T21:51:39Z",
+      "closed_at": "2026-03-13T23:33:32Z",
+      "lead_time_hours": 1.6980555555555557
     },
     {
-      "number": 1367,
-      "title": "fix: enforce definition ownership boundary",
+      "number": 1375,
+      "title": "fix: gate critical NSPC definition canaries",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T01:57:15Z",
-      "closed_at": "2026-03-13T02:16:09Z",
-      "lead_time_hours": 0.315
+      "created_at": "2026-03-13T19:08:28Z",
+      "closed_at": "2026-03-13T19:16:06Z",
+      "lead_time_hours": 0.1272222222222222
     },
     {
-      "number": 1366,
-      "title": "fix: reset RAG definition and evaluation paths",
+      "number": 1374,
+      "title": "fix: harden NSPC definition regressions",
       "user": "peterdsimonson",
-      "created_at": "2026-03-12T22:32:09Z",
-      "closed_at": "2026-03-12T22:40:42Z",
-      "lead_time_hours": 0.1425
+      "created_at": "2026-03-13T17:44:46Z",
+      "closed_at": "2026-03-13T17:52:54Z",
+      "lead_time_hours": 0.13555555555555557
     },
     {
-      "number": 1365,
-      "title": "fix(rag): NSPC definition retrieval",
+      "number": 1373,
+      "title": "fix: prefer concept-specific NSPC definition anchors",
       "user": "peterdsimonson",
-      "created_at": "2026-03-12T19:56:07Z",
-      "closed_at": "2026-03-12T20:04:26Z",
-      "lead_time_hours": 0.1386111111111111
+      "created_at": "2026-03-13T17:01:56Z",
+      "closed_at": "2026-03-13T17:12:46Z",
+      "lead_time_hours": 0.18055555555555555
     },
     {
-      "number": 1363,
-      "title": "feat(rag): answer-mode-aware synthesis + composer regression trace",
+      "number": 1372,
+      "title": "fix: preserve full-name NSPC definition answers",
       "user": "peterdsimonson",
-      "created_at": "2026-03-12T15:14:16Z",
-      "closed_at": "2026-03-12T15:28:05Z",
-      "lead_time_hours": 0.23027777777777778
+      "created_at": "2026-03-13T16:09:45Z",
+      "closed_at": "2026-03-13T16:17:41Z",
+      "lead_time_hours": 0.1322222222222222
+    },
+    {
+      "number": 1371,
+      "title": "fix: protect definition answers at route contract",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-13T13:14:14Z",
+      "closed_at": "2026-03-13T13:23:27Z",
+      "lead_time_hours": 0.15361111111111111
+    },
+    {
+      "number": 1370,
+      "title": "fix: harden NSPC definition routing",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-13T11:04:46Z",
+      "closed_at": "2026-03-13T11:54:45Z",
+      "lead_time_hours": 0.8330555555555555
     }
   ]
 }
