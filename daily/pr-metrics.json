@@ -2,60 +2,60 @@
   "total_merged": 7,
   "items": [
     {
-      "number": 1376,
-      "title": "fix: repair gold gate lint import",
+      "number": 1384,
+      "title": "fix: make production definition scoring query-aware",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T21:51:39Z",
-      "closed_at": "2026-03-13T23:33:32Z",
-      "lead_time_hours": 1.6980555555555557
+      "created_at": "2026-03-14T23:57:20Z",
+      "closed_at": "2026-03-15T00:04:20Z",
+      "lead_time_hours": 0.11666666666666667
     },
     {
-      "number": 1375,
-      "title": "fix: gate critical NSPC definition canaries",
+      "number": 1383,
+      "title": "fix: restore clarification follow-up marker retrieval",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T19:08:28Z",
-      "closed_at": "2026-03-13T19:16:06Z",
-      "lead_time_hours": 0.1272222222222222
+      "created_at": "2026-03-14T19:51:02Z",
+      "closed_at": "2026-03-14T19:58:22Z",
+      "lead_time_hours": 0.12222222222222222
     },
     {
-      "number": 1374,
-      "title": "fix: harden NSPC definition regressions",
+      "number": 1382,
+      "title": "fix: keep single-claim definition answers",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T17:44:46Z",
-      "closed_at": "2026-03-13T17:52:54Z",
-      "lead_time_hours": 0.13555555555555557
+      "created_at": "2026-03-14T18:35:21Z",
+      "closed_at": "2026-03-14T18:54:08Z",
+      "lead_time_hours": 0.31305555555555553
     },
     {
-      "number": 1373,
-      "title": "fix: prefer concept-specific NSPC definition anchors",
+      "number": 1381,
+      "title": "fix: rescue live definition rerank path",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T17:01:56Z",
-      "closed_at": "2026-03-13T17:12:46Z",
-      "lead_time_hours": 0.18055555555555555
+      "created_at": "2026-03-14T17:40:53Z",
+      "closed_at": "2026-03-14T17:48:23Z",
+      "lead_time_hours": 0.125
     },
     {
-      "number": 1372,
-      "title": "fix: preserve full-name NSPC definition answers",
+      "number": 1380,
+      "title": "fix: protect live definition composer path",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T16:09:45Z",
-      "closed_at": "2026-03-13T16:17:41Z",
-      "lead_time_hours": 0.1322222222222222
+      "created_at": "2026-03-14T12:50:22Z",
+      "closed_at": "2026-03-14T12:58:19Z",
+      "lead_time_hours": 0.1325
     },
     {
-      "number": 1371,
-      "title": "fix: protect definition answers at route contract",
+      "number": 1379,
+      "title": "fix: restore live definition scoring path",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T13:14:14Z",
-      "closed_at": "2026-03-13T13:23:27Z",
-      "lead_time_hours": 0.15361111111111111
+      "created_at": "2026-03-14T11:25:06Z",
+      "closed_at": "2026-03-14T11:32:59Z",
+      "lead_time_hours": 0.1313888888888889
     },
     {
-      "number": 1370,
-      "title": "fix: harden NSPC definition routing",
+      "number": 1378,
+      "title": "fix: protect raw definition release path",
       "user": "peterdsimonson",
-      "created_at": "2026-03-13T11:04:46Z",
-      "closed_at": "2026-03-13T11:54:45Z",
-      "lead_time_hours": 0.8330555555555555
+      "created_at": "2026-03-14T10:29:42Z",
+      "closed_at": "2026-03-14T10:37:31Z",
+      "lead_time_hours": 0.13027777777777777
     }
   ]
 }
