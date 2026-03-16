@@ -1,61 +1,85 @@
 {
-  "total_merged": 7,
+  "total_merged": 10,
   "items": [
     {
-      "number": 1384,
-      "title": "fix: make production definition scoring query-aware",
+      "number": 1395,
+      "title": "fix: narrow non-definition retrieval expansion",
       "user": "peterdsimonson",
-      "created_at": "2026-03-14T23:57:20Z",
-      "closed_at": "2026-03-15T00:04:20Z",
-      "lead_time_hours": 0.11666666666666667
+      "created_at": "2026-03-16T02:37:22Z",
+      "closed_at": "2026-03-16T02:44:46Z",
+      "lead_time_hours": 0.12333333333333334
     },
     {
-      "number": 1383,
-      "title": "fix: restore clarification follow-up marker retrieval",
+      "number": 1394,
+      "title": "fix: align gold retrieval-low bucket semantics",
       "user": "peterdsimonson",
-      "created_at": "2026-03-14T19:51:02Z",
-      "closed_at": "2026-03-14T19:58:22Z",
-      "lead_time_hours": 0.12222222222222222
+      "created_at": "2026-03-16T01:57:20Z",
+      "closed_at": "2026-03-16T02:04:12Z",
+      "lead_time_hours": 0.11444444444444445
     },
     {
-      "number": 1382,
-      "title": "fix: keep single-claim definition answers",
+      "number": 1393,
+      "title": "fix: narrow definition routing for attribute questions",
       "user": "peterdsimonson",
-      "created_at": "2026-03-14T18:35:21Z",
-      "closed_at": "2026-03-14T18:54:08Z",
-      "lead_time_hours": 0.31305555555555553
+      "created_at": "2026-03-16T00:20:09Z",
+      "closed_at": "2026-03-16T00:28:19Z",
+      "lead_time_hours": 0.1361111111111111
     },
     {
-      "number": 1381,
-      "title": "fix: rescue live definition rerank path",
+      "number": 1392,
+      "title": "docs: record successful release for PR 1391",
       "user": "peterdsimonson",
-      "created_at": "2026-03-14T17:40:53Z",
-      "closed_at": "2026-03-14T17:48:23Z",
-      "lead_time_hours": 0.125
+      "created_at": "2026-03-15T21:17:22Z",
+      "closed_at": "2026-03-15T21:25:16Z",
+      "lead_time_hours": 0.13166666666666665
     },
     {
-      "number": 1380,
-      "title": "fix: protect live definition composer path",
+      "number": 1391,
+      "title": "fix: enforce thin lookup fallback after compose",
       "user": "peterdsimonson",
-      "created_at": "2026-03-14T12:50:22Z",
-      "closed_at": "2026-03-14T12:58:19Z",
-      "lead_time_hours": 0.1325
+      "created_at": "2026-03-15T20:13:26Z",
+      "closed_at": "2026-03-15T20:30:17Z",
+      "lead_time_hours": 0.2808333333333333
     },
     {
-      "number": 1379,
-      "title": "fix: restore live definition scoring path",
+      "number": 1390,
+      "title": "fix: fail closed thin lookup answers",
       "user": "peterdsimonson",
-      "created_at": "2026-03-14T11:25:06Z",
-      "closed_at": "2026-03-14T11:32:59Z",
-      "lead_time_hours": 0.1313888888888889
+      "created_at": "2026-03-15T19:08:50Z",
+      "closed_at": "2026-03-15T19:27:41Z",
+      "lead_time_hours": 0.31416666666666665
     },
     {
-      "number": 1378,
-      "title": "fix: protect raw definition release path",
+      "number": 1389,
+      "title": "fix: calibrate release gold gate",
       "user": "peterdsimonson",
-      "created_at": "2026-03-14T10:29:42Z",
-      "closed_at": "2026-03-14T10:37:31Z",
-      "lead_time_hours": 0.13027777777777777
+      "created_at": "2026-03-15T17:59:45Z",
+      "closed_at": "2026-03-15T18:07:03Z",
+      "lead_time_hours": 0.12166666666666667
+    },
+    {
+      "number": 1388,
+      "title": "fix(rag): restore release lock compatibility",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-15T14:49:09Z",
+      "closed_at": "2026-03-15T15:12:14Z",
+      "lead_time_hours": 0.38472222222222224
+    },
+    {
+      "number": 1387,
+      "title": "refactor(rag): centralize definition evidence ownership",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-15T12:53:25Z",
+      "closed_at": "2026-03-15T13:18:37Z",
+      "lead_time_hours": 0.42
+    },
+    {
+      "number": 1385,
+      "title": "fix: demote executive-summary definition anchors",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-15T04:20:21Z",
+      "closed_at": "2026-03-15T04:28:09Z",
+      "lead_time_hours": 0.13
     }
   ]
 }
