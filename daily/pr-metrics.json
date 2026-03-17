@@ -1,85 +1,93 @@
 {
-  "total_merged": 10,
+  "total_merged": 11,
   "items": [
     {
-      "number": 1395,
-      "title": "fix: narrow non-definition retrieval expansion",
+      "number": 1407,
+      "title": "fix: preserve definition-owned marker repair",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T02:37:22Z",
-      "closed_at": "2026-03-16T02:44:46Z",
-      "lead_time_hours": 0.12333333333333334
+      "created_at": "2026-03-17T02:57:51Z",
+      "closed_at": "2026-03-17T03:05:38Z",
+      "lead_time_hours": 0.1297222222222222
     },
     {
-      "number": 1394,
-      "title": "fix: align gold retrieval-low bucket semantics",
+      "number": 1406,
+      "title": "fix: keep definition gaps fail-closed",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T01:57:20Z",
-      "closed_at": "2026-03-16T02:04:12Z",
-      "lead_time_hours": 0.11444444444444445
+      "created_at": "2026-03-17T01:44:48Z",
+      "closed_at": "2026-03-17T02:02:47Z",
+      "lead_time_hours": 0.2997222222222222
     },
     {
-      "number": 1393,
-      "title": "fix: narrow definition routing for attribute questions",
+      "number": 1405,
+      "title": "fix: fail closed on MNY title metadata",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T00:20:09Z",
-      "closed_at": "2026-03-16T00:28:19Z",
-      "lead_time_hours": 0.1361111111111111
+      "created_at": "2026-03-17T00:24:10Z",
+      "closed_at": "2026-03-17T00:32:28Z",
+      "lead_time_hours": 0.13833333333333334
     },
     {
-      "number": 1392,
-      "title": "docs: record successful release for PR 1391",
+      "number": 1404,
+      "title": "fix: strengthen standalone definition answers",
       "user": "peterdsimonson",
-      "created_at": "2026-03-15T21:17:22Z",
-      "closed_at": "2026-03-15T21:25:16Z",
-      "lead_time_hours": 0.13166666666666665
+      "created_at": "2026-03-16T23:32:53Z",
+      "closed_at": "2026-03-16T23:47:17Z",
+      "lead_time_hours": 0.24
     },
     {
-      "number": 1391,
-      "title": "fix: enforce thin lookup fallback after compose",
+      "number": 1403,
+      "title": "fix: protect definition breakthrough invariants",
       "user": "peterdsimonson",
-      "created_at": "2026-03-15T20:13:26Z",
-      "closed_at": "2026-03-15T20:30:17Z",
-      "lead_time_hours": 0.2808333333333333
+      "created_at": "2026-03-16T20:32:28Z",
+      "closed_at": "2026-03-16T21:34:19Z",
+      "lead_time_hours": 1.0308333333333333
     },
     {
-      "number": 1390,
-      "title": "fix: fail closed thin lookup answers",
+      "number": 1402,
+      "title": "fix: block title metadata definition fallbacks",
       "user": "peterdsimonson",
-      "created_at": "2026-03-15T19:08:50Z",
-      "closed_at": "2026-03-15T19:27:41Z",
-      "lead_time_hours": 0.31416666666666665
+      "created_at": "2026-03-16T19:49:43Z",
+      "closed_at": "2026-03-16T19:57:38Z",
+      "lead_time_hours": 0.13194444444444445
     },
     {
-      "number": 1389,
-      "title": "fix: calibrate release gold gate",
+      "number": 1401,
+      "title": "fix: harden acronym definition survival",
       "user": "peterdsimonson",
-      "created_at": "2026-03-15T17:59:45Z",
-      "closed_at": "2026-03-15T18:07:03Z",
-      "lead_time_hours": 0.12166666666666667
+      "created_at": "2026-03-16T18:43:48Z",
+      "closed_at": "2026-03-16T18:55:30Z",
+      "lead_time_hours": 0.195
     },
     {
-      "number": 1388,
-      "title": "fix(rag): restore release lock compatibility",
+      "number": 1400,
+      "title": "fix: prefer canonical definition sentences",
       "user": "peterdsimonson",
-      "created_at": "2026-03-15T14:49:09Z",
-      "closed_at": "2026-03-15T15:12:14Z",
-      "lead_time_hours": 0.38472222222222224
+      "created_at": "2026-03-16T17:30:06Z",
+      "closed_at": "2026-03-16T17:37:44Z",
+      "lead_time_hours": 0.1272222222222222
     },
     {
-      "number": 1387,
-      "title": "refactor(rag): centralize definition evidence ownership",
+      "number": 1399,
+      "title": "fix: reduce route-level definition downgrade ownership",
       "user": "peterdsimonson",
-      "created_at": "2026-03-15T12:53:25Z",
-      "closed_at": "2026-03-15T13:18:37Z",
-      "lead_time_hours": 0.42
+      "created_at": "2026-03-16T15:32:03Z",
+      "closed_at": "2026-03-16T15:42:36Z",
+      "lead_time_hours": 0.17583333333333334
     },
     {
-      "number": 1385,
-      "title": "fix: demote executive-summary definition anchors",
+      "number": 1398,
+      "title": "fix: relax lookup contract gate for single-fact answers",
       "user": "peterdsimonson",
-      "created_at": "2026-03-15T04:20:21Z",
-      "closed_at": "2026-03-15T04:28:09Z",
-      "lead_time_hours": 0.13
+      "created_at": "2026-03-16T14:18:21Z",
+      "closed_at": "2026-03-16T14:30:49Z",
+      "lead_time_hours": 0.20777777777777778
+    },
+    {
+      "number": 1397,
+      "title": "fix: align gold harness expansion with runtime intent",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-16T11:42:29Z",
+      "closed_at": "2026-03-16T11:52:04Z",
+      "lead_time_hours": 0.1597222222222222
     }
   ]
 }
