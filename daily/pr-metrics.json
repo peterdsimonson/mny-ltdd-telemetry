@@ -2,92 +2,92 @@
   "total_merged": 11,
   "items": [
     {
-      "number": 1407,
-      "title": "fix: preserve definition-owned marker repair",
+      "number": 1419,
+      "title": "fix: retain safe citations for definition gaps",
       "user": "peterdsimonson",
-      "created_at": "2026-03-17T02:57:51Z",
-      "closed_at": "2026-03-17T03:05:38Z",
-      "lead_time_hours": 0.1297222222222222
+      "created_at": "2026-03-18T02:43:28Z",
+      "closed_at": "2026-03-18T02:51:28Z",
+      "lead_time_hours": 0.13333333333333333
     },
     {
-      "number": 1406,
-      "title": "fix: keep definition gaps fail-closed",
+      "number": 1418,
+      "title": "fix: repair post-1417 regression locks",
       "user": "peterdsimonson",
-      "created_at": "2026-03-17T01:44:48Z",
-      "closed_at": "2026-03-17T02:02:47Z",
-      "lead_time_hours": 0.2997222222222222
+      "created_at": "2026-03-18T01:44:59Z",
+      "closed_at": "2026-03-18T01:51:58Z",
+      "lead_time_hours": 0.11638888888888889
     },
     {
-      "number": 1405,
-      "title": "fix: fail closed on MNY title metadata",
+      "number": 1417,
+      "title": "fix: collapse definition gaps at final emit",
       "user": "peterdsimonson",
-      "created_at": "2026-03-17T00:24:10Z",
-      "closed_at": "2026-03-17T00:32:28Z",
-      "lead_time_hours": 0.13833333333333334
+      "created_at": "2026-03-18T00:30:39Z",
+      "closed_at": "2026-03-18T00:55:41Z",
+      "lead_time_hours": 0.4172222222222222
     },
     {
-      "number": 1404,
-      "title": "fix: strengthen standalone definition answers",
+      "number": 1416,
+      "title": "fix: preserve collapsed definition gaps",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T23:32:53Z",
-      "closed_at": "2026-03-16T23:47:17Z",
-      "lead_time_hours": 0.24
+      "created_at": "2026-03-17T23:24:18Z",
+      "closed_at": "2026-03-17T23:31:52Z",
+      "lead_time_hours": 0.12611111111111112
     },
     {
-      "number": 1403,
-      "title": "fix: protect definition breakthrough invariants",
+      "number": 1415,
+      "title": "fix: force light repair for definition gaps",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T20:32:28Z",
-      "closed_at": "2026-03-16T21:34:19Z",
-      "lead_time_hours": 1.0308333333333333
+      "created_at": "2026-03-17T22:35:42Z",
+      "closed_at": "2026-03-17T22:43:46Z",
+      "lead_time_hours": 0.13444444444444445
     },
     {
-      "number": 1402,
-      "title": "fix: block title metadata definition fallbacks",
+      "number": 1414,
+      "title": "fix: reject title-only definition evidence",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T19:49:43Z",
-      "closed_at": "2026-03-16T19:57:38Z",
-      "lead_time_hours": 0.13194444444444445
+      "created_at": "2026-03-17T20:11:12Z",
+      "closed_at": "2026-03-17T20:22:06Z",
+      "lead_time_hours": 0.18166666666666667
     },
     {
-      "number": 1401,
-      "title": "fix: harden acronym definition survival",
+      "number": 1413,
+      "title": "fix: collapse definition gap after status formatting",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T18:43:48Z",
-      "closed_at": "2026-03-16T18:55:30Z",
-      "lead_time_hours": 0.195
+      "created_at": "2026-03-17T19:24:13Z",
+      "closed_at": "2026-03-17T19:32:09Z",
+      "lead_time_hours": 0.1322222222222222
     },
     {
-      "number": 1400,
-      "title": "fix: prefer canonical definition sentences",
+      "number": 1412,
+      "title": "fix: narrow definition gap collapse trigger",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T17:30:06Z",
-      "closed_at": "2026-03-16T17:37:44Z",
-      "lead_time_hours": 0.1272222222222222
+      "created_at": "2026-03-17T18:26:35Z",
+      "closed_at": "2026-03-17T18:34:24Z",
+      "lead_time_hours": 0.13027777777777777
     },
     {
-      "number": 1399,
-      "title": "fix: reduce route-level definition downgrade ownership",
+      "number": 1411,
+      "title": "fix: collapse definition-owned gaps cleanly",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T15:32:03Z",
-      "closed_at": "2026-03-16T15:42:36Z",
-      "lead_time_hours": 0.17583333333333334
+      "created_at": "2026-03-17T17:17:25Z",
+      "closed_at": "2026-03-17T17:24:59Z",
+      "lead_time_hours": 0.12611111111111112
     },
     {
-      "number": 1398,
-      "title": "fix: relax lookup contract gate for single-fact answers",
+      "number": 1410,
+      "title": "fix: preserve definition-owned pre-emit marker repair",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T14:18:21Z",
-      "closed_at": "2026-03-16T14:30:49Z",
-      "lead_time_hours": 0.20777777777777778
+      "created_at": "2026-03-17T16:27:11Z",
+      "closed_at": "2026-03-17T16:42:43Z",
+      "lead_time_hours": 0.2588888888888889
     },
     {
-      "number": 1397,
-      "title": "fix: align gold harness expansion with runtime intent",
+      "number": 1409,
+      "title": "fix: preserve definition-owned gap kind",
       "user": "peterdsimonson",
-      "created_at": "2026-03-16T11:42:29Z",
-      "closed_at": "2026-03-16T11:52:04Z",
-      "lead_time_hours": 0.1597222222222222
+      "created_at": "2026-03-17T12:32:38Z",
+      "closed_at": "2026-03-17T14:27:13Z",
+      "lead_time_hours": 1.9097222222222223
     }
   ]
 }
