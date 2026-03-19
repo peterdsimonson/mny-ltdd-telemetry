@@ -1,93 +1,29 @@
 {
-  "total_merged": 11,
+  "total_merged": 3,
   "items": [
     {
-      "number": 1419,
-      "title": "fix: retain safe citations for definition gaps",
+      "number": 1423,
+      "title": "fix: restore routing and status fail-closed paths",
       "user": "peterdsimonson",
-      "created_at": "2026-03-18T02:43:28Z",
-      "closed_at": "2026-03-18T02:51:28Z",
-      "lead_time_hours": 0.13333333333333333
+      "created_at": "2026-03-18T10:22:24Z",
+      "closed_at": "2026-03-18T10:37:24Z",
+      "lead_time_hours": 0.25
     },
     {
-      "number": 1418,
-      "title": "fix: repair post-1417 regression locks",
+      "number": 1422,
+      "title": "fix: collapse MNY definition gap hybrids",
       "user": "peterdsimonson",
-      "created_at": "2026-03-18T01:44:59Z",
-      "closed_at": "2026-03-18T01:51:58Z",
-      "lead_time_hours": 0.11638888888888889
+      "created_at": "2026-03-18T09:04:16Z",
+      "closed_at": "2026-03-18T09:17:24Z",
+      "lead_time_hours": 0.21888888888888888
     },
     {
-      "number": 1417,
-      "title": "fix: collapse definition gaps at final emit",
+      "number": 1421,
+      "title": "fix: exclude authoritative gaps from gold zero-citation gate",
       "user": "peterdsimonson",
-      "created_at": "2026-03-18T00:30:39Z",
-      "closed_at": "2026-03-18T00:55:41Z",
-      "lead_time_hours": 0.4172222222222222
-    },
-    {
-      "number": 1416,
-      "title": "fix: preserve collapsed definition gaps",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-17T23:24:18Z",
-      "closed_at": "2026-03-17T23:31:52Z",
-      "lead_time_hours": 0.12611111111111112
-    },
-    {
-      "number": 1415,
-      "title": "fix: force light repair for definition gaps",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-17T22:35:42Z",
-      "closed_at": "2026-03-17T22:43:46Z",
-      "lead_time_hours": 0.13444444444444445
-    },
-    {
-      "number": 1414,
-      "title": "fix: reject title-only definition evidence",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-17T20:11:12Z",
-      "closed_at": "2026-03-17T20:22:06Z",
-      "lead_time_hours": 0.18166666666666667
-    },
-    {
-      "number": 1413,
-      "title": "fix: collapse definition gap after status formatting",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-17T19:24:13Z",
-      "closed_at": "2026-03-17T19:32:09Z",
-      "lead_time_hours": 0.1322222222222222
-    },
-    {
-      "number": 1412,
-      "title": "fix: narrow definition gap collapse trigger",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-17T18:26:35Z",
-      "closed_at": "2026-03-17T18:34:24Z",
-      "lead_time_hours": 0.13027777777777777
-    },
-    {
-      "number": 1411,
-      "title": "fix: collapse definition-owned gaps cleanly",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-17T17:17:25Z",
-      "closed_at": "2026-03-17T17:24:59Z",
-      "lead_time_hours": 0.12611111111111112
-    },
-    {
-      "number": 1410,
-      "title": "fix: preserve definition-owned pre-emit marker repair",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-17T16:27:11Z",
-      "closed_at": "2026-03-17T16:42:43Z",
-      "lead_time_hours": 0.2588888888888889
-    },
-    {
-      "number": 1409,
-      "title": "fix: preserve definition-owned gap kind",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-17T12:32:38Z",
-      "closed_at": "2026-03-17T14:27:13Z",
-      "lead_time_hours": 1.9097222222222223
+      "created_at": "2026-03-18T08:22:51Z",
+      "closed_at": "2026-03-18T08:30:24Z",
+      "lead_time_hours": 0.12583333333333332
     }
   ]
 }
