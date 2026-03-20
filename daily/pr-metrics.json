@@ -1,29 +1,4 @@
 {
-  "total_merged": 3,
-  "items": [
-    {
-      "number": 1423,
-      "title": "fix: restore routing and status fail-closed paths",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-18T10:22:24Z",
-      "closed_at": "2026-03-18T10:37:24Z",
-      "lead_time_hours": 0.25
-    },
-    {
-      "number": 1422,
-      "title": "fix: collapse MNY definition gap hybrids",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-18T09:04:16Z",
-      "closed_at": "2026-03-18T09:17:24Z",
-      "lead_time_hours": 0.21888888888888888
-    },
-    {
-      "number": 1421,
-      "title": "fix: exclude authoritative gaps from gold zero-citation gate",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-18T08:22:51Z",
-      "closed_at": "2026-03-18T08:30:24Z",
-      "lead_time_hours": 0.12583333333333332
-    }
-  ]
+  "total_merged": 0,
+  "items": []
 }
