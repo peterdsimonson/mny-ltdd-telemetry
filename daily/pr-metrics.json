@@ -1,29 +1,93 @@
 {
-  "total_merged": 3,
+  "total_merged": 11,
   "items": [
     {
-      "number": 1429,
-      "title": "fix: keep synthesis scaffold repair on synthesis lane",
+      "number": 1441,
+      "title": "refactor(rag): extract status gap formatting finalizer",
       "user": "peterdsimonson",
-      "created_at": "2026-03-21T02:25:45Z",
-      "closed_at": "2026-03-21T02:33:33Z",
-      "lead_time_hours": 0.13
+      "created_at": "2026-03-22T03:20:06Z",
+      "closed_at": "2026-03-22T03:27:36Z",
+      "lead_time_hours": 0.125
     },
     {
-      "number": 1428,
-      "title": "fix: preserve routed synthesis ownership",
+      "number": 1440,
+      "title": "fix: restore lock-visible salvage override breadcrumb",
       "user": "peterdsimonson",
-      "created_at": "2026-03-20T23:56:17Z",
-      "closed_at": "2026-03-21T01:01:25Z",
-      "lead_time_hours": 1.0855555555555556
+      "created_at": "2026-03-22T02:36:27Z",
+      "closed_at": "2026-03-22T02:43:37Z",
+      "lead_time_hours": 0.11944444444444445
     },
     {
-      "number": 1427,
-      "title": "fix: stop release fallback regressions",
+      "number": 1439,
+      "title": "refactor: extract route contract gate finalizer",
       "user": "peterdsimonson",
-      "created_at": "2026-03-20T15:52:14Z",
-      "closed_at": "2026-03-20T21:42:54Z",
-      "lead_time_hours": 5.844444444444444
+      "created_at": "2026-03-22T01:32:33Z",
+      "closed_at": "2026-03-22T02:06:02Z",
+      "lead_time_hours": 0.5580555555555555
+    },
+    {
+      "number": 1438,
+      "title": "fix: improve generic definition retrieval recall",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-22T01:09:44Z",
+      "closed_at": "2026-03-22T01:20:40Z",
+      "lead_time_hours": 0.18222222222222223
+    },
+    {
+      "number": 1437,
+      "title": "fix: preserve citations on diversity fail-close",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-22T00:02:25Z",
+      "closed_at": "2026-03-22T00:13:38Z",
+      "lead_time_hours": 0.18694444444444444
+    },
+    {
+      "number": 1436,
+      "title": "fix(rag): classify live evaluative questions",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-21T22:56:55Z",
+      "closed_at": "2026-03-21T23:31:02Z",
+      "lead_time_hours": 0.5686111111111111
+    },
+    {
+      "number": 1435,
+      "title": "fix(rag): allow single-fact lookup evidence",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-21T22:11:55Z",
+      "closed_at": "2026-03-21T22:26:26Z",
+      "lead_time_hours": 0.24194444444444443
+    },
+    {
+      "number": 1434,
+      "title": "refactor(rag): add evidence assembly telemetry spine",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-21T21:08:04Z",
+      "closed_at": "2026-03-21T21:30:53Z",
+      "lead_time_hours": 0.38027777777777777
+    },
+    {
+      "number": 1433,
+      "title": "fix: make definition ownership authoritative",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-21T19:35:30Z",
+      "closed_at": "2026-03-21T19:50:33Z",
+      "lead_time_hours": 0.25083333333333335
+    },
+    {
+      "number": 1432,
+      "title": "fix: exempt authoritative definition gaps from gold citation gate",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-21T13:45:31Z",
+      "closed_at": "2026-03-21T18:38:31Z",
+      "lead_time_hours": 4.883333333333334
+    },
+    {
+      "number": 1431,
+      "title": "fix: defer synthesis salvage emission to finalizer",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-21T12:36:32Z",
+      "closed_at": "2026-03-21T13:02:01Z",
+      "lead_time_hours": 0.4247222222222222
     }
   ]
 }
