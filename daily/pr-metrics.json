@@ -1,93 +1,85 @@
 {
-  "total_merged": 11,
+  "total_merged": 10,
   "items": [
     {
-      "number": 1441,
-      "title": "refactor(rag): extract status gap formatting finalizer",
+      "number": 1452,
+      "title": "fix(ci): release gold seed uses gold-ci + runScope (Pinecone namespace cap)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T03:20:06Z",
-      "closed_at": "2026-03-22T03:27:36Z",
-      "lead_time_hours": 0.125
+      "created_at": "2026-03-23T02:48:37Z",
+      "closed_at": "2026-03-23T02:56:17Z",
+      "lead_time_hours": 0.12777777777777777
     },
     {
-      "number": 1440,
-      "title": "fix: restore lock-visible salvage override breadcrumb",
+      "number": 1451,
+      "title": "refactor(rag): extract isConceptualTheoryQuery to routing module",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T02:36:27Z",
-      "closed_at": "2026-03-22T02:43:37Z",
-      "lead_time_hours": 0.11944444444444445
+      "created_at": "2026-03-23T02:16:00Z",
+      "closed_at": "2026-03-23T02:23:49Z",
+      "lead_time_hours": 0.13027777777777777
     },
     {
-      "number": 1439,
-      "title": "refactor: extract route contract gate finalizer",
+      "number": 1450,
+      "title": "fix(rag): emit LTDD marker telemetry without LTDD_MODE",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T01:32:33Z",
-      "closed_at": "2026-03-22T02:06:02Z",
-      "lead_time_hours": 0.5580555555555555
+      "created_at": "2026-03-22T23:47:30Z",
+      "closed_at": "2026-03-23T00:16:27Z",
+      "lead_time_hours": 0.4825
     },
     {
-      "number": 1438,
-      "title": "fix: improve generic definition retrieval recall",
+      "number": 1449,
+      "title": "refactor(rag): derive entity-presence key terms from query and corpus",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T01:09:44Z",
-      "closed_at": "2026-03-22T01:20:40Z",
-      "lead_time_hours": 0.18222222222222223
+      "created_at": "2026-03-22T22:17:27Z",
+      "closed_at": "2026-03-22T22:32:19Z",
+      "lead_time_hours": 0.2477777777777778
     },
     {
-      "number": 1437,
-      "title": "fix: preserve citations on diversity fail-close",
+      "number": 1448,
+      "title": "fix(rag): dedupe evidence lineage chunk ids for honest telemetry",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T00:02:25Z",
-      "closed_at": "2026-03-22T00:13:38Z",
-      "lead_time_hours": 0.18694444444444444
+      "created_at": "2026-03-22T18:50:44Z",
+      "closed_at": "2026-03-22T19:06:48Z",
+      "lead_time_hours": 0.2677777777777778
     },
     {
-      "number": 1436,
-      "title": "fix(rag): classify live evaluative questions",
+      "number": 1447,
+      "title": "refactor(rag): extract ragAsk transport helpers to dedicated module",
       "user": "peterdsimonson",
-      "created_at": "2026-03-21T22:56:55Z",
-      "closed_at": "2026-03-21T23:31:02Z",
-      "lead_time_hours": 0.5686111111111111
+      "created_at": "2026-03-22T17:50:05Z",
+      "closed_at": "2026-03-22T18:06:04Z",
+      "lead_time_hours": 0.2663888888888889
     },
     {
-      "number": 1435,
-      "title": "fix(rag): allow single-fact lookup evidence",
+      "number": 1446,
+      "title": "test(rag): lock corpus-derived acronym genericity with synthetic BWPO case",
       "user": "peterdsimonson",
-      "created_at": "2026-03-21T22:11:55Z",
-      "closed_at": "2026-03-21T22:26:26Z",
-      "lead_time_hours": 0.24194444444444443
+      "created_at": "2026-03-22T16:58:49Z",
+      "closed_at": "2026-03-22T17:14:20Z",
+      "lead_time_hours": 0.2586111111111111
     },
     {
-      "number": 1434,
-      "title": "refactor(rag): add evidence assembly telemetry spine",
+      "number": 1445,
+      "title": "feat(rag): corpus-derived term linking and genericity doctrine",
       "user": "peterdsimonson",
-      "created_at": "2026-03-21T21:08:04Z",
-      "closed_at": "2026-03-21T21:30:53Z",
-      "lead_time_hours": 0.38027777777777777
+      "created_at": "2026-03-22T15:19:47Z",
+      "closed_at": "2026-03-22T15:35:43Z",
+      "lead_time_hours": 0.26555555555555554
     },
     {
-      "number": 1433,
-      "title": "fix: make definition ownership authoritative",
+      "number": 1444,
+      "title": "fix(rag): restore lock-visible terminal marker calls",
       "user": "peterdsimonson",
-      "created_at": "2026-03-21T19:35:30Z",
-      "closed_at": "2026-03-21T19:50:33Z",
-      "lead_time_hours": 0.25083333333333335
+      "created_at": "2026-03-22T13:44:24Z",
+      "closed_at": "2026-03-22T13:51:45Z",
+      "lead_time_hours": 0.1225
     },
     {
-      "number": 1432,
-      "title": "fix: exempt authoritative definition gaps from gold citation gate",
+      "number": 1443,
+      "title": "refactor(rag): extract definition marker finalizer",
       "user": "peterdsimonson",
-      "created_at": "2026-03-21T13:45:31Z",
-      "closed_at": "2026-03-21T18:38:31Z",
-      "lead_time_hours": 4.883333333333334
-    },
-    {
-      "number": 1431,
-      "title": "fix: defer synthesis salvage emission to finalizer",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-21T12:36:32Z",
-      "closed_at": "2026-03-21T13:02:01Z",
-      "lead_time_hours": 0.4247222222222222
+      "created_at": "2026-03-22T12:47:31Z",
+      "closed_at": "2026-03-22T13:09:06Z",
+      "lead_time_hours": 0.3597222222222222
     }
   ]
 }
