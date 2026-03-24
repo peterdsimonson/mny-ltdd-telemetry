@@ -1,85 +1,101 @@
 {
-  "total_merged": 10,
+  "total_merged": 12,
   "items": [
     {
-      "number": 1452,
-      "title": "fix(ci): release gold seed uses gold-ci + runScope (Pinecone namespace cap)",
+      "number": 1465,
+      "title": "feat(rag): DefinitionEvidencePackage handoff into handleDefinitionAnswer",
       "user": "peterdsimonson",
-      "created_at": "2026-03-23T02:48:37Z",
-      "closed_at": "2026-03-23T02:56:17Z",
-      "lead_time_hours": 0.12777777777777777
+      "created_at": "2026-03-24T02:18:11Z",
+      "closed_at": "2026-03-24T02:25:19Z",
+      "lead_time_hours": 0.11888888888888889
     },
     {
-      "number": 1451,
-      "title": "refactor(rag): extract isConceptualTheoryQuery to routing module",
+      "number": 1464,
+      "title": "fix(ltdd): gold-ci run scope headers in lock_ingest_parse_quality",
       "user": "peterdsimonson",
-      "created_at": "2026-03-23T02:16:00Z",
-      "closed_at": "2026-03-23T02:23:49Z",
-      "lead_time_hours": 0.13027777777777777
+      "created_at": "2026-03-24T01:33:18Z",
+      "closed_at": "2026-03-24T01:40:50Z",
+      "lead_time_hours": 0.12555555555555556
     },
     {
-      "number": 1450,
-      "title": "fix(rag): emit LTDD marker telemetry without LTDD_MODE",
+      "number": 1463,
+      "title": "fix(upload): stamp corpus+runScope for gold-ci Pinecone vectors",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T23:47:30Z",
-      "closed_at": "2026-03-23T00:16:27Z",
-      "lead_time_hours": 0.4825
+      "created_at": "2026-03-23T23:53:27Z",
+      "closed_at": "2026-03-24T00:00:37Z",
+      "lead_time_hours": 0.11944444444444445
     },
     {
-      "number": 1449,
-      "title": "refactor(rag): derive entity-presence key terms from query and corpus",
+      "number": 1462,
+      "title": "fix(rag): markerStrongMatches over dense pool for LTDD",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T22:17:27Z",
-      "closed_at": "2026-03-22T22:32:19Z",
-      "lead_time_hours": 0.2477777777777778
+      "created_at": "2026-03-23T20:50:37Z",
+      "closed_at": "2026-03-23T23:17:05Z",
+      "lead_time_hours": 2.4411111111111112
     },
     {
-      "number": 1448,
-      "title": "fix(rag): dedupe evidence lineage chunk ids for honest telemetry",
+      "number": 1461,
+      "title": "fix(ltdd): 180s marker wait + 600s chromium-long for Release governance",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T18:50:44Z",
-      "closed_at": "2026-03-22T19:06:48Z",
-      "lead_time_hours": 0.2677777777777778
+      "created_at": "2026-03-23T18:45:57Z",
+      "closed_at": "2026-03-23T18:53:26Z",
+      "lead_time_hours": 0.12472222222222222
     },
     {
-      "number": 1447,
-      "title": "refactor(rag): extract ragAsk transport helpers to dedicated module",
+      "number": 1460,
+      "title": "fix(ltdd): 300s Playwright project for clarification followup lock",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T17:50:05Z",
-      "closed_at": "2026-03-22T18:06:04Z",
-      "lead_time_hours": 0.2663888888888889
+      "created_at": "2026-03-23T17:19:13Z",
+      "closed_at": "2026-03-23T17:27:15Z",
+      "lead_time_hours": 0.1338888888888889
     },
     {
-      "number": 1446,
-      "title": "test(rag): lock corpus-derived acronym genericity with synthetic BWPO case",
+      "number": 1459,
+      "title": "fix(rag): stamp ltddFilterObject on all /rag/ask exits; clarification lock timeout",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T16:58:49Z",
-      "closed_at": "2026-03-22T17:14:20Z",
-      "lead_time_hours": 0.2586111111111111
+      "created_at": "2026-03-23T15:46:01Z",
+      "closed_at": "2026-03-23T16:03:13Z",
+      "lead_time_hours": 0.2866666666666667
     },
     {
-      "number": 1445,
-      "title": "feat(rag): corpus-derived term linking and genericity doctrine",
+      "number": 1458,
+      "title": "fix(rag): 90s marker wait + ltddFilter stamp after finalizer (release follow-up)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T15:19:47Z",
-      "closed_at": "2026-03-22T15:35:43Z",
-      "lead_time_hours": 0.26555555555555554
+      "created_at": "2026-03-23T14:50:26Z",
+      "closed_at": "2026-03-23T15:06:34Z",
+      "lead_time_hours": 0.2688888888888889
     },
     {
-      "number": 1444,
-      "title": "fix(rag): restore lock-visible terminal marker calls",
+      "number": 1457,
+      "title": "fix(rag): ltddFilterObject route stamp + marker wait under Playwright 90s",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T13:44:24Z",
-      "closed_at": "2026-03-22T13:51:45Z",
-      "lead_time_hours": 0.1225
+      "created_at": "2026-03-23T13:51:21Z",
+      "closed_at": "2026-03-23T14:06:20Z",
+      "lead_time_hours": 0.24972222222222223
     },
     {
-      "number": 1443,
-      "title": "refactor(rag): extract definition marker finalizer",
+      "number": 1456,
+      "title": "fix(rag): valid [^digits] in relevant-excerpts sanitizer (synthesis lock)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-22T12:47:31Z",
-      "closed_at": "2026-03-22T13:09:06Z",
-      "lead_time_hours": 0.3597222222222222
+      "created_at": "2026-03-23T13:05:43Z",
+      "closed_at": "2026-03-23T13:12:39Z",
+      "lead_time_hours": 0.11555555555555555
+    },
+    {
+      "number": 1455,
+      "title": "fix(rag): emit-path Relevant excerpts sanitizer + canonical ltddFilterObject orgId",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-23T12:06:39Z",
+      "closed_at": "2026-03-23T12:13:58Z",
+      "lead_time_hours": 0.12194444444444444
+    },
+    {
+      "number": 1454,
+      "title": "fix(rag): gold-ci telemetry + release lock remediation",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-23T10:27:11Z",
+      "closed_at": "2026-03-23T10:43:14Z",
+      "lead_time_hours": 0.2675
     }
   ]
 }
