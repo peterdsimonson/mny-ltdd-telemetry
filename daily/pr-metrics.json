@@ -1,101 +1,69 @@
 {
-  "total_merged": 12,
+  "total_merged": 8,
   "items": [
     {
-      "number": 1465,
-      "title": "feat(rag): DefinitionEvidencePackage handoff into handleDefinitionAnswer",
+      "number": 1475,
+      "title": "fix(ci): cost control — concurrency, dedupe, path-gate e2e + lock",
       "user": "peterdsimonson",
-      "created_at": "2026-03-24T02:18:11Z",
-      "closed_at": "2026-03-24T02:25:19Z",
-      "lead_time_hours": 0.11888888888888889
+      "created_at": "2026-03-24T19:38:55Z",
+      "closed_at": "2026-03-24T19:54:39Z",
+      "lead_time_hours": 0.26222222222222225
     },
     {
-      "number": 1464,
-      "title": "fix(ltdd): gold-ci run scope headers in lock_ingest_parse_quality",
+      "number": 1473,
+      "title": "chore(seed): fail fast when Pinecone write quota blocks gold seed",
       "user": "peterdsimonson",
-      "created_at": "2026-03-24T01:33:18Z",
-      "closed_at": "2026-03-24T01:40:50Z",
-      "lead_time_hours": 0.12555555555555556
+      "created_at": "2026-03-24T17:15:42Z",
+      "closed_at": "2026-03-24T18:53:49Z",
+      "lead_time_hours": 1.6352777777777778
     },
     {
-      "number": 1463,
-      "title": "fix(upload): stamp corpus+runScope for gold-ci Pinecone vectors",
+      "number": 1472,
+      "title": "fix(rag-eval): gold gate — exclude DEFINITION contract gaps from uncited metrics",
       "user": "peterdsimonson",
-      "created_at": "2026-03-23T23:53:27Z",
-      "closed_at": "2026-03-24T00:00:37Z",
-      "lead_time_hours": 0.11944444444444445
+      "created_at": "2026-03-24T16:37:53Z",
+      "closed_at": "2026-03-24T16:45:26Z",
+      "lead_time_hours": 0.12583333333333332
     },
     {
-      "number": 1462,
-      "title": "fix(rag): markerStrongMatches over dense pool for LTDD",
+      "number": 1471,
+      "title": "fix(rag): gold gate — definition gap sanitize + composer fallbacks",
       "user": "peterdsimonson",
-      "created_at": "2026-03-23T20:50:37Z",
-      "closed_at": "2026-03-23T23:17:05Z",
-      "lead_time_hours": 2.4411111111111112
+      "created_at": "2026-03-24T15:48:43Z",
+      "closed_at": "2026-03-24T15:56:20Z",
+      "lead_time_hours": 0.12694444444444444
     },
     {
-      "number": 1461,
-      "title": "fix(ltdd): 180s marker wait + 600s chromium-long for Release governance",
+      "number": 1470,
+      "title": "fix(rag): revert DEFINITION canonical body that broke gold NSPC (#1469 regression)",
       "user": "peterdsimonson",
-      "created_at": "2026-03-23T18:45:57Z",
-      "closed_at": "2026-03-23T18:53:26Z",
-      "lead_time_hours": 0.12472222222222222
+      "created_at": "2026-03-24T14:16:09Z",
+      "closed_at": "2026-03-24T14:23:42Z",
+      "lead_time_hours": 0.12583333333333332
     },
     {
-      "number": 1460,
-      "title": "fix(ltdd): 300s Playwright project for clarification followup lock",
+      "number": 1469,
+      "title": "fix(rag): canonicalize DEFINITION zero-citation body for gold eval metrics",
       "user": "peterdsimonson",
-      "created_at": "2026-03-23T17:19:13Z",
-      "closed_at": "2026-03-23T17:27:15Z",
-      "lead_time_hours": 0.1338888888888889
+      "created_at": "2026-03-24T12:46:32Z",
+      "closed_at": "2026-03-24T12:53:14Z",
+      "lead_time_hours": 0.11166666666666666
     },
     {
-      "number": 1459,
-      "title": "fix(rag): stamp ltddFilterObject on all /rag/ask exits; clarification lock timeout",
+      "number": 1468,
+      "title": "fix(rag): skip LTDD fail-closed STATUS for DEFINITION with zero citations",
       "user": "peterdsimonson",
-      "created_at": "2026-03-23T15:46:01Z",
-      "closed_at": "2026-03-23T16:03:13Z",
-      "lead_time_hours": 0.2866666666666667
+      "created_at": "2026-03-24T12:02:49Z",
+      "closed_at": "2026-03-24T12:10:27Z",
+      "lead_time_hours": 0.1272222222222222
     },
     {
-      "number": 1458,
-      "title": "fix(rag): 90s marker wait + ltddFilter stamp after finalizer (release follow-up)",
+      "number": 1467,
+      "title": "refactor(rag): extract DEFINITION contract gate clauses from ragAsk",
       "user": "peterdsimonson",
-      "created_at": "2026-03-23T14:50:26Z",
-      "closed_at": "2026-03-23T15:06:34Z",
-      "lead_time_hours": 0.2688888888888889
-    },
-    {
-      "number": 1457,
-      "title": "fix(rag): ltddFilterObject route stamp + marker wait under Playwright 90s",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-23T13:51:21Z",
-      "closed_at": "2026-03-23T14:06:20Z",
-      "lead_time_hours": 0.24972222222222223
-    },
-    {
-      "number": 1456,
-      "title": "fix(rag): valid [^digits] in relevant-excerpts sanitizer (synthesis lock)",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-23T13:05:43Z",
-      "closed_at": "2026-03-23T13:12:39Z",
-      "lead_time_hours": 0.11555555555555555
-    },
-    {
-      "number": 1455,
-      "title": "fix(rag): emit-path Relevant excerpts sanitizer + canonical ltddFilterObject orgId",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-23T12:06:39Z",
-      "closed_at": "2026-03-23T12:13:58Z",
-      "lead_time_hours": 0.12194444444444444
-    },
-    {
-      "number": 1454,
-      "title": "fix(rag): gold-ci telemetry + release lock remediation",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-23T10:27:11Z",
-      "closed_at": "2026-03-23T10:43:14Z",
-      "lead_time_hours": 0.2675
+      "created_at": "2026-03-24T09:40:09Z",
+      "closed_at": "2026-03-24T09:46:54Z",
+      "lead_time_hours": 0.1125
     }
   ]
 }
