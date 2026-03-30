@@ -1,53 +1,85 @@
 {
-  "total_merged": 6,
+  "total_merged": 10,
   "items": [
     {
-      "number": 1484,
-      "title": "fix: restore definition owner concept fallback",
+      "number": 1495,
+      "title": "fix: normalize definition citation snippets",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T03:45:55Z",
-      "closed_at": "2026-03-29T03:53:13Z",
+      "created_at": "2026-03-30T00:46:11Z",
+      "closed_at": "2026-03-30T01:06:43Z",
+      "lead_time_hours": 0.3422222222222222
+    },
+    {
+      "number": 1494,
+      "title": "fix: preserve canonical doc ids in definition diversity",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-29T23:25:24Z",
+      "closed_at": "2026-03-29T23:33:08Z",
+      "lead_time_hours": 0.1288888888888889
+    },
+    {
+      "number": 1493,
+      "title": "fix: align clarification follow-up LTDD scope",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-29T22:12:57Z",
+      "closed_at": "2026-03-29T22:20:45Z",
+      "lead_time_hours": 0.13
+    },
+    {
+      "number": 1492,
+      "title": "fix: isolate gold-ci upload-backed LTDD scope",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-29T19:36:08Z",
+      "closed_at": "2026-03-29T19:43:40Z",
+      "lead_time_hours": 0.12555555555555556
+    },
+    {
+      "number": 1491,
+      "title": "fix: use canonical LTDD cleanup headers",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-29T18:53:22Z",
+      "closed_at": "2026-03-29T19:00:39Z",
+      "lead_time_hours": 0.1213888888888889
+    },
+    {
+      "number": 1490,
+      "title": "fix: remove library-meta bespoke runtime help",
+      "user": "peterdsimonson",
+      "created_at": "2026-03-29T17:39:45Z",
+      "closed_at": "2026-03-29T17:47:03Z",
       "lead_time_hours": 0.12166666666666667
     },
     {
-      "number": 1483,
-      "title": "fix: preserve evidence-backed gap citations",
+      "number": 1489,
+      "title": "fix: replace obsolete domainExpand locks",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T02:03:59Z",
-      "closed_at": "2026-03-29T03:15:16Z",
-      "lead_time_hours": 1.1880555555555556
+      "created_at": "2026-03-29T16:51:43Z",
+      "closed_at": "2026-03-29T17:02:37Z",
+      "lead_time_hours": 0.18166666666666667
     },
     {
-      "number": 1482,
-      "title": "fix: preserve definition evidence through diversity",
+      "number": 1488,
+      "title": "fix: remove bespoke domain expansion runtime path",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T01:18:15Z",
-      "closed_at": "2026-03-29T01:27:38Z",
-      "lead_time_hours": 0.15638888888888888
+      "created_at": "2026-03-29T14:22:16Z",
+      "closed_at": "2026-03-29T14:41:33Z",
+      "lead_time_hours": 0.3213888888888889
     },
     {
-      "number": 1481,
-      "title": "fix: route evaluate benefits and tradeoffs upstream",
+      "number": 1487,
+      "title": "fix: strengthen gold definition alias recall",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T00:38:16Z",
-      "closed_at": "2026-03-29T00:45:23Z",
-      "lead_time_hours": 0.11861111111111111
+      "created_at": "2026-03-29T13:25:55Z",
+      "closed_at": "2026-03-29T13:41:49Z",
+      "lead_time_hours": 0.265
     },
     {
-      "number": 1480,
-      "title": "fix: tighten definition lane retrieval and gap handling",
+      "number": 1486,
+      "title": "fix: restore Clamp #1 lock-compatible salvage shape",
       "user": "peterdsimonson",
-      "created_at": "2026-03-28T23:42:37Z",
-      "closed_at": "2026-03-28T23:49:49Z",
-      "lead_time_hours": 0.12
-    },
-    {
-      "number": 1474,
-      "title": "fix(seed): write seed-stats.json before exit on Pinecone quota",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-24T19:10:51Z",
-      "closed_at": "2026-03-28T21:40:27Z",
-      "lead_time_hours": 98.49333333333334
+      "created_at": "2026-03-29T05:37:06Z",
+      "closed_at": "2026-03-29T05:44:31Z",
+      "lead_time_hours": 0.12361111111111112
     }
   ]
 }
