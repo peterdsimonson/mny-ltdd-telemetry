@@ -1,33 +1,25 @@
 {
-  "total_commits": 23,
-  "ai_commits": 13,
-  "human_commits": 10,
-  "ai_percentage": 56,
+  "total_commits": 15,
+  "ai_commits": 7,
+  "human_commits": 8,
+  "ai_percentage": 46,
   "ai_commit_shas": [
-    "018194fccfb346aa37db2e95698d6e3aa14c1301",
-    "b754e95ff99a0157e03c75a2915b72a3cad63325",
-    "b6808d2efcca772fa24e44ac1d00b18560e00cdb",
-    "2c263f77226d8d98407fad46796535ab75dd6a90",
-    "a2ed5794da94138d7ff540c78a5c37830ede7311",
-    "ffc1a191c7bc5c020c109b2e2609f900e616b4d2",
-    "07e03c56b10778a6a3e2f00e4ca2ab494d06de28",
-    "a8634c242cbda73e4ca1b7dfa5a381b0c006f514",
-    "c2af03b950cdb96201c11b23f264f0e52293f0c4",
-    "95a2ef8a7bb32c303ce2f8112bcd79b48c5ecf0a",
-    "46cd81582c38587f7b0a4aa296076dcebfcf7ce1",
-    "9a17ae28df0bd43d946c442dd57e9dc2c105abe2",
-    "c8deece640f179c084e9e29913a8366f3ddadf61"
+    "315a9d51186d36938c9487caa5e75649f9965e7e",
+    "6245be64b745b34b09fba370b66db1d4d4040ad6",
+    "3d3348f5c135237b447582a186ad309285a1cd0a",
+    "3ca97decb53aa06ae39aee848cce10c004e97369",
+    "27123560fd70abede3ffbc42f55916bbd93c38b3",
+    "a3ad5ade2f2b46291fd7a40b4a6843bad1394a0e",
+    "2c50089146862e645eab224c59fa2f9f22d1768b"
   ],
   "human_commit_shas": [
-    "f22a54ca0c159000c4e2ee219bd8fbc090962107",
-    "f45a35b904cb889a3a43cf5fc02f57c27cf40847",
-    "ec33b7a88f65d35b965eadf920de3f1931eadc44",
-    "aab9a3feeb52d8b92c87cc9103f54f4f77f92c00",
-    "427a915cabf71c50eea6c5af5c25f3ffe76f473b",
-    "df03211bbc53bde5091dfe2018d4dc37f698de6f",
-    "fa9a4a0d5ca14e6706fafacd954074a0246106d1",
-    "a342a54b001882248451eb19f44506d03116d562",
-    "4d82cba10377eb312d9faea3528fc3c92010c937",
-    "ce6c56a2c263fdde39e3d77a7af02b009b10d511"
+    "dd130b0dced1a75f50f2561d822274cd66c603b9",
+    "0a892bee2f6d3841a5e800eca01d9374c34a1555",
+    "9ec466f66abd33408ba16cf9d2293f954be3ac06",
+    "ae7de4ac9a64f76d344909a95869cc667650b972",
+    "cc30df86e3fedf1cfa293dd6e184c0a5f4c8f08f",
+    "dc5253d3759df024bde605c86b4375cb90ede6db",
+    "458d9cdaccca4d33c45180c7737dcc75d6df8e1e",
+    "a1a322e2a501b5a57c0212e534e8877b054f6024"
   ]
 }

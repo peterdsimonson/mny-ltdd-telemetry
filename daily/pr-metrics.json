@@ -1,85 +1,69 @@
 {
-  "total_merged": 10,
+  "total_merged": 8,
   "items": [
     {
-      "number": 1495,
-      "title": "fix: normalize definition citation snippets",
+      "number": 1504,
+      "title": "refactor: extract rag prompt instructions",
       "user": "peterdsimonson",
-      "created_at": "2026-03-30T00:46:11Z",
-      "closed_at": "2026-03-30T01:06:43Z",
-      "lead_time_hours": 0.3422222222222222
+      "created_at": "2026-03-30T21:53:30Z",
+      "closed_at": "2026-03-30T22:00:56Z",
+      "lead_time_hours": 0.1238888888888889
     },
     {
-      "number": 1494,
-      "title": "fix: preserve canonical doc ids in definition diversity",
+      "number": 1503,
+      "title": "refactor: extract conversational match shaping",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T23:25:24Z",
-      "closed_at": "2026-03-29T23:33:08Z",
-      "lead_time_hours": 0.1288888888888889
+      "created_at": "2026-03-30T21:03:47Z",
+      "closed_at": "2026-03-30T21:15:05Z",
+      "lead_time_hours": 0.18833333333333332
     },
     {
-      "number": 1493,
-      "title": "fix: align clarification follow-up LTDD scope",
+      "number": 1502,
+      "title": "fix: restore clarify system-meta lock alias",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T22:12:57Z",
-      "closed_at": "2026-03-29T22:20:45Z",
-      "lead_time_hours": 0.13
+      "created_at": "2026-03-30T20:15:26Z",
+      "closed_at": "2026-03-30T20:23:31Z",
+      "lead_time_hours": 0.13472222222222222
     },
     {
-      "number": 1492,
-      "title": "fix: isolate gold-ci upload-backed LTDD scope",
+      "number": 1501,
+      "title": "refactor: dedupe clarify meta routing",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T19:36:08Z",
-      "closed_at": "2026-03-29T19:43:40Z",
-      "lead_time_hours": 0.12555555555555556
+      "created_at": "2026-03-30T19:11:08Z",
+      "closed_at": "2026-03-30T19:48:37Z",
+      "lead_time_hours": 0.6247222222222222
     },
     {
-      "number": 1491,
-      "title": "fix: use canonical LTDD cleanup headers",
+      "number": 1500,
+      "title": "fix: restore system-meta lock contract",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T18:53:22Z",
-      "closed_at": "2026-03-29T19:00:39Z",
-      "lead_time_hours": 0.1213888888888889
+      "created_at": "2026-03-30T17:23:01Z",
+      "closed_at": "2026-03-30T17:30:07Z",
+      "lead_time_hours": 0.11833333333333333
     },
     {
-      "number": 1490,
-      "title": "fix: remove library-meta bespoke runtime help",
+      "number": 1499,
+      "title": "refactor: genericize system-meta runtime wording",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T17:39:45Z",
-      "closed_at": "2026-03-29T17:47:03Z",
-      "lead_time_hours": 0.12166666666666667
+      "created_at": "2026-03-30T15:05:28Z",
+      "closed_at": "2026-03-30T16:40:16Z",
+      "lead_time_hours": 1.58
     },
     {
-      "number": 1489,
-      "title": "fix: replace obsolete domainExpand locks",
+      "number": 1498,
+      "title": "refactor: purge repo-authored RAG prompt framing",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T16:51:43Z",
-      "closed_at": "2026-03-29T17:02:37Z",
-      "lead_time_hours": 0.18166666666666667
+      "created_at": "2026-03-30T11:51:37Z",
+      "closed_at": "2026-03-30T14:29:34Z",
+      "lead_time_hours": 2.6325
     },
     {
-      "number": 1488,
-      "title": "fix: remove bespoke domain expansion runtime path",
+      "number": 1496,
+      "title": "fix: normalize generic definition acronym selection",
       "user": "peterdsimonson",
-      "created_at": "2026-03-29T14:22:16Z",
-      "closed_at": "2026-03-29T14:41:33Z",
-      "lead_time_hours": 0.3213888888888889
-    },
-    {
-      "number": 1487,
-      "title": "fix: strengthen gold definition alias recall",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-29T13:25:55Z",
-      "closed_at": "2026-03-29T13:41:49Z",
-      "lead_time_hours": 0.265
-    },
-    {
-      "number": 1486,
-      "title": "fix: restore Clamp #1 lock-compatible salvage shape",
-      "user": "peterdsimonson",
-      "created_at": "2026-03-29T05:37:06Z",
-      "closed_at": "2026-03-29T05:44:31Z",
-      "lead_time_hours": 0.12361111111111112
+      "created_at": "2026-03-30T02:25:22Z",
+      "closed_at": "2026-03-30T11:16:07Z",
+      "lead_time_hours": 8.845833333333333
     }
   ]
 }
