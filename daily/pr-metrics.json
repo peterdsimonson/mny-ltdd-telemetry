@@ -1,125 +1,85 @@
 {
-  "total_merged": 15,
+  "total_merged": 10,
   "items": [
     {
-      "number": 1592,
-      "title": "fix(rag): fail closed unsatisfied evaluate contracts",
+      "number": 1603,
+      "title": "feat(rag): add cascade definition retrieval lanes behind flag",
       "user": "peterdsimonson",
-      "created_at": "2026-06-07T02:25:04Z",
-      "closed_at": "2026-06-07T02:40:38Z",
-      "lead_time_hours": 0.2594444444444444
+      "created_at": "2026-06-08T02:15:44Z",
+      "closed_at": "2026-06-08T02:25:11Z",
+      "lead_time_hours": 0.1575
     },
     {
-      "number": 1591,
-      "title": "fix(ci): align gold corpus gate runScope with release governance",
+      "number": 1602,
+      "title": "fix(rag): include answerKind on upstream timeout gap",
       "user": "peterdsimonson",
-      "created_at": "2026-06-07T01:11:26Z",
-      "closed_at": "2026-06-07T01:27:21Z",
-      "lead_time_hours": 0.2652777777777778
+      "created_at": "2026-06-08T00:20:51Z",
+      "closed_at": "2026-06-08T00:29:26Z",
+      "lead_time_hours": 0.14305555555555555
     },
     {
-      "number": 1590,
-      "title": "fix(rag): add LOOKUP owner-focused retrieval probes from corpus aliases",
+      "number": 1601,
+      "title": "feat(rag): add mocked retrieval cascade definition slice",
       "user": "peterdsimonson",
-      "created_at": "2026-06-07T00:11:55Z",
-      "closed_at": "2026-06-07T00:27:14Z",
-      "lead_time_hours": 0.25527777777777777
+      "created_at": "2026-06-07T23:30:39Z",
+      "closed_at": "2026-06-07T23:38:23Z",
+      "lead_time_hours": 0.1288888888888889
     },
     {
-      "number": 1589,
-      "title": "chore(rag-eval): add gold vs governance evidence-path diff",
+      "number": 1600,
+      "title": "chore(rag): add manual LTDD boundary smoke workflow",
       "user": "peterdsimonson",
-      "created_at": "2026-06-06T21:15:55Z",
-      "closed_at": "2026-06-06T21:23:23Z",
-      "lead_time_hours": 0.12444444444444444
+      "created_at": "2026-06-07T22:19:17Z",
+      "closed_at": "2026-06-07T22:26:42Z",
+      "lead_time_hours": 0.12361111111111112
     },
     {
-      "number": 1588,
-      "title": "chore(rag-eval): add blue genericity and pre-eval dense proof diagnostics",
+      "number": 1599,
+      "title": "chore(rag): add LTDD boundary smoke harness",
       "user": "peterdsimonson",
-      "created_at": "2026-06-06T20:21:05Z",
-      "closed_at": "2026-06-06T20:28:08Z",
-      "lead_time_hours": 0.1175
-    },
-    {
-      "number": 1587,
-      "title": "fix(ltdd): correct retrieval debug static lock source check",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-06T19:05:47Z",
-      "closed_at": "2026-06-06T19:13:06Z",
-      "lead_time_hours": 0.12194444444444444
-    },
-    {
-      "number": 1586,
-      "title": "fix(ltdd): align org binding lock with gold-ci runScope filter",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-06T17:18:17Z",
-      "closed_at": "2026-06-06T17:25:29Z",
+      "created_at": "2026-06-07T20:09:04Z",
+      "closed_at": "2026-06-07T20:16:16Z",
       "lead_time_hours": 0.12
     },
     {
-      "number": 1585,
-      "title": "chore(rag-eval): add gold-ci retrieval debug telemetry",
+      "number": 1598,
+      "title": "test(ltdd): refine gap citation lock for named concept gaps",
       "user": "peterdsimonson",
-      "created_at": "2026-06-06T16:43:40Z",
-      "closed_at": "2026-06-06T18:41:58Z",
-      "lead_time_hours": 1.9716666666666667
+      "created_at": "2026-06-07T19:29:42Z",
+      "closed_at": "2026-06-07T19:36:50Z",
+      "lead_time_hours": 0.11888888888888889
     },
     {
-      "number": 1584,
-      "title": "fix(ci): repair gold-ci cleanup and inventory diagnostics",
+      "number": 1597,
+      "title": "fix(rag): fail closed for unknown what-is concept queries",
       "user": "peterdsimonson",
-      "created_at": "2026-06-06T16:35:48Z",
-      "closed_at": "2026-06-06T16:55:38Z",
-      "lead_time_hours": 0.33055555555555555
+      "created_at": "2026-06-07T18:57:52Z",
+      "closed_at": "2026-06-07T19:05:05Z",
+      "lead_time_hours": 0.12027777777777778
     },
     {
-      "number": 1583,
-      "title": "fix(rag): isolate gold-ci retrieval by runScope",
+      "number": 1596,
+      "title": "feat(rag): add bounded definition evidence adjudicator",
       "user": "peterdsimonson",
-      "created_at": "2026-06-06T15:52:32Z",
-      "closed_at": "2026-06-06T16:04:16Z",
-      "lead_time_hours": 0.19555555555555557
+      "created_at": "2026-06-07T15:04:23Z",
+      "closed_at": "2026-06-07T15:12:13Z",
+      "lead_time_hours": 0.13055555555555556
     },
     {
-      "number": 1582,
-      "title": "revert(rag): restore last green evidence path after failed supported-evidence gates",
+      "number": 1595,
+      "title": "fix(rag): prevent citation salvage on definition gap rejections",
       "user": "peterdsimonson",
-      "created_at": "2026-06-06T15:11:05Z",
-      "closed_at": "2026-06-06T15:18:15Z",
-      "lead_time_hours": 0.11944444444444445
+      "created_at": "2026-06-07T13:49:49Z",
+      "closed_at": "2026-06-07T13:58:12Z",
+      "lead_time_hours": 0.13972222222222222
     },
     {
-      "number": 1581,
-      "title": "fix(rag): narrow supported-evidence gate for definition promotion",
+      "number": 1594,
+      "title": "fix(rag): prevent definition evidence from collapsing to empty gap",
       "user": "peterdsimonson",
-      "created_at": "2026-06-06T14:18:20Z",
-      "closed_at": "2026-06-06T14:25:55Z",
-      "lead_time_hours": 0.12638888888888888
-    },
-    {
-      "number": 1580,
-      "title": "fix(rag): fail closed when semantic retrieval lacks supported evidence",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-06T13:26:27Z",
-      "closed_at": "2026-06-06T13:43:34Z",
-      "lead_time_hours": 0.2852777777777778
-    },
-    {
-      "number": 1579,
-      "title": "chore(rag-diagnostic): clarify production membership requirements",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-06T12:39:53Z",
-      "closed_at": "2026-06-06T12:46:57Z",
-      "lead_time_hours": 0.11777777777777777
-    },
-    {
-      "number": 1578,
-      "title": "chore(rag-eval): surface gold gate lineage in diagnostic packet",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-06T11:54:55Z",
-      "closed_at": "2026-06-06T12:03:05Z",
-      "lead_time_hours": 0.1361111111111111
+      "created_at": "2026-06-07T13:09:01Z",
+      "closed_at": "2026-06-07T13:24:43Z",
+      "lead_time_hours": 0.26166666666666666
     }
   ]
 }
