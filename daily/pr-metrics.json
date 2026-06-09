@@ -1,85 +1,69 @@
 {
-  "total_merged": 10,
+  "total_merged": 8,
   "items": [
     {
-      "number": 1603,
-      "title": "feat(rag): add cascade definition retrieval lanes behind flag",
+      "number": 1612,
+      "title": "feat(rag): improve generic definition and acronym retrieval variants",
       "user": "peterdsimonson",
-      "created_at": "2026-06-08T02:15:44Z",
-      "closed_at": "2026-06-08T02:25:11Z",
-      "lead_time_hours": 0.1575
+      "created_at": "2026-06-09T02:49:51Z",
+      "closed_at": "2026-06-09T02:57:24Z",
+      "lead_time_hours": 0.12583333333333332
     },
     {
-      "number": 1602,
-      "title": "fix(rag): include answerKind on upstream timeout gap",
+      "number": 1611,
+      "title": "chore(rag): add cascade candidate packet audit",
       "user": "peterdsimonson",
-      "created_at": "2026-06-08T00:20:51Z",
-      "closed_at": "2026-06-08T00:29:26Z",
-      "lead_time_hours": 0.14305555555555555
-    },
-    {
-      "number": 1601,
-      "title": "feat(rag): add mocked retrieval cascade definition slice",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-07T23:30:39Z",
-      "closed_at": "2026-06-07T23:38:23Z",
-      "lead_time_hours": 0.1288888888888889
-    },
-    {
-      "number": 1600,
-      "title": "chore(rag): add manual LTDD boundary smoke workflow",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-07T22:19:17Z",
-      "closed_at": "2026-06-07T22:26:42Z",
-      "lead_time_hours": 0.12361111111111112
-    },
-    {
-      "number": 1599,
-      "title": "chore(rag): add LTDD boundary smoke harness",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-07T20:09:04Z",
-      "closed_at": "2026-06-07T20:16:16Z",
-      "lead_time_hours": 0.12
-    },
-    {
-      "number": 1598,
-      "title": "test(ltdd): refine gap citation lock for named concept gaps",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-07T19:29:42Z",
-      "closed_at": "2026-06-07T19:36:50Z",
+      "created_at": "2026-06-09T01:52:55Z",
+      "closed_at": "2026-06-09T02:00:03Z",
       "lead_time_hours": 0.11888888888888889
     },
     {
-      "number": 1597,
-      "title": "fix(rag): fail closed for unknown what-is concept queries",
+      "number": 1610,
+      "title": "feat(rag): add hybrid lane to retrieval cascade",
       "user": "peterdsimonson",
-      "created_at": "2026-06-07T18:57:52Z",
-      "closed_at": "2026-06-07T19:05:05Z",
-      "lead_time_hours": 0.12027777777777778
+      "created_at": "2026-06-08T21:31:32Z",
+      "closed_at": "2026-06-08T21:38:12Z",
+      "lead_time_hours": 0.1111111111111111
     },
     {
-      "number": 1596,
-      "title": "feat(rag): add bounded definition evidence adjudicator",
+      "number": 1609,
+      "title": "chore(rag): update cascade definition-gap locks",
       "user": "peterdsimonson",
-      "created_at": "2026-06-07T15:04:23Z",
-      "closed_at": "2026-06-07T15:12:13Z",
-      "lead_time_hours": 0.13055555555555556
+      "created_at": "2026-06-08T18:33:39Z",
+      "closed_at": "2026-06-08T18:42:43Z",
+      "lead_time_hours": 0.1511111111111111
     },
     {
-      "number": 1595,
-      "title": "fix(rag): prevent citation salvage on definition gap rejections",
+      "number": 1608,
+      "title": "feat(rag): attempt cascade before definition gap",
       "user": "peterdsimonson",
-      "created_at": "2026-06-07T13:49:49Z",
-      "closed_at": "2026-06-07T13:58:12Z",
-      "lead_time_hours": 0.13972222222222222
+      "created_at": "2026-06-08T15:39:29Z",
+      "closed_at": "2026-06-08T15:46:55Z",
+      "lead_time_hours": 0.1238888888888889
     },
     {
-      "number": 1594,
-      "title": "fix(rag): prevent definition evidence from collapsing to empty gap",
+      "number": 1607,
+      "title": "fix(rag): emit cascade smoke URL cleanly",
       "user": "peterdsimonson",
-      "created_at": "2026-06-07T13:09:01Z",
-      "closed_at": "2026-06-07T13:24:43Z",
-      "lead_time_hours": 0.26166666666666666
+      "created_at": "2026-06-08T14:40:15Z",
+      "closed_at": "2026-06-08T14:48:01Z",
+      "lead_time_hours": 0.12944444444444445
+    },
+    {
+      "number": 1606,
+      "title": "fix(rag): preserve cascade fallthrough telemetry",
+      "user": "peterdsimonson",
+      "created_at": "2026-06-08T13:08:05Z",
+      "closed_at": "2026-06-08T13:15:32Z",
+      "lead_time_hours": 0.12416666666666666
+    },
+    {
+      "number": 1604,
+      "title": "chore(smoke): cascade telemetry mode for LTDD boundary smoke",
+      "user": "peterdsimonson",
+      "created_at": "2026-06-08T02:54:06Z",
+      "closed_at": "2026-06-08T13:55:01Z",
+      "lead_time_hours": 11.015277777777778
     }
   ]
 }
