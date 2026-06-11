@@ -1,117 +1,53 @@
 {
-  "total_merged": 14,
+  "total_merged": 6,
   "items": [
     {
-      "number": 1627,
-      "title": "fix(ci): repair adjudicator shadow verify script arg handling",
+      "number": 1634,
+      "title": "fix(ci): defer gold-ci cleanup until after governance vector proof",
       "user": "peterdsimonson",
-      "created_at": "2026-06-10T04:21:51Z",
-      "closed_at": "2026-06-10T04:28:16Z",
-      "lead_time_hours": 0.10694444444444444
+      "created_at": "2026-06-10T15:50:28Z",
+      "closed_at": "2026-06-10T15:57:34Z",
+      "lead_time_hours": 0.11833333333333333
     },
     {
-      "number": 1626,
-      "title": "fix(ci): shadow smoke verify active traffic revisions not template",
+      "number": 1633,
+      "title": "fix(ci): governance gold corpus readiness after gold gate",
       "user": "peterdsimonson",
-      "created_at": "2026-06-10T03:30:59Z",
-      "closed_at": "2026-06-10T03:40:16Z",
-      "lead_time_hours": 0.15472222222222223
+      "created_at": "2026-06-10T15:13:36Z",
+      "closed_at": "2026-06-10T15:22:35Z",
+      "lead_time_hours": 0.14972222222222223
     },
     {
-      "number": 1625,
-      "title": "feat(ci): adjudicator shadow comparison on tagged no-traffic revision",
+      "number": 1632,
+      "title": "fix(ltdd): gold-ci query runScope — stop inheriting upload isolation suffix",
       "user": "peterdsimonson",
-      "created_at": "2026-06-10T01:48:54Z",
-      "closed_at": "2026-06-10T01:55:53Z",
-      "lead_time_hours": 0.11638888888888889
+      "created_at": "2026-06-10T14:36:06Z",
+      "closed_at": "2026-06-10T14:43:58Z",
+      "lead_time_hours": 0.13111111111111112
     },
     {
-      "number": 1624,
-      "title": "feat(rag-eval): adjudicator shadow comparison harness",
+      "number": 1631,
+      "title": "feat(rag-eval): adjudicator shadow disagreement drilldown (harness v4)",
       "user": "peterdsimonson",
-      "created_at": "2026-06-10T00:53:03Z",
-      "closed_at": "2026-06-10T01:08:42Z",
-      "lead_time_hours": 0.2608333333333333
+      "created_at": "2026-06-10T13:25:32Z",
+      "closed_at": "2026-06-10T13:42:46Z",
+      "lead_time_hours": 0.2872222222222222
     },
     {
-      "number": 1623,
-      "title": "feat(rag): bounded cascade adjudicator shadow mode",
+      "number": 1630,
+      "title": "feat(ci): isolate shadow answer invariance with control-tagged baseline",
       "user": "peterdsimonson",
-      "created_at": "2026-06-10T00:11:17Z",
-      "closed_at": "2026-06-10T00:19:42Z",
-      "lead_time_hours": 0.14027777777777778
-    },
-    {
-      "number": 1622,
-      "title": "feat(rag): harden cascade evidence packet contract",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-09T23:15:57Z",
-      "closed_at": "2026-06-09T23:23:45Z",
+      "created_at": "2026-06-10T12:02:10Z",
+      "closed_at": "2026-06-10T12:09:58Z",
       "lead_time_hours": 0.13
     },
     {
-      "number": 1621,
-      "title": "fix(rag): restore generic date citation detection in refineV2",
+      "number": 1629,
+      "title": "feat(rag-eval): evidence-bearing adjudicator shadow comparison harness",
       "user": "peterdsimonson",
-      "created_at": "2026-06-09T22:26:12Z",
-      "closed_at": "2026-06-09T22:41:54Z",
-      "lead_time_hours": 0.26166666666666666
-    },
-    {
-      "number": 1620,
-      "title": "chore(rag): remove legacy MNY/NSPC corpus fingerprints",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-09T21:51:12Z",
-      "closed_at": "2026-06-09T21:59:24Z",
-      "lead_time_hours": 0.13666666666666666
-    },
-    {
-      "number": 1619,
-      "title": "fix(rag): preserve cascade telemetry or avoid upstream timeout for required NSPC smoke",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-09T18:38:49Z",
-      "closed_at": "2026-06-09T20:34:10Z",
-      "lead_time_hours": 1.9225
-    },
-    {
-      "number": 1618,
-      "title": "fix(rag): restore evaluate-intent governance request contract after auditable rerank",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-09T17:35:17Z",
-      "closed_at": "2026-06-09T17:51:02Z",
-      "lead_time_hours": 0.2625
-    },
-    {
-      "number": 1617,
-      "title": "fix(rag): make cascade LLM rerank auditable",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-09T13:55:20Z",
-      "closed_at": "2026-06-09T14:03:19Z",
-      "lead_time_hours": 0.13305555555555557
-    },
-    {
-      "number": 1616,
-      "title": "fix(rag): expose and verify cascade model rerank telemetry in smoke",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-09T12:57:15Z",
-      "closed_at": "2026-06-09T13:04:46Z",
-      "lead_time_hours": 0.12527777777777777
-    },
-    {
-      "number": 1615,
-      "title": "fix(rag): make cascade model rerank smoke runtime-safe",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-09T12:07:51Z",
-      "closed_at": "2026-06-09T12:15:17Z",
-      "lead_time_hours": 0.1238888888888889
-    },
-    {
-      "number": 1614,
-      "title": "feat(rag): add gated model reranker for cascade candidate packing",
-      "user": "peterdsimonson",
-      "created_at": "2026-06-09T11:07:07Z",
-      "closed_at": "2026-06-09T11:15:12Z",
-      "lead_time_hours": 0.13472222222222222
+      "created_at": "2026-06-10T11:16:32Z",
+      "closed_at": "2026-06-10T11:24:13Z",
+      "lead_time_hours": 0.12805555555555556
     }
   ]
 }
