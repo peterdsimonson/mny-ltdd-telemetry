@@ -1,4 +1,45 @@
 {
-  "total_merged": 0,
-  "items": []
+  "total_merged": 5,
+  "items": [
+    {
+      "number": 1644,
+      "title": "test(ltdd): fix lookup attribute evidence packet lock fixture assertion",
+      "user": "peterdsimonson",
+      "created_at": "2026-06-16T01:50:53Z",
+      "closed_at": "2026-06-16T01:58:13Z",
+      "lead_time_hours": 0.12222222222222222
+    },
+    {
+      "number": 1643,
+      "title": "feat(rag): add evidence packets for LOOKUP and attribute questions",
+      "user": "peterdsimonson",
+      "created_at": "2026-06-16T00:48:15Z",
+      "closed_at": "2026-06-16T00:55:54Z",
+      "lead_time_hours": 0.1275
+    },
+    {
+      "number": 1642,
+      "title": "fix(rag): preserve definition evidence for acronym and entity definition packets",
+      "user": "peterdsimonson",
+      "created_at": "2026-06-15T22:09:41Z",
+      "closed_at": "2026-06-15T23:32:27Z",
+      "lead_time_hours": 1.3794444444444445
+    },
+    {
+      "number": 1641,
+      "title": "fix(ci): shadow smoke seeds own gold runScope lifecycle",
+      "user": "peterdsimonson",
+      "created_at": "2026-06-15T21:08:56Z",
+      "closed_at": "2026-06-15T21:16:21Z",
+      "lead_time_hours": 0.12361111111111112
+    },
+    {
+      "number": 1635,
+      "title": "fix(ltdd): reduce governance Pinecone write-unit burn",
+      "user": "peterdsimonson",
+      "created_at": "2026-06-10T16:52:54Z",
+      "closed_at": "2026-06-15T20:27:14Z",
+      "lead_time_hours": 123.57222222222222
+    }
+  ]
 }
