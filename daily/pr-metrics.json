@@ -2,68 +2,68 @@
   "total_merged": 8,
   "items": [
     {
-      "number": 1653,
-      "title": "fix(rag-eval): seed synthesis fixtures as PDFs",
+      "number": 1662,
+      "title": "fix(rag-synthesis): preserve semantic synthesis ownership through terminal salvage",
       "user": "peterdsimonson",
-      "created_at": "2026-06-17T02:16:59Z",
-      "closed_at": "2026-06-17T02:24:25Z",
-      "lead_time_hours": 0.1238888888888889
+      "created_at": "2026-06-18T02:52:27Z",
+      "closed_at": "2026-06-18T03:07:55Z",
+      "lead_time_hours": 0.2577777777777778
     },
     {
-      "number": 1652,
-      "title": "fix(rag-eval): authenticate synthesis fixture seeding",
+      "number": 1661,
+      "title": "fix(rag-synthesis): bound and sanitize deterministic synthesis bullets",
       "user": "peterdsimonson",
-      "created_at": "2026-06-17T01:15:10Z",
-      "closed_at": "2026-06-17T01:31:10Z",
-      "lead_time_hours": 0.26666666666666666
+      "created_at": "2026-06-18T01:29:08Z",
+      "closed_at": "2026-06-18T01:36:17Z",
+      "lead_time_hours": 0.11916666666666667
     },
     {
-      "number": 1651,
-      "title": "fix(rag-eval): synthesis harness URL contract and governed workflow",
+      "number": 1660,
+      "title": "fix(rag-synthesis): restamp governed SYNTHESIS answerMode after deferred salvage",
       "user": "peterdsimonson",
-      "created_at": "2026-06-17T00:00:36Z",
-      "closed_at": "2026-06-17T00:08:37Z",
-      "lead_time_hours": 0.13361111111111112
+      "created_at": "2026-06-18T00:44:56Z",
+      "closed_at": "2026-06-18T00:52:10Z",
+      "lead_time_hours": 0.12055555555555555
     },
     {
-      "number": 1650,
-      "title": "feat(rag): add bounded synthesis evidence packets in shadow mode",
+      "number": 1659,
+      "title": "fix(rag-synthesis): preserve governed cascade state across early returns",
       "user": "peterdsimonson",
-      "created_at": "2026-06-16T22:44:34Z",
-      "closed_at": "2026-06-16T23:00:15Z",
-      "lead_time_hours": 0.2613888888888889
+      "created_at": "2026-06-17T23:38:58Z",
+      "closed_at": "2026-06-17T23:46:22Z",
+      "lead_time_hours": 0.12333333333333334
     },
     {
-      "number": 1649,
-      "title": "fix(rag): fail unsupported lookup attributes as clean gaps",
+      "number": 1658,
+      "title": "fix(rag-eval): pin synthesis evaluation to active production image",
       "user": "peterdsimonson",
-      "created_at": "2026-06-16T20:47:08Z",
-      "closed_at": "2026-06-16T20:55:19Z",
-      "lead_time_hours": 0.1363888888888889
+      "created_at": "2026-06-17T16:52:49Z",
+      "closed_at": "2026-06-17T17:01:09Z",
+      "lead_time_hours": 0.1388888888888889
     },
     {
-      "number": 1648,
-      "title": "fix(rag): close question-type route and packet ownership gaps",
+      "number": 1657,
+      "title": "fix(rag-synthesis): prioritize content synthesis over library meta",
       "user": "peterdsimonson",
-      "created_at": "2026-06-16T15:53:35Z",
-      "closed_at": "2026-06-16T18:51:10Z",
-      "lead_time_hours": 2.959722222222222
+      "created_at": "2026-06-17T13:24:04Z",
+      "closed_at": "2026-06-17T13:32:16Z",
+      "lead_time_hours": 0.13666666666666666
     },
     {
-      "number": 1647,
-      "title": "ci(rag): run question-type evaluation against governed shadow revision",
+      "number": 1656,
+      "title": "fix(rag-synthesis): reject incompatible cached responses",
       "user": "peterdsimonson",
-      "created_at": "2026-06-16T13:41:31Z",
-      "closed_at": "2026-06-16T13:48:51Z",
-      "lead_time_hours": 0.12222222222222222
+      "created_at": "2026-06-17T12:16:53Z",
+      "closed_at": "2026-06-17T12:33:33Z",
+      "lead_time_hours": 0.2777777777777778
     },
     {
-      "number": 1646,
-      "title": "test(rag): broaden definition and lookup attribute evaluation coverage",
+      "number": 1655,
+      "title": "fix(rag-synthesis): route governed queries and clear clean-gap citations",
       "user": "peterdsimonson",
-      "created_at": "2026-06-16T12:45:08Z",
-      "closed_at": "2026-06-16T12:53:12Z",
-      "lead_time_hours": 0.13444444444444445
+      "created_at": "2026-06-17T10:39:20Z",
+      "closed_at": "2026-06-17T11:04:59Z",
+      "lead_time_hours": 0.4275
     }
   ]
 }
