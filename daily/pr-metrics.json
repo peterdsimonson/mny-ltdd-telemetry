@@ -1,69 +1,77 @@
 {
-  "total_merged": 8,
+  "total_merged": 9,
   "items": [
     {
-      "number": 1662,
-      "title": "fix(rag-synthesis): preserve semantic synthesis ownership through terminal salvage",
+      "number": 1672,
+      "title": "fix(rag-synthesis): surface direct comparison claims first",
       "user": "peterdsimonson",
-      "created_at": "2026-06-18T02:52:27Z",
-      "closed_at": "2026-06-18T03:07:55Z",
-      "lead_time_hours": 0.2577777777777778
+      "created_at": "2026-06-19T01:39:58Z",
+      "closed_at": "2026-06-19T01:47:38Z",
+      "lead_time_hours": 0.12777777777777777
     },
     {
-      "number": 1661,
-      "title": "fix(rag-synthesis): bound and sanitize deterministic synthesis bullets",
+      "number": 1671,
+      "title": "fix(ltdd): align comparison completeness lock with implementation",
       "user": "peterdsimonson",
-      "created_at": "2026-06-18T01:29:08Z",
-      "closed_at": "2026-06-18T01:36:17Z",
-      "lead_time_hours": 0.11916666666666667
+      "created_at": "2026-06-19T00:42:44Z",
+      "closed_at": "2026-06-19T00:50:40Z",
+      "lead_time_hours": 0.1322222222222222
     },
     {
-      "number": 1660,
-      "title": "fix(rag-synthesis): restamp governed SYNTHESIS answerMode after deferred salvage",
+      "number": 1670,
+      "title": "test(ltdd): instrument routing-spine document reuse path",
       "user": "peterdsimonson",
-      "created_at": "2026-06-18T00:44:56Z",
-      "closed_at": "2026-06-18T00:52:10Z",
-      "lead_time_hours": 0.12055555555555555
+      "created_at": "2026-06-18T23:52:53Z",
+      "closed_at": "2026-06-19T00:00:00Z",
+      "lead_time_hours": 0.11861111111111111
     },
     {
-      "number": 1659,
-      "title": "fix(rag-synthesis): preserve governed cascade state across early returns",
+      "number": 1669,
+      "title": "test(ltdd): add bounded diagnostics for routing-spine setup",
       "user": "peterdsimonson",
-      "created_at": "2026-06-17T23:38:58Z",
-      "closed_at": "2026-06-17T23:46:22Z",
-      "lead_time_hours": 0.12333333333333334
+      "created_at": "2026-06-18T23:17:13Z",
+      "closed_at": "2026-06-18T23:24:57Z",
+      "lead_time_hours": 0.1288888888888889
     },
     {
-      "number": 1658,
-      "title": "fix(rag-eval): pin synthesis evaluation to active production image",
+      "number": 1668,
+      "title": "fix(rag-synthesis): require direct comparison claim for comparison answers",
       "user": "peterdsimonson",
-      "created_at": "2026-06-17T16:52:49Z",
-      "closed_at": "2026-06-17T17:01:09Z",
-      "lead_time_hours": 0.1388888888888889
+      "created_at": "2026-06-18T19:33:15Z",
+      "closed_at": "2026-06-18T19:49:09Z",
+      "lead_time_hours": 0.265
     },
     {
-      "number": 1657,
-      "title": "fix(rag-synthesis): prioritize content synthesis over library meta",
+      "number": 1667,
+      "title": "fix(rag-synthesis): enforce entity grounding and replace clean-gap prose",
       "user": "peterdsimonson",
-      "created_at": "2026-06-17T13:24:04Z",
-      "closed_at": "2026-06-17T13:32:16Z",
-      "lead_time_hours": 0.13666666666666666
+      "created_at": "2026-06-18T16:12:31Z",
+      "closed_at": "2026-06-18T16:22:42Z",
+      "lead_time_hours": 0.16972222222222222
     },
     {
-      "number": 1656,
-      "title": "fix(rag-synthesis): reject incompatible cached responses",
+      "number": 1666,
+      "title": "fix(rag-synthesis): decompose packet claims and allocate sections deterministically",
       "user": "peterdsimonson",
-      "created_at": "2026-06-17T12:16:53Z",
-      "closed_at": "2026-06-17T12:33:33Z",
-      "lead_time_hours": 0.2777777777777778
+      "created_at": "2026-06-18T14:48:49Z",
+      "closed_at": "2026-06-18T14:57:10Z",
+      "lead_time_hours": 0.13916666666666666
     },
     {
-      "number": 1655,
-      "title": "fix(rag-synthesis): route governed queries and clear clean-gap citations",
+      "number": 1665,
+      "title": "fix(ltdd): align synthesis citation-integrity lock with shared finalizer",
       "user": "peterdsimonson",
-      "created_at": "2026-06-17T10:39:20Z",
-      "closed_at": "2026-06-17T11:04:59Z",
-      "lead_time_hours": 0.4275
+      "created_at": "2026-06-18T13:01:19Z",
+      "closed_at": "2026-06-18T13:09:38Z",
+      "lead_time_hours": 0.1386111111111111
+    },
+    {
+      "number": 1664,
+      "title": "feat(rag-synthesis): admit packet-grounded claims into deterministic answers",
+      "user": "peterdsimonson",
+      "created_at": "2026-06-18T12:12:14Z",
+      "closed_at": "2026-06-18T12:19:59Z",
+      "lead_time_hours": 0.12916666666666668
     }
   ]
 }
